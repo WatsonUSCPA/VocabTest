@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { videos, getAvailableVideos } from '../data/videos';
+import { getAvailableVideos } from '../data/videos';
 import { WordData, VideoData } from '../types';
 import { 
   getYouTubeThumbnail, 
