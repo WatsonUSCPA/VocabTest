@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { TestQuestion } from '../types';
+import { TestQuestion, WordData } from '../types';
 
 const Test: React.FC = () => {
   const location = useLocation();
@@ -8,13 +8,16 @@ const Test: React.FC = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
   const [learnedWords, setLearnedWords] = useState<number>(0);
+  const [showExample, setShowExample] = useState(false);
 
   const questions: TestQuestion[] = location.state?.questions || [];
   const videoTitle: string = location.state?.videoTitle || '';
   const level: string = location.state?.level || '';
   const videoId: string = location.state?.videoId || '';
+  const originalWords: WordData[] = location.state?.originalWords || [];
 
   const currentQuestion = questions[currentQuestionIndex];
+  const currentOriginalWord = originalWords.find(word => word.word === currentQuestion.word);
 
   const handleShowAnswer = () => {
     setShowAnswer(true);
@@ -28,6 +31,7 @@ const Test: React.FC = () => {
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
       setShowAnswer(false);
+      setShowExample(false);
     } else {
       // 学習完了
       navigate('/learning-complete', {
@@ -46,6 +50,7 @@ const Test: React.FC = () => {
     if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex(currentQuestionIndex - 1);
       setShowAnswer(false);
+      setShowExample(false);
     }
   };
 
@@ -133,10 +138,52 @@ const Test: React.FC = () => {
               <div style={{
                 fontSize: '1rem',
                 color: '#666',
-                fontStyle: 'italic'
+                fontStyle: 'italic',
+                marginBottom: '1rem'
               }}>
                 レベル: {currentQuestion.level}
               </div>
+              
+              {/* 例文表示ボタン */}
+              {currentOriginalWord?.example && (
+                <button
+                  className="btn btn-outline-success"
+                  onClick={() => setShowExample(!showExample)}
+                  style={{
+                    marginBottom: '1rem',
+                    fontSize: '1rem',
+                    padding: '8px 16px'
+                  }}
+                >
+                  {showExample ? '例文を隠す' : '例文を見る'}
+                </button>
+              )}
+              
+              {/* 例文表示 */}
+              {showExample && currentOriginalWord?.example && (
+                <div style={{
+                  padding: '1rem',
+                  backgroundColor: '#f8f9fa',
+                  borderRadius: '8px',
+                  border: '1px solid #dee2e6',
+                  marginTop: '1rem'
+                }}>
+                  <h4 style={{
+                    color: '#155724',
+                    marginBottom: '0.5rem',
+                    fontSize: '1rem'
+                  }}>
+                    例文
+                  </h4>
+                  <div style={{
+                    fontSize: '1.1rem',
+                    color: '#333',
+                    lineHeight: '1.6'
+                  }}>
+                    {currentOriginalWord.example}
+                  </div>
+                </div>
+              )}
             </div>
           ) : (
             <div style={{

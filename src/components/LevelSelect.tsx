@@ -126,7 +126,8 @@ const LevelSelect: React.FC = () => {
         questions,
         videoTitle,
         level: selectedLevel,
-        videoId
+        videoId,
+        originalWords: learningWords // 元の単語データも渡す
       }
     });
   };
