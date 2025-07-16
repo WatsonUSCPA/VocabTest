@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { useLocation, useNavigate, useParams } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { filterWordsByLevel, getRandomWords } from '../data/videos';
 import { WordData, TestQuestion } from '../types';
 
@@ -13,7 +13,6 @@ const LevelSelect: React.FC = () => {
 
   const videoId: string = location.state?.videoId || '';
   const videoTitle: string = location.state?.videoTitle || '';
-  const initialWords: WordData[] = location.state?.words || [];
 
   // 問題数の選択肢
   const wordCountOptions = [5, 10, 15, 20, 25, 30];
@@ -23,6 +22,8 @@ const LevelSelect: React.FC = () => {
     console.log('LevelSelect component mounted');
     console.log('Video ID:', videoId);
     console.log('Video Title:', videoTitle);
+    
+    const initialWords: WordData[] = location.state?.words || [];
     console.log('Initial words received:', initialWords);
     console.log('Initial words length:', initialWords.length);
     
@@ -32,7 +33,7 @@ const LevelSelect: React.FC = () => {
       // 単語データが渡されていない場合は再読み込み
       loadVideoWords(videoId);
     }
-  }, [videoId, videoTitle, initialWords]);
+  }, [videoId, videoTitle, location.state?.words]);
 
   // 単語データを再読み込み
   const loadVideoWords = async (videoId: string) => {

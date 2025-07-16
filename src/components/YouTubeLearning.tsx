@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { videos } from '../data/videos';
 import { WordData } from '../types';
@@ -19,27 +19,8 @@ const YouTubeLearning: React.FC = () => {
   const [youtubeInfo, setYoutubeInfo] = useState<{ [key: string]: YouTubeInfo }>({});
   const navigate = useNavigate();
 
-  // 状態の変更を監視して遷移を処理
-  useEffect(() => {
-    if (pendingNavigation && videoWords[pendingNavigation] && videoWords[pendingNavigation].length > 0) {
-      console.log(`Navigating to level select with ${videoWords[pendingNavigation].length} words`);
-      handleVideoSelect(pendingNavigation);
-      setPendingNavigation(null);
-    }
-  }, [videoWords, pendingNavigation]);
-
-  // 動画IDの配列を監視してYouTube情報を読み込み
-  useEffect(() => {
-    const videoIds = videos.map(video => video.id);
-    videoIds.forEach(videoId => {
-      if (!youtubeInfo[videoId]) {
-        loadYouTubeInfo(videoId);
-      }
-    });
-  }, []);
-
   // YouTube情報を取得
-  const loadYouTubeInfo = async (videoId: string) => {
+  const loadYouTubeInfo = useCallback(async (videoId: string) => {
     if (youtubeInfo[videoId]) {
       console.log(`YouTube info already loaded for ${videoId}`);
       return;
@@ -57,7 +38,42 @@ const YouTubeLearning: React.FC = () => {
     } catch (error) {
       console.error('Error loading YouTube info:', error);
     }
-  };
+  }, [youtubeInfo]);
+
+  const handleVideoSelect = useCallback((videoId: string) => {
+    console.log(`Video selected: ${videoId}`);
+    console.log(`Words for this video:`, videoWords[videoId]);
+    
+    const info = youtubeInfo[videoId];
+    const videoTitle = info?.title || videos.find(v => v.id === videoId)?.title || '';
+    
+    navigate('/youtube/level-select', { 
+      state: { 
+        videoId,
+        videoTitle,
+        words: videoWords[videoId] || []
+      }
+    });
+  }, [videoWords, youtubeInfo, navigate]);
+
+  // 状態の変更を監視して遷移を処理
+  useEffect(() => {
+    if (pendingNavigation && videoWords[pendingNavigation] && videoWords[pendingNavigation].length > 0) {
+      console.log(`Navigating to level select with ${videoWords[pendingNavigation].length} words`);
+      handleVideoSelect(pendingNavigation);
+      setPendingNavigation(null);
+    }
+  }, [videoWords, pendingNavigation, handleVideoSelect]);
+
+  // 動画IDの配列を監視してYouTube情報を読み込み
+  useEffect(() => {
+    const videoIds = videos.map(video => video.id);
+    videoIds.forEach(videoId => {
+      if (!youtubeInfo[videoId]) {
+        loadYouTubeInfo(videoId);
+      }
+    });
+  }, [youtubeInfo, loadYouTubeInfo]);
 
   // サムネイルURLを取得（フォールバック付き）
   const getThumbnailUrl = (videoId: string): string => {
@@ -142,22 +158,6 @@ const YouTubeLearning: React.FC = () => {
       count,
       percentage: Math.round((count / total) * 100)
     })).sort((a, b) => a.level.localeCompare(b.level));
-  };
-
-  const handleVideoSelect = (videoId: string) => {
-    console.log(`Video selected: ${videoId}`);
-    console.log(`Words for this video:`, videoWords[videoId]);
-    
-    const info = youtubeInfo[videoId];
-    const videoTitle = info?.title || videos.find(v => v.id === videoId)?.title || '';
-    
-    navigate('/youtube/level-select', { 
-      state: { 
-        videoId,
-        videoTitle,
-        words: videoWords[videoId] || []
-      }
-    });
   };
 
   return (
