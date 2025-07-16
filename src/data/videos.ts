@@ -38,6 +38,8 @@ export const getRandomWords = (words: any[], count: number) => {
 // 動的に利用可能な動画を取得する関数
 export const getAvailableVideos = async (): Promise<VideoData[]> => {
   try {
+    console.log('Starting getAvailableVideos function');
+    
     // CaptionDataディレクトリの内容を取得
     const response = await fetch('./CaptionData/Youtube/');
     if (!response.ok) {
@@ -56,12 +58,18 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
       'FASMejN_5gs', 
       'Pjq4FAfIPSg'
     ];
+    
+    console.log('Checking for videos with IDs:', knownVideoIds);
     const availableVideos: VideoData[] = [];
 
     for (const videoId of knownVideoIds) {
       try {
+        console.log(`Checking video ${videoId}...`);
         const wordResponse = await fetch(`./CaptionData/Youtube/${videoId}_words_with_meaning.json`);
+        console.log(`Response for ${videoId}:`, wordResponse.status, wordResponse.ok);
+        
         if (wordResponse.ok) {
+          console.log(`Video ${videoId} is available, adding to list`);
           // 動画データが存在する場合、基本情報を作成
           const videoData: VideoData = {
             id: videoId,
@@ -76,15 +84,21 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
           if (existingVideo) {
             videoData.title = existingVideo.title;
             videoData.channelTitle = existingVideo.channelTitle;
+            console.log(`Found existing data for ${videoId}:`, videoData.title);
+          } else {
+            console.log(`No existing data for ${videoId}, using empty title`);
           }
 
           availableVideos.push(videoData);
+        } else {
+          console.log(`Video ${videoId} not found (status: ${wordResponse.status})`);
         }
       } catch (error) {
-        console.log(`Video ${videoId} not available:`, error);
+        console.log(`Error checking video ${videoId}:`, error);
       }
     }
 
+    console.log('Final available videos:', availableVideos);
     return availableVideos;
   } catch (error) {
     console.error('Error getting available videos:', error);
