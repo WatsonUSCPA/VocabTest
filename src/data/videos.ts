@@ -2,20 +2,7 @@ import { VideoData } from '../types';
 
 // 動画データの配列（初期データ）
 export const videos: VideoData[] = [
-  {
-    id: 'pT87zqXPw4w',
-    title: 'Learn English with TV Series: Friends - How to Speak English Like a Native',
-    url: 'https://www.youtube.com/watch?v=pT87zqXPw4w',
-    channelTitle: 'Learn English With TV Series',
-    words: [] // 後でJSONファイルから読み込む
-  },
-  {
-    id: 'KypnjJSKi4o',
-    title: 'Learn English with Movies: The Avengers - English Vocabulary & Phrases',
-    url: 'https://www.youtube.com/watch?v=KypnjJSKi4o',
-    channelTitle: 'Learn English With Movies',
-    words: [] // 後でJSONファイルから読み込む
-  }
+  // 現在は動的に読み込むため、静的データは空にしておく
 ];
 
 // 利用可能なレベル
@@ -40,28 +27,31 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
   try {
     console.log('Starting getAvailableVideos function');
     
-    // CaptionDataディレクトリの内容を取得（これは失敗する可能性が高い）
-    try {
-      const response = await fetch('./CaptionData/Youtube/');
-      if (!response.ok) {
-        console.log('CaptionData directory not accessible, will check known video IDs');
-      }
-    } catch (error) {
-      console.log('CaptionData directory access failed, will check known video IDs');
-    }
-
-    // 既知の動画IDリスト（新しい動画IDをここに追加）
+    // フロントエンドのみで自動取得（サーバー不要）
+    const availableVideos: VideoData[] = [];
+    
+    // 既知の動画IDパターン（手動で追加が必要）
     const knownVideoIds = [
-      'pT87zqXPw4w', 
-      'KypnjJSKi4o', 
-      'FASMejN_5gs', 
-      'Pjq4FAfIPSg'
+      'Pjq4FAfIPSg', // 現在存在する動画
+      'pT87zqXPw4w', // 以前存在していた動画
+      'KypnjJSKi4o', // 以前存在していた動画
+      'FASMejN_5gs', // 以前存在していた動画
     ];
     
-    console.log('Checking for videos with IDs:', knownVideoIds);
-    const availableVideos: VideoData[] = [];
-
-    for (const videoId of knownVideoIds) {
+    // 動的に生成される可能性のある動画IDパターン
+    const dynamicPatterns = [
+      // よく使われる動画IDパターン
+      'dQw4w9WgXcQ', // 例
+      'jNQXAC9IVRw', // 例
+      // 必要に応じて追加
+    ];
+    
+    const allPatterns = [...knownVideoIds, ...dynamicPatterns];
+    
+    console.log('Checking for videos with patterns:', allPatterns);
+    
+    // 各動画IDパターンをチェック
+    for (const videoId of allPatterns) {
       try {
         console.log(`Checking video ${videoId}...`);
         const wordResponse = await fetch(`./CaptionData/Youtube/${videoId}_words_with_meaning.json`);
