@@ -28,6 +28,16 @@ const YouTubeLearning: React.FC = () => {
     }
   }, [videoWords, pendingNavigation]);
 
+  // 動画IDの配列を監視してYouTube情報を読み込み
+  useEffect(() => {
+    const videoIds = videos.map(video => video.id);
+    videoIds.forEach(videoId => {
+      if (!youtubeInfo[videoId]) {
+        loadYouTubeInfo(videoId);
+      }
+    });
+  }, []);
+
   // YouTube情報を取得
   const loadYouTubeInfo = async (videoId: string) => {
     if (youtubeInfo[videoId]) {
@@ -183,11 +193,6 @@ const YouTubeLearning: React.FC = () => {
           const isLoading = loading[video.id];
           const thumbnailUrl = getThumbnailUrl(video.id);
           const info = youtubeInfo[video.id];
-
-          // YouTube情報を読み込み
-          useEffect(() => {
-            loadYouTubeInfo(video.id);
-          }, [video.id]);
 
           return (
             <div 
