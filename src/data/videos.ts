@@ -40,17 +40,16 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
   try {
     console.log('Starting getAvailableVideos function');
     
-    // CaptionDataディレクトリの内容を取得
-    const response = await fetch('./CaptionData/Youtube/');
-    if (!response.ok) {
-      console.log('CaptionData directory not accessible, using static videos');
-      return videos;
+    // CaptionDataディレクトリの内容を取得（これは失敗する可能性が高い）
+    try {
+      const response = await fetch('./CaptionData/Youtube/');
+      if (!response.ok) {
+        console.log('CaptionData directory not accessible, will check known video IDs');
+      }
+    } catch (error) {
+      console.log('CaptionData directory access failed, will check known video IDs');
     }
 
-    // 実際には、サーバーサイドでディレクトリリストを取得する必要があります
-    // フロントエンドでは直接ディレクトリを読み取れないため、
-    // 既知の動画IDのリストを使用して動的にチェックします
-    
     // 既知の動画IDリスト（新しい動画IDをここに追加）
     const knownVideoIds = [
       'pT87zqXPw4w', 
@@ -99,7 +98,14 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
     }
 
     console.log('Final available videos:', availableVideos);
-    return availableVideos;
+    
+    // 利用可能な動画が見つかった場合はそれを返す、そうでなければ静的データを返す
+    if (availableVideos.length > 0) {
+      return availableVideos;
+    } else {
+      console.log('No videos found, using static videos');
+      return videos;
+    }
   } catch (error) {
     console.error('Error getting available videos:', error);
     return videos; // エラーの場合は静的データを返す
