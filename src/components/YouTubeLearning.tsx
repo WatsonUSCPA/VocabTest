@@ -115,7 +115,7 @@ const YouTubeLearning: React.FC = () => {
     setPendingNavigation(videoId);
     
     try {
-      const url = `/CaptionData/Youtube/${videoId}_words_with_meaning.json`;
+      const url = `./CaptionData/Youtube/${videoId}_words_with_meaning.json`;
       console.log(`Fetching from: ${url}`);
       
       const response = await fetch(url);
