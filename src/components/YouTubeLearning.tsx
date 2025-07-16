@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { videos } from '../data/videos';
-import { WordData } from '../types';
+import { videos, getAvailableVideos } from '../data/videos';
+import { WordData, VideoData } from '../types';
 import { 
   getYouTubeThumbnail, 
   getStandardThumbnail, 
@@ -17,7 +17,27 @@ const YouTubeLearning: React.FC = () => {
   const [pendingNavigation, setPendingNavigation] = useState<string | null>(null);
   const [thumbnailErrors, setThumbnailErrors] = useState<{ [key: string]: number }>({});
   const [youtubeInfo, setYoutubeInfo] = useState<{ [key: string]: YouTubeInfo }>({});
+  const [availableVideos, setAvailableVideos] = useState<VideoData[]>([]);
+  const [videosLoading, setVideosLoading] = useState(true);
   const navigate = useNavigate();
+
+  // 利用可能な動画を動的に読み込む
+  useEffect(() => {
+    const loadAvailableVideos = async () => {
+      setVideosLoading(true);
+      try {
+        const videos = await getAvailableVideos();
+        console.log('Available videos loaded:', videos);
+        setAvailableVideos(videos);
+      } catch (error) {
+        console.error('Error loading available videos:', error);
+        setAvailableVideos([]);
+      }
+      setVideosLoading(false);
+    };
+
+    loadAvailableVideos();
+  }, []);
 
   // YouTube情報を取得
   const loadYouTubeInfo = useCallback(async (videoId: string) => {
@@ -45,7 +65,8 @@ const YouTubeLearning: React.FC = () => {
     console.log(`Words for this video:`, videoWords[videoId]);
     
     const info = youtubeInfo[videoId];
-    const videoTitle = info?.title || videos.find(v => v.id === videoId)?.title || '';
+    const video = availableVideos.find(v => v.id === videoId);
+    const videoTitle = info?.title || video?.title || '';
     
     navigate('/youtube/level-select', { 
       state: { 
@@ -54,7 +75,7 @@ const YouTubeLearning: React.FC = () => {
         words: videoWords[videoId] || []
       }
     });
-  }, [videoWords, youtubeInfo, navigate]);
+  }, [videoWords, youtubeInfo, availableVideos, navigate]);
 
   // 状態の変更を監視して遷移を処理
   useEffect(() => {
@@ -67,13 +88,13 @@ const YouTubeLearning: React.FC = () => {
 
   // 動画IDの配列を監視してYouTube情報を読み込み
   useEffect(() => {
-    const videoIds = videos.map(video => video.id);
+    const videoIds = availableVideos.map(video => video.id);
     videoIds.forEach(videoId => {
       if (!youtubeInfo[videoId]) {
         loadYouTubeInfo(videoId);
       }
     });
-  }, [youtubeInfo, loadYouTubeInfo]);
+  }, [availableVideos, youtubeInfo, loadYouTubeInfo]);
 
   // サムネイルURLを取得（フォールバック付き）
   const getThumbnailUrl = (videoId: string): string => {
@@ -160,6 +181,31 @@ const YouTubeLearning: React.FC = () => {
     })).sort((a, b) => a.level.localeCompare(b.level));
   };
 
+  if (videosLoading) {
+    return (
+      <div className="container">
+        <div style={{
+          textAlign: 'center',
+          padding: '3rem',
+          color: '#666'
+        }}>
+          動画データを読み込み中...
+        </div>
+      </div>
+    );
+  }
+
+  if (availableVideos.length === 0) {
+    return (
+      <div className="container">
+        <div className="card">
+          <h2>利用可能な動画が見つかりません</h2>
+          <p>CaptionDataディレクトリに動画データが存在することを確認してください。</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="container">
       <h1 style={{
@@ -187,7 +233,7 @@ const YouTubeLearning: React.FC = () => {
         overflowY: 'auto',
         padding: '1rem'
       }}>
-        {videos.map(video => {
+        {availableVideos.map(video => {
           const words = videoWords[video.id] || [];
           const levelStats = getLevelStats(words);
           const isLoading = loading[video.id];
@@ -230,7 +276,7 @@ const YouTubeLearning: React.FC = () => {
               }}>
                 <img
                   src={thumbnailUrl}
-                  alt={info?.title || video.title}
+                  alt={info?.title || video.title || `Video ${video.id}`}
                   style={{
                     width: '100%',
                     height: '100%',
@@ -307,74 +353,78 @@ const YouTubeLearning: React.FC = () => {
                 }}>
                   単語データを読み込み中...
                 </div>
-              ) : words.length > 0 ? (
-                <div>
-                  <div style={{
-                    marginBottom: '1rem',
-                    padding: '0.5rem',
-                    backgroundColor: '#f8f9fa',
-                    borderRadius: '6px'
-                  }}>
-                    <strong>総単語数: {words.length}語</strong>
-                  </div>
-                  
-                  <div style={{ marginBottom: '1rem' }}>
-                    <h4 style={{
-                      fontSize: '1rem',
-                      marginBottom: '0.5rem',
-                      color: '#333'
-                    }}>
-                      レベル別分布:
-                    </h4>
-                    <div style={{
-                      display: 'grid',
-                      gridTemplateColumns: 'repeat(2, 1fr)',
-                      gap: '0.5rem'
-                    }}>
-                      {levelStats.map(stat => (
-                        <div key={stat.level} style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          padding: '0.25rem 0.5rem',
-                          backgroundColor: '#e9ecef',
-                          borderRadius: '4px',
-                          fontSize: '0.9rem'
-                        }}>
-                          <span style={{ fontWeight: 'bold' }}>{stat.level}:</span>
-                          <span>{stat.count}語 ({stat.percentage}%)</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
               ) : (
-                <div style={{
-                  textAlign: 'center',
-                  padding: '1rem',
-                  color: '#666'
-                }}>
-                  クリックして単語データを読み込み
-                </div>
-              )}
+                <>
+                  {/* 動画タイトル */}
+                  <h3 style={{
+                    fontSize: '1.1rem',
+                    marginBottom: '1rem',
+                    color: '#333',
+                    minHeight: '2.5rem',
+                    display: 'flex',
+                    alignItems: 'center'
+                  }}>
+                    {info?.title || video.title || (
+                      <span style={{ color: '#999', fontStyle: 'italic' }}>
+                        タイトル未設定
+                      </span>
+                    )}
+                  </h3>
 
-              <div style={{
-                textAlign: 'center',
-                marginTop: '1rem'
-              }}>
-                <button
-                  className="btn btn-primary"
-                  style={{
-                    width: '100%',
-                    fontSize: '1rem'
-                  }}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    loadVideoWords(video.id);
-                  }}
-                >
-                  {words.length > 0 ? 'この動画で学習' : '学習を開始'}
-                </button>
-              </div>
+                  {/* レベル別統計 */}
+                  {words.length > 0 && (
+                    <div style={{ marginBottom: '1rem' }}>
+                      <h4 style={{
+                        fontSize: '0.9rem',
+                        color: '#666',
+                        marginBottom: '0.5rem'
+                      }}>
+                        レベル別単語数 ({words.length}語)
+                      </h4>
+                      <div style={{
+                        display: 'flex',
+                        flexWrap: 'wrap',
+                        gap: '0.5rem'
+                      }}>
+                        {levelStats.map(stat => (
+                          <span
+                            key={stat.level}
+                            style={{
+                              backgroundColor: '#e9ecef',
+                              color: '#495057',
+                              padding: '0.25rem 0.5rem',
+                              borderRadius: '0.25rem',
+                              fontSize: '0.8rem'
+                            }}
+                          >
+                            {stat.level}: {stat.count}語 ({stat.percentage}%)
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* 学習ボタン */}
+                  <div style={{
+                    textAlign: 'center',
+                    marginTop: '1rem'
+                  }}>
+                    <button
+                      className="btn btn-primary"
+                      style={{
+                        width: '100%',
+                        fontSize: '1rem'
+                      }}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        loadVideoWords(video.id);
+                      }}
+                    >
+                      {words.length > 0 ? 'この動画で学習' : '学習を開始'}
+                    </button>
+                  </div>
+                </>
+              )}
             </div>
           );
         })}

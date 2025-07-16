@@ -1,6 +1,6 @@
 import { VideoData } from '../types';
 
-// 動画データの配列
+// 動画データの配列（初期データ）
 export const videos: VideoData[] = [
   {
     id: 'pT87zqXPw4w',
@@ -33,4 +33,90 @@ export const filterWordsByLevel = (words: any[], level: string) => {
 export const getRandomWords = (words: any[], count: number) => {
   const shuffled = [...words].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, count);
+};
+
+// 動的に利用可能な動画を取得する関数
+export const getAvailableVideos = async (): Promise<VideoData[]> => {
+  try {
+    // CaptionDataディレクトリの内容を取得
+    const response = await fetch('./CaptionData/Youtube/');
+    if (!response.ok) {
+      console.log('CaptionData directory not accessible, using static videos');
+      return videos;
+    }
+
+    // 実際には、サーバーサイドでディレクトリリストを取得する必要があります
+    // フロントエンドでは直接ディレクトリを読み取れないため、
+    // 既知の動画IDのリストを使用して動的にチェックします
+    
+    // 既知の動画IDリスト（新しい動画IDをここに追加）
+    const knownVideoIds = [
+      'pT87zqXPw4w', 
+      'KypnjJSKi4o', 
+      'FASMejN_5gs', 
+      'Pjq4FAfIPSg'
+    ];
+    const availableVideos: VideoData[] = [];
+
+    for (const videoId of knownVideoIds) {
+      try {
+        const wordResponse = await fetch(`./CaptionData/Youtube/${videoId}_words_with_meaning.json`);
+        if (wordResponse.ok) {
+          // 動画データが存在する場合、基本情報を作成
+          const videoData: VideoData = {
+            id: videoId,
+            title: '', // タイトルは空白（後でAPIまたは手動で設定可能）
+            url: `https://www.youtube.com/watch?v=${videoId}`,
+            channelTitle: '', // チャンネル名も空白
+            words: []
+          };
+
+          // 既存の静的データからタイトルとチャンネル名を取得
+          const existingVideo = videos.find(v => v.id === videoId);
+          if (existingVideo) {
+            videoData.title = existingVideo.title;
+            videoData.channelTitle = existingVideo.channelTitle;
+          }
+
+          availableVideos.push(videoData);
+        }
+      } catch (error) {
+        console.log(`Video ${videoId} not available:`, error);
+      }
+    }
+
+    return availableVideos;
+  } catch (error) {
+    console.error('Error getting available videos:', error);
+    return videos; // エラーの場合は静的データを返す
+  }
+};
+
+// 動画IDから動画情報を取得する関数
+export const getVideoById = async (videoId: string): Promise<VideoData | null> => {
+  try {
+    const wordResponse = await fetch(`./CaptionData/Youtube/${videoId}_words_with_meaning.json`);
+    if (wordResponse.ok) {
+      const videoData: VideoData = {
+        id: videoId,
+        title: '', // タイトルは空白
+        url: `https://www.youtube.com/watch?v=${videoId}`,
+        channelTitle: '', // チャンネル名も空白
+        words: []
+      };
+
+      // 既存の静的データからタイトルとチャンネル名を取得
+      const existingVideo = videos.find(v => v.id === videoId);
+      if (existingVideo) {
+        videoData.title = existingVideo.title;
+        videoData.channelTitle = existingVideo.channelTitle;
+      }
+
+      return videoData;
+    }
+  } catch (error) {
+    console.error(`Error getting video ${videoId}:`, error);
+  }
+
+  return null;
 }; 
