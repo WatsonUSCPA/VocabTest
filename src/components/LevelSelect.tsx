@@ -89,6 +89,14 @@ const LevelSelect: React.FC = () => {
     return filteredWords.length;
   };
 
+  // 単語の日本語意味を取得（新形式と旧形式に対応）
+  const getJapaneseMeaning = (word: WordData): string => {
+    if (word.meanings_ja && word.meanings_ja.length > 0) {
+      return word.meanings_ja.join('、');
+    }
+    return word.definition_ja || '意味が見つかりません';
+  };
+
   const startLearning = () => {
     console.log('Starting learning with level:', selectedLevel, 'word count:', selectedWordCount);
     const filteredWords = filterWordsByLevel(words, selectedLevel);
@@ -104,7 +112,7 @@ const LevelSelect: React.FC = () => {
     const questions: TestQuestion[] = learningWords.map(word => {
       return {
         word: word.word,
-        correctAnswer: word.definition_ja,
+        correctAnswer: getJapaneseMeaning(word),
         options: [], // 学習形式では選択肢は不要
         level: word.level
       };
@@ -171,12 +179,14 @@ const LevelSelect: React.FC = () => {
           backgroundColor: '#f8f9fa',
           borderRadius: '8px'
         }}>
-          <h3 style={{
-            color: '#007bff',
-            marginBottom: '0.5rem'
-          }}>
-            {videoTitle}
-          </h3>
+          {videoTitle && (
+            <h3 style={{
+              color: '#007bff',
+              marginBottom: '0.5rem'
+            }}>
+              {videoTitle}
+            </h3>
+          )}
           <p style={{ margin: 0, color: '#666' }}>
             総単語数: {words.length}語
           </p>
@@ -203,154 +213,152 @@ const LevelSelect: React.FC = () => {
             {wordCountOptions.map(count => (
               <button
                 key={count}
-                className="btn"
-                style={{
-                  backgroundColor: selectedWordCount === count ? '#007bff' : '#fff',
-                  color: selectedWordCount === count ? '#fff' : '#333',
-                  border: '2px solid #007bff',
-                  fontSize: '1rem',
-                  padding: '0.5rem',
-                  cursor: 'pointer'
-                }}
                 onClick={() => setSelectedWordCount(count)}
-                disabled={count > availableWordCount}
+                style={{
+                  padding: '0.75rem',
+                  border: selectedWordCount === count ? '2px solid #007bff' : '1px solid #dee2e6',
+                  backgroundColor: selectedWordCount === count ? '#007bff' : 'white',
+                  color: selectedWordCount === count ? 'white' : '#333',
+                  borderRadius: '6px',
+                  cursor: 'pointer',
+                  fontSize: '1rem',
+                  fontWeight: selectedWordCount === count ? 'bold' : 'normal'
+                }}
               >
                 {count}語
               </button>
             ))}
           </div>
-          <p style={{
-            marginTop: '0.5rem',
-            fontSize: '0.9rem',
-            color: '#666'
-          }}>
-            選択したレベルで利用可能: {availableWordCount}語
-          </p>
         </div>
 
+        {/* レベル選択 */}
         <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-          gap: '1.5rem',
-          marginBottom: '2rem'
+          marginBottom: '2rem',
+          padding: '1.5rem',
+          backgroundColor: '#f8f9fa',
+          borderRadius: '8px'
         }}>
-          {/* すべてのレベル */}
-          <div 
-            className="card"
-            style={{
-              cursor: 'pointer',
-              border: selectedLevel === 'all' ? '3px solid #007bff' : '2px solid #ddd',
-              transition: 'all 0.2s ease'
-            }}
-            onClick={() => setSelectedLevel('all')}
-          >
-            <h3 style={{
-              color: '#007bff',
-              marginBottom: '1rem',
-              textAlign: 'center'
-            }}>
-              すべてのレベル
-            </h3>
-            <div style={{
-              textAlign: 'center',
-              fontSize: '2rem',
-              fontWeight: 'bold',
-              color: '#007bff',
-              marginBottom: '0.5rem'
-            }}>
-              {words.length}語
-            </div>
-            <div style={{
-              textAlign: 'center',
-              color: '#666'
-            }}>
-              全レベルから出題
-            </div>
-          </div>
-
-          {/* 各レベル */}
-          {levelStats.map(stat => (
-            <div 
-              key={stat.level}
-              className="card"
+          <h3 style={{
+            marginBottom: '1rem',
+            color: '#333'
+          }}>
+            学習するレベルを選択
+          </h3>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))',
+            gap: '0.5rem'
+          }}>
+            <button
+              onClick={() => setSelectedLevel('all')}
               style={{
+                padding: '0.75rem',
+                border: selectedLevel === 'all' ? '2px solid #007bff' : '1px solid #dee2e6',
+                backgroundColor: selectedLevel === 'all' ? '#007bff' : 'white',
+                color: selectedLevel === 'all' ? 'white' : '#333',
+                borderRadius: '6px',
                 cursor: 'pointer',
-                border: selectedLevel === stat.level ? '3px solid #007bff' : '2px solid #ddd',
-                transition: 'all 0.2s ease'
+                fontSize: '1rem',
+                fontWeight: selectedLevel === 'all' ? 'bold' : 'normal'
               }}
-              onClick={() => setSelectedLevel(stat.level)}
             >
-              <h3 style={{
-                color: getLevelColor(stat.level),
-                marginBottom: '1rem',
-                textAlign: 'center'
-              }}>
-                レベル {stat.level}
-              </h3>
-              <div style={{
-                textAlign: 'center',
-                fontSize: '2rem',
-                fontWeight: 'bold',
-                color: getLevelColor(stat.level),
-                marginBottom: '0.5rem'
-              }}>
-                {stat.count}語
-              </div>
-              <div style={{
-                textAlign: 'center',
-                color: '#666',
-                marginBottom: '0.5rem'
-              }}>
-                {stat.percentage}%
-              </div>
-              <div style={{
-                width: '100%',
-                height: '8px',
-                backgroundColor: '#e9ecef',
-                borderRadius: '4px',
-                overflow: 'hidden'
-              }}>
-                <div style={{
-                  width: `${stat.percentage}%`,
-                  height: '100%',
-                  backgroundColor: getLevelColor(stat.level),
-                  transition: 'width 0.3s ease'
-                }} />
-              </div>
-            </div>
-          ))}
+              すべて ({words.length}語)
+            </button>
+            {levelStats.map(stat => (
+              <button
+                key={stat.level}
+                onClick={() => setSelectedLevel(stat.level)}
+                style={{
+                  padding: '0.75rem',
+                  border: selectedLevel === stat.level ? '2px solid #007bff' : '1px solid #dee2e6',
+                  backgroundColor: selectedLevel === stat.level ? '#007bff' : 'white',
+                  color: selectedLevel === stat.level ? 'white' : '#333',
+                  borderRadius: '6px',
+                  cursor: 'pointer',
+                  fontSize: '1rem',
+                  fontWeight: selectedLevel === stat.level ? 'bold' : 'normal'
+                }}
+              >
+                {stat.level} ({stat.count}語)
+              </button>
+            ))}
+          </div>
         </div>
 
+        {/* レベル別統計 */}
+        <div style={{
+          marginBottom: '2rem',
+          padding: '1.5rem',
+          backgroundColor: '#f8f9fa',
+          borderRadius: '8px'
+        }}>
+          <h3 style={{
+            marginBottom: '1rem',
+            color: '#333'
+          }}>
+            レベル別単語数
+          </h3>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
+            gap: '1rem'
+          }}>
+            {levelStats.map(stat => (
+              <div
+                key={stat.level}
+                style={{
+                  padding: '1rem',
+                  backgroundColor: 'white',
+                  borderRadius: '6px',
+                  border: `2px solid ${getLevelColor(stat.level)}`,
+                  textAlign: 'center'
+                }}
+              >
+                <div style={{
+                  fontSize: '1.5rem',
+                  fontWeight: 'bold',
+                  color: getLevelColor(stat.level),
+                  marginBottom: '0.5rem'
+                }}>
+                  {stat.level}
+                </div>
+                <div style={{
+                  fontSize: '1.2rem',
+                  color: '#333',
+                  marginBottom: '0.25rem'
+                }}>
+                  {stat.count}語
+                </div>
+                <div style={{
+                  fontSize: '0.9rem',
+                  color: '#666'
+                }}>
+                  {stat.percentage}%
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* 学習開始ボタン */}
         <div style={{
           textAlign: 'center',
-          marginTop: '2rem'
+          padding: '1rem'
         }}>
           <button
             className="btn btn-primary"
             onClick={startLearning}
-            disabled={!selectedLevel || words.length === 0 || selectedWordCount > availableWordCount}
+            disabled={availableWordCount === 0}
             style={{
               fontSize: '1.2rem',
-              padding: '15px 40px'
+              padding: '15px 40px',
+              opacity: availableWordCount === 0 ? 0.6 : 1
             }}
           >
-            {selectedWordCount}語で学習を開始
-          </button>
-        </div>
-
-        <div style={{
-          textAlign: 'center',
-          marginTop: '1rem'
-        }}>
-          <button
-            className="btn btn-secondary"
-            onClick={() => navigate('/youtube')}
-            style={{
-              fontSize: '1rem',
-              padding: '10px 20px'
-            }}
-          >
-            動画選択に戻る
+            {availableWordCount > 0 
+              ? `${selectedWordCount}語で学習開始` 
+              : '利用可能な単語がありません'
+            }
           </button>
         </div>
       </div>

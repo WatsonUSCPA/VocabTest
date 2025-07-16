@@ -2,7 +2,9 @@ export interface WordData {
   word: string;
   level: string;
   definition_en: string;
-  definition_ja: string;
+  definition_ja?: string; // 旧形式との互換性のため
+  meanings_ja?: string[]; // 新形式
+  example?: string; // 新形式
 }
 
 export interface VideoData {

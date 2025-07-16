@@ -47,7 +47,7 @@ const LearningComplete: React.FC = () => {
             color: '#666',
             marginBottom: '2rem'
           }}>
-            {videoTitle} - レベル: {level}
+            {videoTitle && `${videoTitle} - `}レベル: {level}
           </p>
         </div>
 

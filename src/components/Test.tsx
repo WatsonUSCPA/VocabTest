@@ -77,7 +77,7 @@ const Test: React.FC = () => {
               単語 {currentQuestionIndex + 1} / {questions.length}
             </h2>
             <p style={{ margin: '0.5rem 0 0 0', color: '#666' }}>
-              {videoTitle} - レベル: {level}
+              {videoTitle && `${videoTitle} - `}レベル: {level}
             </p>
           </div>
           <div style={{
@@ -200,22 +200,6 @@ const Test: React.FC = () => {
               </button>
             </>
           )}
-        </div>
-
-        <div style={{
-          textAlign: 'center',
-          marginTop: '2rem'
-        }}>
-          <button
-            className="btn btn-secondary"
-            onClick={() => navigate('/youtube')}
-            style={{
-              fontSize: '1rem',
-              padding: '10px 20px'
-            }}
-          >
-            学習を中断
-          </button>
         </div>
       </div>
     </div>
