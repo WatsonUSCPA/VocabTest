@@ -1,0 +1,30 @@
+export interface WordData {
+  word: string;
+  level: string;
+  definition_en: string;
+  definition_ja: string;
+}
+
+export interface VideoData {
+  id: string;
+  title: string;
+  url: string;
+  channelTitle?: string;
+  words: WordData[];
+}
+
+export interface TestQuestion {
+  word: string;
+  correctAnswer: string;
+  options: string[];
+  level: string;
+}
+
+export interface TestResult {
+  score: number;
+  totalQuestions: number;
+  correctAnswers: number;
+  incorrectAnswers: number;
+  questions: TestQuestion[];
+  userAnswers: string[];
+}
