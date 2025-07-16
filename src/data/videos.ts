@@ -21,7 +21,7 @@ export const videos: VideoData[] = [
 // 利用可能なレベル
 export const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
-// レベルに基づいて単語をフィルタリングする関数
+// レベル別に単語をフィルタリング
 export const filterWordsByLevel = (words: any[], level: string) => {
   if (level === 'all') {
     return words;
@@ -29,7 +29,7 @@ export const filterWordsByLevel = (words: any[], level: string) => {
   return words.filter(word => word.level === level);
 };
 
-// ランダムに単語を選択する関数
+// ランダムに単語を選択
 export const getRandomWords = (words: any[], count: number) => {
   const shuffled = [...words].sort(() => 0.5 - Math.random());
   return shuffled.slice(0, count);
