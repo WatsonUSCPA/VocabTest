@@ -243,29 +243,26 @@ const LevelSelect: React.FC = () => {
             marginBottom: '1rem',
             color: '#333'
           }}>
-            学習するレベルを選択
+            レベル別単語数
           </h3>
-          
-          {/* レベル選択ボタン */}
+          {/* レベル別統計（クリック可能なカード） */}
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))',
-            gap: '0.75rem',
-            marginBottom: '1.5rem'
+            gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+            gap: '1rem'
           }}>
-            <button
+            {/* すべてのレベルカード */}
+            <div
               onClick={() => setSelectedLevel('all')}
               style={{
                 padding: '1rem',
-                border: selectedLevel === 'all' ? '3px solid #007bff' : '2px solid #dee2e6',
                 backgroundColor: selectedLevel === 'all' ? '#007bff' : 'white',
-                color: selectedLevel === 'all' ? 'white' : '#333',
                 borderRadius: '8px',
-                cursor: 'pointer',
-                fontSize: '1rem',
-                fontWeight: selectedLevel === 'all' ? 'bold' : '600',
+                border: selectedLevel === 'all' ? '3px solid #007bff' : '2px solid #dee2e6',
+                textAlign: 'center',
+                boxShadow: selectedLevel === 'all' ? '0 4px 8px rgba(0,123,255,0.3)' : '0 2px 4px rgba(0,0,0,0.1)',
                 transition: 'all 0.2s ease',
-                boxShadow: selectedLevel === 'all' ? '0 4px 8px rgba(0,123,255,0.3)' : '0 2px 4px rgba(0,0,0,0.1)'
+                cursor: 'pointer'
               }}
               onMouseEnter={(e) => {
                 if (selectedLevel !== 'all') {
@@ -280,25 +277,47 @@ const LevelSelect: React.FC = () => {
                 }
               }}
             >
-              <div style={{ fontSize: '1.1rem', marginBottom: '0.25rem' }}>すべて</div>
-              <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>{words.length}語</div>
-            </button>
-            
+              <div style={{
+                fontSize: '1.5rem',
+                fontWeight: 'bold',
+                color: selectedLevel === 'all' ? 'white' : '#007bff',
+                marginBottom: '0.5rem'
+              }}>
+                すべて
+              </div>
+              <div style={{
+                fontSize: '1.2rem',
+                color: selectedLevel === 'all' ? 'white' : '#333',
+                marginBottom: '0.25rem',
+                fontWeight: '600'
+              }}>
+                {words.length}語
+              </div>
+              <div style={{
+                fontSize: '0.9rem',
+                color: selectedLevel === 'all' ? 'rgba(255,255,255,0.8)' : '#666',
+                backgroundColor: selectedLevel === 'all' ? 'rgba(255,255,255,0.2)' : '#f8f9fa',
+                padding: '0.25rem 0.5rem',
+                borderRadius: '4px',
+                display: 'inline-block'
+              }}>
+                100%
+              </div>
+            </div>
+
             {levelStats.map(stat => (
-              <button
+              <div
                 key={stat.level}
                 onClick={() => setSelectedLevel(stat.level)}
                 style={{
                   padding: '1rem',
-                  border: selectedLevel === stat.level ? `3px solid ${getLevelColor(stat.level)}` : '2px solid #dee2e6',
                   backgroundColor: selectedLevel === stat.level ? getLevelColor(stat.level) : 'white',
-                  color: selectedLevel === stat.level ? 'white' : '#333',
                   borderRadius: '8px',
-                  cursor: 'pointer',
-                  fontSize: '1rem',
-                  fontWeight: selectedLevel === stat.level ? 'bold' : '600',
+                  border: selectedLevel === stat.level ? `3px solid ${getLevelColor(stat.level)}` : `2px solid ${getLevelColor(stat.level)}`,
+                  textAlign: 'center',
+                  boxShadow: selectedLevel === stat.level ? `0 4px ${getLevelColor(stat.level)}40` : '0 2px 4px rgba(0,0,0,0.1)',
                   transition: 'all 0.2s ease',
-                  boxShadow: selectedLevel === stat.level ? `0 4px ${getLevelColor(stat.level)}40` : '0 2px 4px rgba(0,0,0,0.1)'
+                  cursor: 'pointer'
                 }}
                 onMouseEnter={(e) => {
                   if (selectedLevel !== stat.level) {
@@ -313,48 +332,17 @@ const LevelSelect: React.FC = () => {
                   }
                 }}
               >
-                <div style={{ fontSize: '1.1rem', marginBottom: '0.25rem' }}>{stat.level}</div>
-                <div style={{ fontSize: '0.9rem', opacity: 0.8}}>{stat.count}語</div>
-              </button>
-            ))}
-          </div>
-
-          {/* レベル別統計（詳細表示） */}
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-            gap: '1rem'
-          }}>
-            {levelStats.map(stat => (
-              <div
-                key={stat.level}
-                style={{
-                  padding: '1rem',
-                  backgroundColor: 'white',
-                  borderRadius: '8px',
-                  border: `2px solid ${getLevelColor(stat.level)}`,
-                  textAlign: 'center',
-                  boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-                  transition: 'transform 0.2s ease'
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                }}
-              >
                 <div style={{
                   fontSize: '1.5rem',
                   fontWeight: 'bold',
-                  color: getLevelColor(stat.level),
+                  color: selectedLevel === stat.level ? 'white' : getLevelColor(stat.level),
                   marginBottom: '0.5rem'
                 }}>
                   {stat.level}
                 </div>
                 <div style={{
                   fontSize: '1.2rem',
-                  color: '#333',
+                  color: selectedLevel === stat.level ? 'white' : '#333',
                   marginBottom: '0.25rem',
                   fontWeight: '600'
                 }}>
@@ -362,8 +350,8 @@ const LevelSelect: React.FC = () => {
                 </div>
                 <div style={{
                   fontSize: '0.9rem',
-                  color: '#666',
-                  backgroundColor: '#f8f9fa',
+                  color: selectedLevel === stat.level ? 'rgba(255,255,255,0.8)' : '#666',
+                  backgroundColor: selectedLevel === stat.level ? 'rgba(255,255,255,0.2)' : '#f8f9fa',
                   padding: '0.25rem 0.5rem',
                   borderRadius: '4px',
                   display: 'inline-block'
