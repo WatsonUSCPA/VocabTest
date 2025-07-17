@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { onAuthStateChange, getUserProfile, UserProfile, testFirestoreConnection } from '../firebase/authService';
+import { onAuthStateChange, getUserProfile, UserProfile, testFirestoreConnection, recalculateUserStats } from '../firebase/authService';
 import { User } from 'firebase/auth';
 
 const MyPage: React.FC = () => {
@@ -212,6 +212,41 @@ const MyPage: React.FC = () => {
             </div>
           </div>
         )}
+
+        {/* 統計再計算ボタン */}
+        <div style={{
+          marginBottom: '2rem',
+          padding: '1rem',
+          backgroundColor: '#fff3cd',
+          borderRadius: '8px',
+          border: '1px solid #ffc107'
+        }}>
+          <h4 style={{ margin: '0 0 1rem 0', color: '#856404' }}>統計の修正</h4>
+          <p style={{ margin: '0 0 1rem 0', fontSize: '0.9rem', color: '#856404' }}>
+            統計が正しく表示されない場合は、以下のボタンをクリックして統計を再計算してください。
+          </p>
+          <button
+            onClick={async () => {
+              if (user) {
+                await recalculateUserStats(user.uid);
+                // プロフィールを再取得
+                const updatedProfile = await getUserProfile(user.uid);
+                setProfile(updatedProfile);
+              }
+            }}
+            style={{
+              padding: '0.5rem 1rem',
+              backgroundColor: '#ffc107',
+              color: '#856404',
+              border: '1px solid #ffc107',
+              borderRadius: '4px',
+              cursor: 'pointer',
+              fontWeight: '600'
+            }}
+          >
+            統計を再計算
+          </button>
+        </div>
 
         {/* アクション */}
         <div style={{

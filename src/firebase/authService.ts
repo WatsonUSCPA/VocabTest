@@ -160,4 +160,25 @@ export const testFirestoreConnection = async (uid: string): Promise<boolean> => 
     console.error('Firestore connection test failed:', error);
     return false;
   }
+};
+
+// 統計を実際のデータから再計算
+export const recalculateUserStats = async (uid: string): Promise<void> => {
+  try {
+    console.log('Recalculating stats for user:', uid);
+    
+    // 未知の単語数を実際のデータから計算
+    const unknownWords = await getUserUnknownWords(uid);
+    const actualUnknownWordsCount = unknownWords.length;
+    
+    // ユーザープロフィールを更新
+    const userRef = doc(db, 'users', uid);
+    await setDoc(userRef, { 
+      totalUnknownWords: actualUnknownWordsCount 
+    }, { merge: true });
+    
+    console.log('Stats recalculated. Unknown words:', actualUnknownWordsCount);
+  } catch (error) {
+    console.error('Failed to recalculate stats:', error);
+  }
 }; 
