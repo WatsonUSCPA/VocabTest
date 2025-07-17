@@ -146,4 +146,18 @@ export const updateUserStats = async (uid: string, field: 'totalWordsLearned' | 
 // 認証状態の監視
 export const onAuthStateChange = (callback: (user: User | null) => void) => {
   return onAuthStateChanged(auth, callback);
+};
+
+// Firestore接続テスト
+export const testFirestoreConnection = async (uid: string): Promise<boolean> => {
+  try {
+    console.log('Testing Firestore connection for user:', uid);
+    const userRef = doc(db, 'users', uid);
+    const userSnap = await getDoc(userRef);
+    console.log('Firestore test result:', userSnap.exists());
+    return true;
+  } catch (error) {
+    console.error('Firestore connection test failed:', error);
+    return false;
+  }
 }; 

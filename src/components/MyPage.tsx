@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { onAuthStateChange, getUserProfile, UserProfile } from '../firebase/authService';
+import { onAuthStateChange, getUserProfile, UserProfile, testFirestoreConnection } from '../firebase/authService';
 import { User } from 'firebase/auth';
 
 const MyPage: React.FC = () => {
   const [user, setUser] = useState<User | null>(null);
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [firestoreTest, setFirestoreTest] = useState<boolean | null>(null);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChange((firebaseUser) => {
@@ -21,11 +23,20 @@ const MyPage: React.FC = () => {
         return;
       }
       
+      console.log('Fetching profile for user:', user.uid);
+      setError(null);
+      
+      // Firestore接続テスト
+      const connectionTest = await testFirestoreConnection(user.uid);
+      setFirestoreTest(connectionTest);
+      
       try {
         const userProfile = await getUserProfile(user.uid);
+        console.log('User profile fetched:', userProfile);
         setProfile(userProfile);
       } catch (error) {
         console.error('Failed to fetch user profile:', error);
+        setError(error instanceof Error ? error.message : 'プロフィールの取得に失敗しました');
       }
       setLoading(false);
     };
@@ -52,6 +63,30 @@ const MyPage: React.FC = () => {
         <div className="card">
           <h2>マイページ</h2>
           <p>読み込み中...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="container">
+        <div className="card">
+          <h2>マイページ</h2>
+          <p style={{ color: 'red' }}>エラー: {error}</p>
+          <button 
+            onClick={() => window.location.reload()} 
+            style={{
+              padding: '0.5rem 1rem',
+              backgroundColor: '#007bff',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '4px',
+              cursor: 'pointer'
+            }}
+          >
+            再試行
+          </button>
         </div>
       </div>
     );
@@ -97,6 +132,31 @@ const MyPage: React.FC = () => {
               </p>
             )}
           </div>
+        </div>
+
+        {/* デバッグ情報 */}
+        <div style={{
+          marginBottom: '2rem',
+          padding: '1rem',
+          backgroundColor: '#f8f9fa',
+          borderRadius: '8px',
+          border: '1px solid #dee2e6'
+        }}>
+          <h4 style={{ margin: '0 0 1rem 0', color: '#333' }}>デバッグ情報</h4>
+          <p style={{ margin: '0.5rem 0', fontSize: '0.9rem' }}>
+            <strong>ユーザーID:</strong> {user.uid}
+          </p>
+          <p style={{ margin: '0.5rem 0', fontSize: '0.9rem' }}>
+            <strong>Firestore接続:</strong> {firestoreTest === null ? 'テスト中...' : firestoreTest ? '成功' : '失敗'}
+          </p>
+          <p style={{ margin: '0.5rem 0', fontSize: '0.9rem' }}>
+            <strong>プロフィール取得状況:</strong> {profile ? '成功' : '失敗または未作成'}
+          </p>
+          {profile && (
+            <p style={{ margin: '0.5rem 0', fontSize: '0.9rem' }}>
+              <strong>プロフィール詳細:</strong> {JSON.stringify(profile, null, 2)}
+            </p>
+          )}
         </div>
 
         {/* 統計情報 */}
