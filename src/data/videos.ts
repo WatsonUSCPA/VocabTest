@@ -33,6 +33,11 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
     // 既知の動画IDパターン（手動で追加が必要）
     const knownVideoIds = [
       'FASMejN_5gs', // 現在存在する動画
+      'DpQQi2scsHo', // 新しく追加された動画
+      'UF8uR6Z6KLc', // 新しく追加された動画
+      'pT87zqXPw4w', // 新しく追加された動画
+      'Pjq4FAfIPSg', // 新しく追加された動画
+      'KypnjJSKi4o', // 新しく追加された動画
     ];
     
     // 動的に生成される可能性のある動画IDパターン
