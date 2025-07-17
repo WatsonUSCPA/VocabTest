@@ -41,7 +41,7 @@ const LevelSelect: React.FC = () => {
     setLoading(true);
     
     try {
-      const url = `/CaptionData/Youtube/${videoId}_words_with_meaning.json`;
+      const url = `./CaptionData/Youtube/${videoId}_words_with_meaning.json`;
       const response = await fetch(url);
       
       if (response.ok) {
