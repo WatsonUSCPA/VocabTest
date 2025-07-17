@@ -69,7 +69,7 @@ export const getAssetPathAsync = async (relativePath: string): Promise<string> =
   // より確実な環境判定
   const isLocalhost = hostname === 'localhost' || hostname === '127.0.0.1';
   const isDevelopment = isLocalhost || port === '3000';
-  const isGitHubPages = hostname.includes('github.io') || pathname.includes('/EnglishVocabWebsite');
+  const isGitHubPages = hostname.includes('github.io') || pathname.includes('/VocabTest');
   
   console.log('Environment detection:', {
     hostname,
@@ -117,7 +117,7 @@ export const getAssetPath = (relativePath: string): string => {
   // より確実な環境判定
   const isLocalhost = hostname === 'localhost' || hostname === '127.0.0.1';
   const isDevelopment = isLocalhost || port === '3000';
-  const isGitHubPages = hostname.includes('github.io') || pathname.includes('/EnglishVocabWebsite');
+  const isGitHubPages = hostname.includes('github.io') || pathname.includes('/VocabTest');
   
   console.log('Environment detection:', {
     hostname,
