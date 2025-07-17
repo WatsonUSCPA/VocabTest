@@ -220,7 +220,7 @@ const MyPage: React.FC = () => {
           gap: '1rem'
         }}>
           <a
-            href="/unknown-words"
+            href="./unknown-words"
             style={{
               display: 'block',
               padding: '1rem 1.5rem',
@@ -237,7 +237,7 @@ const MyPage: React.FC = () => {
           </a>
           
           <a
-            href="/youtube"
+            href="./youtube"
             style={{
               display: 'block',
               padding: '1rem 1.5rem',
