@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { filterWordsByLevel, getRandomWords } from '../data/videos';
 import { WordData, TestQuestion } from '../types';
+import { getVideoWordsPath } from '../utils/pathUtils';
 
 const LevelSelect: React.FC = () => {
   const location = useLocation();
@@ -41,7 +42,7 @@ const LevelSelect: React.FC = () => {
     setLoading(true);
     
     try {
-      const url = `./CaptionData/Youtube/${videoId}_words_with_meaning.json`;
+      const url = getVideoWordsPath(videoId);
       const response = await fetch(url);
       
       if (response.ok) {

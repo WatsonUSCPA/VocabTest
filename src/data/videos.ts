@@ -1,4 +1,5 @@
 import { VideoData } from '../types';
+import { getVideoWordsPath } from '../utils/pathUtils';
 
 // 動画データの配列（初期データ）
 export const videos: VideoData[] = [
@@ -54,7 +55,7 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
     for (const videoId of allPatterns) {
       try {
         console.log(`Checking video ${videoId}...`);
-        const wordResponse = await fetch(`./CaptionData/Youtube/${videoId}_words_with_meaning.json`);
+        const wordResponse = await fetch(getVideoWordsPath(videoId));
         
         if (wordResponse.ok) {
           console.log(`Video ${videoId} is available, adding to list`);
@@ -108,7 +109,7 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
 // 動画IDから動画情報を取得する関数
 export const getVideoById = async (videoId: string): Promise<VideoData | null> => {
   try {
-    const wordResponse = await fetch(`./CaptionData/Youtube/${videoId}_words_with_meaning.json`);
+    const wordResponse = await fetch(getVideoWordsPath(videoId));
     if (wordResponse.ok) {
       const videoData: VideoData = {
         id: videoId,

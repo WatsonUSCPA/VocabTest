@@ -10,6 +10,7 @@ import {
   getYouTubeInfo,
   YouTubeInfo
 } from '../utils/youtube';
+import { getVideoWordsPath } from '../utils/pathUtils';
 
 const YouTubeLearning: React.FC = () => {
   const [videoWords, setVideoWords] = useState<{ [key: string]: WordData[] }>({});
@@ -136,7 +137,7 @@ const YouTubeLearning: React.FC = () => {
     setPendingNavigation(videoId);
     
     try {
-      const url = `./CaptionData/Youtube/${videoId}_words_with_meaning.json`;
+      const url = getVideoWordsPath(videoId);
       console.log(`Fetching from: ${url}`);
       console.log(`Full URL: ${window.location.origin}${url}`);
       
