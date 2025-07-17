@@ -7,12 +7,15 @@ const LevelSelect: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const [selectedLevel, setSelectedLevel] = useState('all');
-  const selectedWordCount = 10; // 固定値に設定
+  const [selectedWordCount, setSelectedWordCount] = useState(10); // 選択可能に変更
   const [words, setWords] = useState<WordData[]>([]);
   const [loading, setLoading] = useState(false);
 
   const videoId: string = location.state?.videoId || '';
   const videoTitle: string = location.state?.videoTitle || '';
+
+  // 単語数オプション
+  const wordCountOptions = [5, 10, 15, 20, 25, 30, 50];
 
   // 初期化時に単語データを設定
   useEffect(() => {
@@ -38,7 +41,7 @@ const LevelSelect: React.FC = () => {
     setLoading(true);
     
     try {
-      const url = `./CaptionData/Youtube/${videoId}_words_with_meaning.json`;
+      const url = `/CaptionData/Youtube/${videoId}_words_with_meaning.json`;
       const response = await fetch(url);
       
       if (response.ok) {
@@ -321,6 +324,70 @@ const LevelSelect: React.FC = () => {
           </div>
         </div>
 
+        {/* 単語数選択 */}
+        <div style={{
+          marginBottom: '2rem',
+          padding: '1.5rem',
+          backgroundColor: '#f8f9fa',
+          borderRadius: '8px'
+        }}>
+          <h3 style={{
+            marginBottom: '1rem',
+            color: '#333'
+          }}>
+            学習する単語数
+          </h3>
+          <div style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            gap: '0.5rem',
+            justifyContent: 'center'
+          }}>
+            {wordCountOptions.map(count => (
+              <button
+                key={count}
+                onClick={() => setSelectedWordCount(count)}
+                style={{
+                  padding: '0.75rem 1.5rem',
+                  backgroundColor: selectedWordCount === count ? '#007bff' : 'white',
+                  color: selectedWordCount === count ? 'white' : '#007bff',
+                  border: selectedWordCount === count ? '2px solid #007bff' : '2px solid #dee2e6',
+                  borderRadius: '8px',
+                  cursor: 'pointer',
+                  fontSize: '1rem',
+                  fontWeight: '600',
+                  transition: 'all 0.2s ease',
+                  minWidth: '60px'
+                }}
+                onMouseEnter={(e) => {
+                  if (selectedWordCount !== count) {
+                    e.currentTarget.style.transform = 'translateY(-1px)';
+                    e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (selectedWordCount !== count) {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                  }
+                }}
+              >
+                {count}語
+              </button>
+            ))}
+          </div>
+          <p style={{
+            textAlign: 'center',
+            marginTop: '1rem',
+            color: '#666',
+            fontSize: '0.9rem'
+          }}>
+            選択したレベル: {selectedLevel === 'all' ? 'すべて' : selectedLevel} | 
+            利用可能: {availableWordCount}語 | 
+            学習予定: {Math.min(selectedWordCount, availableWordCount)}語
+          </p>
+        </div>
+
         {/* 学習開始ボタン */}
         <div style={{
           textAlign: 'center',
@@ -337,7 +404,7 @@ const LevelSelect: React.FC = () => {
             }}
           >
             {availableWordCount > 0 
-              ? '学習開始' 
+              ? `${Math.min(selectedWordCount, availableWordCount)}語で学習開始` 
               : '利用可能な単語がありません'
             }
           </button>
