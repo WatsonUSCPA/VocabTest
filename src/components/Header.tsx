@@ -1,7 +1,27 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { auth } from '../firebase/config';
+import { onAuthStateChanged, signInWithPopup, GoogleAuthProvider, signOut, User } from 'firebase/auth';
 
 const Header: React.FC = () => {
+  const [user, setUser] = useState<User | null>(null);
+
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+      setUser(firebaseUser);
+    });
+    return () => unsubscribe();
+  }, []);
+
+  const handleLogin = async () => {
+    const provider = new GoogleAuthProvider();
+    await signInWithPopup(auth, provider);
+  };
+
+  const handleLogout = async () => {
+    await signOut(auth);
+  };
+
   return (
     <header style={{
       backgroundColor: '#fff',
@@ -34,7 +54,8 @@ const Header: React.FC = () => {
               margin: 0,
               padding: 0,
               display: 'flex',
-              gap: '2rem'
+              gap: '2rem',
+              alignItems: 'center'
             }}>
               <li>
                 <Link to="/" style={{
@@ -62,6 +83,34 @@ const Header: React.FC = () => {
                 }}>
                   その他から学ぶ
                 </Link>
+              </li>
+              <li>
+                {user ? (
+                  <button onClick={handleLogout} style={{
+                    padding: '6px 16px',
+                    fontSize: '1rem',
+                    background: '#eee',
+                    border: 'none',
+                    borderRadius: '6px',
+                    cursor: 'pointer',
+                    fontWeight: 'bold'
+                  }}>
+                    ログアウト（{user.displayName || 'ユーザー'}）
+                  </button>
+                ) : (
+                  <button onClick={handleLogin} style={{
+                    padding: '6px 16px',
+                    fontSize: '1rem',
+                    background: '#007bff',
+                    color: '#fff',
+                    border: 'none',
+                    borderRadius: '6px',
+                    cursor: 'pointer',
+                    fontWeight: 'bold'
+                  }}>
+                    ログイン
+                  </button>
+                )}
               </li>
             </ul>
           </nav>

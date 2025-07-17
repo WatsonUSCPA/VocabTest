@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { TestQuestion, WordData } from '../types';
+import { auth, db } from '../firebase/config';
+import { collection, addDoc } from 'firebase/firestore';
+import { onAuthStateChanged } from 'firebase/auth';
 
 const Test: React.FC = () => {
   const location = useLocation();
@@ -9,6 +12,14 @@ const Test: React.FC = () => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [learnedWords, setLearnedWords] = useState<number>(0);
   const [showExample, setShowExample] = useState(false);
+  const [user, setUser] = useState<any>(null);
+
+  React.useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+      setUser(firebaseUser);
+    });
+    return () => unsubscribe();
+  }, []);
 
   const questions: TestQuestion[] = location.state?.questions || [];
   const videoTitle: string = location.state?.videoTitle || '';
@@ -51,6 +62,28 @@ const Test: React.FC = () => {
       setCurrentQuestionIndex(currentQuestionIndex - 1);
       setShowAnswer(false);
       setShowExample(false);
+    }
+  };
+
+  // 知らない単語追加
+  const handleAddUnknownWord = async () => {
+    if (!user) {
+      alert('単語を保存するにはログインが必要です');
+      return;
+    }
+    try {
+      await addDoc(collection(db, 'unknownWords'), {
+        uid: user.uid,
+        word: currentQuestion.word,
+        meaning: currentQuestion.correctAnswer,
+        level: currentQuestion.level,
+        createdAt: new Date(),
+        videoTitle,
+        videoId,
+      });
+      alert('知らない単語リストに追加しました');
+    } catch (e) {
+      alert('保存に失敗しました');
     }
   };
 
@@ -234,7 +267,21 @@ const Test: React.FC = () => {
               >
                 前の単語
               </button>
-              
+              <button
+                className="btn btn-outline-danger"
+                onClick={handleAddUnknownWord}
+                style={{
+                  fontSize: '1rem',
+                  padding: '12px 24px',
+                  marginLeft: '8px',
+                  marginRight: '8px',
+                  border: '2px solid #dc3545',
+                  color: '#dc3545',
+                  background: '#fff'
+                }}
+              >
+                知らない単語に追加
+              </button>
               <button
                 className="btn btn-primary"
                 onClick={handleNextQuestion}
