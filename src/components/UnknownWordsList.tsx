@@ -1,16 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { auth, db } from '../firebase/config';
-import { collection, query, where, getDocs, orderBy } from 'firebase/firestore';
-import { onAuthStateChanged } from 'firebase/auth';
-
-interface UnknownWord {
-  id: string;
-  word: string;
-  meaning: string;
-  level: string;
-  videoTitle?: string;
-  createdAt?: any;
-}
+import { onAuthStateChange, getUserUnknownWords, UnknownWord } from '../firebase/authService';
 
 const UnknownWordsList: React.FC = () => {
   const [user, setUser] = useState<any>(null);
@@ -18,7 +7,7 @@ const UnknownWordsList: React.FC = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+    const unsubscribe = onAuthStateChange((firebaseUser) => {
       setUser(firebaseUser);
     });
     return () => unsubscribe();
@@ -28,17 +17,12 @@ const UnknownWordsList: React.FC = () => {
     const fetchWords = async () => {
       if (!user) return;
       setLoading(true);
-      const q = query(
-        collection(db, 'unknownWords'),
-        where('uid', '==', user.uid),
-        orderBy('createdAt', 'desc')
-      );
-      const querySnapshot = await getDocs(q);
-      const list: UnknownWord[] = [];
-      querySnapshot.forEach((doc) => {
-        list.push({ id: doc.id, ...doc.data() } as UnknownWord);
-      });
-      setWords(list);
+      try {
+        const words = await getUserUnknownWords(user.uid);
+        setWords(words);
+      } catch (error) {
+        console.error('Failed to fetch unknown words:', error);
+      }
       setLoading(false);
     };
     if (user) fetchWords();

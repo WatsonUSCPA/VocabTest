@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ユーザープロフィール: 自分のプロフィールのみ読み書き可能
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // 未知の単語: 自分の単語のみ読み書き可能
+    match /unknownWords/{wordId} {
+      allow read, write: if request.auth != null && request.auth.uid == resource.data.uid;
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.uid;
+    }
+    
+    // その他のコレクションは認証済みユーザーのみアクセス可能
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+} 

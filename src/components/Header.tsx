@@ -1,26 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { auth } from '../firebase/config';
-import { onAuthStateChanged, signInWithPopup, GoogleAuthProvider, signOut, User } from 'firebase/auth';
+import { User } from 'firebase/auth';
+import { signInWithGoogle, signOutUser, onAuthStateChange } from '../firebase/authService';
 
 const Header: React.FC = () => {
   const [user, setUser] = useState<User | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+    const unsubscribe = onAuthStateChange((firebaseUser) => {
       setUser(firebaseUser);
     });
     return () => unsubscribe();
   }, []);
 
   const handleLogin = async () => {
-    const provider = new GoogleAuthProvider();
-    await signInWithPopup(auth, provider);
+    await signInWithGoogle();
   };
 
   const handleLogout = async () => {
-    await signOut(auth);
+    await signOutUser();
   };
 
   const toggleMenu = () => {

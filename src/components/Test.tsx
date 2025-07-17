@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { TestQuestion, WordData } from '../types';
-import { auth, db } from '../firebase/config';
-import { collection, addDoc } from 'firebase/firestore';
-import { onAuthStateChanged } from 'firebase/auth';
+import { onAuthStateChange, addUnknownWord } from '../firebase/authService';
 
 const Test: React.FC = () => {
   const location = useLocation();
@@ -15,7 +13,7 @@ const Test: React.FC = () => {
   const [user, setUser] = useState<any>(null);
 
   React.useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (firebaseUser) => {
+    const unsubscribe = onAuthStateChange((firebaseUser) => {
       setUser(firebaseUser);
     });
     return () => unsubscribe();
@@ -72,12 +70,11 @@ const Test: React.FC = () => {
       return;
     }
     try {
-      await addDoc(collection(db, 'unknownWords'), {
+      await addUnknownWord({
         uid: user.uid,
         word: currentQuestion.word,
         meaning: currentQuestion.correctAnswer,
         level: currentQuestion.level,
-        createdAt: new Date(),
         videoTitle,
         videoId,
       });
