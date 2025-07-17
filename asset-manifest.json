@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/EnglishVocabWebsite/static/css/main.25de383f.css",
-    "main.js": "/EnglishVocabWebsite/static/js/main.fb507afa.js",
-    "index.html": "/EnglishVocabWebsite/index.html",
-    "main.25de383f.css.map": "/EnglishVocabWebsite/static/css/main.25de383f.css.map",
-    "main.fb507afa.js.map": "/EnglishVocabWebsite/static/js/main.fb507afa.js.map"
+    "main.css": "/VocabTest/static/css/main.25de383f.css",
+    "main.js": "/VocabTest/static/js/main.8397a19e.js",
+    "index.html": "/VocabTest/index.html",
+    "main.25de383f.css.map": "/VocabTest/static/css/main.25de383f.css.map",
+    "main.8397a19e.js.map": "/VocabTest/static/js/main.8397a19e.js.map"
   },
   "entrypoints": [
     "static/css/main.25de383f.css",
-    "static/js/main.fb507afa.js"
+    "static/js/main.8397a19e.js"
   ]
 }
