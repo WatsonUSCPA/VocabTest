@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import YouTubeLearning from './components/YouTubeLearning';
@@ -12,7 +12,7 @@ import UnknownWordsList from './components/UnknownWordsList';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/VocabTest">
       <div className="App">
         <Header />
         <main>
