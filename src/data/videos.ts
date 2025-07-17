@@ -41,10 +41,8 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
     ];
     
     // 動的に生成される可能性のある動画IDパターン
-    const dynamicPatterns = [
-      // よく使われる動画IDパターン
-      'dQw4w9WgXcQ', // 例
-      'jNQXAC9IVRw', // 例
+    const dynamicPatterns: string[] = [
+      // 実際に存在する動画IDのみ
       // 必要に応じて追加
     ];
     
@@ -57,7 +55,6 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
       try {
         console.log(`Checking video ${videoId}...`);
         const wordResponse = await fetch(`./CaptionData/Youtube/${videoId}_words_with_meaning.json`);
-        console.log(`Response for ${videoId}:`, wordResponse.status, wordResponse.ok);
         
         if (wordResponse.ok) {
           console.log(`Video ${videoId} is available, adding to list`);
@@ -82,10 +79,14 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
 
           availableVideos.push(videoData);
         } else {
-          console.log(`Video ${videoId} not found (status: ${wordResponse.status})`);
+          // 404エラーの場合は静かにスキップ（ログを出力しない）
+          if (wordResponse.status !== 404) {
+            console.log(`Video ${videoId} not found (status: ${wordResponse.status})`);
+          }
         }
       } catch (error) {
-        console.log(`Error checking video ${videoId}:`, error);
+        // ネットワークエラーの場合のみログを出力
+        console.log(`Network error checking video ${videoId}:`, error);
       }
     }
 
