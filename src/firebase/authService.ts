@@ -116,20 +116,45 @@ export const deleteUnknownWord = async (wordId: string, uid: string): Promise<vo
 
 // ユーザーの未知単語リストを取得
 export const getUserUnknownWords = async (uid: string): Promise<UnknownWord[]> => {
-  const q = query(
-    collection(db, 'unknownWords'),
-    where('uid', '==', uid),
-    orderBy('createdAt', 'desc')
-  );
-  
-  const querySnapshot = await getDocs(q);
-  const words: UnknownWord[] = [];
-  
-  querySnapshot.forEach((doc) => {
-    words.push({ id: doc.id, ...doc.data() } as UnknownWord);
-  });
-  
-  return words;
+  try {
+    // インデックスが構築されたら、効率的なクエリを使用
+    const q = query(
+      collection(db, 'unknownWords'),
+      where('uid', '==', uid),
+      orderBy('createdAt', 'desc')
+    );
+    
+    const querySnapshot = await getDocs(q);
+    const words: UnknownWord[] = [];
+    
+    querySnapshot.forEach((doc) => {
+      words.push({ id: doc.id, ...doc.data() } as UnknownWord);
+    });
+    
+    return words;
+  } catch (error) {
+    console.error('Index not ready, using fallback query:', error);
+    
+    // インデックスがまだ構築されていない場合のフォールバック
+    const q = query(
+      collection(db, 'unknownWords'),
+      where('uid', '==', uid)
+    );
+    
+    const querySnapshot = await getDocs(q);
+    const words: UnknownWord[] = [];
+    
+    querySnapshot.forEach((doc) => {
+      words.push({ id: doc.id, ...doc.data() } as UnknownWord);
+    });
+    
+    // クライアントサイドでソート
+    return words.sort((a, b) => {
+      const dateA = a.createdAt instanceof Date ? a.createdAt : new Date(a.createdAt);
+      const dateB = b.createdAt instanceof Date ? b.createdAt : new Date(b.createdAt);
+      return dateB.getTime() - dateA.getTime();
+    });
+  }
 };
 
 // ユーザー統計を更新
