@@ -245,63 +245,84 @@ const LevelSelect: React.FC = () => {
           }}>
             学習するレベルを選択
           </h3>
+          
+          {/* レベル選択ボタン */}
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))',
-            gap: '0.5rem'
+            gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))',
+            gap: '0.75rem',
+            marginBottom: '1.5rem'
           }}>
             <button
               onClick={() => setSelectedLevel('all')}
               style={{
-                padding: '0.75rem',
-                border: selectedLevel === 'all' ? '2px solid #007bff' : '1px solid #dee2e6',
+                padding: '1rem',
+                border: selectedLevel === 'all' ? '3px solid #007bff' : '2px solid #dee2e6',
                 backgroundColor: selectedLevel === 'all' ? '#007bff' : 'white',
                 color: selectedLevel === 'all' ? 'white' : '#333',
-                borderRadius: '6px',
+                borderRadius: '8px',
                 cursor: 'pointer',
                 fontSize: '1rem',
-                fontWeight: selectedLevel === 'all' ? 'bold' : 'normal'
+                fontWeight: selectedLevel === 'all' ? 'bold' : '600',
+                transition: 'all 0.2s ease',
+                boxShadow: selectedLevel === 'all' ? '0 4px 8px rgba(0,123,255,0.3)' : '0 2px 4px rgba(0,0,0,0.1)'
+              }}
+              onMouseEnter={(e) => {
+                if (selectedLevel !== 'all') {
+                  e.currentTarget.style.transform = 'translateY(-2px)';
+                  e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.15)';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (selectedLevel !== 'all') {
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+                }
               }}
             >
-              すべて ({words.length}語)
+              <div style={{ fontSize: '1.1rem', marginBottom: '0.25rem' }}>すべて</div>
+              <div style={{ fontSize: '0.9rem', opacity: 0.8 }}>{words.length}語</div>
             </button>
+            
             {levelStats.map(stat => (
               <button
                 key={stat.level}
                 onClick={() => setSelectedLevel(stat.level)}
                 style={{
-                  padding: '0.75rem',
-                  border: selectedLevel === stat.level ? '2px solid #007bff' : '1px solid #dee2e6',
-                  backgroundColor: selectedLevel === stat.level ? '#007bff' : 'white',
+                  padding: '1rem',
+                  border: selectedLevel === stat.level ? `3px solid ${getLevelColor(stat.level)}` : '2px solid #dee2e6',
+                  backgroundColor: selectedLevel === stat.level ? getLevelColor(stat.level) : 'white',
                   color: selectedLevel === stat.level ? 'white' : '#333',
-                  borderRadius: '6px',
+                  borderRadius: '8px',
                   cursor: 'pointer',
                   fontSize: '1rem',
-                  fontWeight: selectedLevel === stat.level ? 'bold' : 'normal'
+                  fontWeight: selectedLevel === stat.level ? 'bold' : '600',
+                  transition: 'all 0.2s ease',
+                  boxShadow: selectedLevel === stat.level ? `0 4px ${getLevelColor(stat.level)}40` : '0 2px 4px rgba(0,0,0,0.1)'
+                }}
+                onMouseEnter={(e) => {
+                  if (selectedLevel !== stat.level) {
+                    e.currentTarget.style.transform = 'translateY(-2px)';
+                    e.currentTarget.style.boxShadow = '0 4px 8px rgba(0,0,0,0.15)';
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (selectedLevel !== stat.level) {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+                  }
                 }}
               >
-                {stat.level} ({stat.count}語)
+                <div style={{ fontSize: '1.1rem', marginBottom: '0.25rem' }}>{stat.level}</div>
+                <div style={{ fontSize: '0.9rem', opacity: 0.8}}>{stat.count}語</div>
               </button>
             ))}
           </div>
-        </div>
 
-        {/* レベル別統計 */}
-        <div style={{
-          marginBottom: '2rem',
-          padding: '1.5rem',
-          backgroundColor: '#f8f9fa',
-          borderRadius: '8px'
-        }}>
-          <h3 style={{
-            marginBottom: '1rem',
-            color: '#333'
-          }}>
-            レベル別単語数
-          </h3>
+          {/* レベル別統計（詳細表示） */}
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
             gap: '1rem'
           }}>
             {levelStats.map(stat => (
@@ -310,9 +331,17 @@ const LevelSelect: React.FC = () => {
                 style={{
                   padding: '1rem',
                   backgroundColor: 'white',
-                  borderRadius: '6px',
+                  borderRadius: '8px',
                   border: `2px solid ${getLevelColor(stat.level)}`,
-                  textAlign: 'center'
+                  textAlign: 'center',
+                  boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                  transition: 'transform 0.2s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-2px)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)';
                 }}
               >
                 <div style={{
@@ -326,13 +355,18 @@ const LevelSelect: React.FC = () => {
                 <div style={{
                   fontSize: '1.2rem',
                   color: '#333',
-                  marginBottom: '0.25rem'
+                  marginBottom: '0.25rem',
+                  fontWeight: '600'
                 }}>
                   {stat.count}語
                 </div>
                 <div style={{
                   fontSize: '0.9rem',
-                  color: '#666'
+                  color: '#666',
+                  backgroundColor: '#f8f9fa',
+                  padding: '0.25rem 0.5rem',
+                  borderRadius: '4px',
+                  display: 'inline-block'
                 }}>
                   {stat.percentage}%
                 </div>
