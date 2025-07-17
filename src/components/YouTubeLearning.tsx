@@ -123,7 +123,7 @@ const YouTubeLearning: React.FC = () => {
     setThumbnailErrors(prev => ({ ...prev, [videoId]: nextErrorCount }));
   };
 
-  // 動画の単語データを読み込む
+    // 動画の単語データを読み込む
   const loadVideoWords = async (videoId: string) => {
     if (videoWords[videoId] && videoWords[videoId].length > 0) {
       // 既に読み込み済みの場合は直接遷移
@@ -136,18 +136,36 @@ const YouTubeLearning: React.FC = () => {
     setPendingNavigation(videoId);
     
     try {
-              const url = `./CaptionData/Youtube/${videoId}_words_with_meaning.json`;
+      const url = `/CaptionData/Youtube/${videoId}_words_with_meaning.json`;
       console.log(`Fetching from: ${url}`);
+      console.log(`Full URL: ${window.location.origin}${url}`);
+      
+      // まずファイルの存在確認
+      const headResponse = await fetch(url, { method: 'HEAD' });
+      console.log(`HEAD response status: ${headResponse.status}`);
+      
+      if (!headResponse.ok) {
+        throw new Error(`File not found: ${headResponse.status} ${headResponse.statusText}`);
+      }
       
       const response = await fetch(url);
-      console.log(`Response status: ${response.status}`);
+      console.log(`GET response status: ${response.status}`);
       console.log(`Response ok: ${response.ok}`);
       
       if (response.ok) {
-        const words = await response.json();
-        console.log(`Loaded ${words.length} words for video ${videoId}`);
-        console.log('Sample words:', words.slice(0, 3));
-        setVideoWords(prev => ({ ...prev, [videoId]: words }));
+        const text = await response.text();
+        console.log(`Response text preview: ${text.substring(0, 200)}...`);
+        
+        try {
+          const words = JSON.parse(text);
+          console.log(`Loaded ${words.length} words for video ${videoId}`);
+          console.log('Sample words:', words.slice(0, 3));
+          setVideoWords(prev => ({ ...prev, [videoId]: words }));
+        } catch (parseError) {
+          console.error('JSON parse error:', parseError);
+          console.error('Response text:', text);
+          throw new Error(`Invalid JSON format: ${parseError instanceof Error ? parseError.message : 'Unknown parse error'}`);
+        }
       } else {
         console.error('Failed to load video words');
         console.error('Response status:', response.status);
@@ -158,9 +176,14 @@ const YouTubeLearning: React.FC = () => {
       }
     } catch (error) {
       console.error('Error loading video words:', error);
+      console.error('Error details:', {
+        videoId,
+        url: `/CaptionData/Youtube/${videoId}_words_with_meaning.json`,
+        error: error instanceof Error ? error.message : error
+      });
       setVideoWords(prev => ({ ...prev, [videoId]: [] }));
       setPendingNavigation(null);
-      alert('単語データの読み込み中にエラーが発生しました');
+      alert(`単語データの読み込み中にエラーが発生しました: ${error instanceof Error ? error.message : '不明なエラー'}`);
     }
     setLoading(prev => ({ ...prev, [videoId]: false }));
   };

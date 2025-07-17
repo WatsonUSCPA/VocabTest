@@ -239,60 +239,59 @@ const Test: React.FC = () => {
 
         <div style={{
           display: 'flex',
-          gap: '1rem',
+          flexDirection: 'column',
+          gap: '12px',
           justifyContent: 'center',
-          flexWrap: 'wrap'
+          alignItems: 'stretch'
         }}>
           {!showAnswer ? (
             <button
               className="btn btn-primary"
               onClick={handleShowAnswer}
               style={{
-                fontSize: '1.2rem',
-                padding: '15px 30px'
+                fontSize: '18px',
+                padding: '16px 24px',
+                width: '100%'
               }}
             >
               答えを見る
             </button>
           ) : (
-            <>
+            <div className="btn-group">
               <button
                 className="btn btn-secondary"
                 onClick={handlePreviousQuestion}
                 disabled={currentQuestionIndex === 0}
                 style={{
-                  fontSize: '1rem',
-                  padding: '12px 24px'
+                  fontSize: '16px',
+                  padding: '14px 20px'
                 }}
               >
                 前の単語
               </button>
+              
               <button
                 className="btn btn-outline-danger"
                 onClick={handleAddUnknownWord}
                 style={{
-                  fontSize: '1rem',
-                  padding: '12px 24px',
-                  marginLeft: '8px',
-                  marginRight: '8px',
-                  border: '2px solid #dc3545',
-                  color: '#dc3545',
-                  background: '#fff'
+                  fontSize: '16px',
+                  padding: '14px 20px'
                 }}
               >
                 知らない単語に追加
               </button>
+              
               <button
                 className="btn btn-primary"
                 onClick={handleNextQuestion}
                 style={{
-                  fontSize: '1.2rem',
-                  padding: '15px 30px'
+                  fontSize: '18px',
+                  padding: '16px 24px'
                 }}
               >
                 {currentQuestionIndex < questions.length - 1 ? '次の単語' : '学習完了'}
               </button>
-            </>
+            </div>
           )}
         </div>
       </div>
