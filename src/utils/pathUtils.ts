@@ -21,7 +21,6 @@ const checkFileExists = async (url: string): Promise<boolean> => {
  */
 export const getVideoWordsPathWithFallback = async (videoId: string): Promise<string> => {
   const hostname = window.location.hostname;
-  const port = window.location.port;
   const isLocalhost = hostname === 'localhost' || hostname === '127.0.0.1';
   
   // 環境に応じたパスを生成
