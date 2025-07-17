@@ -7,15 +7,12 @@ const LevelSelect: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const [selectedLevel, setSelectedLevel] = useState('all');
-  const [selectedWordCount, setSelectedWordCount] = useState(10);
+  const selectedWordCount = 10; // 固定値に設定
   const [words, setWords] = useState<WordData[]>([]);
   const [loading, setLoading] = useState(false);
 
   const videoId: string = location.state?.videoId || '';
   const videoTitle: string = location.state?.videoTitle || '';
-
-  // 問題数の選択肢
-  const wordCountOptions = [5, 10, 15, 20, 25, 30];
 
   // 初期化時に単語データを設定
   useEffect(() => {
@@ -193,45 +190,6 @@ const LevelSelect: React.FC = () => {
           </p>
         </div>
 
-        {/* 問題数選択 */}
-        <div style={{
-          marginBottom: '2rem',
-          padding: '1.5rem',
-          backgroundColor: '#f8f9fa',
-          borderRadius: '8px'
-        }}>
-          <h3 style={{
-            marginBottom: '1rem',
-            color: '#333'
-          }}>
-            学習する単語数を選択
-          </h3>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(80px, 1fr))',
-            gap: '0.5rem'
-          }}>
-            {wordCountOptions.map(count => (
-              <button
-                key={count}
-                onClick={() => setSelectedWordCount(count)}
-                style={{
-                  padding: '0.75rem',
-                  border: selectedWordCount === count ? '2px solid #007bff' : '1px solid #dee2e6',
-                  backgroundColor: selectedWordCount === count ? '#007bff' : 'white',
-                  color: selectedWordCount === count ? 'white' : '#333',
-                  borderRadius: '6px',
-                  cursor: 'pointer',
-                  fontSize: '1rem',
-                  fontWeight: selectedWordCount === count ? 'bold' : 'normal'
-                }}
-              >
-                {count}語
-              </button>
-            ))}
-          </div>
-        </div>
-
         {/* レベル選択 */}
         <div style={{
           marginBottom: '2rem',
@@ -379,7 +337,7 @@ const LevelSelect: React.FC = () => {
             }}
           >
             {availableWordCount > 0 
-              ? `${selectedWordCount}語で学習開始` 
+              ? '学習開始' 
               : '利用可能な単語がありません'
             }
           </button>
