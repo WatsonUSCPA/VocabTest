@@ -7,6 +7,8 @@ import LevelSelect from './components/LevelSelect';
 import Test from './components/Test';
 import LearningComplete from './components/LearningComplete';
 import OtherLearning from './components/OtherLearning';
+import MyPage from './components/MyPage';
+import UnknownWordsList from './components/UnknownWordsList';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
             <Route path="/test" element={<Test />} />
             <Route path="/learning-complete" element={<LearningComplete />} />
             <Route path="/other" element={<OtherLearning />} />
+            <Route path="/mypage" element={<MyPage />} />
+            <Route path="/unknown-words" element={<UnknownWordsList />} />
           </Routes>
         </main>
       </div>

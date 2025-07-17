@@ -84,6 +84,17 @@ const Header: React.FC = () => {
                   その他から学ぶ
                 </Link>
               </li>
+              {user && (
+                <li>
+                  <Link to="/mypage" style={{
+                    textDecoration: 'none',
+                    color: '#333',
+                    fontWeight: '600'
+                  }}>
+                    マイページ
+                  </Link>
+                </li>
+              )}
               <li>
                 {user ? (
                   <button onClick={handleLogout} style={{
