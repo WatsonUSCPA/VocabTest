@@ -140,33 +140,6 @@ const getVideoIdsFromIndex = async (): Promise<string[]> => {
   }
 };
 
-// 動的に新しい動画IDを検出する関数（オプション機能）
-const detectNewVideoIds = async (): Promise<string[]> => {
-  const detectedIds: string[] = [];
-  
-  try {
-    // 現在の環境に基づいてベースURLを決定
-    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-    const baseUrl = isLocal ? '' : '/VocabTest';
-    
-    // CaptionDataフォルダのインデックスファイルがあれば、そこから動画IDを取得
-    // または、既知のパターンに基づいて新しいIDを推測
-    const commonPatterns = [
-      // YouTube動画IDの一般的なパターン（11文字の英数字）
-      // 実際の使用では、より具体的なパターンを使用
-    ];
-    
-    // 注意: この方法は多くのリクエストを送信する可能性があるため、
-    // 実際の使用では、サーバーサイドでのディレクトリスキャンが推奨されます
-    
-    console.log('New video detection completed');
-  } catch (error) {
-    console.log('Error detecting new videos:', error);
-  }
-  
-  return detectedIds;
-};
-
 // 動的に利用可能な動画を取得する関数
 export const getAvailableVideos = async (): Promise<VideoData[]> => {
   try {
