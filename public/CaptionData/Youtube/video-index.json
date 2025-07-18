@@ -1,0 +1,54 @@
+{
+  "videos": [
+    {
+      "id": "FASMejN_5gs",
+      "title": "English Learning Video 1",
+      "channelTitle": "English Channel",
+      "addedDate": "2024-01-01"
+    },
+    {
+      "id": "DpQQi2scsHo",
+      "title": "English Learning Video 2",
+      "channelTitle": "English Channel",
+      "addedDate": "2024-01-01"
+    },
+    {
+      "id": "UF8uR6Z6KLc",
+      "title": "English Learning Video 3",
+      "channelTitle": "English Channel",
+      "addedDate": "2024-01-01"
+    },
+    {
+      "id": "pT87zqXPw4w",
+      "title": "English Learning Video 4",
+      "channelTitle": "English Channel",
+      "addedDate": "2024-01-01"
+    },
+    {
+      "id": "Pjq4FAfIPSg",
+      "title": "English Learning Video 5",
+      "channelTitle": "English Channel",
+      "addedDate": "2024-01-01"
+    },
+    {
+      "id": "KypnjJSKi4o",
+      "title": "English Learning Video 6",
+      "channelTitle": "English Channel",
+      "addedDate": "2024-01-01"
+    },
+    {
+      "id": "wHN03Y7ICq0",
+      "title": "English Learning Video 7",
+      "channelTitle": "English Channel",
+      "addedDate": "2024-01-01"
+    },
+    {
+      "id": "motX94ztOzo",
+      "title": "English Learning Video 8",
+      "channelTitle": "English Channel",
+      "addedDate": "2024-01-01"
+    }
+  ],
+  "lastUpdated": "2024-01-01T00:00:00Z",
+  "totalVideos": 8
+} 

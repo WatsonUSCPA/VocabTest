@@ -1,0 +1,74 @@
+name: Auto Update Video Index
+
+on:
+  push:
+    paths:
+      - 'public/CaptionData/Youtube/*.json'
+      - '!public/CaptionData/Youtube/video-index.json'
+  workflow_dispatch:
+
+jobs:
+  update-video-index:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Generate Video Index
+      run: |
+        echo "Scanning Caption Data folder for video files..."
+        
+        # Caption Dataフォルダ内のJSONファイルをスキャン
+        cd public/CaptionData/Youtube
+        
+        # 動画IDを抽出するためのJavaScriptスクリプト
+        cat > generate-index.js << 'EOF'
+        const fs = require('fs');
+        const path = require('path');
+        
+        // 現在のディレクトリ内のJSONファイルを取得
+        const files = fs.readdirSync('.')
+          .filter(file => file.endsWith('_words_with_meaning.json'))
+          .filter(file => file !== 'video-index.json');
+        
+        console.log('Found video files:', files);
+        
+        // 動画IDを抽出
+        const videos = files.map(file => {
+          const videoId = file.replace('_words_with_meaning.json', '');
+          return {
+            id: videoId,
+            title: `English Learning Video - ${videoId}`,
+            channelTitle: "English Channel",
+            addedDate: new Date().toISOString().split('T')[0]
+          };
+        });
+        
+        // video-index.jsonを生成
+        const indexData = {
+          videos: videos,
+          lastUpdated: new Date().toISOString(),
+          totalVideos: videos.length
+        };
+        
+        fs.writeFileSync('video-index.json', JSON.stringify(indexData, null, 2));
+        console.log('Generated video-index.json with', videos.length, 'videos');
+        EOF
+        
+        node generate-index.js
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add public/CaptionData/Youtube/video-index.json
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update video index"
+        git push 
