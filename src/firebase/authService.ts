@@ -16,7 +16,8 @@ import {
   getDocs,
   orderBy,
   addDoc,
-  deleteDoc 
+  deleteDoc,
+  updateDoc 
 } from 'firebase/firestore';
 
 // ユーザープロフィールの型定義
@@ -112,6 +113,11 @@ export const deleteUnknownWord = async (wordId: string, uid: string): Promise<vo
   
   // ユーザーの未知単語数を更新
   await updateUserStats(uid, 'totalUnknownWords', -1);
+};
+
+// 未知の単語を更新
+export const updateUnknownWord = async (wordId: string, updates: Partial<Omit<UnknownWord, 'id' | 'uid' | 'createdAt'>>): Promise<void> => {
+  await updateDoc(doc(db, 'unknownWords', wordId), updates);
 };
 
 // ユーザーの未知単語リストを取得
