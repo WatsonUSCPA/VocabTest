@@ -23,28 +23,62 @@ export const getAvailableVideoIds = async (): Promise<string[]> => {
   try {
     console.log('🔍 Starting automatic scan of Caption Data folder...');
     
-    // CaptionData/Youtubeフォルダ内のファイル一覧を取得
-    const response = await fetch('/CaptionData/Youtube/');
-    if (!response.ok) {
-      console.log('❌ Could not access CaptionData folder, using fallback method');
-      return await getAvailableVideoIdsFallback();
+    // フォルダ内のファイル一覧を取得する方法を試行
+    const methods = [
+      // 方法1: ディレクトリリスティングを試行
+      async () => {
+        const response = await fetch('/CaptionData/Youtube/');
+        if (response.ok) {
+          const html = await response.text();
+          const detectedIds: string[] = [];
+          const jsonFilePattern = /([A-Za-z0-9_-]+)_words_with_meaning\.json/g;
+          let match;
+          while ((match = jsonFilePattern.exec(html)) !== null) {
+            detectedIds.push(match[1]);
+          }
+          return detectedIds;
+        }
+        return null;
+      },
+      // 方法2: 一般的なYouTube動画IDパターンを試行
+      async () => {
+        const commonPatterns = [
+          'CAi6HoyGaB8', 'FASMejN_5gs', 'DpQQi2scsHo', 'UF8uR6Z6KLc', 'pT87zqXPw4w',
+          'Pjq4FAfIPSg', 'KypnjJSKi4o', 'wHN03Y7ICq0', 'motX94ztOzo', '_fuimO6ErKI', 'wu-p5xrJ8-E'
+        ];
+        const detectedIds: string[] = [];
+        
+        for (const videoId of commonPatterns) {
+          try {
+            const wordResponse = await fetch(await getVideoWordsPathWithFallback(videoId));
+            if (wordResponse.ok) {
+              detectedIds.push(videoId);
+              console.log(`✅ Found video data for: ${videoId}`);
+            }
+          } catch (error) {
+            // エラーは静かにスキップ
+          }
+        }
+        return detectedIds;
+      }
+    ];
+    
+    // 各方法を順番に試行
+    for (let i = 0; i < methods.length; i++) {
+      try {
+        console.log(`🔍 Trying method ${i + 1}...`);
+        const result = await methods[i]();
+        if (result && result.length > 0) {
+          console.log(`🎯 Method ${i + 1} successful. Found ${result.length} videos:`, result);
+          return result;
+        }
+      } catch (error) {
+        console.log(`❌ Method ${i + 1} failed:`, error);
+      }
     }
     
-    const html = await response.text();
-    const detectedIds: string[] = [];
-    
-    // HTMLからJSONファイル名を抽出
-    const jsonFilePattern = /([A-Za-z0-9_-]+)_words_with_meaning\.json/g;
-    let match;
-    
-    while ((match = jsonFilePattern.exec(html)) !== null) {
-      const videoId = match[1];
-      detectedIds.push(videoId);
-      console.log(`✅ Found video data for: ${videoId}`);
-    }
-    
-    console.log(`🎯 Automatic scan completed. Found ${detectedIds.length} videos:`, detectedIds);
-    return detectedIds;
+    console.log('❌ All methods failed, using fallback');
+    return await getAvailableVideoIdsFallback();
   } catch (error) {
     console.error('❌ Error during automatic scan:', error);
     console.log('🔄 Falling back to manual method...');
