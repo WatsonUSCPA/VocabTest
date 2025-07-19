@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { onAuthStateChange, getUserProfile, UserProfile, testFirestoreConnection, recalculateUserStats } from '../firebase/authService';
+import { onAuthStateChange, getUserProfile, UserProfile, recalculateUserStats } from '../firebase/authService';
 import { User } from 'firebase/auth';
 
 const MyPage: React.FC = () => {
@@ -7,7 +7,6 @@ const MyPage: React.FC = () => {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [firestoreTest, setFirestoreTest] = useState<boolean | null>(null);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChange((firebaseUser) => {
@@ -23,16 +22,10 @@ const MyPage: React.FC = () => {
         return;
       }
       
-      console.log('Fetching profile for user:', user.uid);
       setError(null);
-      
-      // Firestore接続テスト
-      const connectionTest = await testFirestoreConnection(user.uid);
-      setFirestoreTest(connectionTest);
       
       try {
         const userProfile = await getUserProfile(user.uid);
-        console.log('User profile fetched:', userProfile);
         setProfile(userProfile);
       } catch (error) {
         console.error('Failed to fetch user profile:', error);
@@ -134,31 +127,6 @@ const MyPage: React.FC = () => {
           </div>
         </div>
 
-        {/* デバッグ情報 */}
-        <div style={{
-          marginBottom: '2rem',
-          padding: '1rem',
-          backgroundColor: '#f8f9fa',
-          borderRadius: '8px',
-          border: '1px solid #dee2e6'
-        }}>
-          <h4 style={{ margin: '0 0 1rem 0', color: '#333' }}>デバッグ情報</h4>
-          <p style={{ margin: '0.5rem 0', fontSize: '0.9rem' }}>
-            <strong>ユーザーID:</strong> {user.uid}
-          </p>
-          <p style={{ margin: '0.5rem 0', fontSize: '0.9rem' }}>
-            <strong>Firestore接続:</strong> {firestoreTest === null ? 'テスト中...' : firestoreTest ? '成功' : '失敗'}
-          </p>
-          <p style={{ margin: '0.5rem 0', fontSize: '0.9rem' }}>
-            <strong>プロフィール取得状況:</strong> {profile ? '成功' : '失敗または未作成'}
-          </p>
-          {profile && (
-            <p style={{ margin: '0.5rem 0', fontSize: '0.9rem' }}>
-              <strong>プロフィール詳細:</strong> {JSON.stringify(profile, null, 2)}
-            </p>
-          )}
-        </div>
-
         {/* 統計情報 */}
         {profile && (
           <div style={{
@@ -212,41 +180,6 @@ const MyPage: React.FC = () => {
             </div>
           </div>
         )}
-
-        {/* 統計再計算ボタン */}
-        <div style={{
-          marginBottom: '2rem',
-          padding: '1rem',
-          backgroundColor: '#fff3cd',
-          borderRadius: '8px',
-          border: '1px solid #ffc107'
-        }}>
-          <h4 style={{ margin: '0 0 1rem 0', color: '#856404' }}>統計の修正</h4>
-          <p style={{ margin: '0 0 1rem 0', fontSize: '0.9rem', color: '#856404' }}>
-            統計が正しく表示されない場合は、以下のボタンをクリックして統計を再計算してください。
-          </p>
-          <button
-            onClick={async () => {
-              if (user) {
-                await recalculateUserStats(user.uid);
-                // プロフィールを再取得
-                const updatedProfile = await getUserProfile(user.uid);
-                setProfile(updatedProfile);
-              }
-            }}
-            style={{
-              padding: '0.5rem 1rem',
-              backgroundColor: '#ffc107',
-              color: '#856404',
-              border: '1px solid #ffc107',
-              borderRadius: '4px',
-              cursor: 'pointer',
-              fontWeight: '600'
-            }}
-          >
-            統計を再計算
-          </button>
-        </div>
 
         {/* アクション */}
         <div style={{
