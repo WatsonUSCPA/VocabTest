@@ -1,0 +1,30 @@
+[
+  {
+    "video_info": {
+      "video_id": "2aogxVYGX_I",
+      "title": "YouTube Video 2aogxVYGX_I",
+      "url": "https://youtu.be/2aogxVYGX_I?si=pAyu7Nv-vEHb2mr7"
+    }
+  },
+  {
+    "word": "second",
+    "level": "A1",
+    "definition_en": "Something that is number two in a series.",
+    "meanings_ja": [
+      "2番目",
+      "短い時間 (in a short time)",
+      "速く (quickly)"
+    ],
+    "example": "The second game was exciting. / 第二のゲームは興味深かった。"
+  },
+  {
+    "word": "timer",
+    "level": "B1",
+    "definition_en": "Someone or something which times.",
+    "meanings_ja": [
+      "時間計測器",
+      "カウントダウン時刻 (in a countdown context)"
+    ],
+    "example": "The timer went off, signaling the end of the cooking time. / クッキングタイムが終わったことを示すためにティマーが鳴った。"
+  }
+]
