@@ -74,7 +74,7 @@ const UnknownWordsList: React.FC = () => {
   };
 
   const handleDeleteWord = async (wordId: string) => {
-    if (!confirm('この単語を削除しますか？')) return;
+    if (!window.confirm('この単語を削除しますか？')) return;
     
     try {
       await deleteUnknownWord(wordId, user.uid);
