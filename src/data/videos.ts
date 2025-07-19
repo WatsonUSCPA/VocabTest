@@ -81,41 +81,7 @@ const getAvailableVideoIdsFallback = async (): Promise<string[]> => {
   return detectedIds;
 };
 
-// 新しい動画を自動検出する関数（オプション機能）
-const detectNewVideos = async (existingIds: string[]): Promise<string[]> => {
-  const newVideos: string[] = [];
-  
-  try {
-    // 一般的なYouTube動画IDパターンを生成してテスト
-    // 注意: この方法は多くのリクエストを送信するため、慎重に使用
-    const testPatterns = generateTestPatterns();
-    
-    for (const pattern of testPatterns) {
-      if (existingIds.includes(pattern)) continue; // 既に検出済みはスキップ
-      
-      try {
-        const wordResponse = await fetch(await getVideoWordsPathWithFallback(pattern));
-        if (wordResponse.ok) {
-          newVideos.push(pattern);
-          console.log(`🆕 Auto-detected new video: ${pattern}`);
-        }
-      } catch (error) {
-        // エラーは静かにスキップ
-      }
-    }
-  } catch (error) {
-    console.log('⚠️ Error during auto-detection:', error);
-  }
-  
-  return newVideos;
-};
 
-// テスト用のパターンを生成する関数（オプション）
-const generateTestPatterns = (): string[] => {
-  // 実際の使用では、より賢いパターン生成ロジックを実装
-  // 現在は空の配列を返して、自動検出を無効化
-  return [];
-};
 
 // 動的に利用可能な動画を取得する関数（video-index.jsonに依存しない）
 export const getAvailableVideos = async (): Promise<VideoData[]> => {
