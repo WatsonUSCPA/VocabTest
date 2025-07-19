@@ -21,48 +21,64 @@ export const getRandomWords = (words: any[], count: number) => {
 // Caption Dataフォルダを直接スキャンして動画IDを自動検出する関数
 export const getAvailableVideoIds = async (): Promise<string[]> => {
   try {
-    console.log('🔍 Starting direct scan of Caption Data folder...');
+    console.log('🔍 Starting automatic scan of Caption Data folder...');
     
-    // 既知の動画IDパターン（現在存在する動画）
-    const knownVideoIds = [
-      'CAi6HoyGaB8', 'FASMejN_5gs', 'DpQQi2scsHo', 'UF8uR6Z6KLc', 'pT87zqXPw4w',
-      'Pjq4FAfIPSg', 'KypnjJSKi4o', 'wHN03Y7ICq0', 'motX94ztOzo'
-    ];
+    // CaptionData/Youtubeフォルダ内のファイル一覧を取得
+    const response = await fetch('/CaptionData/Youtube/');
+    if (!response.ok) {
+      console.log('❌ Could not access CaptionData folder, using fallback method');
+      return await getAvailableVideoIdsFallback();
+    }
     
+    const html = await response.text();
     const detectedIds: string[] = [];
     
-    // 各動画IDをチェックして、実際にJSONファイルが存在するか確認
-    for (const videoId of knownVideoIds) {
-      try {
-        const wordResponse = await fetch(await getVideoWordsPathWithFallback(videoId));
-        if (wordResponse.ok) {
-          detectedIds.push(videoId);
-          console.log(`✅ Found video data for: ${videoId}`);
-        } else {
-          console.log(`❌ No data found for: ${videoId}`);
-        }
-      } catch (error) {
-        console.log(`⚠️ Error checking video ${videoId}:`, error);
-      }
+    // HTMLからJSONファイル名を抽出
+    const jsonFilePattern = /([A-Za-z0-9_-]+)_words_with_meaning\.json/g;
+    let match;
+    
+    while ((match = jsonFilePattern.exec(html)) !== null) {
+      const videoId = match[1];
+      detectedIds.push(videoId);
+      console.log(`✅ Found video data for: ${videoId}`);
     }
     
-    // 新しい動画を自動検出する機能（オプション）
-    // 注意: この機能は多くのリクエストを送信する可能性があるため、
-    // 必要に応じて有効/無効を切り替え可能
-    const enableAutoDetection = false; // 自動検出を無効化（パフォーマンスのため）
-    
-    if (enableAutoDetection) {
-      console.log('🔍 Starting auto-detection for new videos...');
-      const newVideos = await detectNewVideos(detectedIds);
-      detectedIds.push(...newVideos);
-    }
-    
-    console.log(`🎯 Direct scan completed. Found ${detectedIds.length} videos:`, detectedIds);
+    console.log(`🎯 Automatic scan completed. Found ${detectedIds.length} videos:`, detectedIds);
     return detectedIds;
   } catch (error) {
-    console.error('❌ Error during direct scan:', error);
-    return [];
+    console.error('❌ Error during automatic scan:', error);
+    console.log('🔄 Falling back to manual method...');
+    return await getAvailableVideoIdsFallback();
   }
+};
+
+// フォールバック用の手動検出関数
+const getAvailableVideoIdsFallback = async (): Promise<string[]> => {
+  console.log('🔍 Using fallback method...');
+  
+  // 既知の動画IDパターン（フォールバック用 - 1個のみ）
+  const knownVideoIds = [
+    'CAi6HoyGaB8'
+  ];
+  
+  const detectedIds: string[] = [];
+  
+  // 各動画IDをチェックして、実際にJSONファイルが存在するか確認
+  for (const videoId of knownVideoIds) {
+    try {
+      const wordResponse = await fetch(await getVideoWordsPathWithFallback(videoId));
+      if (wordResponse.ok) {
+        detectedIds.push(videoId);
+        console.log(`✅ Found video data for: ${videoId}`);
+      } else {
+        console.log(`❌ No data found for: ${videoId}`);
+      }
+    } catch (error) {
+      console.log(`⚠️ Error checking video ${videoId}:`, error);
+    }
+  }
+  
+  return detectedIds;
 };
 
 // 新しい動画を自動検出する関数（オプション機能）
