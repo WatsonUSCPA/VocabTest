@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { onAuthStateChange, getUserProfile, UserProfile, recalculateUserStats } from '../firebase/authService';
+import { onAuthStateChange, getUserProfile, UserProfile } from '../firebase/authService';
 import { User } from 'firebase/auth';
 
 const MyPage: React.FC = () => {

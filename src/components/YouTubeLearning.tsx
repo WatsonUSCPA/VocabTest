@@ -251,11 +251,11 @@ const YouTubeLearning: React.FC = () => {
 
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(400px, 1fr))',
-        gap: '2rem',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+        gap: '1rem',
         maxHeight: '70vh',
         overflowY: 'auto',
-        padding: '1rem'
+        padding: '0.5rem'
       }}>
         {availableVideos.map(video => {
           const words = videoWords[video.id] || [];
@@ -272,7 +272,8 @@ const YouTubeLearning: React.FC = () => {
                 cursor: 'pointer',
                 transition: 'transform 0.2s ease, box-shadow 0.2s ease',
                 border: '2px solid transparent',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                maxWidth: '100%'
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-5px)';
@@ -292,7 +293,7 @@ const YouTubeLearning: React.FC = () => {
               <div style={{
                 position: 'relative',
                 width: '100%',
-                height: '200px',
+                height: '180px',
                 backgroundColor: '#f8f9fa',
                 borderRadius: '8px',
                 overflow: 'hidden',
@@ -321,7 +322,7 @@ const YouTubeLearning: React.FC = () => {
                   color: 'white',
                   padding: '4px 8px',
                   borderRadius: '4px',
-                  fontSize: '0.8rem'
+                  fontSize: '0.7rem'
                 }}>
                   {video.id}
                 </div>
@@ -334,7 +335,7 @@ const YouTubeLearning: React.FC = () => {
                   color: 'white',
                   padding: '4px 8px',
                   borderRadius: '4px',
-                  fontSize: '0.8rem',
+                  fontSize: '0.7rem',
                   cursor: 'pointer'
                 }}
                 onClick={(e) => {
@@ -350,9 +351,12 @@ const YouTubeLearning: React.FC = () => {
               {(info?.channelTitle || video.channelTitle) && (
                 <p style={{
                   color: '#666',
-                  fontSize: '0.9rem',
+                  fontSize: '0.8rem',
                   marginBottom: '0.5rem',
-                  fontStyle: 'italic'
+                  fontStyle: 'italic',
+                  overflow: 'hidden',
+                  textOverflow: 'ellipsis',
+                  whiteSpace: 'nowrap'
                 }}>
                   📺 {info?.channelTitle || video.channelTitle}
                 </p>
@@ -362,7 +366,7 @@ const YouTubeLearning: React.FC = () => {
               {info?.viewCount && (
                 <p style={{
                   color: '#888',
-                  fontSize: '0.8rem',
+                  fontSize: '0.7rem',
                   marginBottom: '1rem'
                 }}>
                   👁️ {parseInt(info.viewCount).toLocaleString()} 回視聴
@@ -372,7 +376,7 @@ const YouTubeLearning: React.FC = () => {
               {isLoading ? (
                 <div style={{
                   textAlign: 'center',
-                  padding: '2rem',
+                  padding: '1.5rem',
                   color: '#666'
                 }}>
                   単語データを読み込み中...
@@ -381,12 +385,16 @@ const YouTubeLearning: React.FC = () => {
                 <>
                   {/* 動画タイトル */}
                   <h3 style={{
-                    fontSize: '1.1rem',
+                    fontSize: '1rem',
                     marginBottom: '1rem',
                     color: '#333',
-                    minHeight: '2.5rem',
-                    display: 'flex',
-                    alignItems: 'center'
+                    minHeight: '2.2rem',
+                    lineHeight: '1.3',
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    display: '-webkit-box',
+                    WebkitLineClamp: 2,
+                    WebkitBoxOrient: 'vertical'
                   }}>
                     {info?.title || video.title || (
                       <span style={{ color: '#999', fontStyle: 'italic' }}>
@@ -399,7 +407,7 @@ const YouTubeLearning: React.FC = () => {
                   {words.length > 0 && (
                     <div style={{ marginBottom: '1rem' }}>
                       <h4 style={{
-                        fontSize: '0.9rem',
+                        fontSize: '0.8rem',
                         color: '#666',
                         marginBottom: '0.5rem'
                       }}>
@@ -408,7 +416,7 @@ const YouTubeLearning: React.FC = () => {
                       <div style={{
                         display: 'flex',
                         flexWrap: 'wrap',
-                        gap: '0.5rem'
+                        gap: '0.3rem'
                       }}>
                         {levelStats.map(stat => (
                           <span
@@ -416,9 +424,9 @@ const YouTubeLearning: React.FC = () => {
                             style={{
                               backgroundColor: '#e9ecef',
                               color: '#495057',
-                              padding: '0.25rem 0.5rem',
+                              padding: '0.2rem 0.4rem',
                               borderRadius: '0.25rem',
-                              fontSize: '0.8rem'
+                              fontSize: '0.7rem'
                             }}
                           >
                             {stat.level}: {stat.count}語 ({stat.percentage}%)
@@ -437,7 +445,8 @@ const YouTubeLearning: React.FC = () => {
                       className="btn btn-primary"
                       style={{
                         width: '100%',
-                        fontSize: '1rem'
+                        fontSize: '0.9rem',
+                        padding: '0.75rem'
                       }}
                       onClick={(e) => {
                         e.stopPropagation();
