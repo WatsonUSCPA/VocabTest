@@ -5,11 +5,13 @@ Reactベースの英語語彙学習ウェブサイトです。YouTube動画か�
 ## 機能
 
 - 🎥 YouTube動画からの単語学習
+- 🔍 **自動動画検出機能** - Caption Dataフォルダを自動スキャン
 - 📊 レベル別（A1-C2）単語フィルタリング
 - 🎯 学習単語数の選択
 - 📝 インタラクティブな学習モード
 - 📈 学習進捗の追跡
 - 🎨 モダンでレスポンシブなUI
+- ⚡ **簡単追加** - 新しい動画はJSONファイルを追加するだけ
 
 ## セットアップ
 
@@ -79,10 +81,13 @@ src/
 └── App.tsx             # メインアプリケーション
 
 public/
-└── CaptionData/        # 単語データ（JSONファイル）
+└── CaptionData/        # 単語データ（JSONファイル）- 自動スキャン対象
     └── Youtube/
-        ├── pT87zqXPw4w_words_with_meaning.json
-        └── KypnjJSKi4o_words_with_meaning.json
+        ├── video-index.json                    # 自動生成（手動更新不要）
+        ├── CAi6HoyGaB8_words_with_meaning.json # 動画データ
+        ├── FASMejN_5gs_words_with_meaning.json # 動画データ
+        ├── DpQQi2scsHo_words_with_meaning.json # 動画データ
+        └── ...                                 # その他の動画データ
 ```
 
 ## 技術スタック
@@ -159,11 +164,36 @@ npm run deploy
 
 ## 開発
 
-### 新しい動画の追加
+### 新しい動画の追加（自動スキャン機能）
 
-1. `src/data/videos.ts`に動画情報を追加
-2. `public/CaptionData/Youtube/`に単語データのJSONファイルを配置
-3. ファイル名は`{videoId}_words_with_meaning.json`の形式
+**🎉 新しい動画を追加するのは超簡単になりました！**
+
+#### 手順：
+
+1. **JSONファイルを追加するだけ**
+   ```
+   public/CaptionData/Youtube/{動画ID}_words_with_meaning.json
+   ```
+
+2. **完了！**
+   - アプリが自動的に新しい動画を検出
+   - `video-index.json`の更新は不要
+   - 手動での設定変更は不要
+
+#### 例：
+```
+public/CaptionData/Youtube/ABC123DEF45_words_with_meaning.json
+```
+
+#### 自動検出の仕組み：
+- アプリ起動時にCaption Dataフォルダを自動スキャン
+- 存在するJSONファイルから動画IDを自動抽出
+- 新しい動画が自動的に学習画面に表示される
+
+#### 注意事項：
+- ファイル名は必ず `{動画ID}_words_with_meaning.json` の形式で保存
+- JSONファイルは有効な形式である必要があります
+- 動画IDはYouTubeの動画URLから取得できます（例：`https://www.youtube.com/watch?v=ABC123DEF45` の `ABC123DEF45` 部分）
 
 ### スタイルのカスタマイズ
 
