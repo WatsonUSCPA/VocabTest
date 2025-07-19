@@ -1,0 +1,867 @@
+[
+  {
+    "video_info": {
+      "video_id": "_fuimO6ErKI",
+      "title": "YouTube Video _fuimO6ErKI",
+      "url": "https://youtu.be/_fuimO6ErKI?si=N5drJRMXaJA4W5Fm"
+    }
+  },
+  {
+    "word": "a",
+    "level": "A1",
+    "definition_en": "The name of the Latin script letter A/a.",
+    "meanings_ja": [
+      "ひとつ",
+      "一番, 最初"
+    ],
+    "example": "I need a book. / 私は一冊の本が必要です。"
+  },
+  {
+    "word": "all",
+    "level": "A1",
+    "definition_en": "(with a possessive pronoun) Everything that one is capable of.",
+    "meanings_ja": [
+      "すべての",
+      "全部の, 一切の, まったくの"
+    ],
+    "example": "I'm going to the party with all my friends. / 私は友達全員とパーティーに行く。"
+  },
+  {
+    "word": "an",
+    "level": "A1",
+    "definition_en": "One",
+    "meanings_ja": [
+      "単数の",
+      "一つの, Certainの"
+    ],
+    "example": "I have an idea. / 私にはアイデアがあります。"
+  },
+  {
+    "word": "back",
+    "level": "A1",
+    "definition_en": "The rear of the body, especially the part between the neck and the end of the spine and opposite the chest and belly.",
+    "meanings_ja": [
+      "後ろ",
+      "支持、助力"
+    ],
+    "example": "I'll be right back with the answers. / 私はすぐに答えを持って来ます。"
+  },
+  {
+    "word": "be",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "存在する",
+      "あります (存在し、状況にある)"
+    ],
+    "example": "The sun will be shining tomorrow. / 明日は太陽が輝く。"
+  },
+  {
+    "word": "cat",
+    "level": "A1",
+    "definition_en": "An animal of the family Felidae:",
+    "meanings_ja": [
+      "ネコ"
+    ],
+    "example": "The cat is sleeping. / ネコは寝てます。"
+  },
+  {
+    "word": "come",
+    "level": "A1",
+    "definition_en": "Coming, arrival; approach.",
+    "meanings_ja": [
+      "到着する",
+      "来る"
+    ],
+    "example": "I will come to your house tomorrow. / 私はあなたの家に明日来ます。"
+  },
+  {
+    "word": "cross",
+    "level": "A1",
+    "definition_en": "A geometrical figure consisting of two straight lines or bars intersecting each other such that at least one of them is bisected by the other.",
+    "meanings_ja": [
+      "横断",
+      "交わる、反対する"
+    ],
+    "example": "The road crosses the river. / 川を横断する道"
+  },
+  {
+    "word": "different",
+    "level": "A1",
+    "definition_en": "The different ideal.",
+    "meanings_ja": [
+      "異なる",
+      "様々な,異質の"
+    ],
+    "example": "The two companies have different business models. / 二社は異なるビジネスモデルを持つ。"
+  },
+  {
+    "word": "do",
+    "level": "A1",
+    "definition_en": "A party, celebration, social function.",
+    "meanings_ja": [
+      "やる",
+      "おこなう (formal or formalized actions)"
+    ],
+    "example": "I will do my homework tonight. / 今晩は宿題をやる。"
+  },
+  {
+    "word": "does",
+    "level": "A1",
+    "definition_en": "(auxiliary) A syntactic marker.",
+    "meanings_ja": [
+      "行う"
+    ],
+    "example": "What does she do for a living? / 彼女は何を仕事として行うのですか?"
+  },
+  {
+    "word": "hi",
+    "level": "A1",
+    "definition_en": "The word \"hi\" used as a greeting.",
+    "meanings_ja": [
+      "こんにちは",
+      "ハイ (informal, casual greeting)"
+    ],
+    "example": "Hi, how are you? / こんにちは、どのようにですか？"
+  },
+  {
+    "word": "i",
+    "level": "A1",
+    "definition_en": "The name of the Latin-script letter I.",
+    "meanings_ja": [
+      "アイ (one's self)",
+      "イニシャル (initials)"
+    ],
+    "example": "Can I have your i? / 私のアイをください。"
+  },
+  {
+    "word": "in",
+    "level": "A1",
+    "definition_en": "A position of power or influence, or a way to get it.",
+    "meanings_ja": [
+      "中に",
+      "そこにある, 当てがある"
+    ],
+    "example": "I'll meet you in Tokyo. / 東京で会いましょう。"
+  },
+  {
+    "word": "is",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ある",
+      "等しい, 同じ (in a sense of equality or similarity)"
+    ],
+    "example": "He is a doctor. / 彼は医者です。"
+  },
+  {
+    "word": "it",
+    "level": "A1",
+    "definition_en": "One who is neither a he nor a she; a creature; a dehumanized being.",
+    "meanings_ja": [
+      "それ",
+      "もの (指す対象、物)"
+    ],
+    "example": "I saw it in the store. / 私は店でそれを見た。"
+  },
+  {
+    "word": "kinds",
+    "level": "A1",
+    "definition_en": "A type, race or category; a group of entities that have common characteristics such that they may be grouped together.",
+    "meanings_ja": [
+      "種類",
+      "類型"
+    ],
+    "example": "There are many kinds of fruits. / 果物は多くの種類ある。"
+  },
+  {
+    "word": "king",
+    "level": "A1",
+    "definition_en": "A male monarch; a man who heads a monarchy. If it's an absolute monarchy, then he is the supreme ruler of his nation.",
+    "meanings_ja": [
+      "国王",
+      "最高位の者 (e.g. king of the game)"
+    ],
+    "example": "The king of England was a wise leader. / イングランドの国王は賢明なリーダーでした。"
+  },
+  {
+    "word": "london",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "首都"
+    ],
+    "example": "I'm going to London. / 私はロンドンに行く。"
+  },
+  {
+    "word": "m",
+    "level": "A1",
+    "definition_en": "Abbreviation of million.",
+    "meanings_ja": [
+      "米（bead）",
+      "メートル（unit of length）"
+    ],
+    "example": "The m on the ruler indicated 1 meter. / ルールの米は1メートルを示した。"
+  },
+  {
+    "word": "man",
+    "level": "A1",
+    "definition_en": "An adult male human.",
+    "meanings_ja": [
+      "人間",
+      "男性"
+    ],
+    "example": "The man walked down the street. / 男が通りを歩いた。"
+  },
+  {
+    "word": "me",
+    "level": "A1",
+    "definition_en": "As the direct object of a verb.",
+    "meanings_ja": [
+      "私自身",
+      "自分"
+    ],
+    "example": "What do you want from me? / 私に何を求めているの？"
+  },
+  {
+    "word": "music",
+    "level": "A1",
+    "definition_en": "A series of sounds organized in time, employing melody, harmony, tempo etc. usually to convey a mood.",
+    "meanings_ja": [
+      "音楽",
+      "音の美しい調律"
+    ],
+    "example": "The music filled the concert hall. / コンサートハルの音が満ちていた。"
+  },
+  {
+    "word": "my",
+    "level": "A1",
+    "definition_en": "Used to express surprise, shock or amazement.",
+    "meanings_ja": [
+      "私の",
+      "自分のもの (referring to possession or belonging)"
+    ],
+    "example": "This is my car. / 私の車はこれです。"
+  },
+  {
+    "word": "myself",
+    "level": "A1",
+    "definition_en": "(reflexive pronoun) Me, as direct or indirect object the speaker as the object of a verb or preposition, when the speaker is also the subject.",
+    "meanings_ja": [
+      "私自身",
+      "自分"
+    ],
+    "example": "I'm going to the party myself. / 私、自分でパーティーに行く。"
+  },
+  {
+    "word": "name",
+    "level": "A1",
+    "definition_en": "Any nounal word or phrase which indicates a particular person, place, class, or thing.",
+    "meanings_ja": [
+      "名前",
+      "呼称、識別"
+    ],
+    "example": "What's your name? / あなたの名前は何ですか？"
+  },
+  {
+    "word": "new",
+    "level": "A1",
+    "definition_en": "Things that are new.",
+    "meanings_ja": [
+      "新しい",
+      "改革的な, 最新の"
+    ],
+    "example": "I bought a new smartphone. / 私は最新のスマートフォンを購入しました。"
+  },
+  {
+    "word": "of",
+    "level": "A1",
+    "definition_en": "Expressing distance or motion.",
+    "meanings_ja": [
+      "から (from) or に関して (concerning)",
+      "の所有を示す (indicating possession)"
+    ],
+    "example": "The book of poems is on the shelf. / 詩集の本は棚にあります。"
+  },
+  {
+    "word": "okay",
+    "level": "A1",
+    "definition_en": "Endorsement; approval.",
+    "meanings_ja": [
+      "やります",
+      "合う, その通り"
+    ],
+    "example": "Are you going to the movies tonight? / 今夜映画行かないの?"
+  },
+  {
+    "word": "out",
+    "level": "A1",
+    "definition_en": "A means of exit, escape, reprieve, etc.",
+    "meanings_ja": [
+      "外に出す (outside, to go out)",
+      "打ち負かす (to lose, be defeated)"
+    ],
+    "example": "I'm going out with friends tonight. / 私は今夜友達と外に出ます。"
+  },
+  {
+    "word": "piano",
+    "level": "A1",
+    "definition_en": "A percussive keyboard musical instrument, usually ranging over seven octaves, with white and black colored keys, played by pressing these keys, causing hammers to strike strings",
+    "meanings_ja": [
+      "ピアノ",
+      "音楽器（主にキーボード）"
+    ],
+    "example": "I play the piano every day. / 私は毎日ピアノを弾きます。"
+  },
+  {
+    "word": "play",
+    "level": "A1",
+    "definition_en": "Activity for amusement only, especially among the young.",
+    "meanings_ja": [
+      "遊ぶ",
+      "楽しみにする"
+    ],
+    "example": "I'm going to play soccer with friends tonight. / 今夜、友達とサッカーを遊びに行く。"
+  },
+  {
+    "word": "s",
+    "level": "A1",
+    "definition_en": "A weight of 1/288 of a pound, that is, twenty grains or one third of a dram, about 1.3 grams (symbol: ℈).",
+    "meanings_ja": [
+      "音音",
+      "(subscript)"
+    ],
+    "example": "What's that sound? / それはなにの音ですか?"
+  },
+  {
+    "word": "sound",
+    "level": "A1",
+    "definition_en": "Healthy.",
+    "meanings_ja": [
+      "音響",
+      "構造、基盤"
+    ],
+    "example": "The sound of the music filled the room. / 音楽の音色が部屋を満たした。"
+  },
+  {
+    "word": "speaking",
+    "level": "A1",
+    "definition_en": "Used in speaking.",
+    "meanings_ja": [
+      "話す",
+      "話す",
+      "会話中"
+    ],
+    "example": "Can you speak slowly, please? / ちょっとスローに話してください。"
+  },
+  {
+    "word": "that",
+    "level": "A1",
+    "definition_en": "Something being indicated that is there; one of those.",
+    "meanings_ja": [
+      "その",
+      "もの、ものである"
+    ],
+    "example": "I like that book. / 私はその本が好きです。"
+  },
+  {
+    "word": "the",
+    "level": "A1",
+    "definition_en": "With a comparative or with more and a verb phrase, establishes a correlation with one or more other such comparatives.",
+    "meanings_ja": [
+      "この",
+      "一つの (as an article),これ (to indicate a particular person, place, or thing)"
+    ],
+    "example": "I saw the dog. /犬を見た。"
+  },
+  {
+    "word": "these",
+    "level": "A1",
+    "definition_en": "The thing, item, etc. being indicated.",
+    "meanings_ja": [
+      "これらの",
+      "このようなもの、類似のもの (for \"such things\" or \"like things\")"
+    ],
+    "example": "These books are my favorite. / これらの本が私の好きなものです。"
+  },
+  {
+    "word": "think",
+    "level": "A1",
+    "definition_en": "An act of thinking; consideration (of something).",
+    "meanings_ja": [
+      "考える",
+      "考察する (more formal or academic connotation)"
+    ],
+    "example": "I think I'll go to the park. / 私は公園に行くと思います。"
+  },
+  {
+    "word": "this",
+    "level": "A1",
+    "definition_en": "Something being indicated that is here; one of these.",
+    "meanings_ja": [
+      "これ",
+      "今、この、もの"
+    ],
+    "example": "This is my favorite book. / このは私の最愛の本です。"
+  },
+  {
+    "word": "to",
+    "level": "A1",
+    "definition_en": "Toward a closed, touching or engaging position.",
+    "meanings_ja": [
+      "向きに",
+      "ための、目的の"
+    ],
+    "example": "I'm going to Tokyo. / 私は東京に行く。"
+  },
+  {
+    "word": "together",
+    "level": "A1",
+    "definition_en": "Coherent; well organized.",
+    "meanings_ja": [
+      "並ぶ",
+      "一緒に"
+    ],
+    "example": "We're going to the concert together tonight. /私たちは今夜コンサートに行くことになります。"
+  },
+  {
+    "word": "up",
+    "level": "A1",
+    "definition_en": "The direction opposed to the pull of gravity.",
+    "meanings_ja": [
+      "上向く",
+      "高い (high) - This translation is more specific, emphasizing the concept of something being at a higher level or position.",
+      "向上する (to improve or rise) - This translation conveys the idea of something getting better or increasing in value."
+    ],
+    "example": "I'm going to pick up my friend from the airport. / 私は空港で友達を迎えにいる。"
+  },
+  {
+    "word": "we",
+    "level": "A1",
+    "definition_en": "(personal) The speakers/writers, or the speaker/writer and at least one other person (not the person being addressed). (This is the exclusive we.)",
+    "meanings_ja": [
+      "私達",
+      "我々、我々たち"
+    ],
+    "example": "We are going to the movies tonight. / 我々は今夜映画にいきます。"
+  },
+  {
+    "word": "what",
+    "level": "A1",
+    "definition_en": "(Singlish) Used to contradict an underlying assumption held by the interlocutor.",
+    "meanings_ja": [
+      "なに",
+      "何"
+    ],
+    "example": "What's your favorite food? / お好きな食べ物は何ですか?"
+  },
+  {
+    "word": "when",
+    "level": "A1",
+    "definition_en": "The time at which something happens.",
+    "meanings_ja": [
+      "時期",
+      "はじめに, そのころ (depending on the context)"
+    ],
+    "example": "I'll meet you when I finish my work. / 私の仕事を終わるまで会おう。"
+  },
+  {
+    "word": "woman",
+    "level": "A1",
+    "definition_en": "An adult female human.",
+    "meanings_ja": [
+      "女性",
+      "人間女性 (if you want to emphasize her humanity)"
+    ],
+    "example": "The woman walked down the street. / 女性は通りを歩いた。"
+  },
+  {
+    "word": "women",
+    "level": "A1",
+    "definition_en": "An adult female human.",
+    "meanings_ja": [
+      "女性",
+      "女人 (女性の総称)"
+    ],
+    "example": "The women in the office are very supportive. / オフィスの女性たちは非常にサポート的です。"
+  },
+  {
+    "word": "you",
+    "level": "A1",
+    "definition_en": "To address (a person) using the pronoun you (in the past, especially to use you rather than thou, when you was considered more formal).",
+    "meanings_ja": [
+      "あなた",
+      "きみ"
+    ],
+    "example": "You are going to the store. / あなたは店にいきます。"
+  },
+  {
+    "word": "z",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ゼット (Zett) - a unit of measurement for energy density",
+      "Z字形 (Z-jiki) - referring to the shape of the letter \"Z\""
+    ],
+    "example": "The scientist measured the z of the battery. / 科学者はバッテリーのzを測りました。"
+  },
+  {
+    "word": "allow",
+    "level": "A2",
+    "definition_en": "To grant, give, admit, accord, afford, or yield; to let one have.",
+    "meanings_ja": [
+      "許す",
+      "tolerable level"
+    ],
+    "example": "The teacher allows students to play during recess. / 教師は学生たちが休憩時間に遊ぶことを許す。"
+  },
+  {
+    "word": "amazing",
+    "level": "A2",
+    "definition_en": "To fill with wonder and surprise; to astonish, astound, surprise or perplex.",
+    "meanings_ja": [
+      "奇妙な",
+      "驚くほどの"
+    ],
+    "example": "The fireworks display was amazing! / pyroTechnicShowWasKimoTtoNo!"
+  },
+  {
+    "word": "appears",
+    "level": "A2",
+    "definition_en": "To come or be in sight; to be in view; to become visible.",
+    "meanings_ja": [
+      "出現する",
+      "表面上に現れる"
+    ],
+    "example": "The new policy appears to be working. / 新しいポリシーが実際に向いておりそうだ。"
+  },
+  {
+    "word": "area",
+    "level": "A2",
+    "definition_en": "A measure of the extent of a surface; it is measured in square units.",
+    "meanings_ja": [
+      "地域",
+      "域"
+    ],
+    "example": "The area of study is computer science. / 学習分野はコンピューター科学です。"
+  },
+  {
+    "word": "beat",
+    "level": "A2",
+    "definition_en": "A stroke; a blow.",
+    "meanings_ja": [
+      "音を打つ",
+      "超える, 上回る (in a competitive or sporting sense)"
+    ],
+    "example": "The drummer's powerful beat got the crowd moving. / ドラマーのパワフルなリズムが混雑する人々を動かした。"
+  },
+  {
+    "word": "begins",
+    "level": "A2",
+    "definition_en": "To start, to initiate or take the first step into something.",
+    "meanings_ja": [
+      "はじまる",
+      "始まる (to start something, to commence)"
+    ],
+    "example": "The new project begins on Monday. / モンダイから新プロジェクトが始まります。"
+  },
+  {
+    "word": "low",
+    "level": "A2",
+    "definition_en": "Something that is low; a low point.",
+    "meanings_ja": [
+      "低い",
+      "少ない, 微小"
+    ],
+    "example": "The water level is low. / 水位が低いです。"
+  },
+  {
+    "word": "neighborhood",
+    "level": "A2",
+    "definition_en": "The quality of being a neighbor, of living nearby, next to each-other; proximity.",
+    "meanings_ja": [
+      "周囲の地域",
+      "近所 (in a residential context)"
+    ],
+    "example": "The new shop in our neighborhood is great! / 私たちの周囲には新しい店があります！"
+  },
+  {
+    "word": "notes",
+    "level": "A2",
+    "definition_en": "(heading) A symbol or annotation.",
+    "meanings_ja": [
+      "記事",
+      "メモ ( Notes can also refer to brief written reminders or observations)"
+    ],
+    "example": "I'll make some notes on the meeting agenda. / 会議のあらましについてメモを書きます。"
+  },
+  {
+    "word": "powerful",
+    "level": "A2",
+    "definition_en": "Having, or capable of exerting power, potency or influence.",
+    "meanings_ja": [
+      "強い",
+      "影響力のある"
+    ],
+    "example": "He's a powerful speaker. / 彼は強いスピーカーです。"
+  },
+  {
+    "word": "public",
+    "level": "A2",
+    "definition_en": "The people in general, regardless of membership of any particular group.",
+    "meanings_ja": [
+      "大衆の",
+      "公共の"
+    ],
+    "example": "The public is invited to attend the concert. / 大衆はコンサートに招待される。"
+  },
+  {
+    "word": "re",
+    "level": "A2",
+    "definition_en": "About, regarding, with reference to; especially in letters, documents and emails.",
+    "meanings_ja": [
+      "再",
+      "また, 反り"
+    ],
+    "example": "I'm going to re-apply to that job. / あの仕事に再度の申し込みをします。"
+  },
+  {
+    "word": "remind",
+    "level": "A2",
+    "definition_en": "To cause one to experience a memory (of someone or something); to bring to the notice or consideration (of a person).",
+    "meanings_ja": [
+      "メモリーを持つ",
+      "勘違いさせる (注意喚起する)"
+    ],
+    "example": "The coach will remind the players to follow the rules. / コーチは選手たちにルールを遵守するように注意喚起します。"
+  },
+  {
+    "word": "service",
+    "level": "A2",
+    "definition_en": "An act of being of assistance to someone.",
+    "meanings_ja": [
+      "仕業、サポート",
+      "サービスindustry, コミュニティサービス"
+    ],
+    "example": "The company provides excellent service to its customers. / その会社は顧客に優れた仕業を提供しています。"
+  },
+  {
+    "word": "announcement",
+    "level": "B1",
+    "definition_en": "An act of announcing, or giving notice.",
+    "meanings_ja": [
+      "公告",
+      "届知、公表"
+    ],
+    "example": "The company will make an announcement about the new product. / コンパニーは新製品についての発表を行う。"
+  },
+  {
+    "word": "combination",
+    "level": "B1",
+    "definition_en": "The act of combining, the state of being combined or the result of combining.",
+    "meanings_ja": [
+      "和合",
+      "一括、連結"
+    ],
+    "example": "The company's new combination of technology and design impressed investors. / その会社の新しい技術とデザインの組み合わせに投資家たちは印象を受けた。"
+  },
+  {
+    "word": "creating",
+    "level": "B1",
+    "definition_en": "To bring into existence; (sometimes in particular:)",
+    "meanings_ja": [
+      "作成する",
+      "生み出す"
+    ],
+    "example": "The company is creating a new marketing strategy to increase sales. / その会社は新しいマーケティング戦略を生み出して、売り上げを増やす。"
+  },
+  {
+    "word": "drops",
+    "level": "B1",
+    "definition_en": "A small quantity of liquid, just large enough to hold its own round shape via surface tension, especially one that falls from a source of liquid.",
+    "meanings_ja": [
+      "小さな液体の落下",
+      "1個あたりの量（例えばドロップサウンド）"
+    ],
+    "example": "The medicine comes in tiny drops. / 薬は小さな液体に分かる"
+  },
+  {
+    "word": "entire",
+    "level": "B1",
+    "definition_en": "The whole of something; the entirety.",
+    "meanings_ja": [
+      "完全な",
+      "経験の全体、総合的"
+    ],
+    "example": "The entire city was affected by the flood. / 都市は全面的に洪水によって影響を受けた。"
+  },
+  {
+    "word": "era",
+    "level": "B1",
+    "definition_en": "A time period of indeterminate length, generally more than one year.",
+    "meanings_ja": [
+      "時代"
+    ],
+    "example": "The Renaissance era saw a surge in artistic innovation. / ルネサンス時代には芸術的イノベーションが急増した。"
+  },
+  {
+    "word": "hip",
+    "level": "B1",
+    "definition_en": "The outward-projecting parts of the pelvis and top of the femur and the overlying tissue.",
+    "meanings_ja": [
+      "trendy",
+      "hip joint (体の骨盤)"
+    ],
+    "example": "The new restaurant is really hip. / 新しいレストランはとても流行っている。"
+  },
+  {
+    "word": "hop",
+    "level": "B1",
+    "definition_en": "A short jump.",
+    "meanings_ja": [
+      "運ぶ",
+      "跳ねる、跳び"
+    ],
+    "example": "I like to hop along the beach. / 私は浜辺でジャンプするのを好みます。"
+  },
+  {
+    "word": "picks",
+    "level": "B1",
+    "definition_en": "A tool used for digging; a pickaxe.",
+    "meanings_ja": [
+      "選ぶ",
+      "つぎ、選びを (in sports, selecting players)"
+    ],
+    "example": "The coach had to make some tough picks for the team. / コーチはチームのメンバーに厳しい選手を作らねばならなかった。"
+  },
+  {
+    "word": "possibilities",
+    "level": "B1",
+    "definition_en": "The quality of being possible.",
+    "meanings_ja": [
+      "将来の選択肢",
+      "可能性、チャンス"
+    ],
+    "example": "The company has many possibilities for expansion. / その会社は多くの展開の可能性があります。"
+  },
+  {
+    "word": "responding",
+    "level": "B1",
+    "definition_en": "To say something in return; to answer; to reply.",
+    "meanings_ja": [
+      "返答する",
+      "反応する"
+    ],
+    "example": "The company is responding to customer complaints. / 会社は、クストーマーの苦情に反応しています。"
+  },
+  {
+    "word": "tools",
+    "level": "B1",
+    "definition_en": "A mechanical device intended to make a task easier.",
+    "meanings_ja": [
+      "ツール",
+      "道具"
+    ],
+    "example": "I need new tools to fix my car. / 私の車を修理するのに新しいツールが必要です。"
+  },
+  {
+    "word": "chime",
+    "level": "B2",
+    "definition_en": "A musical instrument producing a sound when struck, similar to a bell (e.g. a tubular metal bar) or actually a bell. Often used in the plural to refer to the set: the chimes.",
+    "meanings_ja": [
+      "鳴る",
+      "時計の音、鐘の音"
+    ],
+    "example": "The clock tower's chimes rang out at noon. / 午後の時計塔は鳴った。"
+  },
+  {
+    "word": "exclaiming",
+    "level": "B2",
+    "definition_en": "To cry out suddenly, from some strong emotion.",
+    "meanings_ja": [
+      "叫び、驚嘆",
+      "発見を公言する"
+    ],
+    "example": "The news was exclaiming, \"We did it!\" / それは、「我們做到了！」と叫んだ!"
+  },
+  {
+    "word": "fades",
+    "level": "B2",
+    "definition_en": "A golf shot that (for the right-handed player) curves intentionally to the right. See slice, hook, draw.",
+    "meanings_ja": [
+      "変われます",
+      "消え去る"
+    ],
+    "example": "The colors of the painting begin to fades. / その絵の色が変われます。"
+  },
+  {
+    "word": "gemini",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "ふたご座の星",
+      "双子座の星 (for astrological purposes)"
+    ],
+    "example": "The twins were born under the sign of Gemini. / ふたご座の星下生まれの双子たちは…"
+  },
+  {
+    "word": "jay",
+    "level": "B2",
+    "definition_en": "Any one of the numerous species of birds belonging to several genera within the family Corvidae, including Garrulus, Cyanocitta, Aphelocoma, Perisoreus, Cyanocorax, Gymnorhinus, Cyanolyca, Ptilostomus, and Calocitta, allied to the crows, but smaller, more graceful in form, often handsomely coloured, usually having a crest, and often noisy.",
+    "meanings_ja": [
+      "けいすき (keisu ki) - A type of bird, similar to a magpie.",
+      "やんちゃ (yancha) - A slang term for someone who is nosy or curious."
+    ],
+    "example": "The jay perched on the branch, watching me with keen eyes. / けいすきが木の枝に止まり、私を見つめる目で私を観察した。"
+  },
+  {
+    "word": "reintroduce",
+    "level": "B2",
+    "definition_en": "To introduce again.",
+    "meanings_ja": [
+      "また導入する",
+      "新たに提案する"
+    ],
+    "example": "The company will reintroduce a classic product line. / 会社はクラシックな製品ラインを再び導入します。"
+  },
+  {
+    "word": "schr",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "画像（ピクセル）の縮小",
+      "音響的調整（調整）"
+    ],
+    "example": "The software can shrink images without losing quality. / ソフトウェアは質を損なわずに画像を縮小できます。"
+  },
+  {
+    "word": "suite",
+    "level": "B2",
+    "definition_en": "A retinue or company of attendants, as of a distinguished personage",
+    "meanings_ja": [
+      "室",
+      "構成集 (in music or software)"
+    ],
+    "example": "The hotel room had a comfortable suite with a king-size bed. / ホテルの客室には、キングサイズのベッドを備えた優雅な宰があった。"
+  },
+  {
+    "word": "woooow",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "驚きの声をあげる",
+      "大変に驚く、感動する"
+    ],
+    "example": "This concert was wooooow! / このコンサートはすごい!"
+  },
+  {
+    "word": "dinger",
+    "level": "C2",
+    "definition_en": "A bell or chime.",
+    "meanings_ja": [
+      "音響の音",
+      "スコアリングの音（スポーツ用語）"
+    ],
+    "example": "The bell rang, signaling a goal. / ゴールが鳴り、ベルが鳴った。"
+  }
+]
