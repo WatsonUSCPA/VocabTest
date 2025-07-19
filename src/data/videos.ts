@@ -40,27 +40,33 @@ export const getAvailableVideoIds = async (): Promise<string[]> => {
         }
         return null;
       },
-      // 方法2: 一般的なYouTube動画IDパターンを試行
-      async () => {
-        const commonPatterns = [
-          'CAi6HoyGaB8', 'FASMejN_5gs', 'DpQQi2scsHo', 'UF8uR6Z6KLc', 'pT87zqXPw4w',
-          'Pjq4FAfIPSg', 'KypnjJSKi4o', 'wHN03Y7ICq0', 'motX94ztOzo', '_fuimO6ErKI', 'wu-p5xrJ8-E'
-        ];
-        const detectedIds: string[] = [];
-        
-        for (const videoId of commonPatterns) {
-          try {
-            const wordResponse = await fetch(await getVideoWordsPathWithFallback(videoId));
-            if (wordResponse.ok) {
-              detectedIds.push(videoId);
-              console.log(`✅ Found video data for: ${videoId}`);
-            }
-          } catch (error) {
-            // エラーは静かにスキップ
-          }
-        }
-        return detectedIds;
-      }
+                        // 方法2: 一般的なYouTube動画IDパターンを試行
+         async () => {
+           const commonPatterns = [
+             'CAi6HoyGaB8', 'FASMejN_5gs', 'DpQQi2scsHo', 'UF8uR6Z6KLc', 'pT87zqXPw4w',
+             'Pjq4FAfIPSg', 'KypnjJSKi4o', 'wHN03Y7ICq0', 'motX94ztOzo', '_fuimO6ErKI', 'wu-p5xrJ8-E',
+             '2aogxVYGX_I'
+           ];
+           console.log('🔍 Method 2: Checking patterns:', commonPatterns);
+           const detectedIds: string[] = [];
+           
+           for (const videoId of commonPatterns) {
+             console.log(`🔍 Checking video: ${videoId}`);
+             try {
+               const wordResponse = await fetch(await getVideoWordsPathWithFallback(videoId));
+               if (wordResponse.ok) {
+                 detectedIds.push(videoId);
+                 console.log(`✅ Found video data for: ${videoId}`);
+               } else {
+                 console.log(`❌ No data found for: ${videoId} (status: ${wordResponse.status})`);
+               }
+             } catch (error) {
+               console.log(`⚠️ Error checking video ${videoId}:`, error);
+             }
+           }
+           console.log(`🎯 Method 2 completed. Found ${detectedIds.length} videos:`, detectedIds);
+           return detectedIds;
+         }
     ];
     
     // 各方法を順番に試行
