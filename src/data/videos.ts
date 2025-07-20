@@ -21,33 +21,34 @@ export const getRandomWords = (words: any[], count: number) => {
 // ビルド時に生成されたvideo-list.jsonから動画IDを取得する関数
 export const getAvailableVideoIds = async (): Promise<string[]> => {
   try {
-    console.log('🔍 Loading video list from generated JSON...');
-    
     // 生成されたvideo-list.jsonを読み取り
-    const response = await fetch('/video-list.json');
+    const response = await fetch('./video-list.json');
     if (response.ok) {
       const videoList = await response.json();
-      console.log(`✅ Loaded video list: ${videoList.totalVideos} videos found`);
-      console.log('📹 Videos:', videoList.videos);
       return videoList.videos;
     } else {
-      console.log(`❌ Failed to load video-list.json (status: ${response.status})`);
       throw new Error('Video list not found');
     }
   } catch (error) {
-    console.error('❌ Error loading video list:', error);
-    console.log('🔄 Falling back to manual method...');
     return await getAvailableVideoIdsFallback();
   }
 };
 
 // フォールバック用の手動検出関数
 const getAvailableVideoIdsFallback = async (): Promise<string[]> => {
-  console.log('🔍 Using fallback method...');
-  
-  // 既知の動画IDパターン（フォールバック用 - 1個のみ）
+  // 既知の動画IDパターン（フォールバック用）
   const knownVideoIds = [
-    'CAi6HoyGaB8'
+    'CAi6HoyGaB8',
+    'DpQQi2scsHo',
+    'FASMejN_5gs',
+    'hWxS_xOa0Io',
+    'KypnjJSKi4o',
+    'motX94ztOzo',
+    'Pjq4FAfIPSg',
+    'pT87zqXPw4w',
+    'UF8uR6Z6KLc',
+    'wHN03Y7ICq0',
+    'wu-p5xrJ8-E'
   ];
   
   const detectedIds: string[] = [];
@@ -58,12 +59,9 @@ const getAvailableVideoIdsFallback = async (): Promise<string[]> => {
       const wordResponse = await fetch(await getVideoWordsPathWithFallback(videoId));
       if (wordResponse.ok) {
         detectedIds.push(videoId);
-        console.log(`✅ Found video data for: ${videoId}`);
-      } else {
-        console.log(`❌ No data found for: ${videoId}`);
       }
     } catch (error) {
-      console.log(`⚠️ Error checking video ${videoId}:`, error);
+      // エラーは無視して続行
     }
   }
   
@@ -75,13 +73,10 @@ const getAvailableVideoIdsFallback = async (): Promise<string[]> => {
 // 動的に利用可能な動画を取得する関数（video-index.jsonに依存しない）
 export const getAvailableVideos = async (): Promise<VideoData[]> => {
   try {
-    console.log('🚀 Starting getAvailableVideos function (direct scan mode)');
-    
     // 利用可能な動画IDを直接スキャンで取得
     const availableVideoIds = await getAvailableVideoIds();
     
     if (availableVideoIds.length === 0) {
-      console.log('⚠️ No available videos found, using static videos');
       return videos;
     }
     
@@ -90,8 +85,6 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
     // 各動画IDに対して動画データを作成
     for (const videoId of availableVideoIds) {
       try {
-        console.log(`📹 Processing video ${videoId}...`);
-        
         // 動画データが存在する場合、基本情報を作成
         const videoData: VideoData = {
           id: videoId,
@@ -106,21 +99,16 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
         if (existingVideo) {
           videoData.title = existingVideo.title;
           videoData.channelTitle = existingVideo.channelTitle;
-          console.log(`📝 Found existing data for ${videoId}:`, videoData.title);
-        } else {
-          console.log(`🆕 New video detected: ${videoId}, using default title`);
         }
 
         availableVideos.push(videoData);
       } catch (error) {
-        console.log(`❌ Error processing video ${videoId}:`, error);
+        // エラーは無視して続行
       }
     }
 
-    console.log('🎉 Final available videos:', availableVideos);
     return availableVideos;
   } catch (error) {
-    console.error('❌ Error getting available videos:', error);
     return videos; // エラーの場合は静的データを返す
   }
 };
@@ -148,7 +136,7 @@ export const getVideoById = async (videoId: string): Promise<VideoData | null> =
       return videoData;
     }
   } catch (error) {
-    console.error(`❌ Error getting video ${videoId}:`, error);
+    // エラーは無視
   }
 
   return null;
