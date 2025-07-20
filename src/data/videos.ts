@@ -18,65 +18,24 @@ export const getRandomWords = (words: any[], count: number) => {
   return shuffled.slice(0, count);
 };
 
-// Caption Dataフォルダを直接スキャンして動画IDを自動検出する関数
+// ビルド時に生成されたvideo-list.jsonから動画IDを取得する関数
 export const getAvailableVideoIds = async (): Promise<string[]> => {
   try {
-    console.log('🔍 Starting automatic scan of Caption Data folder...');
+    console.log('🔍 Loading video list from generated JSON...');
     
-    // フォルダ内のファイル一覧を取得する方法を試行
-    const methods = [
-      // 方法1: 複数のパスでディレクトリリスティングを試行
-      async () => {
-        const paths = [
-          '/CaptionData/Youtube/',
-          './CaptionData/Youtube/',
-          '/CaptionData/Youtube/index.html',
-          './CaptionData/Youtube/index.html'
-        ];
-        
-        for (const path of paths) {
-          try {
-            console.log(`🔍 Trying directory listing at: ${path}`);
-            const response = await fetch(path);
-            if (response.ok) {
-              const html = await response.text();
-              const detectedIds: string[] = [];
-              const jsonFilePattern = /([A-Za-z0-9_-]+)_words_with_meaning\.json/g;
-              let match;
-              while ((match = jsonFilePattern.exec(html)) !== null) {
-                detectedIds.push(match[1]);
-              }
-              if (detectedIds.length > 0) {
-                console.log(`✅ Directory listing successful at ${path}, found ${detectedIds.length} files`);
-                return detectedIds;
-              }
-            }
-          } catch (error) {
-            console.log(`❌ Failed to access ${path}:`, error);
-          }
-                }
-        return null;
-      }
-    ];
-    
-    // 各方法を順番に試行
-    for (let i = 0; i < methods.length; i++) {
-      try {
-        console.log(`🔍 Trying method ${i + 1}...`);
-        const result = await methods[i]();
-        if (result && result.length > 0) {
-          console.log(`🎯 Method ${i + 1} successful. Found ${result.length} videos:`, result);
-          return result;
-        }
-      } catch (error) {
-        console.log(`❌ Method ${i + 1} failed:`, error);
-      }
+    // 生成されたvideo-list.jsonを読み取り
+    const response = await fetch('/video-list.json');
+    if (response.ok) {
+      const videoList = await response.json();
+      console.log(`✅ Loaded video list: ${videoList.totalVideos} videos found`);
+      console.log('📹 Videos:', videoList.videos);
+      return videoList.videos;
+    } else {
+      console.log(`❌ Failed to load video-list.json (status: ${response.status})`);
+      throw new Error('Video list not found');
     }
-    
-    console.log('❌ All methods failed, using fallback');
-    return await getAvailableVideoIdsFallback();
   } catch (error) {
-    console.error('❌ Error during automatic scan:', error);
+    console.error('❌ Error loading video list:', error);
     console.log('🔄 Falling back to manual method...');
     return await getAvailableVideoIdsFallback();
   }
