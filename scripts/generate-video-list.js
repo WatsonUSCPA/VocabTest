@@ -22,14 +22,30 @@ try {
     file.endsWith('_words_with_meaning.json')
   );
 
-  // ビデオIDを抽出
-  const videoIds = jsonFiles.map(file => 
-    file.replace('_words_with_meaning.json', '')
-  );
+  // ファイル情報を取得（作成日時付き）
+  const fileInfos = jsonFiles.map(file => {
+    const filePath = path.join(captionDataPath, file);
+    const stats = fs.statSync(filePath);
+    return {
+      file,
+      videoId: file.replace('_words_with_meaning.json', ''),
+      createdAt: stats.birthtime,
+      modifiedAt: stats.mtime
+    };
+  });
+
+  // 作成日時でソート（新しい順）
+  fileInfos.sort((a, b) => b.createdAt - a.createdAt);
+
+  // ビデオIDを抽出（ソート済み）
+  const videoIds = fileInfos.map(info => info.videoId);
 
   // 結果をログ出力
-  console.log(`✅ Found ${videoIds.length} video files:`);
-  videoIds.forEach(id => console.log(`  - ${id}`));
+  console.log(`✅ Found ${videoIds.length} video files (sorted by creation date, newest first):`);
+  fileInfos.forEach(info => {
+    const date = info.createdAt.toLocaleDateString('ja-JP');
+    console.log(`  - ${info.videoId} (created: ${date})`);
+  });
 
   // JSONファイルを生成
   const videoList = {
