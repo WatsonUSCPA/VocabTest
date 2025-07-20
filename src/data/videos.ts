@@ -25,29 +25,46 @@ export const getAvailableVideoIds = async (): Promise<string[]> => {
     
     // フォルダ内のファイル一覧を取得する方法を試行
     const methods = [
-      // 方法1: ディレクトリリスティングを試行
+      // 方法1: 複数のパスでディレクトリリスティングを試行
       async () => {
-        const response = await fetch('/CaptionData/Youtube/');
-        if (response.ok) {
-          const html = await response.text();
-          const detectedIds: string[] = [];
-          const jsonFilePattern = /([A-Za-z0-9_-]+)_words_with_meaning\.json/g;
-          let match;
-          while ((match = jsonFilePattern.exec(html)) !== null) {
-            detectedIds.push(match[1]);
+        const paths = [
+          '/CaptionData/Youtube/',
+          './CaptionData/Youtube/',
+          '/CaptionData/Youtube/index.html',
+          './CaptionData/Youtube/index.html'
+        ];
+        
+        for (const path of paths) {
+          try {
+            console.log(`🔍 Trying directory listing at: ${path}`);
+            const response = await fetch(path);
+            if (response.ok) {
+              const html = await response.text();
+              const detectedIds: string[] = [];
+              const jsonFilePattern = /([A-Za-z0-9_-]+)_words_with_meaning\.json/g;
+              let match;
+              while ((match = jsonFilePattern.exec(html)) !== null) {
+                detectedIds.push(match[1]);
+              }
+              if (detectedIds.length > 0) {
+                console.log(`✅ Directory listing successful at ${path}, found ${detectedIds.length} files`);
+                return detectedIds;
+              }
+            }
+          } catch (error) {
+            console.log(`❌ Failed to access ${path}:`, error);
           }
-          return detectedIds;
-        }
+                }
         return null;
       },
-                        // 方法2: 一般的なYouTube動画IDパターンを試行
-         async () => {
-           const commonPatterns = [
-             'CAi6HoyGaB8', 'FASMejN_5gs', 'DpQQi2scsHo', 'UF8uR6Z6KLc', 'pT87zqXPw4w',
-             'Pjq4FAfIPSg', 'KypnjJSKi4o', 'wHN03Y7ICq0', 'motX94ztOzo', '_fuimO6ErKI', 'wu-p5xrJ8-E',
-             '2aogxVYGX_I'
-           ];
-           console.log('🔍 Method 2: Checking patterns:', commonPatterns);
+      // 方法2: 一般的なYouTube動画IDパターンを試行（フォールバック）
+           async () => {
+             const commonPatterns = [
+               'CAi6HoyGaB8', 'FASMejN_5gs', 'DpQQi2scsHo', 'UF8uR6Z6KLc', 'pT87zqXPw4w',
+               'Pjq4FAfIPSg', 'KypnjJSKi4o', 'wHN03Y7ICq0', 'motX94ztOzo', 'wu-p5xrJ8-E',
+               'hWxS_xOallo'
+             ];
+             console.log('🔍 Method 2: Checking fallback patterns:', commonPatterns);
            const detectedIds: string[] = [];
            
            for (const videoId of commonPatterns) {
