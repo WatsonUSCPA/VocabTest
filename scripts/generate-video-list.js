@@ -34,17 +34,17 @@ try {
     };
   });
 
-  // 作成日時でソート（新しい順）
-  fileInfos.sort((a, b) => b.createdAt - a.createdAt);
+  // 更新日時でソート（新しい順）
+  fileInfos.sort((a, b) => b.modifiedAt - a.modifiedAt);
 
   // ビデオIDを抽出（ソート済み）
   const videoIds = fileInfos.map(info => info.videoId);
 
   // 結果をログ出力
-  console.log(`✅ Found ${videoIds.length} video files (sorted by creation date, newest first):`);
+  console.log(`✅ Found ${videoIds.length} video files (sorted by modification date, newest first):`);
   fileInfos.forEach(info => {
-    const date = info.createdAt.toLocaleDateString('ja-JP');
-    console.log(`  - ${info.videoId} (created: ${date})`);
+    const date = info.modifiedAt.toLocaleDateString('ja-JP');
+    console.log(`  - ${info.videoId} (modified: ${date})`);
   });
 
   // JSONファイルを生成（最終更新日時付き）

@@ -99,7 +99,7 @@ const YouTubeLearning: React.FC = () => {
     }
     
     return sortedVideos;
-  }, [youtubeInfo, videoDetails]);
+  }, [youtubeInfo]);
 
   // 並び替えられた動画リスト
   const sortedVideos = sortVideos(availableVideos, sortOption, sortDirection);
