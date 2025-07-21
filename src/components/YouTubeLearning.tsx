@@ -60,17 +60,34 @@ const YouTubeLearning: React.FC = () => {
     
     switch (option) {
       case 'date':
-        // 作成日順（video-list.jsonの順番を保持）
-        // 既にソート済みなのでそのまま返す
-        return direction === 'desc' ? sortedVideos : sortedVideos.reverse();
+        // 作成日順（videoDetailsの実際の作成日を使用）
+        sortedVideos.sort((a, b) => {
+          const detailA = videoDetails.find(d => d.videoId === a.id);
+          const detailB = videoDetails.find(d => d.videoId === b.id);
+          
+          if (!detailA && !detailB) return 0;
+          if (!detailA) return 1;
+          if (!detailB) return -1;
+          
+          const dateA = new Date(detailA.createdAt);
+          const dateB = new Date(detailB.createdAt);
+          return direction === 'desc' ? dateB.getTime() - dateA.getTime() : dateA.getTime() - dateB.getTime();
+        });
+        break;
         
       case 'modified':
-        // 更新日順（video-list.jsonの順番を必ず保持）
-        // originalIndexを使用してvideo-list.jsonの順番を維持
+        // 更新日順（videoDetailsの実際の更新日を使用）
         sortedVideos.sort((a, b) => {
-          const indexA = a.originalIndex ?? 0;
-          const indexB = b.originalIndex ?? 0;
-          return direction === 'desc' ? indexA - indexB : indexB - indexA;
+          const detailA = videoDetails.find(d => d.videoId === a.id);
+          const detailB = videoDetails.find(d => d.videoId === b.id);
+          
+          if (!detailA && !detailB) return 0;
+          if (!detailA) return 1;
+          if (!detailB) return -1;
+          
+          const dateA = new Date(detailA.modifiedAt);
+          const dateB = new Date(detailB.modifiedAt);
+          return direction === 'desc' ? dateB.getTime() - dateA.getTime() : dateA.getTime() - dateB.getTime();
         });
         break;
         
@@ -111,7 +128,7 @@ const YouTubeLearning: React.FC = () => {
     }
     
     return sortedVideos;
-  }, [youtubeInfo]);
+  }, [youtubeInfo, videoDetails]);
 
   // 並び替えられた動画リスト
   const sortedVideos = sortVideos(availableVideos, sortOption, sortDirection);
