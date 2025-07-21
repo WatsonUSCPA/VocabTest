@@ -26,6 +26,7 @@ try {
   const fileInfos = jsonFiles.map(file => {
     const filePath = path.join(captionDataPath, file);
     const stats = fs.statSync(filePath);
+    
     return {
       file,
       videoId: file.replace('_words_with_meaning.json', ''),
@@ -47,7 +48,7 @@ try {
     console.log(`  - ${info.videoId} (modified: ${date})`);
   });
 
-  // JSONファイルを生成（最終更新日時付き）
+  // JSONファイルを生成（実際のファイル更新日時を使用）
   const videoList = {
     generatedAt: new Date().toISOString(),
     totalVideos: videoIds.length,
