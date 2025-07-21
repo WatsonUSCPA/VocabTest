@@ -23,7 +23,7 @@ const YouTubeLearning: React.FC = () => {
   const [youtubeInfo, setYoutubeInfo] = useState<{ [key: string]: YouTubeInfo }>({});
   const [availableVideos, setAvailableVideos] = useState<VideoData[]>([]);
   const [videosLoading, setVideosLoading] = useState(true);
-  const [sortOption, setSortOption] = useState<SortOption>('date');
+  const [sortOption, setSortOption] = useState<SortOption>('modified');
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
   const [videoDetails, setVideoDetails] = useState<any[]>([]);
   const navigate = useNavigate();
@@ -350,8 +350,8 @@ const YouTubeLearning: React.FC = () => {
               minWidth: '120px'
             }}
           >
-            <option value="date">作成日順</option>
             <option value="modified">更新日順</option>
+            <option value="date">作成日順</option>
             <option value="alphabetical">アルファベット順</option>
             <option value="views">視聴回数順</option>
             <option value="title">タイトル順</option>
