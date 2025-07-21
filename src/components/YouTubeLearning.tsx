@@ -37,6 +37,13 @@ const YouTubeLearning: React.FC = () => {
         const details = await getVideoDetails();
         console.log('Available videos loaded:', videos);
         console.log('Video details loaded:', details);
+        console.log('📋 Video details structure:', details.map((d: any) => ({
+          videoId: d.videoId,
+          createdAt: d.createdAt,
+          modifiedAt: d.modifiedAt,
+          createdDate: d.createdDate,
+          modifiedDate: d.modifiedDate
+        })));
         setAvailableVideos(videos);
         setVideoDetails(details);
         
@@ -61,9 +68,14 @@ const YouTubeLearning: React.FC = () => {
     switch (option) {
       case 'date':
         // 作成日順（videoDetailsの実際の作成日を使用）
+        console.log('🔍 Sorting by creation date...');
+        console.log('📊 Available videoDetails:', videoDetails);
         sortedVideos.sort((a, b) => {
           const detailA = videoDetails.find(d => d.videoId === a.id);
           const detailB = videoDetails.find(d => d.videoId === b.id);
+          
+          console.log(`📅 Video ${a.id}:`, detailA ? `createdAt=${detailA.createdAt}` : 'No detail found');
+          console.log(`📅 Video ${b.id}:`, detailB ? `createdAt=${detailB.createdAt}` : 'No detail found');
           
           if (!detailA && !detailB) return 0;
           if (!detailA) return 1;
@@ -71,15 +83,21 @@ const YouTubeLearning: React.FC = () => {
           
           const dateA = new Date(detailA.createdAt);
           const dateB = new Date(detailB.createdAt);
+          console.log(`🕐 Date comparison: ${dateA.toISOString()} vs ${dateB.toISOString()}`);
           return direction === 'desc' ? dateB.getTime() - dateA.getTime() : dateA.getTime() - dateB.getTime();
         });
         break;
         
       case 'modified':
         // 更新日順（videoDetailsの実際の更新日を使用）
+        console.log('🔍 Sorting by modification date...');
+        console.log('📊 Available videoDetails:', videoDetails);
         sortedVideos.sort((a, b) => {
           const detailA = videoDetails.find(d => d.videoId === a.id);
           const detailB = videoDetails.find(d => d.videoId === b.id);
+          
+          console.log(`📅 Video ${a.id}:`, detailA ? `modifiedAt=${detailA.modifiedAt}` : 'No detail found');
+          console.log(`📅 Video ${b.id}:`, detailB ? `modifiedAt=${detailB.modifiedAt}` : 'No detail found');
           
           if (!detailA && !detailB) return 0;
           if (!detailA) return 1;
@@ -87,6 +105,7 @@ const YouTubeLearning: React.FC = () => {
           
           const dateA = new Date(detailA.modifiedAt);
           const dateB = new Date(detailB.modifiedAt);
+          console.log(`🕐 Date comparison: ${dateA.toISOString()} vs ${dateB.toISOString()}`);
           return direction === 'desc' ? dateB.getTime() - dateA.getTime() : dateA.getTime() - dateB.getTime();
         });
         break;
