@@ -26,7 +26,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "generate-video-list": "node scripts/generate-video-list.js"
+    "generate-video-list": "node scripts/generate-video-list.js",
+    "add-update-dates": "node scripts/add-update-dates.js"
   },
   "eslintConfig": {
     "extends": [

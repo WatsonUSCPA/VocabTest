@@ -27,11 +27,29 @@ try {
     const filePath = path.join(captionDataPath, file);
     const stats = fs.statSync(filePath);
     
+    // JSONファイルの内容から更新日時を読み取り
+    let jsonUpdateDate = null;
+    try {
+      const fileContent = fs.readFileSync(filePath, 'utf8');
+      const jsonData = JSON.parse(fileContent);
+      
+      // video_infoから更新日時を取得
+      if (jsonData[0] && jsonData[0].video_info && jsonData[0].video_info.updated_at) {
+        jsonUpdateDate = new Date(jsonData[0].video_info.updated_at);
+      }
+    } catch (error) {
+      console.log(`Warning: Could not read update date from ${file}: ${error.message}`);
+    }
+    
+    // 優先順位: JSON内の更新日時 > ファイルシステムの更新日時
+    const effectiveDate = jsonUpdateDate || stats.mtime;
+    
     return {
       file,
       videoId: file.replace('_words_with_meaning.json', ''),
       createdAt: stats.birthtime,
-      modifiedAt: stats.mtime
+      modifiedAt: effectiveDate,
+      jsonUpdateDate: jsonUpdateDate
     };
   });
 
@@ -45,7 +63,8 @@ try {
   console.log(`✅ Found ${videoIds.length} video files (sorted by modification date, newest first):`);
   fileInfos.forEach(info => {
     const date = info.modifiedAt.toLocaleDateString('ja-JP');
-    console.log(`  - ${info.videoId} (modified: ${date})`);
+    const source = info.jsonUpdateDate ? 'json' : 'filesystem';
+    console.log(`  - ${info.videoId} (modified: ${date}, source: ${source})`);
   });
 
   // JSONファイルを生成（実際のファイル更新日時を使用）
