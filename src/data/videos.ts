@@ -104,7 +104,7 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
     
     const availableVideos: VideoData[] = [];
     
-    // video-list.jsonの順番を保持して動画データを作成
+    // video-list.jsonの順番を必ず保持して動画データを作成
     for (const videoId of availableVideoIds) {
       try {
         // 動画データが存在する場合、基本情報を作成
@@ -113,7 +113,9 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
           title: `English Learning Video - ${videoId}`, // デフォルトタイトル
           url: `https://www.youtube.com/watch?v=${videoId}`,
           channelTitle: 'English Channel', // デフォルトチャンネル名
-          words: []
+          words: [],
+          // video-list.jsonの順番を保持するためのインデックスを追加
+          originalIndex: availableVideoIds.indexOf(videoId)
         };
 
         // 既存の静的データからタイトルとチャンネル名を取得（もしあれば）
@@ -131,7 +133,7 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
 
     console.log('🎬 Final video order:', availableVideos.map(v => v.id));
     
-    // video-list.jsonの順番を保持したまま返す（既にソート済み）
+    // video-list.jsonの順番を必ず保持したまま返す
     return availableVideos;
   } catch (error) {
     return videos; // エラーの場合は静的データを返す

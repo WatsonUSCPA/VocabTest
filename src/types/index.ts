@@ -13,6 +13,7 @@ export interface VideoData {
   url: string;
   channelTitle?: string;
   words: WordData[];
+  originalIndex?: number; // video-list.jsonの順番を保持するためのインデックス
 }
 
 export interface TestQuestion {

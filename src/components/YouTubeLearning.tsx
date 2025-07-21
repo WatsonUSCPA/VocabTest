@@ -61,13 +61,12 @@ const YouTubeLearning: React.FC = () => {
         return direction === 'desc' ? sortedVideos : sortedVideos.reverse();
         
       case 'modified':
-        // 更新日順
+        // 更新日順（video-list.jsonの順番を必ず保持）
+        // originalIndexを使用してvideo-list.jsonの順番を維持
         sortedVideos.sort((a, b) => {
-          const detailA = videoDetails.find(d => d.videoId === a.id);
-          const detailB = videoDetails.find(d => d.videoId === b.id);
-          const dateA = detailA ? new Date(detailA.modifiedAt).getTime() : 0;
-          const dateB = detailB ? new Date(detailB.modifiedAt).getTime() : 0;
-          return direction === 'desc' ? dateB - dateA : dateA - dateB;
+          const indexA = a.originalIndex ?? 0;
+          const indexB = b.originalIndex ?? 0;
+          return direction === 'desc' ? indexA - indexB : indexB - indexA;
         });
         break;
         
