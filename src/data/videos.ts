@@ -25,11 +25,14 @@ export const getAvailableVideoIds = async (): Promise<string[]> => {
     const response = await fetch('./video-list.json');
     if (response.ok) {
       const videoList = await response.json();
+      console.log('📄 Loaded video-list.json:', videoList.videos);
       return videoList.videos;
     } else {
+      console.log('❌ Video list not found, using fallback');
       throw new Error('Video list not found');
     }
   } catch (error) {
+    console.log('🔄 Falling back to manual detection');
     return await getAvailableVideoIdsFallback();
   }
 };
@@ -76,8 +79,10 @@ const getAvailableVideoIdsFallback = async (): Promise<string[]> => {
 // 動的に利用可能な動画を取得する関数（video-index.jsonに依存しない）
 export const getAvailableVideos = async (): Promise<VideoData[]> => {
   try {
-    // 利用可能な動画IDを直接スキャンで取得
+    // 利用可能な動画IDを直接スキャンで取得（順番を保持）
     const availableVideoIds = await getAvailableVideoIds();
+    
+    console.log('📋 Available video IDs (in order):', availableVideoIds);
     
     if (availableVideoIds.length === 0) {
       return videos;
@@ -85,7 +90,7 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
     
     const availableVideos: VideoData[] = [];
     
-    // 各動画IDに対して動画データを作成
+    // video-list.jsonの順番を保持して動画データを作成
     for (const videoId of availableVideoIds) {
       try {
         // 動画データが存在する場合、基本情報を作成
@@ -110,6 +115,9 @@ export const getAvailableVideos = async (): Promise<VideoData[]> => {
       }
     }
 
+    console.log('🎬 Final video order:', availableVideos.map(v => v.id));
+    
+    // video-list.jsonの順番を保持したまま返す（既にソート済み）
     return availableVideos;
   } catch (error) {
     return videos; // エラーの場合は静的データを返す
