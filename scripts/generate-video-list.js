@@ -47,11 +47,18 @@ try {
     console.log(`  - ${info.videoId} (created: ${date})`);
   });
 
-  // JSONファイルを生成
+  // JSONファイルを生成（最終更新日時付き）
   const videoList = {
     generatedAt: new Date().toISOString(),
     totalVideos: videoIds.length,
-    videos: videoIds
+    videos: videoIds,
+    videoDetails: fileInfos.map(info => ({
+      videoId: info.videoId,
+      createdAt: info.createdAt.toISOString(),
+      modifiedAt: info.modifiedAt.toISOString(),
+      createdDate: info.createdAt.toLocaleDateString('ja-JP'),
+      modifiedDate: info.modifiedAt.toLocaleDateString('ja-JP')
+    }))
   };
 
   // ファイルに書き込み

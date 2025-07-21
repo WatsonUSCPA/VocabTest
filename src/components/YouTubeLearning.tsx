@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { getAvailableVideos } from '../data/videos';
+import { getAvailableVideos, getVideoDetails } from '../data/videos';
 import { WordData, VideoData } from '../types';
 import { 
   getYouTubeThumbnail, 
@@ -13,7 +13,7 @@ import {
 import { getVideoWordsPathWithFallback } from '../utils/pathUtils';
 
 // 並び替えオプションの型定義
-type SortOption = 'date' | 'alphabetical' | 'views' | 'title';
+type SortOption = 'date' | 'modified' | 'alphabetical' | 'views' | 'title';
 
 const YouTubeLearning: React.FC = () => {
   const [videoWords, setVideoWords] = useState<{ [key: string]: WordData[] }>({});
@@ -25,6 +25,7 @@ const YouTubeLearning: React.FC = () => {
   const [videosLoading, setVideosLoading] = useState(true);
   const [sortOption, setSortOption] = useState<SortOption>('date');
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
+  const [videoDetails, setVideoDetails] = useState<any[]>([]);
   const navigate = useNavigate();
 
   // 利用可能な動画を動的に読み込む
@@ -33,11 +34,15 @@ const YouTubeLearning: React.FC = () => {
       setVideosLoading(true);
       try {
         const videos = await getAvailableVideos();
+        const details = await getVideoDetails();
         console.log('Available videos loaded:', videos);
+        console.log('Video details loaded:', details);
         setAvailableVideos(videos);
+        setVideoDetails(details);
       } catch (error) {
         console.error('Error loading available videos:', error);
         setAvailableVideos([]);
+        setVideoDetails([]);
       }
       setVideosLoading(false);
     };
@@ -54,6 +59,17 @@ const YouTubeLearning: React.FC = () => {
         // 作成日時順（video-list.jsonの順番を保持）
         // 既にソート済みなのでそのまま返す
         return direction === 'desc' ? sortedVideos : sortedVideos.reverse();
+        
+      case 'modified':
+        // 最終更新日時順
+        sortedVideos.sort((a, b) => {
+          const detailA = videoDetails.find(d => d.videoId === a.id);
+          const detailB = videoDetails.find(d => d.videoId === b.id);
+          const dateA = detailA ? new Date(detailA.modifiedAt).getTime() : 0;
+          const dateB = detailB ? new Date(detailB.modifiedAt).getTime() : 0;
+          return direction === 'desc' ? dateB - dateA : dateA - dateB;
+        });
+        break;
         
       case 'alphabetical':
         // 動画IDのアルファベット順
@@ -84,7 +100,7 @@ const YouTubeLearning: React.FC = () => {
     }
     
     return sortedVideos;
-  }, [youtubeInfo]);
+  }, [youtubeInfo, videoDetails]);
 
   // 並び替えられた動画リスト
   const sortedVideos = sortVideos(availableVideos, sortOption, sortDirection);
@@ -335,6 +351,7 @@ const YouTubeLearning: React.FC = () => {
             }}
           >
             <option value="date">作成日時順</option>
+            <option value="modified">最終更新日時順</option>
             <option value="alphabetical">アルファベット順</option>
             <option value="views">視聴回数順</option>
             <option value="title">タイトル順</option>
@@ -399,6 +416,7 @@ const YouTubeLearning: React.FC = () => {
           const isLoading = loading[video.id];
           const thumbnailUrl = getThumbnailUrl(video.id);
           const info = youtubeInfo[video.id];
+          const videoDetail = videoDetails.find(d => d.videoId === video.id);
 
           return (
             <div 
@@ -538,6 +556,17 @@ const YouTubeLearning: React.FC = () => {
                       </span>
                     )}
                   </h3>
+
+                  {/* 最終更新日時 */}
+                  {videoDetail?.modifiedAt && (
+                    <p style={{
+                      color: '#888',
+                      fontSize: '0.7rem',
+                      marginBottom: '0.5rem'
+                    }}>
+                      更新日時: {new Date(videoDetail.modifiedAt).toLocaleDateString()}
+                    </p>
+                  )}
 
                   {/* レベル別統計 */}
                   {words.length > 0 && (

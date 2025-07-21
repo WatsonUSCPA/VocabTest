@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-07-21T03:23:20.410Z",
+  "generatedAt": "2025-07-21T03:31:09.808Z",
   "totalVideos": 14,
   "videos": [
     "mYVzme2fybU",
@@ -16,5 +16,105 @@
     "Pjq4FAfIPSg",
     "KypnjJSKi4o",
     "pT87zqXPw4w"
+  ],
+  "videoDetails": [
+    {
+      "videoId": "mYVzme2fybU",
+      "createdAt": "2025-07-20T22:40:02.933Z",
+      "modifiedAt": "2025-07-20T22:40:02.930Z",
+      "createdDate": "2025/7/20",
+      "modifiedDate": "2025/7/20"
+    },
+    {
+      "videoId": "Gxad3-pmzqw",
+      "createdAt": "2025-07-20T19:17:41.772Z",
+      "modifiedAt": "2025-07-20T19:17:41.772Z",
+      "createdDate": "2025/7/20",
+      "modifiedDate": "2025/7/20"
+    },
+    {
+      "videoId": "_gBxYL2ihc0",
+      "createdAt": "2025-07-20T07:22:01.182Z",
+      "modifiedAt": "2025-07-20T07:22:01.182Z",
+      "createdDate": "2025/7/20",
+      "modifiedDate": "2025/7/20"
+    },
+    {
+      "videoId": "hWxS_xOa0Io",
+      "createdAt": "2025-07-20T01:49:28.154Z",
+      "modifiedAt": "2025-07-20T01:49:28.154Z",
+      "createdDate": "2025/7/19",
+      "modifiedDate": "2025/7/19"
+    },
+    {
+      "videoId": "wu-p5xrJ8-E",
+      "createdAt": "2025-07-19T09:46:59.257Z",
+      "modifiedAt": "2025-07-19T09:46:59.276Z",
+      "createdDate": "2025/7/19",
+      "modifiedDate": "2025/7/19"
+    },
+    {
+      "videoId": "CAi6HoyGaB8",
+      "createdAt": "2025-07-18T08:24:09.826Z",
+      "modifiedAt": "2025-07-18T08:24:09.846Z",
+      "createdDate": "2025/7/18",
+      "modifiedDate": "2025/7/18"
+    },
+    {
+      "videoId": "wHN03Y7ICq0",
+      "createdAt": "2025-07-17T08:18:05.997Z",
+      "modifiedAt": "2025-07-17T08:18:06.009Z",
+      "createdDate": "2025/7/17",
+      "modifiedDate": "2025/7/17"
+    },
+    {
+      "videoId": "motX94ztOzo",
+      "createdAt": "2025-07-17T06:56:00.587Z",
+      "modifiedAt": "2025-07-17T06:56:00.608Z",
+      "createdDate": "2025/7/16",
+      "modifiedDate": "2025/7/16"
+    },
+    {
+      "videoId": "DpQQi2scsHo",
+      "createdAt": "2025-07-16T16:07:41.871Z",
+      "modifiedAt": "2025-07-16T16:07:41.883Z",
+      "createdDate": "2025/7/16",
+      "modifiedDate": "2025/7/16"
+    },
+    {
+      "videoId": "UF8uR6Z6KLc",
+      "createdAt": "2025-07-16T07:35:30.912Z",
+      "modifiedAt": "2025-07-16T07:35:30.925Z",
+      "createdDate": "2025/7/16",
+      "modifiedDate": "2025/7/16"
+    },
+    {
+      "videoId": "FASMejN_5gs",
+      "createdAt": "2025-07-16T05:30:19.142Z",
+      "modifiedAt": "2025-07-16T05:30:19.142Z",
+      "createdDate": "2025/7/15",
+      "modifiedDate": "2025/7/15"
+    },
+    {
+      "videoId": "Pjq4FAfIPSg",
+      "createdAt": "2025-07-15T06:25:05.328Z",
+      "modifiedAt": "2025-07-15T06:25:05.333Z",
+      "createdDate": "2025/7/14",
+      "modifiedDate": "2025/7/14"
+    },
+    {
+      "videoId": "KypnjJSKi4o",
+      "createdAt": "2025-07-15T04:28:46.010Z",
+      "modifiedAt": "2025-07-15T04:23:49.795Z",
+      "createdDate": "2025/7/14",
+      "modifiedDate": "2025/7/14"
+    },
+    {
+      "videoId": "pT87zqXPw4w",
+      "createdAt": "2025-07-15T04:12:02.454Z",
+      "modifiedAt": "2025-07-16T05:13:03.023Z",
+      "createdDate": "2025/7/14",
+      "modifiedDate": "2025/7/15"
+    }
   ]
 }

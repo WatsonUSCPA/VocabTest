@@ -37,6 +37,20 @@ export const getAvailableVideoIds = async (): Promise<string[]> => {
   }
 };
 
+// video-list.jsonから詳細情報を取得する関数
+export const getVideoDetails = async (): Promise<any> => {
+  try {
+    const response = await fetch('./video-list.json');
+    if (response.ok) {
+      const videoList = await response.json();
+      return videoList.videoDetails || [];
+    }
+  } catch (error) {
+    console.log('❌ Could not load video details');
+  }
+  return [];
+};
+
 // フォールバック用の手動検出関数
 const getAvailableVideoIdsFallback = async (): Promise<string[]> => {
   // 既知の動画IDパターン（フォールバック用）- 作成日時順（新しい順）
