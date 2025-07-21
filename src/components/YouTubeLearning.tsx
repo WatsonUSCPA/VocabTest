@@ -39,6 +39,10 @@ const YouTubeLearning: React.FC = () => {
         console.log('Video details loaded:', details);
         setAvailableVideos(videos);
         setVideoDetails(details);
+        
+        // ソートオプションを確実に更新日時順にリセット
+        setSortOption('modified');
+        setSortDirection('desc');
       } catch (error) {
         console.error('Error loading available videos:', error);
         setAvailableVideos([]);
@@ -81,8 +85,16 @@ const YouTubeLearning: React.FC = () => {
       case 'views':
         // 視聴回数順
         sortedVideos.sort((a, b) => {
-          const viewsA = youtubeInfo[a.id]?.viewCount ? parseInt(youtubeInfo[a.id].viewCount || '0') : 0;
-          const viewsB = youtubeInfo[b.id]?.viewCount ? parseInt(youtubeInfo[b.id].viewCount || '0') : 0;
+          const infoA = youtubeInfo[a.id];
+          const infoB = youtubeInfo[b.id];
+          
+          // YouTube情報が取得できていない動画は後ろに配置
+          if (!infoA && !infoB) return 0; // 両方とも情報なし
+          if (!infoA) return 1; // Aが情報なし
+          if (!infoB) return -1; // Bが情報なし
+          
+          const viewsA = parseInt(infoA.viewCount || '0');
+          const viewsB = parseInt(infoB.viewCount || '0');
           return direction === 'desc' ? viewsB - viewsA : viewsA - viewsB;
         });
         break;
