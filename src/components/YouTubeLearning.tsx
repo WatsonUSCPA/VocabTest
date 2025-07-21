@@ -44,6 +44,7 @@ const YouTubeLearning: React.FC = () => {
           createdDate: d.createdDate,
           modifiedDate: d.modifiedDate
         })));
+        console.log('🔍 First video detail sample:', details[0]);
         setAvailableVideos(videos);
         setVideoDetails(details);
         
@@ -149,8 +150,10 @@ const YouTubeLearning: React.FC = () => {
     return sortedVideos;
   }, [youtubeInfo, videoDetails]);
 
-  // 並び替えられた動画リスト
-  const sortedVideos = sortVideos(availableVideos, sortOption, sortDirection);
+  // 並び替えられた動画リスト（videoDetailsが読み込まれた後にソート）
+  const sortedVideos = videoDetails.length > 0 
+    ? sortVideos(availableVideos, sortOption, sortDirection)
+    : availableVideos;
 
   // YouTube情報を取得
   const loadYouTubeInfo = useCallback(async (videoId: string) => {
