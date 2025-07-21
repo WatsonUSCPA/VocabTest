@@ -41,8 +41,8 @@ try {
       console.log(`Warning: Could not read update date from ${file}: ${error.message}`);
     }
     
-    // 優先順位: JSON内の更新日時 > ファイルシステムの更新日時
-    const effectiveDate = jsonUpdateDate || stats.mtime;
+    // 優先順位: JSON内の更新日時 > ファイルシステムの作成日時
+    const effectiveDate = jsonUpdateDate || stats.birthtime;
     
     return {
       file,
