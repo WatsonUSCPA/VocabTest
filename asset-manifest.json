@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/VocabTest/static/css/main.25de383f.css",
-    "main.js": "/VocabTest/static/js/main.2b81b731.js",
+    "main.js": "/VocabTest/static/js/main.5e0105b4.js",
     "index.html": "/VocabTest/index.html",
     "main.25de383f.css.map": "/VocabTest/static/css/main.25de383f.css.map",
-    "main.2b81b731.js.map": "/VocabTest/static/js/main.2b81b731.js.map"
+    "main.5e0105b4.js.map": "/VocabTest/static/js/main.5e0105b4.js.map"
   },
   "entrypoints": [
     "static/css/main.25de383f.css",
-    "static/js/main.2b81b731.js"
+    "static/js/main.5e0105b4.js"
   ]
 }
