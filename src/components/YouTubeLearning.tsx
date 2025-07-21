@@ -12,6 +12,9 @@ import {
 } from '../utils/youtube';
 import { getVideoWordsPathWithFallback } from '../utils/pathUtils';
 
+// 並び替えオプションの型定義
+type SortOption = 'date' | 'alphabetical' | 'views' | 'title';
+
 const YouTubeLearning: React.FC = () => {
   const [videoWords, setVideoWords] = useState<{ [key: string]: WordData[] }>({});
   const [loading, setLoading] = useState<{ [key: string]: boolean }>({});
@@ -20,6 +23,8 @@ const YouTubeLearning: React.FC = () => {
   const [youtubeInfo, setYoutubeInfo] = useState<{ [key: string]: YouTubeInfo }>({});
   const [availableVideos, setAvailableVideos] = useState<VideoData[]>([]);
   const [videosLoading, setVideosLoading] = useState(true);
+  const [sortOption, setSortOption] = useState<SortOption>('date');
+  const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('desc');
   const navigate = useNavigate();
 
   // 利用可能な動画を動的に読み込む
@@ -39,6 +44,50 @@ const YouTubeLearning: React.FC = () => {
 
     loadAvailableVideos();
   }, []);
+
+  // 動画を並び替える関数
+  const sortVideos = useCallback((videos: VideoData[], option: SortOption, direction: 'asc' | 'desc'): VideoData[] => {
+    const sortedVideos = [...videos];
+    
+    switch (option) {
+      case 'date':
+        // 作成日時順（video-list.jsonの順番を保持）
+        // 既にソート済みなのでそのまま返す
+        return direction === 'desc' ? sortedVideos : sortedVideos.reverse();
+        
+      case 'alphabetical':
+        // 動画IDのアルファベット順
+        sortedVideos.sort((a, b) => {
+          const comparison = a.id.localeCompare(b.id);
+          return direction === 'desc' ? -comparison : comparison;
+        });
+        break;
+        
+      case 'views':
+        // 視聴回数順
+        sortedVideos.sort((a, b) => {
+          const viewsA = youtubeInfo[a.id]?.viewCount ? parseInt(youtubeInfo[a.id].viewCount || '0') : 0;
+          const viewsB = youtubeInfo[b.id]?.viewCount ? parseInt(youtubeInfo[b.id].viewCount || '0') : 0;
+          return direction === 'desc' ? viewsB - viewsA : viewsA - viewsB;
+        });
+        break;
+        
+      case 'title':
+        // タイトル順
+        sortedVideos.sort((a, b) => {
+          const titleA = youtubeInfo[a.id]?.title || a.title || '';
+          const titleB = youtubeInfo[b.id]?.title || b.title || '';
+          const comparison = titleA.localeCompare(titleB);
+          return direction === 'desc' ? -comparison : comparison;
+        });
+        break;
+    }
+    
+    return sortedVideos;
+  }, [youtubeInfo]);
+
+  // 並び替えられた動画リスト
+  const sortedVideos = sortVideos(availableVideos, sortOption, sortDirection);
 
   // YouTube情報を取得
   const loadYouTubeInfo = useCallback(async (videoId: string) => {
@@ -242,12 +291,99 @@ const YouTubeLearning: React.FC = () => {
 
       <p style={{
         textAlign: 'center',
-        fontSize: '1.1rem',
         color: '#666',
-        marginBottom: '3rem'
+        marginBottom: '1rem',
+        fontSize: '0.9rem'
       }}>
-        学習したいYouTube動画を選択してください
+        動画をクリックして学習を開始してください
       </p>
+
+      {/* 並び替えコントロール */}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        gap: '1rem',
+        marginBottom: '1.5rem',
+        flexWrap: 'wrap',
+        padding: '0 1rem'
+      }}>
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.5rem',
+          flexWrap: 'wrap',
+          justifyContent: 'center'
+        }}>
+          <label style={{
+            fontSize: '0.9rem',
+            color: '#333',
+            fontWeight: '500'
+          }}>
+            並び替え:
+          </label>
+          <select
+            value={sortOption}
+            onChange={(e) => setSortOption(e.target.value as SortOption)}
+            style={{
+              padding: '0.5rem',
+              borderRadius: '4px',
+              border: '1px solid #ddd',
+              fontSize: '0.9rem',
+              backgroundColor: 'white',
+              minWidth: '120px'
+            }}
+          >
+            <option value="date">作成日時順</option>
+            <option value="alphabetical">アルファベット順</option>
+            <option value="views">視聴回数順</option>
+            <option value="title">タイトル順</option>
+          </select>
+        </div>
+
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.5rem',
+          flexWrap: 'wrap',
+          justifyContent: 'center'
+        }}>
+          <label style={{
+            fontSize: '0.9rem',
+            color: '#333',
+            fontWeight: '500'
+          }}>
+            順序:
+          </label>
+          <select
+            value={sortDirection}
+            onChange={(e) => setSortDirection(e.target.value as 'asc' | 'desc')}
+            style={{
+              padding: '0.5rem',
+              borderRadius: '4px',
+              border: '1px solid #ddd',
+              fontSize: '0.9rem',
+              backgroundColor: 'white',
+              minWidth: '120px'
+            }}
+          >
+            <option value="desc">降順（新しい順）</option>
+            <option value="asc">昇順（古い順）</option>
+          </select>
+        </div>
+
+        <div style={{
+          fontSize: '0.8rem',
+          color: '#666',
+          backgroundColor: '#f8f9fa',
+          padding: '0.5rem',
+          borderRadius: '4px',
+          border: '1px solid #e9ecef',
+          textAlign: 'center'
+        }}>
+          📊 {sortedVideos.length}件の動画
+        </div>
+      </div>
 
       <div style={{
         display: 'grid',
@@ -257,7 +393,7 @@ const YouTubeLearning: React.FC = () => {
         overflowY: 'auto',
         padding: '0.5rem'
       }}>
-        {availableVideos.map(video => {
+        {sortedVideos.map(video => {
           const words = videoWords[video.id] || [];
           const levelStats = getLevelStats(words);
           const isLoading = loading[video.id];
