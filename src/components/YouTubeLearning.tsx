@@ -56,12 +56,12 @@ const YouTubeLearning: React.FC = () => {
     
     switch (option) {
       case 'date':
-        // 作成日時順（video-list.jsonの順番を保持）
+        // 作成日順（video-list.jsonの順番を保持）
         // 既にソート済みなのでそのまま返す
         return direction === 'desc' ? sortedVideos : sortedVideos.reverse();
         
       case 'modified':
-        // 最終更新日時順
+        // 更新日順
         sortedVideos.sort((a, b) => {
           const detailA = videoDetails.find(d => d.videoId === a.id);
           const detailB = videoDetails.find(d => d.videoId === b.id);
@@ -350,8 +350,8 @@ const YouTubeLearning: React.FC = () => {
               minWidth: '120px'
             }}
           >
-            <option value="date">作成日時順</option>
-            <option value="modified">最終更新日時順</option>
+            <option value="date">作成日順</option>
+            <option value="modified">更新日順</option>
             <option value="alphabetical">アルファベット順</option>
             <option value="views">視聴回数順</option>
             <option value="title">タイトル順</option>
@@ -565,6 +565,17 @@ const YouTubeLearning: React.FC = () => {
                       marginBottom: '0.5rem'
                     }}>
                       更新日時: {new Date(videoDetail.modifiedAt).toLocaleDateString()}
+                    </p>
+                  )}
+
+                  {/* 作成日 */}
+                  {videoDetail?.createdDate && (
+                    <p style={{
+                      color: '#888',
+                      fontSize: '0.7rem',
+                      marginBottom: '0.5rem'
+                    }}>
+                      作成日: {videoDetail.createdDate}
                     </p>
                   )}
 
