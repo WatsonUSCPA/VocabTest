@@ -36,36 +36,39 @@ export const getAvailableVideoIds = async (): Promise<string[]> => {
 
 // フォールバック用の手動検出関数
 const getAvailableVideoIdsFallback = async (): Promise<string[]> => {
-  // 既知の動画IDパターン（フォールバック用）
+  // 既知の動画IDパターン（フォールバック用）- 作成日時順（新しい順）
   const knownVideoIds = [
-    'CAi6HoyGaB8',
-    'DpQQi2scsHo',
-    'FASMejN_5gs',
+    'mYVzme2fybU',
+    'Gxad3-pmzqw',
+    '_gBxYL2ihc0',
     'hWxS_xOa0Io',
-    'KypnjJSKi4o',
-    'motX94ztOzo',
-    'Pjq4FAfIPSg',
-    'pT87zqXPw4w',
-    'UF8uR6Z6KLc',
+    'wu-p5xrJ8-E',
+    'CAi6HoyGaB8',
     'wHN03Y7ICq0',
-    'wu-p5xrJ8-E'
+    'motX94ztOzo',
+    'DpQQi2scsHo',
+    'UF8uR6Z6KLc',
+    'FASMejN_5gs',
+    'Pjq4FAfIPSg',
+    'KypnjJSKi4o',
+    'pT87zqXPw4w'
   ];
   
-  const detectedIds: string[] = [];
-  
-  // 各動画IDをチェックして、実際にJSONファイルが存在するか確認
+  // 最初に見つかった1個の動画のみを返す
   for (const videoId of knownVideoIds) {
     try {
       const wordResponse = await fetch(await getVideoWordsPathWithFallback(videoId));
       if (wordResponse.ok) {
-        detectedIds.push(videoId);
+        console.log(`🔄 Fallback: Found video ${videoId}`);
+        return [videoId]; // 1個だけ返す
       }
     } catch (error) {
       // エラーは無視して続行
     }
   }
   
-  return detectedIds;
+  console.log('🔄 Fallback: No videos found');
+  return [];
 };
 
 
