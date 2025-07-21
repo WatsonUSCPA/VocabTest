@@ -45,6 +45,7 @@ const YouTubeLearning: React.FC = () => {
           modifiedDate: d.modifiedDate
         })));
         console.log('🔍 First video detail sample:', details[0]);
+        console.log('🔍 All video details:', details);
         setAvailableVideos(videos);
         setVideoDetails(details);
         

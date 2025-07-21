@@ -27,6 +27,7 @@ export const getAvailableVideoIds = async (): Promise<string[]> => {
       const videoList = await response.json();
       console.log('📄 Loaded video-list.json:', videoList.videos);
       console.log('📅 Video details from fetch:', videoList.videoDetails);
+      console.log('📅 First video detail from fetch:', videoList.videoDetails[0]);
       return videoList.videos;
     } else {
       console.log('❌ Video list not found, using fallback');
