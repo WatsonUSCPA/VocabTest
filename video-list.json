@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2025-08-18T05:00:47.258Z",
-  "totalVideos": 27,
+  "generatedAt": "2025-08-20T08:34:00.687Z",
+  "totalVideos": 28,
   "videos": [
+    "SfOaZIGJ_gs",
     "_F8SfqaYeq4",
     "Oy4evu1TdiI",
     "d-s-3V56o54",
@@ -31,6 +32,13 @@
     "pT87zqXPw4w"
   ],
   "videoDetails": [
+    {
+      "videoId": "SfOaZIGJ_gs",
+      "createdAt": "2025-08-20T08:33:59.832Z",
+      "modifiedAt": "2025-08-20T08:33:59.832Z",
+      "createdDate": "2025/8/20",
+      "modifiedDate": "2025/8/20"
+    },
     {
       "videoId": "_F8SfqaYeq4",
       "createdAt": "2025-08-18T05:00:46.786Z",
