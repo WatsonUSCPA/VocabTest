@@ -1,0 +1,7152 @@
+[
+  {
+    "video_info": {
+      "video_id": "8OsY1V3iN6E",
+      "title": "YouTube Video 8OsY1V3iN6E",
+      "url": "https://www.youtube.com/watch?v=8OsY1V3iN6E"
+    }
+  },
+  {
+    "word": "a",
+    "level": "A1",
+    "definition_en": "The name of the Latin script letter A/a.",
+    "meanings_ja": [
+      "一つ",
+      "ある",
+      "~ということ"
+    ],
+    "example": "I have one apple. / 私は１つのりんごを持っています。"
+  },
+  {
+    "word": "about",
+    "level": "A1",
+    "definition_en": "Moving around; astir.",
+    "meanings_ja": [
+      "ほぼ",
+      "約, ついては"
+    ],
+    "example": "He is about thirty years old. / 彼は三十歳ぐらいです。 / 30歳前後"
+  },
+  {
+    "word": "afraid",
+    "level": "A1",
+    "definition_en": "(usually used predicatively, not attributively, be afraid) Impressed with fear or apprehension; in fear.",
+    "meanings_ja": [
+      "恐れる",
+      "怖がる"
+    ],
+    "example": "I'm afraid of snakes. / 蛇は怖いです。"
+  },
+  {
+    "word": "after",
+    "level": "A1",
+    "definition_en": "Later; second (of two); next, following, subsequent",
+    "meanings_ja": [
+      "その後",
+      "次に"
+    ],
+    "example": "I will see you after the meeting. / 会議が終わったあとに会う。 /"
+  },
+  {
+    "word": "ago",
+    "level": "A1",
+    "definition_en": "Gone; gone by; gone away; passed; passed away.",
+    "meanings_ja": [
+      "その時から何年が経過したかを表す。",
+      "その時から何分/秒が経過したかを表す。"
+    ],
+    "example": "I was born 20 years ago. / 私は20年前生まれた。 / 20年前の自分と比べて今はどんな"
+  },
+  {
+    "word": "all",
+    "level": "A1",
+    "definition_en": "(with a possessive pronoun) Everything that one is capable of.",
+    "meanings_ja": [
+      "全て",
+      "すべて"
+    ],
+    "example": "I have all my friends with me. / 私は全ての友達と一緒です。"
+  },
+  {
+    "word": "already",
+    "level": "A1",
+    "definition_en": "Prior to some specified time, either past, present, or future; by this time; previously.",
+    "meanings_ja": [
+      "すでに",
+      "既に"
+    ],
+    "example": "I've already eaten dinner. /私はすでに夕食を食べた。/私はすでに夕食を食べた。"
+  },
+  {
+    "word": "also",
+    "level": "A1",
+    "definition_en": "(focus) In addition; besides; as well; further; too.",
+    "meanings_ja": [
+      "また",
+      "も"
+    ],
+    "example": "I like reading books, and she likes watching movies. She also likes playing tennis."
+  },
+  {
+    "word": "always",
+    "level": "A1",
+    "definition_en": "At all times; throughout all time; since the beginning.",
+    "meanings_ja": [
+      "常に",
+      "いつでも"
+    ],
+    "example": "I will always love you. / 私はあなたをいつまでも愛している。 / 彼女は彼をいつも心から愛していた。"
+  },
+  {
+    "word": "american",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "アメリカ人",
+      "米国製品"
+    ],
+    "example": "He is an American. / 彼はアメリカ人です。 / その車はアメリカ製です。 / その車は米国製です。"
+  },
+  {
+    "word": "an",
+    "level": "A1",
+    "definition_en": "One",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な"
+    ],
+    "example": ""
+  },
+  {
+    "word": "and",
+    "level": "A1",
+    "definition_en": "In rhythm, the second half of a divided beat.",
+    "meanings_ja": [
+      "つながり",
+      "かつ"
+    ],
+    "example": "I love you and my family. / 私はあなたと家族が好きです。"
+  },
+  {
+    "word": "another",
+    "level": "A1",
+    "definition_en": "An additional one of the same kind.",
+    "meanings_ja": [
+      "他の",
+      "もう一つ"
+    ],
+    "example": "I have two dogs. One is a golden retriever and the other is a poodle."
+  },
+  {
+    "word": "any",
+    "level": "A1",
+    "definition_en": "To even the slightest extent, at all.",
+    "meanings_ja": [
+      "どれか",
+      "すべて"
+    ],
+    "example": "I have any money. / 私はお金が何でもあります。 / 私はお金が何でも持っています。"
+  },
+  {
+    "word": "anything",
+    "level": "A1",
+    "definition_en": "Someone or something of importance.",
+    "meanings_ja": [
+      "どんなものでも",
+      "何らかのもの"
+    ],
+    "example": "I'll take anything. / なんでもいいよ。"
+  },
+  {
+    "word": "are",
+    "level": "A1",
+    "definition_en": "An accepted (but deprecated and rarely used) SI unit of area equal to 100 square metres, or a former unit of approximately the same extent. Symbol: a.",
+    "meanings_ja": [
+      "あるものが",
+      "~であること",
+      "~と同じであること"
+    ],
+    "example": "This is the same as that. / これはそのと同じであること。"
+  },
+  {
+    "word": "around",
+    "level": "A1",
+    "definition_en": "(with the verb \"to be\") Present in the vicinity.",
+    "meanings_ja": [
+      "周り",
+      "環境"
+    ],
+    "example": "I'm going to the store around the corner. / 一番近い角の店に行くよ。"
+  },
+  {
+    "word": "as",
+    "level": "A1",
+    "definition_en": "To such an extent or degree; to the same extent or degree.",
+    "meanings_ja": [
+      "その時点で",
+      "同じもの",
+      "もう"
+    ],
+    "example": "I am going to the store, as soon as I finish this work. / 私はこの仕事が終わるまでに店に行く。"
+  },
+  {
+    "word": "at",
+    "level": "A1",
+    "definition_en": "To reply to or talk to someone, either online or face-to-face. (from the practice of targeting a message or reply to someone online by writing @name)",
+    "meanings_ja": [
+      "ある場所にある",
+      "時間"
+    ],
+    "example": "I am at the store. / 私は店にいます。"
+  },
+  {
+    "word": "australia",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "オーストラリア",
+      "オーストラリア人",
+      "オーストラリアのこと"
+    ],
+    "example": "I love Australia. 私はオーストラリアが好き"
+  },
+  {
+    "word": "away",
+    "level": "A1",
+    "definition_en": "To depart; to go to another place.",
+    "meanings_ja": [
+      "その場所から離れること。",
+      "そのことを忘れてしまうこと。"
+    ],
+    "example": "I'll be away for a week. / １週間は外出します。 /"
+  },
+  {
+    "word": "back",
+    "level": "A1",
+    "definition_en": "The rear of the body, especially the part between the neck and the end of the spine and opposite the chest and belly.",
+    "meanings_ja": [
+      "背面",
+      "過去",
+      "支援"
+    ],
+    "example": "I'm going to the back of the room. / 会場の奥へ行く"
+  },
+  {
+    "word": "ball",
+    "level": "A1",
+    "definition_en": "A solid or hollow sphere, or roughly spherical mass.",
+    "meanings_ja": [
+      "球",
+      "バトン"
+    ],
+    "example": "The ball is round. / 球は丸い。"
+  },
+  {
+    "word": "balls",
+    "level": "A1",
+    "definition_en": "A solid or hollow sphere, or roughly spherical mass.",
+    "meanings_ja": [
+      "球",
+      "こと"
+    ],
+    "example": "The ball is red. / 赤い球はある。"
+  },
+  {
+    "word": "be",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ある状態にあること",
+      "あるものと同じであること",
+      "あるものが存在すること"
+    ],
+    "example": "There are many books on the"
+  },
+  {
+    "word": "beauty",
+    "level": "A1",
+    "definition_en": "The quality of being (especially visually) attractive, pleasing, fine or good-looking; comeliness.",
+    "meanings_ja": [
+      "美しさ",
+      "美容"
+    ],
+    "example": "She is a beauty. / 彼女は美人だ。 / 彼女が美しいということ"
+  },
+  {
+    "word": "because",
+    "level": "A1",
+    "definition_en": "For the reason (that).",
+    "meanings_ja": [
+      "そのため",
+      "なぜ",
+      "その結果"
+    ],
+    "example": "I'm late for work because the bus was delayed. / 私は遅刻したのはバスが遅れたからだ。 / 理由"
+  },
+  {
+    "word": "become",
+    "level": "A1",
+    "definition_en": "To arrive, come (to a place).",
+    "meanings_ja": [
+      "なる",
+      "変化する",
+      "価値が高くなる"
+    ],
+    "example": "The value of the stock will become higher"
+  },
+  {
+    "word": "been",
+    "level": "A1",
+    "definition_en": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey.",
+    "meanings_ja": [
+      "過去形",
+      "過去分詞",
+      "これまで"
+    ],
+    "example": "I've been working hard since morning. / 朝から頑張って働いている。"
+  },
+  {
+    "word": "before",
+    "level": "A1",
+    "definition_en": "At an earlier time.",
+    "meanings_ja": [
+      "前",
+      "以前"
+    ],
+    "example": "I saw her before. / 私は彼女を見たことがある。 / I met her before. / 私は彼女と会ったことがある。 / It was a long time before the sun rose. / 太陽が昇るまでに長い時間が経過した"
+  },
+  {
+    "word": "behind",
+    "level": "A1",
+    "definition_en": "The rear, back-end",
+    "meanings_ja": [
+      "その後ろにあること。",
+      "その理由や原因。"
+    ],
+    "example": "Why are you late? It's because I was behind schedule. / なぜ遅れたの？ 時間が�"
+  },
+  {
+    "word": "believe",
+    "level": "A1",
+    "definition_en": "To accept as true, particularly without absolute certainty (i.e., as opposed to knowing)",
+    "meanings_ja": [
+      "信じる",
+      "信念を持つ"
+    ],
+    "example": "I don't believe you. / 私はあなたが言っていることを信じない。"
+  },
+  {
+    "word": "better",
+    "level": "A1",
+    "definition_en": "An entity, usually animate, deemed superior to another; one who has a claim to precedence; a superior.",
+    "meanings_ja": [
+      "よい",
+      "良い",
+      "すばらしい"
+    ],
+    "example": "This is a better idea. / これはよい考えだ。"
+  },
+  {
+    "word": "between",
+    "level": "A1",
+    "definition_en": "A kind of needle, shorter than a sharp, with a small rounded eye, used for making fine stitches on heavy fabrics.",
+    "meanings_ja": [
+      "仲間の中間点",
+      "仲間"
+    ],
+    "example": "There is a big difference between the two countries. / その2つの国との間に大きな差があります。"
+  },
+  {
+    "word": "big",
+    "level": "A1",
+    "definition_en": "Someone or something that is large in stature",
+    "meanings_ja": [
+      "大きい",
+      "重要な",
+      "多くの"
+    ],
+    "example": "I have many big friends. / 私には多くの友達がいる。"
+  },
+  {
+    "word": "biggest",
+    "level": "A1",
+    "definition_en": "Of great size, large.",
+    "meanings_ja": [
+      "一番大きいこと",
+      "最もよく知られていること",
+      "最も多くのものを持っていること"
+    ],
+    "example": "He's the biggest star in Hollywood. / 彼はハリウッドで最も有名な俳優です。"
+  },
+  {
+    "word": "blue",
+    "level": "A1",
+    "definition_en": "The colour of the clear sky or the deep sea, between green and violet in the visible spectrum, and one of the primary additive colours for transmitted light; the colour obtained by subtracting red and green from white light using magenta and cyan filters; or any colour resembling this.",
+    "meanings_ja": [
+      "青い色",
+      "1）青い色のもの。青い色の人。"
+    ],
+    "example": "The sky is blue. / 空は青い。 / The sky is blue. / 空は青い。 / She's a blue-eyed girl. / 彼女は青い目の少女だ。 / She's"
+  },
+  {
+    "word": "book",
+    "level": "A1",
+    "definition_en": "A collection of sheets of paper bound together to hinge at one edge, containing printed or written material, pictures, etc.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、"
+    ],
+    "example": ""
+  },
+  {
+    "word": "books",
+    "level": "A1",
+    "definition_en": "A collection of sheets of paper bound together to hinge at one edge, containing printed or written material, pictures, etc.",
+    "meanings_ja": [
+      "書籍",
+      "本"
+    ],
+    "example": "I have a lot of books on my shelf. / 私の棚には本がたくさんあります。"
+  },
+  {
+    "word": "bookstore",
+    "level": "A1",
+    "definition_en": "A store where books are bought and sold.",
+    "meanings_ja": [
+      "書店",
+      "本屋"
+    ],
+    "example": "She went to the bookstore. / 彼女は本屋に行った。 / 書店に行くことです。"
+  },
+  {
+    "word": "boss",
+    "level": "A1",
+    "definition_en": "A person who oversees and directs the work of others; a supervisor.",
+    "meanings_ja": [
+      "上司",
+      "会社や組織の最高責任者",
+      "頭領り"
+    ],
+    "example": "My boss is very strict. / 私の上司はとても厳しい。 / その会社のボスは経営者です。 / その会社のボスは経営者です。"
+  },
+  {
+    "word": "bought",
+    "level": "A1",
+    "definition_en": "To obtain (something) in exchange for money or goods",
+    "meanings_ja": [
+      "購入した",
+      "買った"
+    ],
+    "example": "I bought a new car. / 私は新しい車を買った。 / 私は新しい車を購入した。"
+  },
+  {
+    "word": "breakfast",
+    "level": "A1",
+    "definition_en": "The first meal of the day, usually eaten in the morning.",
+    "meanings_ja": [
+      "朝食",
+      "起床後最初の食事"
+    ],
+    "example": "I had a light breakfast before going to the gym. / ギムに行く前に軽い朝食をとった。 /"
+  },
+  {
+    "word": "building",
+    "level": "A1",
+    "definition_en": "The act or process by which something is built; construction.",
+    "meanings_ja": [
+      "建物",
+      "建設"
+    ],
+    "example": "The building of the new house took a year. / 新しい家の建設には１年かかった。"
+  },
+  {
+    "word": "business",
+    "level": "A1",
+    "definition_en": "A specific commercial enterprise or establishment.",
+    "meanings_ja": [
+      "ビジネス",
+      "経済活動"
+    ],
+    "example": "The company is in the business of making cars. / この会社は自動車を作っているビジネスです。"
+  },
+  {
+    "word": "but",
+    "level": "A1",
+    "definition_en": "An instance or example of using the word \"but\".",
+    "meanings_ja": [
+      "しかし",
+      "が",
+      "ただ"
+    ],
+    "example": "I love you, but I hate your brother. / 私はあなたが好きですが、あ"
+  },
+  {
+    "word": "buy",
+    "level": "A1",
+    "definition_en": "Something which is bought; a purchase.",
+    "meanings_ja": [
+      "買う",
+      "支払う"
+    ],
+    "example": "I will buy a car next month. / 私は来月車を買う。 / その本は買ったが読んだことがない。 / その本を買ったが読んだことがない。 / その本を購入した"
+  },
+  {
+    "word": "by",
+    "level": "A1",
+    "definition_en": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey.",
+    "meanings_ja": [
+      "によって"
+    ],
+    "example": "The book was written by a famous author. / 著者は有名な作家です。/ author"
+  },
+  {
+    "word": "c",
+    "level": "A1",
+    "definition_en": "Abbreviation of circa.",
+    "meanings_ja": [
+      "Cは化学記号で炭素を表す。",
+      "CはコンピューターのOSの一つであるWindowsのバージョン番号。"
+    ],
+    "example": "C++ / Cプラスプラス"
+  },
+  {
+    "word": "california",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "カリフォルニア州",
+      "カリフォルニア"
+    ],
+    "example": "California is a state in the western United States. / アメリカ西部にあるカリフォルニア州です。"
+  },
+  {
+    "word": "call",
+    "level": "A1",
+    "definition_en": "A telephone conversation.",
+    "meanings_ja": [
+      "呼び出す",
+      "名称",
+      "呼び出し",
+      "名称"
+    ],
+    "example": "I need to make"
+  },
+  {
+    "word": "called",
+    "level": "A1",
+    "definition_en": "(heading) To use one's voice.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください"
+    ],
+    "example": ""
+  },
+  {
+    "word": "can",
+    "level": "A1",
+    "definition_en": "(auxiliary verb, defective) To know how to; to be able to.",
+    "meanings_ja": [
+      "できる"
+    ],
+    "example": "I can speak English. / 私は英語が話せる。"
+  },
+  {
+    "word": "car",
+    "level": "A1",
+    "definition_en": "A wheeled vehicle that moves independently, with at least three wheels, powered mechanically, steered by a driver and mostly for personal transportation.",
+    "meanings_ja": [
+      "車",
+      "自動車"
+    ],
+    "example": "I bought a new car. / 私は新しい車を買った。"
+  },
+  {
+    "word": "case",
+    "level": "A1",
+    "definition_en": "An actual event, situation, or fact.",
+    "meanings_ja": [
+      "事件",
+      "ケース",
+      "種類"
+    ],
+    "example": "There are several cases of this kind. / この種類にはいくつかのケースがある。"
+  },
+  {
+    "word": "class",
+    "level": "A1",
+    "definition_en": "A group, collection, category or set sharing characteristics or attributes.",
+    "meanings_ja": [
+      "クラス",
+      "種類、分類"
+    ],
+    "example": "She is a member of the middle-class. / 彼女は中間層の人です。"
+  },
+  {
+    "word": "clean",
+    "level": "A1",
+    "definition_en": "Removal of dirt.",
+    "meanings_ja": [
+      "汚れがなく、清潔であること。",
+      "ごみや汚れなどを取り除くこと。"
+    ],
+    "example": "Clean the floor with a mop. / マopで床を拭"
+  },
+  {
+    "word": "clock",
+    "level": "A1",
+    "definition_en": "An instrument used to measure or keep track of time; a non-portable timepiece.",
+    "meanings_ja": [
+      "時計",
+      "時間"
+    ],
+    "example": "What time is it? / どー時だい？"
+  },
+  {
+    "word": "collect",
+    "level": "A1",
+    "definition_en": "To gather together; amass.",
+    "meanings_ja": [
+      "収集すること。",
+      "集めること。"
+    ],
+    "example": "She collects stamps. / 彼女は切手集めをする。"
+  },
+  {
+    "word": "college",
+    "level": "A1",
+    "definition_en": "A corporate group; a group of colleagues.",
+    "meanings_ja": [
+      "大学",
+      "学士号",
+      "カレッジ"
+    ],
+    "example": "I'm going to college. / 私は大学に行く。"
+  },
+  {
+    "word": "color",
+    "level": "A1",
+    "definition_en": "The spectral composition of visible light",
+    "meanings_ja": [
+      "色",
+      "カラー"
+    ],
+    "example": "The dress is red. / そのドレスは赤い。"
+  },
+  {
+    "word": "come",
+    "level": "A1",
+    "definition_en": "Coming, arrival; approach.",
+    "meanings_ja": [
+      "その人や物が来ること。",
+      "そのようなことが起きること。"
+    ],
+    "example": "I am coming to visit you tomorrow. / 明日私はあなたを訪ねる。 / 「I am coming」は「明日私はあなたを訪ねる」という意味です。"
+  },
+  {
+    "word": "coming",
+    "level": "A1",
+    "definition_en": "To move from further away to nearer to.",
+    "meanings_ja": [
+      "来ること。",
+      "近づくこと。"
+    ],
+    "example": "The new movie is coming soon. / 新しい映画はすぐに来ます。"
+  },
+  {
+    "word": "company",
+    "level": "A1",
+    "definition_en": "A team; a group of people who work together professionally.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。"
+    ],
+    "example": ""
+  },
+  {
+    "word": "computer",
+    "level": "A1",
+    "definition_en": "A person employed to perform computations; one who computes.",
+    "meanings_ja": [
+      "計算機",
+      "コンピューター"
+    ],
+    "example": "The computer crashed. / コンピューターがクラッシュした。/ そのコンピューターは突然動作を停止した。"
+  },
+  {
+    "word": "computers",
+    "level": "A1",
+    "definition_en": "A person employed to perform computations; one who computes.",
+    "meanings_ja": [
+      "この英単語の主要な意味"
+    ],
+    "example": ""
+  },
+  {
+    "word": "could",
+    "level": "A1",
+    "definition_en": "(auxiliary verb, defective) To know how to; to be able to.",
+    "meanings_ja": [
+      "可能性の表現",
+      "能力・スキル",
+      "過去完了"
+    ],
+    "example": "By the time I arrived, they had already eaten. (couldは過去"
+  },
+  {
+    "word": "d",
+    "level": "A1",
+    "definition_en": "Abbreviation of declare.",
+    "meanings_ja": [
+      "数字の一の位",
+      "10進法における数字の十の位"
+    ],
+    "example": "The number is in the tens of thousands. / 数は十万以上である。 / これは、数が十万以上であることを示しています。"
+  },
+  {
+    "word": "daniel",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ダニエル",
+      "ダニエル・ブーン",
+      "ダニエル・デイ＝ルイス"
+    ],
+    "example": "Daniel Day-Lewis, British actor. / 英国の俳優"
+  },
+  {
+    "word": "date",
+    "level": "A1",
+    "definition_en": "The fruit of the date palm, Phoenix dactylifera, somewhat in the shape of an olive, containing a soft, sweet pulp and enclosing a hard kernel.",
+    "meanings_ja": [
+      "日付",
+      "人と一緒に食事をすること"
+    ],
+    "example": "I have a date with Sarah tonight. / 今日夜はサラと会う予定です。 / 「date」という言葉は「日付」と「人と一緒に食事をすること」の両方の意味を持つ"
+  },
+  {
+    "word": "david",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "英名のデビッド",
+      "英国の王室の一員",
+      "イスラム教の預言者"
+    ],
+    "example": "David Cameron, the former Prime Minister of the United Kingdom, was a member of the British royal family. / 連合国軍最高司令官総司令部（SHAEF）の"
+  },
+  {
+    "word": "day",
+    "level": "A1",
+    "definition_en": "Any period of 24 hours.",
+    "meanings_ja": [
+      "日",
+      "時間"
+    ],
+    "example": "I have a lot of work to do today. / 今日は多くの仕事が残っている。"
+  },
+  {
+    "word": "days",
+    "level": "A1",
+    "definition_en": "Any period of 24 hours.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある"
+    ],
+    "example": ""
+  },
+  {
+    "word": "decide",
+    "level": "A1",
+    "definition_en": "To resolve (a contest, problem, dispute, etc.); to choose, determine, or settle",
+    "meanings_ja": [
+      "この英単語の副次"
+    ],
+    "example": ""
+  },
+  {
+    "word": "desk",
+    "level": "A1",
+    "definition_en": "A table, frame, or case, in past centuries usually with a sloping top but now usually with a flat top, for the use of writers and readers. It often has a drawer or repository underneath.",
+    "meanings_ja": [
+      "書類や仕事用具を置く机",
+      "机のこと"
+    ],
+    "example": "She bought a new desk for her office. / 彼女は新"
+  },
+  {
+    "word": "did",
+    "level": "A1",
+    "definition_en": "(auxiliary) A syntactic marker.",
+    "meanings_ja": [
+      "した",
+      "していた"
+    ],
+    "example": "I did my homework. / 私は宿題をした。"
+  },
+  {
+    "word": "didn",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "なかった",
+      "ない",
+      "なかった",
+      "意味2"
+    ],
+    "example": "He didn't come to the party. / 彼はパーティーには来なかった。"
+  },
+  {
+    "word": "different",
+    "level": "A1",
+    "definition_en": "The different ideal.",
+    "meanings_ja": [
+      "異なる",
+      "さまざまな",
+      "違う"
+    ],
+    "example": "She has a different opinion from mine. /"
+  },
+  {
+    "word": "dirty",
+    "level": "A1",
+    "definition_en": "To make (something) dirty.",
+    "meanings_ja": [
+      "汚い",
+      "不正な"
+    ],
+    "example": "This is a dirty trick. / これは卑劣な行為だ。 / これは卑劣な行為だ。"
+  },
+  {
+    "word": "do",
+    "level": "A1",
+    "definition_en": "A party, celebration, social function.",
+    "meanings_ja": [
+      "行うこと。",
+      "できること。",
+      "時間。"
+    ],
+    "example": "How long does it take to get there? / その場所に行くのにどれくらい時間がか"
+  },
+  {
+    "word": "does",
+    "level": "A1",
+    "definition_en": "(auxiliary) A syntactic marker.",
+    "meanings_ja": [
+      "する"
+    ],
+    "example": "What does she do? / 彼女は何をするの？"
+  },
+  {
+    "word": "doesn",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ない",
+      "なく"
+    ],
+    "example": "I don't like it. / 私はそれを嫌いだ。"
+  },
+  {
+    "word": "dollars",
+    "level": "A1",
+    "definition_en": "Official designation for currency in some parts of the world, including Canada, the United States, Australia, New Zealand, Hong Kong, and elsewhere. Its symbol is $.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要"
+    ],
+    "example": ""
+  },
+  {
+    "word": "don",
+    "level": "A1",
+    "definition_en": "A university professor, particularly one at Oxford or Cambridge.",
+    "meanings_ja": [
+      "与える/与えたり与えること",
+      "除く/除いたり除くこと"
+    ],
+    "example": "Don't forget to bring your umbrella. / 傘を持ってきてね。 (意味1"
+  },
+  {
+    "word": "door",
+    "level": "A1",
+    "definition_en": "A portal of entry into a building, room, or vehicle, consisting of a rigid plane movable on a hinge. Doors are frequently made of wood or metal. May have a handle to help open and close, a latch to hold the door closed and a lock that ensures the door cannot be opened without the key.",
+    "meanings_ja": [
+      "ドア",
+      "1）扉、ドア"
+    ],
+    "example": "The door was locked. / ドアは閉まっていた。"
+  },
+  {
+    "word": "down",
+    "level": "A1",
+    "definition_en": "A negative aspect; a downer.",
+    "meanings_ja": [
+      "下方へ降りること",
+      "低い位置にあること",
+      "低くすること"
+    ],
+    "example": "The book fell down on the floor. / 本は床に落ちた。"
+  },
+  {
+    "word": "dress",
+    "level": "A1",
+    "definition_en": "An item of clothing (usually worn by a woman or young girl) which both covers the upper part of the body and includes skirts below the waist.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください"
+    ],
+    "example": ""
+  },
+  {
+    "word": "earth",
+    "level": "A1",
+    "definition_en": "The third planet of the Solar System; the world upon which humans live.",
+    "meanings_ja": [
+      "地球",
+      "土"
+    ],
+    "example": "The Earth is a planet. / 地球は惑星です。"
+  },
+  {
+    "word": "end",
+    "level": "A1",
+    "definition_en": "The terminal point of something in space or time.",
+    "meanings_ja": [
+      "終わり",
+      "最後",
+      "末端"
+    ],
+    "example": "The end of the world is near. / 世界の終わりは近い。 /"
+  },
+  {
+    "word": "english",
+    "level": "A1",
+    "definition_en": "Spinning or rotary motion given to a ball around the vertical axis, as in billiards or bowling.",
+    "meanings_ja": [
+      "英語",
+      "英国人",
+      "英雄"
+    ],
+    "example": "He is an English hero. / 彼"
+  },
+  {
+    "word": "europe",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "欧州",
+      "ヨーロッパ"
+    ],
+    "example": "The European Union is a political and economic union of 28 member states. / 欧州連合は28の加盟国を持つ政治的および経済的統一体である。"
+  },
+  {
+    "word": "every",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "すべての、各 <a href=\"\" data-ke-plugin=\"link\" data-ke-shortcode=\"glossary-link\" data-ke"
+    ],
+    "example": ""
+  },
+  {
+    "word": "everything",
+    "level": "A1",
+    "definition_en": "All the things under discussion.",
+    "meanings_ja": [
+      "すべて",
+      "全て"
+    ],
+    "example": "I love you, and that's everything. / 私はあなたを愛しています、それが全てです。 / 私はあなたを愛しています。それが全てです。"
+  },
+  {
+    "word": "everywhere",
+    "level": "A1",
+    "definition_en": "In or to all locations under discussion.",
+    "meanings_ja": [
+      "どこでも\n例文: There is a McDonald's restaurant everywhere in the city."
+    ],
+    "example": "There is a McDonald's restaurant everywhere in the city."
+  },
+  {
+    "word": "example",
+    "level": "A1",
+    "definition_en": "Something that is representative of all such things in a group.",
+    "meanings_ja": [
+      "例",
+      "代表例",
+      "比較対象"
+    ],
+    "example": "The new car is an example of the latest technology. / この新しい車は最新技術の代表例だ。"
+  },
+  {
+    "word": "expensive",
+    "level": "A1",
+    "definition_en": "Given to expending a lot of money; profligate, lavish.",
+    "meanings_ja": [
+      "高価",
+      "余分な"
+    ],
+    "example": "The new car is very expensive. / 新しい車はとても高価だ。 / その新しい車は私には買うことができない。"
+  },
+  {
+    "word": "fact",
+    "level": "A1",
+    "definition_en": "Something actual as opposed to invented.",
+    "meanings_ja": [
+      "事実",
+      "こと"
+    ],
+    "example": "This is a fact. / これは事実だ。"
+  },
+  {
+    "word": "faster",
+    "level": "A1",
+    "definition_en": "Firmly or securely fixed in place; stable.",
+    "meanings_ja": [
+      "速く"
+    ],
+    "example": "I want to go faster. / 私はもっと速く行きたい。"
+  },
+  {
+    "word": "feel",
+    "level": "A1",
+    "definition_en": "A quality of an object experienced by touch.",
+    "meanings_ja": [
+      "この英単語の主要な意味"
+    ],
+    "example": ""
+  },
+  {
+    "word": "feels",
+    "level": "A1",
+    "definition_en": "Of or relating to the emotions.",
+    "meanings_ja": [
+      "感じる",
+      "感じさせる",
+      "感じる",
+      "感じさせる"
+    ],
+    "example": "The music feels good. / その音楽はよい"
+  },
+  {
+    "word": "few",
+    "level": "A1",
+    "definition_en": "Few people, few things.",
+    "meanings_ja": [
+      "数が少ないこと。",
+      "少ない人々。"
+    ],
+    "example": "There are a few people in the room. / 人間は部屋の中にはいくつかいる。"
+  },
+  {
+    "word": "find",
+    "level": "A1",
+    "definition_en": "Anything that is found (usually valuable), as objects on an archeological site or a person with talent.",
+    "meanings_ja": [
+      "見つけること。",
+      "そのようなものがいる。"
+    ],
+    "example": "I couldn't find my keys. / 私は鍵を見つけることができませんでした。  | I can't find a job. / 私には仕事が見つかりません。  | What do you want to find? /"
+  },
+  {
+    "word": "first",
+    "level": "A1",
+    "definition_en": "The person or thing in the first position.",
+    "meanings_ja": [
+      "最初",
+      "一番"
+    ],
+    "example": "This is the first time I've ever been to Paris. / 私は今までパリに行ったことがない。 /"
+  },
+  {
+    "word": "five",
+    "level": "A1",
+    "definition_en": "The digit/figure 5.",
+    "meanings_ja": [
+      "5",
+      "五つ"
+    ],
+    "example": "I have five apples. / 私は５個のリンゴを持っています。"
+  },
+  {
+    "word": "floor",
+    "level": "A1",
+    "definition_en": "The interior bottom or surface of a house or building; the supporting surface of a room.",
+    "meanings_ja": [
+      "1）床　地面　床上",
+      "2）階"
+    ],
+    "example": "The floor is made of wood. / 木材で作られた床です。"
+  },
+  {
+    "word": "follow",
+    "level": "A1",
+    "definition_en": "(sometimes attributive) In billiards and similar games, a stroke causing a ball to follow another ball after hitting it.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔"
+    ],
+    "example": ""
+  },
+  {
+    "word": "for",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ために",
+      "～に対して"
+    ],
+    "example": "I'm here for you. / 私はあなたのためにここにいる。 / 彼女は彼のために働いている。 / 彼女は彼のために働いている。 / 彼女は彼のために働いている。"
+  },
+  {
+    "word": "free",
+    "level": "A1",
+    "definition_en": "Free transfer",
+    "meanings_ja": [
+      "この英単語の副詞的な用法について説明してください。\n\n答え"
+    ],
+    "example": ""
+  },
+  {
+    "word": "friday",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "週末の日曜日前の日曜日。",
+      "英国の週末の金曜日の夜に開催されるパーティー。"
+    ],
+    "example": "We're going to a party on Friday night. / 金曜日の夜にパーティーに行く予定だ。 / パーティー"
+  },
+  {
+    "word": "friends",
+    "level": "A1",
+    "definition_en": "A person other than a family member, spouse or lover whose company one enjoys and towards whom one feels affection.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要"
+    ],
+    "example": ""
+  },
+  {
+    "word": "from",
+    "level": "A1",
+    "definition_en": "Used to indicate source or provenance.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な2-3個を列挙し、最後に簡単な例文も含めてください。\n\n出力形式:\n意味1: [日本語訳1]\n意味2: [日本語訳2] (複数ある場合)\n例文: [英語例文] / [日本語訳] \n\n答え:\n意味1: \nfrom には「〜から」、「〜が生じる」などの意味があります。\n例文: The book is from Japan. / 本は日本からです。\n\n意味2: \nfrom には「〜を除く」などの意味があります。\n例文: I like all the food except for the cake. / 私は全て"
+    ],
+    "example": "I like all the food except for the cake. / 私は全て"
+  },
+  {
+    "word": "future",
+    "level": "A1",
+    "definition_en": "The time ahead; those moments yet to be experienced.",
+    "meanings_ja": [
+      "未来",
+      "将来",
+      "次のもの"
+    ],
+    "example": "What's in your future? / あなたの将来は何が待っている"
+  },
+  {
+    "word": "get",
+    "level": "A1",
+    "definition_en": "Offspring.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な"
+    ],
+    "example": ""
+  },
+  {
+    "word": "getting",
+    "level": "A1",
+    "definition_en": "(ditransitive) To obtain; to acquire.",
+    "meanings_ja": [
+      "取得すること",
+      "位置を変えること"
+    ],
+    "example": "The plane is taking off and landing, but it's not getting any closer. / 飛行機"
+  },
+  {
+    "word": "gives",
+    "level": "A1",
+    "definition_en": "(ditransitive) To move, shift, provide something abstract or concrete to someone or something or somewhere.",
+    "meanings_ja": [
+      "与える",
+      "供給する"
+    ],
+    "example": "The company gives a lot of money to charity. / その会社は多くの金を慈善活動に寄付している。"
+  },
+  {
+    "word": "go",
+    "level": "A1",
+    "definition_en": "The act of going.",
+    "meanings_ja": [
+      "行く",
+      "する"
+    ],
+    "example": "I will go to the store. / 私は店に行く。"
+  },
+  {
+    "word": "goes",
+    "level": "A1",
+    "definition_en": "The act of going.",
+    "meanings_ja": [
+      "行く",
+      "使う"
+    ],
+    "example": "I go to the store. / 私は店に行く。"
+  },
+  {
+    "word": "going",
+    "level": "A1",
+    "definition_en": "To move:",
+    "meanings_ja": [
+      "行き始めること",
+      "その状態にあること",
+      "その方向へ動いていること"
+    ],
+    "example": "The train"
+  },
+  {
+    "word": "good",
+    "level": "A1",
+    "definition_en": "(of people)",
+    "meanings_ja": [
+      "いいこと",
+      "良いこと"
+    ],
+    "example": "The weather is good today. / 今日は天気がいい。"
+  },
+  {
+    "word": "got",
+    "level": "A1",
+    "definition_en": "(ditransitive) To obtain; to acquire.",
+    "meanings_ja": [
+      "取得したり、手に入れたりすること。",
+      "そのようなものである。"
+    ],
+    "example": "She's got a lot of money. / 彼女は多くのお金を持っています。"
+  },
+  {
+    "word": "grade",
+    "level": "A1",
+    "definition_en": "A rating.",
+    "meanings_ja": [
+      "レベル",
+      "学年",
+      "等級"
+    ],
+    "example": "The movie got a high grade from critics. / 映画は評論家から高評価を受けました。"
+  },
+  {
+    "word": "great",
+    "level": "A1",
+    "definition_en": "A person of major significance, accomplishment or acclaim.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本"
+    ],
+    "example": ""
+  },
+  {
+    "word": "grew",
+    "level": "A1",
+    "definition_en": "To become larger, to increase in magnitude.",
+    "meanings_ja": [
+      "育った",
+      "増加した"
+    ],
+    "example": "The trees grew taller and stronger. / 木は高くて強くなりました。"
+  },
+  {
+    "word": "had",
+    "level": "A1",
+    "definition_en": "To possess, own.",
+    "meanings_ja": [
+      "過去形",
+      "過去完了",
+      "過去完了"
+    ],
+    "example": "I had a good time. / 私は楽しかった。 / ここでは「過去形」という意味が主であり、「過去完了」という意味は副次的なものです。"
+  },
+  {
+    "word": "hair",
+    "level": "A1",
+    "definition_en": "A pigmented filament of keratin which grows from a follicle on the skin of humans and other mammals.",
+    "meanings_ja": [
+      "髪",
+      "ひげ"
+    ],
+    "example": "She has long hair. / 彼女は長い髪を持っています。"
+  },
+  {
+    "word": "half",
+    "level": "A1",
+    "definition_en": "One of two usually roughly equal parts into which anything may be divided, or considered as divided.",
+    "meanings_ja": [
+      "半分",
+      "一半"
+    ],
+    "example": "The cake was cut in half. / ケーキは半分に切られた。"
+  },
+  {
+    "word": "hard",
+    "level": "A1",
+    "definition_en": "A firm or paved beach or slope convenient for hauling vessels out of the water.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡�"
+    ],
+    "example": ""
+  },
+  {
+    "word": "has",
+    "level": "A1",
+    "definition_en": "To possess, own.",
+    "meanings_ja": [
+      "あるものが持っていること。",
+      "そのようなことがある。",
+      "あるものが存在すること。"
+    ],
+    "example": "There are many"
+  },
+  {
+    "word": "hasn",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ない",
+      "なかった"
+    ],
+    "example": "I haven't eaten breakfast yet. / 朝食はまだ食べていない。 / 英語の例文「I haven't eaten breakfast yet.」は、主語が「I」で、動詞の過去形である「eaten」が続いています"
+  },
+  {
+    "word": "have",
+    "level": "A1",
+    "definition_en": "A wealthy or privileged person.",
+    "meanings_ja": [
+      "所有すること。",
+      "すること。",
+      "いること。"
+    ],
+    "example": "How many people"
+  },
+  {
+    "word": "he",
+    "level": "A1",
+    "definition_en": "The game of tag, or it, in which the player attempting to catch the others is called \"he\".",
+    "meanings_ja": [
+      "彼",
+      "その"
+    ],
+    "example": "He is my friend. / 彼は私の友達です。 /"
+  },
+  {
+    "word": "hear",
+    "level": "A1",
+    "definition_en": "(stative) To perceive sounds through the ear.",
+    "meanings_ja": [
+      "聞く",
+      "心が許す",
+      "その音を聞き取る"
+    ],
+    "example": "I can't hear you. / 私はあなたの声が聞こえない。"
+  },
+  {
+    "word": "heard",
+    "level": "A1",
+    "definition_en": "(stative) To perceive sounds through the ear.",
+    "meanings_ja": [
+      "聞いた",
+      "したこと"
+    ],
+    "example": "I have heard that you are going to the party tonight. / 今日夜はパーティに行くらしい。"
+  },
+  {
+    "word": "here",
+    "level": "A1",
+    "definition_en": "(abstract) This place; this location.",
+    "meanings_ja": [
+      "ここ",
+      "ここにいる"
+    ],
+    "example": "I'm over there, and you're here. / 私はそこにいて、あなたはここにいます。"
+  },
+  {
+    "word": "high",
+    "level": "A1",
+    "definition_en": "A high point or position, literally or figuratively; an elevated place; a superior region; a height; the sky; heaven.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある"
+    ],
+    "example": ""
+  },
+  {
+    "word": "him",
+    "level": "A1",
+    "definition_en": "Honorific alternative letter-case form of him, sometimes used when referring to God or another important figure who is understood from context.",
+    "meanings_ja": [
+      "彼",
+      "その人"
+    ],
+    "example": "I like him. / 私は彼が好きです。"
+  },
+  {
+    "word": "his",
+    "level": "A1",
+    "definition_en": "Honorific alternative letter-case form of his, sometimes used when referring to God or another important figure who is understood from context.",
+    "meanings_ja": [
+      "彼の",
+      "この"
+    ],
+    "example": "This is his book. / これは彼の本です。"
+  },
+  {
+    "word": "history",
+    "level": "A1",
+    "definition_en": "The aggregate of past events.",
+    "meanings_ja": [
+      "歴史",
+      "過去"
+    ],
+    "example": "The history of the company is a long and complicated one. / その会社の歴史は長く複雑である。"
+  },
+  {
+    "word": "hotels",
+    "level": "A1",
+    "definition_en": "A large town house or mansion; a grand private residence, especially in France.",
+    "meanings_ja": [
+      "ホテル",
+      "宿泊施設"
+    ],
+    "example": "The hotel was fully booked. / ホテルは完全予約状態だった。"
+  },
+  {
+    "word": "hour",
+    "level": "A1",
+    "definition_en": "A time period of sixty minutes; one twenty-fourth of a day.",
+    "meanings_ja": [
+      "時間\n\n例文: The movie is two hours long. / 映画は２時間続く。\n</"
+    ],
+    "example": "The movie is two hours long. / 映画は２時間続く。"
+  },
+  {
+    "word": "house",
+    "level": "A1",
+    "definition_en": "A structure built or serving as an abode of human beings.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください。複数の意味がある"
+    ],
+    "example": ""
+  },
+  {
+    "word": "how",
+    "level": "A1",
+    "definition_en": "The means by which something is accomplished.",
+    "meanings_ja": [
+      "どのように",
+      "どう"
+    ],
+    "example": "I don't know how to swim. /泳ぐ方法がわからない。"
+  },
+  {
+    "word": "i",
+    "level": "A1",
+    "definition_en": "The name of the Latin-script letter I.",
+    "meanings_ja": [
+      "一\n    - 例文: I am one of the students in this school.\n    - 英語例文: 私はこの学校の学生の一人です。\n2. 2位: \n    - 英"
+    ],
+    "example": ""
+  },
+  {
+    "word": "if",
+    "level": "A1",
+    "definition_en": "An uncertainty, possibility, condition, doubt etc.",
+    "meanings_ja": [
+      "条件",
+      "もし",
+      "仮定"
+    ],
+    "example": "If you want to learn English, you should study every day. / 英語が習いたいなら、毎日勉強する必要がある。 / もし英語を習いたいなら、毎日勉強する必要"
+  },
+  {
+    "word": "in",
+    "level": "A1",
+    "definition_en": "A position of power or influence, or a way to get it.",
+    "meanings_ja": [
+      "内側にあること。",
+      "時間や場所に関して。"
+    ],
+    "example": "I will meet you at 5 o'clock tomorrow. / 明日５"
+  },
+  {
+    "word": "information",
+    "level": "A1",
+    "definition_en": "That which resolves uncertainty; anything that answers the question of \"what a given entity is\".",
+    "meanings_ja": [
+      "情報",
+      "知識"
+    ],
+    "example": "The information was given to the public. / 公共のために情報が提供された。"
+  },
+  {
+    "word": "inside",
+    "level": "A1",
+    "definition_en": "The interior or inner part.",
+    "meanings_ja": [
+      "内側",
+      "そのうちの一つ"
+    ],
+    "example": "The book is on the table inside my room. / 本は私の部屋の中の机の上にある。 /"
+  },
+  {
+    "word": "internet",
+    "level": "A1",
+    "definition_en": "Any set of computer networks that communicate using the Internet Protocol. (An intranet.)",
+    "meanings_ja": [
+      "インターネット",
+      "ネットワーク"
+    ],
+    "example": "The Internet is a global network of interconnected computers. / インターネットは世界中のコンピュータがつながったネットワークです。"
+  },
+  {
+    "word": "into",
+    "level": "A1",
+    "definition_en": "To or towards the inside of.",
+    "meanings_ja": [
+      "その物の中に入ること。",
+      "そのようなものになる。",
+      "そのようにする。"
+    ],
+    "example": "I"
+  },
+  {
+    "word": "is",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "である",
+      "は",
+      "が",
+      "～がいる/～が存在する"
+    ],
+    "example": "There are three apples in the basket"
+  },
+  {
+    "word": "isn",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ではない\n例文: He isn't here today. - 彼は今日ここにはいない"
+    ],
+    "example": "He isn't here today. - 彼は今日ここにはいない"
+  },
+  {
+    "word": "it",
+    "level": "A1",
+    "definition_en": "One who is neither a he nor a she; a creature; a dehumanized being.",
+    "meanings_ja": [
+      "それ",
+      "は"
+    ],
+    "example": "I like it. / 私はそれが好きです。 / 「それ」は「it」という代名詞の一種で、主に動作や状態の対象となるものを指す。"
+  },
+  {
+    "word": "its",
+    "level": "A1",
+    "definition_en": "One who is neither a he nor a she; a creature; a dehumanized being.",
+    "meanings_ja": [
+      "その"
+    ],
+    "example": "This is mine. Its price was $100."
+  },
+  {
+    "word": "japan",
+    "level": "A1",
+    "definition_en": "A hard black enamel varnish containing asphalt.",
+    "meanings_ja": [
+      "日本",
+      "和紙"
+    ],
+    "example": "The Japanese have a long history of paper production. / 日本人は長い歴史を持つ和紙の生産者である。/ 和紙は日本で古くから作られているものです。"
+  },
+  {
+    "word": "jeff",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ジェフ",
+      "ジェフリー"
+    ],
+    "example": "Jeff, a common American given name, is often used as an abbreviation of Jeffrey or Jefferson.  (ジェフはアメリカ人の一般的な名前であり、ジェフリーまたはジェファーソンと同じように使用されることが多い)"
+  },
+  {
+    "word": "job",
+    "level": "A1",
+    "definition_en": "A task.",
+    "meanings_ja": [
+      "職業\n例文: What's your job? / あなたの職業は何ですか。 </"
+    ],
+    "example": "What's your job? / あなたの職業は何ですか。 </"
+  },
+  {
+    "word": "july",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "七月",
+      "7月",
+      "英国の国教会の七月の聖人"
+    ],
+    "example": "St. Swithun, a saint in the Church of England's"
+  },
+  {
+    "word": "just",
+    "level": "A1",
+    "definition_en": "Factually right, correct; factual.",
+    "meanings_ja": [
+      "正しい、正しく"
+    ],
+    "example": "I'm just"
+  },
+  {
+    "word": "keep",
+    "level": "A1",
+    "definition_en": "The main tower of a castle or fortress, located within the castle walls.",
+    "meanings_ja": [
+      "保存すること",
+      "続けること"
+    ],
+    "example": "I will keep my promise. / 約束を守る"
+  },
+  {
+    "word": "kid",
+    "level": "A1",
+    "definition_en": "A young goat.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複"
+    ],
+    "example": ""
+  },
+  {
+    "word": "kind",
+    "level": "A1",
+    "definition_en": "A type, race or category; a group of entities that have common characteristics such that they may be grouped together.",
+    "meanings_ja": [
+      "種類\n例文: There are many kinds of flowers in the garden. /"
+    ],
+    "example": "There are many kinds of flowers in the garden. /"
+  },
+  {
+    "word": "king",
+    "level": "A1",
+    "definition_en": "A male monarch; a man who heads a monarchy. If it's an absolute monarchy, then he is the supreme ruler of his nation.",
+    "meanings_ja": [
+      "王",
+      "皇帝",
+      "最高位の人"
+    ],
+    "example": "The king of England is a very important person. / イングランドの王はとても重要な人です。 /"
+  },
+  {
+    "word": "knew",
+    "level": "A1",
+    "definition_en": "To perceive the truth or factuality of; to be certain of or that.",
+    "meanings_ja": [
+      "知っていた",
+      "認識した"
+    ],
+    "example": "I knew him when he was a student. / 私は彼が学生だった時から知っている。 / その時、彼は学生だった。 / 彼は学生だった。"
+  },
+  {
+    "word": "know",
+    "level": "A1",
+    "definition_en": "Knowledge; the state of knowing.",
+    "meanings_ja": [
+      "この英単語の副次"
+    ],
+    "example": ""
+  },
+  {
+    "word": "last",
+    "level": "A1",
+    "definition_en": "Final, ultimate, coming after all others of its kind.",
+    "meanings_ja": [
+      "最後に",
+      "最後の",
+      "最も"
+    ],
+    "example": "I will see you at the party tonight, and then we'll go home. It was a great night, but it's time to go home now. That was the last song of the concert."
+  },
+  {
+    "word": "later",
+    "level": "A1",
+    "definition_en": "Near the end of a period of time.",
+    "meanings_ja": [
+      "その後",
+      "遅く"
+    ],
+    "example": "I'll see you later. / 私はあとであなたと会う。 / 私はあとであなたと会う。"
+  },
+  {
+    "word": "laugh",
+    "level": "A1",
+    "definition_en": "An expression of mirth particular to the human species; the sound heard in laughing; laughter.",
+    "meanings_ja": [
+      "笑うこと",
+      "皮肉なこと"
+    ],
+    "example": "She laughed at his joke. / 彼のジョークに笑った。"
+  },
+  {
+    "word": "learn",
+    "level": "A1",
+    "definition_en": "The act of learning something",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な2"
+    ],
+    "example": ""
+  },
+  {
+    "word": "leave",
+    "level": "A1",
+    "definition_en": "To have a consequence or remnant.",
+    "meanings_ja": [
+      "仕事や学校などを休むこと。",
+      "物を置くこと。",
+      "その人に与えるもの。"
+    ],
+    "example": "I will leave tomorrow. / 明日は帰る。"
+  },
+  {
+    "word": "left",
+    "level": "A1",
+    "definition_en": "The left side or direction.",
+    "meanings_ja": [
+      "左側",
+      "遅れたり、残ったりすること"
+    ],
+    "example": "The bus was late, so I had to wait on the left side of the street. / バスが遅れてしまったので、私は通りの中央より左側に待たなければならなかった。"
+  },
+  {
+    "word": "less",
+    "level": "A1",
+    "definition_en": "A smaller amount or quantity.",
+    "meanings_ja": [
+      "少ない",
+      "ほとんどない",
+      "小さい"
+    ],
+    "example": "I have less money than you. / 私はあなたより少ないお金を持っています。 / 「less」と「fewer」はどちらかを使うかという質問には、一般的には「"
+  },
+  {
+    "word": "life",
+    "level": "A1",
+    "definition_en": "The state of organisms preceding their death, characterized by biological processes such as metabolism and reproduction and distinguishing them from inanimate objects; the state of being alive and living.",
+    "meanings_ja": [
+      "人生",
+      "生物"
+    ],
+    "example": "She is a happy person and loves her life. / 彼女は幸せな人で、人生を大切に思っている。"
+  },
+  {
+    "word": "like",
+    "level": "A1",
+    "definition_en": "(usually in the plural) Something that a person likes (prefers).",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な2-3個を列挙し、最後に簡単な例文も含めてください。\n\n出力形式:\n意味1: [日本語訳1]\n意味2: [日本語訳2] (複数ある場合)\n例文: [英語例文] / [日本語訳] \n</s>\n\n<s>意味1: 似ていること、好きなこと\n例文: I like music. / 私は音楽が好きです。\n</s>\n\n<s>意味2: 類似すること\n例文: This is like a dream. / これは夢のようなものだ。\n</s>\n\n<s>意味3: そうであること\n例"
+    ],
+    "example": "This is like a dream. / これは夢のようなものだ。"
+  },
+  {
+    "word": "likes",
+    "level": "A1",
+    "definition_en": "(usually in the plural) Something that a person likes (prefers).",
+    "meanings_ja": [
+      "好み",
+      "仲間に入れること"
+    ],
+    "example": "She likes playing tennis. / 彼女はテニスが好きです。 / 彼女はテニスが好きなので、テニスコートに行きました。"
+  },
+  {
+    "word": "listen",
+    "level": "A1",
+    "definition_en": "An instance of listening.",
+    "meanings_ja": [
+      "聞く",
+      "心がけ"
+    ],
+    "example": "Listen to your heart. / 心に耳を傾けてみること。"
+  },
+  {
+    "word": "little",
+    "level": "A1",
+    "definition_en": "A small amount.",
+    "meanings_ja": [
+      "少ないこと",
+      "小さいこと"
+    ],
+    "example": "I have a little money. / 私には少しだけお金があります。"
+  },
+  {
+    "word": "live",
+    "level": "A1",
+    "definition_en": "To be alive; to have life.",
+    "meanings_ja": [
+      "生きていること",
+      "生きること"
+    ],
+    "example": "I am going to live in London. / 私はロンドンに住む。 / 私はロンドンに住むことになる。"
+  },
+  {
+    "word": "lived",
+    "level": "A1",
+    "definition_en": "To be alive; to have life.",
+    "meanings_ja": [
+      "人生を送った",
+      "生きていた"
+    ],
+    "example": "She has lived in Paris for five years. / 彼女はパリで5年間住んでいた。 / その人たちはこの島に20年以上生きていた。 / その人はこの島に20年以上生きていた。 / これ"
+  },
+  {
+    "word": "look",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "顔を上げて見ること。",
+      "そのようすを知ること。"
+    ],
+    "example": "I looked at the picture. / 私は写真を見た。 / 顔や姿を上げて見ること。"
+  },
+  {
+    "word": "looked",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "その方向を見て",
+      "そのような状態であるように見えた"
+    ],
+    "example": "She looked tired. / 彼女は疲れていた。 / stare"
+  },
+  {
+    "word": "lose",
+    "level": "A1",
+    "definition_en": "To cause (something) to cease to be in one's possession or capability due to unfortunate or unknown circumstances, events or reasons.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数"
+    ],
+    "example": ""
+  },
+  {
+    "word": "lost",
+    "level": "A1",
+    "definition_en": "To cause (something) to cease to be in one's possession or capability due to unfortunate or unknown circumstances, events or reasons.",
+    "meanings_ja": [
+      "この英単語の副詞形の主要な意味を簡潔な日本語で"
+    ],
+    "example": ""
+  },
+  {
+    "word": "lot",
+    "level": "A1",
+    "definition_en": "A large quantity or number; a great deal.",
+    "meanings_ja": [
+      "たくさん",
+      "こと",
+      "ところ"
+    ],
+    "example": "What's the lot"
+  },
+  {
+    "word": "m",
+    "level": "A1",
+    "definition_en": "Abbreviation of million.",
+    "meanings_ja": [
+      "10進法における10の累乗",
+      "1/1000",
+      "量"
+    ],
+    "example": "A millimetre is one-thousandth of a metre. / 1m = 1000mm /"
+  },
+  {
+    "word": "made",
+    "level": "A1",
+    "definition_en": "A grub or maggot.",
+    "meanings_ja": [
+      "作った",
+      "した"
+    ],
+    "example": "I made a cake. / 私はケーキを作りました。"
+  },
+  {
+    "word": "makes",
+    "level": "A1",
+    "definition_en": "Brand or kind; model.",
+    "meanings_ja": [
+      "できる",
+      "作る"
+    ],
+    "example": "She makes a good cup of coffee. / 彼女は良いコーヒーを作る。"
+  },
+  {
+    "word": "man",
+    "level": "A1",
+    "definition_en": "An adult male human.",
+    "meanings_ja": [
+      "男性",
+      "人間"
+    ],
+    "example": "The man is tall. / 彼は背が高い。"
+  },
+  {
+    "word": "many",
+    "level": "A1",
+    "definition_en": "A multitude; a great aggregate; a mass of people; the generality; the common herd.",
+    "meanings_ja": [
+      "多くの",
+      "たくさん"
+    ],
+    "example": "I have many friends. / 私は多くの友達がいます。 / friend"
+  },
+  {
+    "word": "market",
+    "level": "A1",
+    "definition_en": "A gathering of people for the purchase and sale of merchandise at a set time, often periodic.",
+    "meanings_ja": [
+      "市場",
+      "商品"
+    ],
+    "example": "The market is full of fresh vegetables. / 市場は新鮮な野菜がたくさんあります。"
+  },
+  {
+    "word": "married",
+    "level": "A1",
+    "definition_en": "A married person.",
+    "meanings_ja": [
+      "結婚したこと。",
+      "結婚すること。"
+    ],
+    "example": "She got married. / 彼女は結婚した。 / 例文サイト：https://eow.alc.co.jp/search?q=married"
+  },
+  {
+    "word": "maybe",
+    "level": "A1",
+    "definition_en": "Something that is possibly true.",
+    "meanings_ja": [
+      "どちらかというと",
+      "かもしれない"
+    ],
+    "example": "I don't know if she'll come, but maybe she will. / 彼女が来るかどうかわからないが、彼女は来るかもしれません。"
+  },
+  {
+    "word": "me",
+    "level": "A1",
+    "definition_en": "As the direct object of a verb.",
+    "meanings_ja": [
+      "私",
+      "私たちの"
+    ],
+    "example": "What do you want from me? / 私から何が欲しいの？"
+  },
+  {
+    "word": "mean",
+    "level": "A1",
+    "definition_en": "To lament.",
+    "meanings_ja": [
+      "平均",
+      "うるさい",
+      "悪いこと"
+    ],
+    "example": "It's not nice to be mean to someone who can't defend themselves. / 弱い人に悪いことをするのはやめろ。"
+  },
+  {
+    "word": "men",
+    "level": "A1",
+    "definition_en": "An adult male human.",
+    "meanings_ja": [
+      "男性の人々",
+      "男性の人"
+    ],
+    "example": "The men in the village were all farmers. / 村には全て農業を営む男性が住んでいた。 / ここでは「men」は男性の人々を指している。"
+  },
+  {
+    "word": "million",
+    "level": "A1",
+    "definition_en": "(long and short scales) The cardinal number 1,000,000: 106; a thousand thousand.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数"
+    ],
+    "example": ""
+  },
+  {
+    "word": "mind",
+    "level": "A1",
+    "definition_en": "The ability for rational thought.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の"
+    ],
+    "example": ""
+  },
+  {
+    "word": "minutes",
+    "level": "A1",
+    "definition_en": "A unit of time equal to sixty seconds (one-sixtieth of an hour).",
+    "meanings_ja": [
+      "時間の単位（60秒）",
+      "会議の記録"
+    ],
+    "example": "The meeting will last 30 minutes. / 会議は30分間続く。"
+  },
+  {
+    "word": "money",
+    "level": "A1",
+    "definition_en": "A legally or socially binding conceptual contract of entitlement to wealth, void of intrinsic value, payable for all debts and taxes, and regulated in supply.",
+    "meanings_ja": [
+      "お金",
+      "金銭的価値"
+    ],
+    "example": "I don't have enough money to buy that. / 私にはその物を買うお金が足りない。"
+  },
+  {
+    "word": "month",
+    "level": "A1",
+    "definition_en": "A period into which a year is divided, historically based on the phases of the moon.",
+    "meanings_ja": [
+      "1か月",
+      "月",
+      "期間"
+    ],
+    "example": "I've been working here for a month. / 私はここで1か月働いています。"
+  },
+  {
+    "word": "more",
+    "level": "A1",
+    "definition_en": "To a greater degree or extent.",
+    "meanings_ja": [
+      "多い",
+      "さらに",
+      "より"
+    ],
+    "example": "This is more difficult than that. / これはそれよりも難しいです。"
+  },
+  {
+    "word": "morning",
+    "level": "A1",
+    "definition_en": "The part of the day from dawn to noon.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください。複数の"
+    ],
+    "example": ""
+  },
+  {
+    "word": "movies",
+    "level": "A1",
+    "definition_en": "A recorded sequence of images displayed on a screen at a rate sufficiently fast to create the appearance of motion.",
+    "meanings_ja": [
+      "映画",
+      "映像"
+    ],
+    "example": "I love watching movies. / 映画が好きです。"
+  },
+  {
+    "word": "much",
+    "level": "A1",
+    "definition_en": "Large, great.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の"
+    ],
+    "example": ""
+  },
+  {
+    "word": "music",
+    "level": "A1",
+    "definition_en": "A series of sounds organized in time, employing melody, harmony, tempo etc. usually to convey a mood.",
+    "meanings_ja": [
+      "音楽",
+      "音楽家"
+    ],
+    "example": "She is a musician. / 彼女は音楽家です。"
+  },
+  {
+    "word": "my",
+    "level": "A1",
+    "definition_en": "Used to express surprise, shock or amazement.",
+    "meanings_ja": [
+      "例文: My name is John. / 私の名前はジョンです。 \n\n</s>\n\n<s>英単語: my\n日本"
+    ],
+    "example": "My name is John. / 私の名前はジョンです。"
+  },
+  {
+    "word": "n",
+    "level": "A1",
+    "definition_en": "North",
+    "meanings_ja": [
+      "接尾辞"
+    ],
+    "example": "The"
+  },
+  {
+    "word": "name",
+    "level": "A1",
+    "definition_en": "Any nounal word or phrase which indicates a particular person, place, class, or thing.",
+    "meanings_ja": [
+      "人の名前",
+      "名称",
+      "種類・種別"
+    ],
+    "example": "What's the name of this book? / この本の名前は何ですか"
+  },
+  {
+    "word": "need",
+    "level": "A1",
+    "definition_en": "A requirement for something; something needed.",
+    "meanings_ja": [
+      "必要とすること",
+      "必要なもの",
+      "欲求すること"
+    ],
+    "example": "I need a book. / 私は本が必要だ。 / 私は本が欲しい。"
+  },
+  {
+    "word": "never",
+    "level": "A1",
+    "definition_en": "At no time; on no occasion; in no circumstance.",
+    "meanings_ja": [
+      "いつまでも",
+      "どんなときも"
+    ],
+    "example": "I will never forget this day. / 私はこの日を忘れない。"
+  },
+  {
+    "word": "new",
+    "level": "A1",
+    "definition_en": "Things that are new.",
+    "meanings_ja": [
+      "新しい",
+      "初めて"
+    ],
+    "example": "I'm going to a new restaurant tonight. / 私は今夜、新しく開いたレストランに行く。"
+  },
+  {
+    "word": "no",
+    "level": "A1",
+    "definition_en": "A negating expression; an answer that shows disagreement or disapproval",
+    "meanings_ja": [
+      "ない",
+      "否",
+      "~ではない"
+    ],
+    "example": "This is not my book. /"
+  },
+  {
+    "word": "none",
+    "level": "A1",
+    "definition_en": "A person without religious affiliation.",
+    "meanings_ja": [
+      "なし",
+      "無いこと"
+    ],
+    "example": "I have no money. / 私にはお金がない。"
+  },
+  {
+    "word": "not",
+    "level": "A1",
+    "definition_en": "A unary operation on logical values that changes true to false, and false to true.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください。複数"
+    ],
+    "example": ""
+  },
+  {
+    "word": "nothing",
+    "level": "A1",
+    "definition_en": "Something trifling, or of no consequence or importance.",
+    "meanings_ja": [
+      "何もないこと",
+      "無限"
+    ],
+    "example": ""
+  },
+  {
+    "word": "now",
+    "level": "A1",
+    "definition_en": "The present time.",
+    "meanings_ja": [
+      "これから先",
+      "ただ今",
+      "今まで"
+    ],
+    "example": "I've been studying English for three years now. /"
+  },
+  {
+    "word": "number",
+    "level": "A1",
+    "definition_en": "An abstract entity used to describe quantity.",
+    "meanings_ja": [
+      "数字、数量\n例文: The number of students in the class is 30. / クラスの人数は30"
+    ],
+    "example": "The number of students in the class is 30. / クラスの人数は30"
+  },
+  {
+    "word": "of",
+    "level": "A1",
+    "definition_en": "Expressing distance or motion.",
+    "meanings_ja": [
+      "こと",
+      "の"
+    ],
+    "example": "The book is about of the history of Japan."
+  },
+  {
+    "word": "off",
+    "level": "A1",
+    "definition_en": "(usually in phrases such as 'from the off', 'at the off', etc.) Beginning; starting point.",
+    "meanings_ja": [
+      "その状態から外れる; その状態になる",
+      "仕事や活動などを休む"
+    ],
+    "example": "Take a break and go off for a walk. / 休憩を取って散歩に行く。"
+  },
+  {
+    "word": "office",
+    "level": "A1",
+    "definition_en": "A ceremonial duty or service, particularly:",
+    "meanings_ja": [
+      "オフィス",
+      "職場 / 公務所"
+    ],
+    "example": "The office is on the second floor. / オフィスは２階にある。 / 会社の職場が２階にある。"
+  },
+  {
+    "word": "okay",
+    "level": "A1",
+    "definition_en": "Endorsement; approval.",
+    "meanings_ja": [
+      "いいえ",
+      "はい / 了解",
+      "正解"
+    ],
+    "example": "The answer is okay. / 正解は「はい」です"
+  },
+  {
+    "word": "old",
+    "level": "A1",
+    "definition_en": "(with the, invariable plural only) People who are old; old beings; the older generation, taken as a group.",
+    "meanings_ja": [
+      "古い",
+      "年老いた"
+    ],
+    "example": "I'm getting old. / 私は年をとっています。 / 「私は年をとっています」という表現は「私は年をとっている」や「私は年をとった」などの表現と同義です。"
+  },
+  {
+    "word": "on",
+    "level": "A1",
+    "definition_en": "To switch on",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な2-3個を列挙し、最後に簡単な例文も含めてください。\n\n出力形式:\n意味1: [日本語訳1]\n意味2: [日本語訳2] (複数ある場合)\n例文: [英語例文] / [日本語訳] \n</s>\n\n<s>意味1: 上にあり、または上向きに\n例文: The book is on the table.\n(本は机の上にある。)\n</s>\n\n<s>意味2: そのような性質を持っている\n例文: She's on fire with her new job.\n(彼女は新しい仕事がうまくいっている。)\n</"
+    ],
+    "example": "She's on fire with her new job."
+  },
+  {
+    "word": "one",
+    "level": "A1",
+    "definition_en": "The digit or figure 1.",
+    "meanings_ja": [
+      "２",
+      "二つ"
+    ],
+    "example": "There are two apples in the"
+  },
+  {
+    "word": "only",
+    "level": "A1",
+    "definition_en": "An only child.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複"
+    ],
+    "example": ""
+  },
+  {
+    "word": "or",
+    "level": "A1",
+    "definition_en": "Connects at least two alternative words, phrases, clauses, sentences, etc. each of which could make a passage true. In English, this is the \"inclusive or.\" The \"exclusive or\" is formed by \"either [...] or\".",
+    "meanings_ja": [
+      "または",
+      "～と～"
+    ],
+    "example": "I like tea or coffee. / 私はお茶かコーヒーが好きです。 / 私はお茶とコーヒーのどちらも好きです。"
+  },
+  {
+    "word": "other",
+    "level": "A1",
+    "definition_en": "An other, another (person, etc), more often rendered as another.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で"
+    ],
+    "example": ""
+  },
+  {
+    "word": "others",
+    "level": "A1",
+    "definition_en": "An other, another (person, etc), more often rendered as another.",
+    "meanings_ja": [
+      "他人",
+      "ほか",
+      "他人",
+      "ほか"
+    ],
+    "example": ""
+  },
+  {
+    "word": "our",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "私たちの",
+      "そのうちの一つ"
+    ],
+    "example": "This is one of our cars. / これは私たちの車の一台です。"
+  },
+  {
+    "word": "out",
+    "level": "A1",
+    "definition_en": "A means of exit, escape, reprieve, etc.",
+    "meanings_ja": [
+      "外側; その外側",
+      "その外側にあること; その外側へ"
+    ],
+    "example": "The cat is out of the bag. / 猫は袋から出た。 / 猫が袋の中から飛び出す。"
+  },
+  {
+    "word": "outside",
+    "level": "A1",
+    "definition_en": "The part of something that faces out; the outer surface.",
+    "meanings_ja": [
+      "外側",
+      "外国",
+      "仕事外",
+      "外側",
+      "外国"
+    ],
+    "example": "The concert will be held outside. / コンサートは外で行われる"
+  },
+  {
+    "word": "over",
+    "level": "A1",
+    "definition_en": "A set of six legal balls bowled.",
+    "meanings_ja": [
+      "上にある",
+      "超える",
+      "多すぎる"
+    ],
+    "example": "I can't finish this work because it's too much for me to do in one day. / 私には一日でこの仕事が多すぎて終わらせ"
+  },
+  {
+    "word": "paper",
+    "level": "A1",
+    "definition_en": "A sheet material used for writing on or printing on (or as a non-waterproof container), usually made by draining cellulose fibres from a suspension in water.",
+    "meanings_ja": [
+      "紙",
+      "書類",
+      "紙製品"
+    ],
+    "example": "The paper was written on a computer. / コンピューターで書かれた紙。"
+  },
+  {
+    "word": "passed",
+    "level": "A1",
+    "definition_en": "To change place.",
+    "meanings_ja": [
+      "その人や物が先ほどここにいたこと。",
+      "その人の年齢が成人になったこと。"
+    ],
+    "example": "She has passed her exam. / 彼女は試験を受けました。 / 試験を受けて合格したことを示す"
+  },
+  {
+    "word": "past",
+    "level": "A1",
+    "definition_en": "To change place.",
+    "meanings_ja": [
+      "過去",
+      "その先"
+    ],
+    "example": "I have been to Paris in the past. / 私は過去にパリに行った。"
+  },
+  {
+    "word": "people",
+    "level": "A1",
+    "definition_en": "Used as plural of person; a body of human beings considered generally or collectively; a group of two or more persons.",
+    "meanings_ja": [
+      "人々",
+      "人間"
+    ],
+    "example": "The people of the town were very friendly. / その町の人たちはとても親切だった。"
+  },
+  {
+    "word": "person",
+    "level": "A1",
+    "definition_en": "An individual; usually a human being.",
+    "meanings_ja": [
+      "人",
+      "個人",
+      "人間"
+    ],
+    "example": "The person who called me is my friend. / 私が電話を受けた人は私の友達です。/ 私は友達から電話を受けました。"
+  },
+  {
+    "word": "place",
+    "level": "A1",
+    "definition_en": "(physical) An area; somewhere within an area.",
+    "meanings_ja": [
+      "場所",
+      "位置",
+      "立場"
+    ],
+    "example": "I'd like to take my place at the table. / 私は机の上に座りたいです。"
+  },
+  {
+    "word": "plan",
+    "level": "A1",
+    "definition_en": "A drawing showing technical details of a building, machine, etc., with unwanted details omitted, and often using symbols rather than detailed drawing to represent doors, valves, etc.",
+    "meanings_ja": [
+      "計画",
+      "プラン"
+    ],
+    "example": "I have a plan to go to the beach tomorrow. / 明日は海に行く計画ができた。"
+  },
+  {
+    "word": "playing",
+    "level": "A1",
+    "definition_en": "To act in a manner such that one has fun; to engage in activities expressly for the purpose of recreation or entertainment.",
+    "meanings_ja": [
+      "遊び",
+      "演奏",
+      "仕事をする"
+    ],
+    "example": "I'm playing the piano. / 私はピアノを弾いている。"
+  },
+  {
+    "word": "point",
+    "level": "A1",
+    "definition_en": "A discrete division of something.",
+    "meanings_ja": [
+      "点",
+      "こと",
+      "方向"
+    ],
+    "example": "The point of the compass is north. / コンパスの方向は北です。"
+  },
+  {
+    "word": "pretty",
+    "level": "A1",
+    "definition_en": "A pretty person; a term of address to a pretty person.",
+    "meanings_ja": [
+      "美しい",
+      "かなり"
+    ],
+    "example": "She's a pretty girl. / 彼女は美人だ。"
+  },
+  {
+    "word": "price",
+    "level": "A1",
+    "definition_en": "The cost required to gain possession of something.",
+    "meanings_ja": [
+      "価格",
+      "値段",
+      "賞味料"
+    ],
+    "example": ""
+  },
+  {
+    "word": "put",
+    "level": "A1",
+    "definition_en": "A right to sell something at a predetermined price.",
+    "meanings_ja": [
+      "位置を変えること。",
+      "価値を付けること。"
+    ],
+    "example": "This is a very good restaurant, and it's worth putting your money there. / このレストランはとてもいいし、お金"
+  },
+  {
+    "word": "question",
+    "level": "A1",
+    "definition_en": "A sentence, phrase or word which asks for information, reply or response; an interrogative.",
+    "meanings_ja": [
+      "問い合わせること",
+      "問題点"
+    ],
+    "example": "What's the question? / どんな質問ですか？ / 問題"
+  },
+  {
+    "word": "quickly",
+    "level": "A1",
+    "definition_en": "Rapidly; with speed; fast.",
+    "meanings_ja": [
+      "速く",
+      "急いで"
+    ],
+    "example": "She quickly finished her homework. / 彼女はすぐに宿題を終わらせた。 / その日は早く帰りたいと思った。"
+  },
+  {
+    "word": "read",
+    "level": "A1",
+    "definition_en": "A reading or an act of reading, especially an actor's part of a play.",
+    "meanings_ja": [
+      "書き物を読むこと。",
+      "予定していたことを実行すること。"
+    ],
+    "example": "I will read the book. / 私は本を読む。 / 本を読み終わった。"
+  },
+  {
+    "word": "real",
+    "level": "A1",
+    "definition_en": "A commodity; see realty.",
+    "meanings_ja": [
+      "実際の",
+      "真実の"
+    ],
+    "example": "The real reason for his resignation was not disclosed. / 彼の辞任の本当の理由は明らかになっていない。 / 彼の辞任の真実の理由は明らかになっていない。"
+  },
+  {
+    "word": "really",
+    "level": "A1",
+    "definition_en": "In a way or manner that is real, not unreal.",
+    "meanings_ja": [
+      "実際に",
+      "本当に",
+      "とても"
+    ],
+    "example": "This cake is really delicious! / このケーキはとても美"
+  },
+  {
+    "word": "remember",
+    "level": "A1",
+    "definition_en": "To recall from one's memory; to have an image in one's memory.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で"
+    ],
+    "example": ""
+  },
+  {
+    "word": "right",
+    "level": "A1",
+    "definition_en": "Straight, not bent.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な"
+    ],
+    "example": ""
+  },
+  {
+    "word": "road",
+    "level": "A1",
+    "definition_en": "A way used for travelling between places, originally one wide enough to allow foot passengers and horses to travel, now (US) usually one surfaced with asphalt or concrete and designed to accommodate many vehicles travelling in both directions. In the UK both senses are heard: a country road is the same as a country lane.",
+    "meanings_ja": [
+      "道路",
+      "道筋"
+    ],
+    "example": "The road to success is not easy. / 成功への道は容易ではない。"
+  },
+  {
+    "word": "running",
+    "level": "A1",
+    "definition_en": "To move swiftly.",
+    "meanings_ja": [
+      "例文: She was the runner-up in the competition. / 彼女は"
+    ],
+    "example": "She was the runner-up in the competition. / 彼女は"
+  },
+  {
+    "word": "s",
+    "level": "A1",
+    "definition_en": "A weight of 1/288 of a pound, that is, twenty grains or one third of a dram, about 1.3 grams (symbol: ℈).",
+    "meanings_ja": [
+      "袋の中には5個のリンゴがあり、それぞれ約1ポンドです。袋の総重量は5×7ポ"
+    ],
+    "example": ""
+  },
+  {
+    "word": "said",
+    "level": "A1",
+    "definition_en": "Mentioned earlier; aforesaid.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な2-3個を列挙し、最後に簡単な例文も含めてください。\n\n出力形式:\n意味1: [日本語訳1]\n意味2: [日本語訳2] (複数ある場合)\n例文: [英語例文] / [日本語訳] など\n\n答え:\n意味1: (人)が話す言葉\n意味2: (人)が言っていること\n例文: \"I said, 'Hello,'\" she said. / 「私は「こんにちは」と言った」、「こんにちは」と彼女は言った。\n\nこの問題では、受験者は提供された選択肢から正しい日本語訳を選択する必要があり"
+    ],
+    "example": "\"I said, 'Hello,'\" she said. / 「私は「こんにちは」と言った」、「こんにちは」と彼女は言った。"
+  },
+  {
+    "word": "same",
+    "level": "A1",
+    "definition_en": "Not different or other; not another or others; not different as regards self; selfsame; identical.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。"
+    ],
+    "example": ""
+  },
+  {
+    "word": "saw",
+    "level": "A1",
+    "definition_en": "A tool with a toothed blade used for cutting hard substances, in particular wood or metal",
+    "meanings_ja": [
+      "切る道具",
+      "見たことのあること"
+    ],
+    "example": "I saw the movie yesterday. / 昨日映画を見た。"
+  },
+  {
+    "word": "say",
+    "level": "A1",
+    "definition_en": "A chance to speak; the right or power to influence or make a decision.",
+    "meanings_ja": [
+      "言う",
+      "話す"
+    ],
+    "example": "What do you want to say? / どうしたい？ / どうしたいことがあれば言ってくださいね。"
+  },
+  {
+    "word": "says",
+    "level": "A1",
+    "definition_en": "A chance to speak; the right or power to influence or make a decision.",
+    "meanings_ja": [
+      "そのようなことであると言う。",
+      "そのようなことを言っている。",
+      "そのようなことであると言う。",
+      "そのような"
+    ],
+    "example": "He says he is tired. / 彼は疲れていると言う。 / 言う"
+  },
+  {
+    "word": "scared",
+    "level": "A1",
+    "definition_en": "To frighten, terrify, startle, especially in a minor way.",
+    "meanings_ja": [
+      "例文: The scarecrow in the field was made from old clothes and a"
+    ],
+    "example": "The scarecrow in the field was made from old clothes and a"
+  },
+  {
+    "word": "school",
+    "level": "A1",
+    "definition_en": "(collective) A group of fish or a group of marine mammals such as porpoises, dolphins, or whales.",
+    "meanings_ja": [
+      "学校",
+      "学問",
+      "年齢"
+    ],
+    "example": "He's a school boy. / 彼は小学生です。 / 小学校生まれ。"
+  },
+  {
+    "word": "see",
+    "level": "A1",
+    "definition_en": "(stative) To perceive or detect with the eyes, or as if by sight.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えて"
+    ],
+    "example": ""
+  },
+  {
+    "word": "seems",
+    "level": "A1",
+    "definition_en": "To appear; to look outwardly; to be perceived as.",
+    "meanings_ja": [
+      "そのように見える",
+      "そう思われる"
+    ],
+    "example": "She seems happy. / 彼女は幸せそうだ。"
+  },
+  {
+    "word": "seen",
+    "level": "A1",
+    "definition_en": "(stative) To perceive or detect with the eyes, or as if by sight.",
+    "meanings_ja": [
+      "見ること",
+      "見たこと"
+    ],
+    "example": "I have never seen such a beautiful sunset. / 私はこんなに美しい夕焼けを見たことがない。"
+  },
+  {
+    "word": "self",
+    "level": "A1",
+    "definition_en": "One individual's personality, character, demeanor, or disposition.",
+    "meanings_ja": [
+      "自分自身",
+      "自律性",
+      "自己中心"
+    ],
+    "example": "The company is a self-sufficient entity. / 企業は自給自足できる組織である。 /"
+  },
+  {
+    "word": "sell",
+    "level": "A1",
+    "definition_en": "An act of selling.",
+    "meanings_ja": [
+      "売る",
+      "買う"
+    ],
+    "example": "I will sell my car. / 私は車を売ります。"
+  },
+  {
+    "word": "sense",
+    "level": "A1",
+    "definition_en": "Any of the manners by which living beings perceive the physical world: for humans sight, smell, hearing, touch, taste.",
+    "meanings_ja": [
+      "感覚",
+      "意味",
+      "理解"
+    ],
+    "example": "I have no sense of direction. / 私には方向感がありません。"
+  },
+  {
+    "word": "set",
+    "level": "A1",
+    "definition_en": "To put (something) down, to rest.",
+    "meanings_ja": [
+      "位置や状況を決めること",
+      "一つのグループを形成すること",
+      "予定した時間に始まること"
+    ],
+    "example": "The concert will start at 8pm. / コンサートは20時から始まります。"
+  },
+  {
+    "word": "shop",
+    "level": "A1",
+    "definition_en": "An establishment that sells goods or services to the public; originally only a physical location, but now a virtual establishment as well.",
+    "meanings_ja": [
+      "店",
+      "小売店"
+    ],
+    "example": "I went to the shop and bought a new shirt. / 私は店に行って新しいシャツを買った。"
+  },
+  {
+    "word": "shopping",
+    "level": "A1",
+    "definition_en": "To visit stores or shops to browse or explore merchandise, especially with the intention of buying such merchandise.",
+    "meanings_ja": [
+      "買い物をすること",
+      "店や市場などで品物を売ること",
+      "仕事や"
+    ],
+    "example": "The store is open for shopping. / その店は営業中だ。"
+  },
+  {
+    "word": "short",
+    "level": "A1",
+    "definition_en": "A short circuit.",
+    "meanings_ja": [
+      "すぐに終わること",
+      "長さが短いこと",
+      "少ないこと"
+    ],
+    "example": "The concert was a short one. / コンサートは短かった。"
+  },
+  {
+    "word": "smell",
+    "level": "A1",
+    "definition_en": "A sensation, pleasant or unpleasant, detected by inhaling air (or, the case of water-breathing animals, water) carrying airborne molecules of a substance.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください。複数"
+    ],
+    "example": ""
+  },
+  {
+    "word": "smith",
+    "level": "A1",
+    "definition_en": "A craftsperson who works metal into desired forms using a hammer and other tools, sometimes heating the metal to make it more workable, especially a blacksmith.",
+    "meanings_ja": [
+      "鍛冶屋",
+      "スミス"
+    ],
+    "example": "He is a blacksmith. / 彼は鍛冶屋です。 / 彼は黒い金属を打ち合わせる仕事をする人です。"
+  },
+  {
+    "word": "so",
+    "level": "A1",
+    "definition_en": "True, accurate.",
+    "meanings_ja": [
+      "そうだ",
+      "その"
+    ],
+    "example": "I'm going to the store. So am I."
+  },
+  {
+    "word": "some",
+    "level": "A1",
+    "definition_en": "Of a measurement: approximately, roughly.",
+    "meanings_ja": [
+      "一部の",
+      "ある程度の",
+      "不明な"
+    ],
+    "example": "I have some money. / 私はお金を持っています。"
+  },
+  {
+    "word": "something",
+    "level": "A1",
+    "definition_en": "An object whose nature is yet to be defined.",
+    "meanings_ja": [
+      "何か",
+      "そのようなもの"
+    ],
+    "example": "I don't know what you want, but it's not that something. / 私にはあなたが何を求めているのかわかりませんが、それは何かではありません。 / 私にはあなたが何を求めているのかわかり"
+  },
+  {
+    "word": "song",
+    "level": "A1",
+    "definition_en": "A musical composition with lyrics for voice or voices, performed by singing.",
+    "meanings_ja": [
+      "歌",
+      "歌曲",
+      "歌詞"
+    ],
+    "example": "The song is about her life. / 歌は彼女の人生についてです。 / これは歌詞"
+  },
+  {
+    "word": "sound",
+    "level": "A1",
+    "definition_en": "Healthy.",
+    "meanings_ja": [
+      "音",
+      "音楽",
+      "そのようなものであること"
+    ],
+    "example": "The sound of the waves was soothing. / 波の音は癒されました。"
+  },
+  {
+    "word": "started",
+    "level": "A1",
+    "definition_en": "To begin, commence, initiate.",
+    "meanings_ja": [
+      "始まる",
+      "開始する"
+    ],
+    "example": "The project started last week. / そのプロジェクトは先週から始まった。 / そのプロジェクトは先週から始まった。"
+  },
+  {
+    "word": "stephen",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "スティーブン",
+      "ステファン"
+    ],
+    "example": "Stephen King is an American author. / スティーヴン・キングはアメリカの作家です。"
+  },
+  {
+    "word": "stop",
+    "level": "A1",
+    "definition_en": "A (usually marked) place where buses, trams or trains halt to let passengers get on and off, usually smaller than a station.",
+    "meanings_ja": [
+      "止める",
+      "一時停止",
+      "中断"
+    ],
+    "example": "I want to stop this conversation. / 私はこの"
+  },
+  {
+    "word": "store",
+    "level": "A1",
+    "definition_en": "A place where items may be accumulated or routinely kept.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語"
+    ],
+    "example": ""
+  },
+  {
+    "word": "stores",
+    "level": "A1",
+    "definition_en": "A place where items may be accumulated or routinely kept.",
+    "meanings_ja": [
+      "店",
+      "保存する",
+      "店",
+      "保存する"
+    ],
+    "example": "She stores her books in the"
+  },
+  {
+    "word": "story",
+    "level": "A1",
+    "definition_en": "A sequence of real or fictional events; or, an account of such a sequence.",
+    "meanings_ja": [
+      "物語",
+      "ストーリー"
+    ],
+    "example": "The story of my life is a long and complicated one. / 私の人生は長く複雑な物語だ。"
+  },
+  {
+    "word": "street",
+    "level": "A1",
+    "definition_en": "A paved part of road, usually in a village or a town.",
+    "meanings_ja": [
+      "街道",
+      "街"
+    ],
+    "example": "The street was crowded with people. / 人々が多く集まっている通りは混雑していた。"
+  },
+  {
+    "word": "strong",
+    "level": "A1",
+    "definition_en": "Capable of producing great physical force.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は"
+    ],
+    "example": ""
+  },
+  {
+    "word": "student",
+    "level": "A1",
+    "definition_en": "A person who studies or learns about a particular subject.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な"
+    ],
+    "example": ""
+  },
+  {
+    "word": "such",
+    "level": "A1",
+    "definition_en": "Something being indicated that is similar to something else.",
+    "meanings_ja": [
+      "そのような",
+      "そんな"
+    ],
+    "example": "I'm not going to the party, it's just a bunch of people who are all such snobs. / 私はパーティーに行くつもりはない、ただそのような人々が集まっているだけだ。"
+  },
+  {
+    "word": "summer",
+    "level": "A1",
+    "definition_en": "One of four seasons, traditionally the second, marked by the longest and typically hottest days of the year due to the inclination of the Earth and thermal lag. Typically regarded as being from June 21 to September 22 or 23 in parts of the USA, the months of June, July and August in the United Kingdom and the months of December, January and February in the Southern Hemisphere.",
+    "meanings_ja": [
+      "夏",
+      "熱い時期"
+    ],
+    "example": "I love the summer. / 私は夏が好きです。"
+  },
+  {
+    "word": "t",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "時間",
+      "位置",
+      "方向"
+    ],
+    "example": "I have a lot of time to finish my work. / 私には仕事を終わらせるのに多くの時間が残っている。 /"
+  },
+  {
+    "word": "talk",
+    "level": "A1",
+    "definition_en": "To communicate, usually by means of speech.",
+    "meanings_ja": [
+      "話すこと",
+      "会話"
+    ],
+    "example": "I want to talk with you. / 私はあなたと話したいです。/"
+  },
+  {
+    "word": "teachers",
+    "level": "A1",
+    "definition_en": "A person who teaches, especially one employed in a school.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、"
+    ],
+    "example": ""
+  },
+  {
+    "word": "television",
+    "level": "A1",
+    "definition_en": "An electronic communication medium that allows the transmission of real-time visual images, and often sound.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答"
+    ],
+    "example": ""
+  },
+  {
+    "word": "tell",
+    "level": "A1",
+    "definition_en": "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答"
+    ],
+    "example": ""
+  },
+  {
+    "word": "test",
+    "level": "A1",
+    "definition_en": "A challenge, trial.",
+    "meanings_ja": [
+      "試験",
+      "試す",
+      "試作品"
+    ],
+    "example": "The new car will be tested next week. / 次週新車が試験される。 / ここでは「試験」という意味のtestを使った例文です。"
+  },
+  {
+    "word": "th",
+    "level": "A1",
+    "definition_en": "Abbreviation of table header.",
+    "meanings_ja": [
+      "この",
+      "は",
+      "その"
+    ],
+    "example": "That is a car. / それは車です。"
+  },
+  {
+    "word": "than",
+    "level": "A1",
+    "definition_en": "At that time; then.",
+    "meanings_ja": [
+      "比較用の助詞",
+      "比較対象"
+    ],
+    "example": "I am taller than you. / 私はあなたより背が高い。"
+  },
+  {
+    "word": "thanks",
+    "level": "A1",
+    "definition_en": "An expression of appreciation; a thought.",
+    "meanings_ja": [
+      "感謝すること",
+      "ありがとう",
+      "便利なもの"
+    ],
+    "example": "This is a great thanks for my birthday. / このプレゼント"
+  },
+  {
+    "word": "that",
+    "level": "A1",
+    "definition_en": "Something being indicated that is there; one of those.",
+    "meanings_ja": [
+      "その",
+      "が"
+    ],
+    "example": "This is the book that I wanted."
+  },
+  {
+    "word": "the",
+    "level": "A1",
+    "definition_en": "With a comparative or with more and a verb phrase, establishes a correlation with one or more other such comparatives.",
+    "meanings_ja": [
+      "その",
+      "の",
+      "は"
+    ],
+    "example": ""
+  },
+  {
+    "word": "their",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要"
+    ],
+    "example": ""
+  },
+  {
+    "word": "them",
+    "level": "A1",
+    "definition_en": "(plural) Those ones.",
+    "meanings_ja": [
+      "それら",
+      "彼ら"
+    ],
+    "example": "I love them. / 私は彼らが好きだ。 / 私は彼女たちが好きだ。"
+  },
+  {
+    "word": "then",
+    "level": "A1",
+    "definition_en": "Used in comparisons, to introduce the basis of comparison.",
+    "meanings_ja": [
+      "その時; 次に",
+      "そのようなことはなかった"
+    ],
+    "example": "I've never been to Paris, but I'd love to go there then. / 私がパリに行ったことがないが、そこに行"
+  },
+  {
+    "word": "there",
+    "level": "A1",
+    "definition_en": "That place.",
+    "meanings_ja": [
+      "そこにある",
+      "その",
+      "そこへ"
+    ],
+    "example": "I'm going to London, and then I'll go to Paris. / �"
+  },
+  {
+    "word": "these",
+    "level": "A1",
+    "definition_en": "The thing, item, etc. being indicated.",
+    "meanings_ja": [
+      "これら",
+      "それら"
+    ],
+    "example": "These are my friends. / これらは私の友達です。 または それらは私の友達です。 など"
+  },
+  {
+    "word": "they",
+    "level": "A1",
+    "definition_en": "(the third-person plural) A group of people, animals, plants or objects previously mentioned.",
+    "meanings_ja": [
+      "彼ら",
+      "そのもの"
+    ],
+    "example": "They are coming. / 彼らは来る。"
+  },
+  {
+    "word": "thing",
+    "level": "A1",
+    "definition_en": "That which is considered to exist as a separate entity, object, quality or concept.",
+    "meanings_ja": [
+      "物",
+      "こと"
+    ],
+    "example": "I don't know what the thing is. / 私はそのことは知らない。"
+  },
+  {
+    "word": "things",
+    "level": "A1",
+    "definition_en": "That which is considered to exist as a separate entity, object, quality or concept.",
+    "meanings_ja": [
+      "物",
+      "事"
+    ],
+    "example": "I have many things to do today. / 今日は多くのことをする必要があります。 / 「things」は「物」という意味です。"
+  },
+  {
+    "word": "think",
+    "level": "A1",
+    "definition_en": "An act of thinking; consideration (of something).",
+    "meanings_ja": [
+      "考えること。",
+      "思い付くこと。",
+      "思うように見せること。"
+    ],
+    "example": "She thinks she's right, but"
+  },
+  {
+    "word": "thinks",
+    "level": "A1",
+    "definition_en": "An act of thinking; consideration (of something).",
+    "meanings_ja": [
+      "思う",
+      "考える",
+      "考慮する"
+    ],
+    "example": "She thinks about her future. / 彼"
+  },
+  {
+    "word": "third",
+    "level": "A1",
+    "definition_en": "The person or thing in the third position.",
+    "meanings_ja": [
+      "三つ目",
+      "第三"
+    ],
+    "example": "The third floor. / 三階。"
+  },
+  {
+    "word": "this",
+    "level": "A1",
+    "definition_en": "Something being indicated that is here; one of these.",
+    "meanings_ja": [
+      "これ",
+      "この",
+      "このような"
+    ],
+    "example": "This kind of music is popular. / この種の音楽は人気があります。"
+  },
+  {
+    "word": "those",
+    "level": "A1",
+    "definition_en": "(demonstrative) The thing, person, idea, quality, event, action or time indicated or understood from context, especially if more remote geographically, temporally or mentally than one designated as \"this\", or if expressing distinction.",
+    "meanings_ja": [
+      "その人たち",
+      "それら"
+    ],
+    "example": "Those who are interested in the project should contact me. / そのプロジェクトに関心がある人は私に連絡してください。"
+  },
+  {
+    "word": "three",
+    "level": "A1",
+    "definition_en": "The digit/figure 3.",
+    "meanings_ja": [
+      "３",
+      "三つ"
+    ],
+    "example": "I have three apples. / 私は３個のリンゴを持っています。"
+  },
+  {
+    "word": "time",
+    "level": "A1",
+    "definition_en": "The inevitable progression into the future with the passing of present and past events.",
+    "meanings_ja": [
+      "時間",
+      "時期, ちょうどその時"
+    ],
+    "example": "I have no time to waste. / 時間がない"
+  },
+  {
+    "word": "times",
+    "level": "A1",
+    "definition_en": "The inevitable progression into the future with the passing of present and past events.",
+    "meanings_ja": [
+      "時間",
+      "回数"
+    ],
+    "example": "I have three times as much money as you. / 私はあなたより三倍のお金を持っています。"
+  },
+  {
+    "word": "to",
+    "level": "A1",
+    "definition_en": "Toward a closed, touching or engaging position.",
+    "meanings_ja": [
+      "こと",
+      "~すること"
+    ],
+    "example": "I want to go home. / 私は帰りたい。 / 家へ行きたい"
+  },
+  {
+    "word": "today",
+    "level": "A1",
+    "definition_en": "A current day or date.",
+    "meanings_ja": [
+      "明日",
+      "来週"
+    ],
+    "example": "I'll see you tomorrow. /"
+  },
+  {
+    "word": "told",
+    "level": "A1",
+    "definition_en": "(archaic outside of idioms) To count, reckon, or enumerate.",
+    "meanings_ja": [
+      "人に事実や情報を伝えること。"
+    ],
+    "example": "I was told that the concert will be held tonight. / 昨日、私はコンサートが今夜行われると聞かれた。"
+  },
+  {
+    "word": "tom",
+    "level": "A1",
+    "definition_en": "A flat gong (without knob) that is struck with a felt-covered hammer.",
+    "meanings_ja": [
+      "仔猫",
+      "1) 年齢が若い男性。2) 英国の王位継承順位で、第2位。"
+    ],
+    "example": "The cat had a litter of three kittens, including a little tom. / 仔猫には３匹いて、そのうち１匹は雄の子猫だった。"
+  },
+  {
+    "word": "took",
+    "level": "A1",
+    "definition_en": "To get into one's hands, possession or control, with or without force.",
+    "meanings_ja": [
+      "取り上げる",
+      "使う"
+    ],
+    "example": "The teacher took attendance at the beginning"
+  },
+  {
+    "word": "top",
+    "level": "A1",
+    "definition_en": "The highest or uppermost part of something.",
+    "meanings_ja": [
+      "最上部",
+      "一番上の位",
+      "一番上のレベル"
+    ],
+    "example": "The top of the mountain was covered in snow. / 山頂は雪で覆われていた。 / その山の頂上は雪でいっぱいだった。"
+  },
+  {
+    "word": "touch",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "さわること",
+      "感じること"
+    ],
+    "example": "I can feel the softness of this fabric by touching it. / この布は触って感じるとやわらかくなる。 /"
+  },
+  {
+    "word": "try",
+    "level": "A1",
+    "definition_en": "An attempt.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語"
+    ],
+    "example": ""
+  },
+  {
+    "word": "two",
+    "level": "A1",
+    "definition_en": "The digit/figure 2.",
+    "meanings_ja": [
+      "２",
+      "二つ"
+    ],
+    "example": "I have two dogs. / 私は２匹の犬がいます。"
+  },
+  {
+    "word": "understand",
+    "level": "A1",
+    "definition_en": "To grasp a concept fully and thoroughly, especially (of words, statements, art, etc.) to be aware of the meaning of and (of people) to be aware of the intent of.",
+    "meanings_ja": [
+      "理解する",
+      "認識する",
+      "支援する"
+    ],
+    "example": "The government will understand the people's demands. / 政府は国民"
+  },
+  {
+    "word": "up",
+    "level": "A1",
+    "definition_en": "The direction opposed to the pull of gravity.",
+    "meanings_ja": [
+      "上へ",
+      "その上"
+    ],
+    "example": "The ball went up the hill. / ボールは丘の上へ行った。"
+  },
+  {
+    "word": "us",
+    "level": "A1",
+    "definition_en": "(personal) Me and at least one other person; the objective case of we.",
+    "meanings_ja": [
+      "私たち",
+      "意味"
+    ],
+    "example": ""
+  },
+  {
+    "word": "use",
+    "level": "A1",
+    "definition_en": "The act of using.",
+    "meanings_ja": [
+      "使う",
+      "利用する"
+    ],
+    "example": "I will use my umbrella. / 私は傘を使います。 / 雨が降るので私は傘を持っています。"
+  },
+  {
+    "word": "used",
+    "level": "A1",
+    "definition_en": "To utilize or employ.",
+    "meanings_ja": [
+      "過去に使ったもの",
+      "使い古したもの",
+      "過去に存在したこと"
+    ],
+    "example": "I bought a used car. / 私は二手車を買った。"
+  },
+  {
+    "word": "very",
+    "level": "A1",
+    "definition_en": "True, real, actual.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な"
+    ],
+    "example": ""
+  },
+  {
+    "word": "videos",
+    "level": "A1",
+    "definition_en": "Television, television show, movie.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください"
+    ],
+    "example": ""
+  },
+  {
+    "word": "wake",
+    "level": "A1",
+    "definition_en": "The act of waking, or state of being awake.",
+    "meanings_ja": [
+      "起きること",
+      "その人の死んだことを知らせる行事"
+    ],
+    "example": "The funeral was held to wake the dead man's family. / その人の葬儀はその人の家族を起こすために開かれた。 / 彼らの葬儀は彼らが亡くな"
+  },
+  {
+    "word": "walked",
+    "level": "A1",
+    "definition_en": "To move on the feet by alternately setting each foot (or pair or group of feet, in the case of animals with four or more feet) forward, with at least one foot on the ground at all times. Compare run.",
+    "meanings_ja": [
+      "歩いた\n例文: She walked home from the party. / 彼女はパーティーから家まで歩いた。 </s"
+    ],
+    "example": "She walked home from the party. / 彼女はパーティーから家まで歩いた。 </s"
+  },
+  {
+    "word": "wall",
+    "level": "A1",
+    "definition_en": "A rampart of earth, stones etc. built up for defensive purposes.",
+    "meanings_ja": [
+      "壁",
+      "増加する",
+      "境界"
+    ],
+    "example": "The wall between the two countries is a sensitive issue. / その国境は敏感な問題である。"
+  },
+  {
+    "word": "want",
+    "level": "A1",
+    "definition_en": "A desire, wish, longing.",
+    "meanings_ja": [
+      "欲すること",
+      "必要とすること"
+    ],
+    "example": "I want to go home. / 私は帰りたい。"
+  },
+  {
+    "word": "wants",
+    "level": "A1",
+    "definition_en": "A desire, wish, longing.",
+    "meanings_ja": [
+      "望む",
+      "欲する"
+    ],
+    "example": "I want to go to the beach. / 私は海に行きたい。"
+  },
+  {
+    "word": "war",
+    "level": "A1",
+    "definition_en": "Organized, large-scale, armed conflict between countries or between national, ethnic, or other sizeable groups, usually involving the engagement of military forces.",
+    "meanings_ja": [
+      "戦争",
+      "軍隊",
+      "病気"
+    ],
+    "example": "He has a war on his face. / 彼には顔に病気があります。  （この意味はほと"
+  },
+  {
+    "word": "was",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "過去形",
+      "こと"
+    ],
+    "example": "I was a student. / 私は学生だった。"
+  },
+  {
+    "word": "wasn",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "<s>なかった</"
+    ],
+    "example": ""
+  },
+  {
+    "word": "watch",
+    "level": "A1",
+    "definition_en": "A portable or wearable timepiece.",
+    "meanings_ja": [
+      "時計",
+      "観察すること"
+    ],
+    "example": "I will watch the movie tonight. / 今日夜は映画を見ます。"
+  },
+  {
+    "word": "way",
+    "level": "A1",
+    "definition_en": "(heading) To do with a place or places.",
+    "meanings_ja": [
+      "道路、方法",
+      "方向、様式"
+    ],
+    "example": "The road is a good way to get there. / その道はそこへ行く良い方法だ。"
+  },
+  {
+    "word": "we",
+    "level": "A1",
+    "definition_en": "(personal) The speakers/writers, or the speaker/writer and at least one other person (not the person being addressed). (This is the exclusive we.)",
+    "meanings_ja": [
+      "私たち",
+      "我々"
+    ],
+    "example": "We are going to the park. / 私たちは公園に行く。 / ここでは「私たち」が使われている。"
+  },
+  {
+    "word": "website",
+    "level": "A1",
+    "definition_en": "A collection of interlinked web pages on the World Wide Web that are typically accessible from the same base URL and reside on the same server.",
+    "meanings_ja": [
+      "ウェブサイト",
+      "ウェブページ",
+      "ウ"
+    ],
+    "example": "The website is very popular. / そのウェブサイトはとても人気です。 / そのウェブサイトはとても人気があります。"
+  },
+  {
+    "word": "well",
+    "level": "A1",
+    "definition_en": "In good health.",
+    "meanings_ja": [
+      "うまく / すばらしい",
+      "深い / 大きい"
+    ],
+    "example": "I'm feeling quite well today. / 私は今日はとても元気です。"
+  },
+  {
+    "word": "went",
+    "level": "A1",
+    "definition_en": "To move:",
+    "meanings_ja": [
+      "行った",
+      "した"
+    ],
+    "example": "I went to the store. / 私は店に行った。"
+  },
+  {
+    "word": "were",
+    "level": "A1",
+    "definition_en": "A man, a husband",
+    "meanings_ja": [
+      "その人たちが",
+      "その時点では",
+      "その場所に"
+    ],
+    "example": "There were people everywhere. / そこには人々が何処にも見られた。"
+  },
+  {
+    "word": "what",
+    "level": "A1",
+    "definition_en": "(Singlish) Used to contradict an underlying assumption held by the interlocutor.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味"
+    ],
+    "example": ""
+  },
+  {
+    "word": "when",
+    "level": "A1",
+    "definition_en": "The time at which something happens.",
+    "meanings_ja": [
+      "いつ",
+      "もし",
+      "はたらき"
+    ],
+    "example": "When I was a child, I wanted to be an astronaut. / 私は子供の時、宇宙飛行士になりたいと思っていた。 / 私が子供だった頃、私は宇宙飛行士になりたいと思"
+  },
+  {
+    "word": "where",
+    "level": "A1",
+    "definition_en": "The place in which something happens.",
+    "meanings_ja": [
+      "どこ",
+      "何処"
+    ],
+    "example": "Where are you going? / あなたはどこに行くつもりですか？ / 私は東京へ行きます。"
+  },
+  {
+    "word": "which",
+    "level": "A1",
+    "definition_en": "(interrogative) What one or ones (of those mentioned or implied).",
+    "meanings_ja": [
+      "どれか",
+      "そのうちの",
+      "その"
+    ],
+    "example": "I don't know which way to go. / 行くべき道筋がわかりません。"
+  },
+  {
+    "word": "who",
+    "level": "A1",
+    "definition_en": "A person under discussion; a question of which person.",
+    "meanings_ja": [
+      "どの人",
+      "その人"
+    ],
+    "example": "Who are you? / あなたは誰ですか。"
+  },
+  {
+    "word": "why",
+    "level": "A1",
+    "definition_en": "Reason",
+    "meanings_ja": [
+      "なぜ",
+      "どうして",
+      "なぜ",
+      "意味"
+    ],
+    "example": "I don't know why she's crying. / 彼女は泣いている理由がわからない。"
+  },
+  {
+    "word": "wife",
+    "level": "A1",
+    "definition_en": "A married woman, especially in relation to her spouse.",
+    "meanings_ja": [
+      "妻",
+      "婦人"
+    ],
+    "example": "She is my wife. / 彼女は私の妻です。 / 私の妻は美しい女性です。"
+  },
+  {
+    "word": "will",
+    "level": "A1",
+    "definition_en": "(now uncommon or literary) To wish, desire (something).",
+    "meanings_ja": [
+      "将来のことについて話すときに使う動詞。",
+      "望み・決意。"
+    ],
+    "example": "I will go to the park tomorrow. / 明日私は公園に行く。 / これは「明日」が将来のことを表しているため、「will」を使っている。"
+  },
+  {
+    "word": "wine",
+    "level": "A1",
+    "definition_en": "An alcoholic beverage made by fermenting the juice of grapes.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください。複数の"
+    ],
+    "example": ""
+  },
+  {
+    "word": "with",
+    "level": "A1",
+    "definition_en": "Along, together with others, in a group, etc.",
+    "meanings_ja": [
+      "伴って",
+      "同じものと一緒に",
+      "また"
+    ],
+    "example": "I'm going to the movies with my friends. / 私は友達と映画に行く。"
+  },
+  {
+    "word": "women",
+    "level": "A1",
+    "definition_en": "An adult female human.",
+    "meanings_ja": [
+      "女性",
+      "婦人"
+    ],
+    "example": "The women in the village were very friendly. / 村の女性たちはとても親切だった。"
+  },
+  {
+    "word": "won",
+    "level": "A1",
+    "definition_en": "To conquer, defeat.",
+    "meanings_ja": [
+      "勝つ",
+      "得る"
+    ],
+    "example": "She won the game. / 彼女は勝った。 / その映画は大ヒットした。 / その映画は多くの人から評価された。 / その映画は評価された。 / その映画は評価を受けた"
+  },
+  {
+    "word": "work",
+    "level": "A1",
+    "definition_en": "(heading) Employment.",
+    "meanings_ja": [
+      "作業をすること",
+      "仕事",
+      "意味3"
+    ],
+    "example": "I have to go to work tomorrow. / 明日は仕事に行く必要がある。 / 彼は会社で働いている。 / 彼は会社で働いている。 / これは彼の仕事です。 / これは彼の仕事です。"
+  },
+  {
+    "word": "worked",
+    "level": "A1",
+    "definition_en": "To do a specific task by employing physical or mental powers.",
+    "meanings_ja": [
+      "仕事をすること。",
+      "効果的に機能すること。",
+      "助けること。"
+    ],
+    "example": "The doctor worked to save her life. / 医師"
+  },
+  {
+    "word": "world",
+    "level": "A1",
+    "definition_en": "(with \"the\") Human collective existence; existence in general.",
+    "meanings_ja": [
+      "世界",
+      "仕事、役割",
+      "地球"
+    ],
+    "example": "The world is round. / 地球は丸い。"
+  },
+  {
+    "word": "would",
+    "level": "A1",
+    "definition_en": "Something that would happen, or would be the case, under different circumstances; a potentiality.",
+    "meanings_ja": [
+      "仮定・願望",
+      "過去完了",
+      "未"
+    ],
+    "example": "She had eaten breakfast before she went to school. / 彼女は学校に行る前に朝食を食べていた。"
+  },
+  {
+    "word": "x",
+    "level": "A1",
+    "definition_en": "Intersex or non-binary (in passports and identification documents).",
+    "meanings_ja": [
+      "10進法における数字の位置によって値が異なる記号",
+      "10進法における0から9までの数字"
+    ],
+    "example": "The number of the bus is X5. / バスの番号はX5です。 / バスに乗る人たちは、バスに乗る順番"
+  },
+  {
+    "word": "yeah",
+    "level": "A1",
+    "definition_en": "Expressing joy, celebration, glee, etc.",
+    "meanings_ja": [
+      "そう",
+      "はい"
+    ],
+    "example": "\"Yeah, I'm a vegetarian.\" / \"そう、私は肉食者ではないよ。\" / 私は肉食者ではないよ。"
+  },
+  {
+    "word": "year",
+    "level": "A1",
+    "definition_en": "A solar year, the time it takes the Earth to complete one revolution of the Sun (between 365.24 and 365.26 days depending on the point of reference).",
+    "meanings_ja": [
+      "年\n例文: The new employee has only worked here for a year. / 新入社員はまだ１年しか"
+    ],
+    "example": "The new employee has only worked here for a year. / 新入社員はまだ１年しか"
+  },
+  {
+    "word": "years",
+    "level": "A1",
+    "definition_en": "A solar year, the time it takes the Earth to complete one revolution of the Sun (between 365.24 and 365.26 days depending on the point of reference).",
+    "meanings_ja": [
+      "年間\n例文: The company has been in business for 10 years. / その会社"
+    ],
+    "example": "The company has been in business for 10 years. / その会社"
+  },
+  {
+    "word": "yes",
+    "level": "A1",
+    "definition_en": "An affirmative expression; an answer that shows agreement or acceptance.",
+    "meanings_ja": [
+      "はい",
+      "うーん",
+      "はい"
+    ],
+    "example": "Q: Are you a student? A:"
+  },
+  {
+    "word": "you",
+    "level": "A1",
+    "definition_en": "To address (a person) using the pronoun you (in the past, especially to use you rather than thou, when you was considered more formal).",
+    "meanings_ja": [
+      "私たち/あなたたち",
+      "あなた/あなた方"
+    ],
+    "example": "You are my friend. / あなたは私の友達です。 / その人たちはあなたたちです。"
+  },
+  {
+    "word": "young",
+    "level": "A1",
+    "definition_en": "People who are young; young people, collectively; youth.",
+    "meanings_ja": [
+      "若い",
+      "少年・少女",
+      "新しい"
+    ],
+    "example": "I'm young and healthy. / 私は若くて健康です。 /"
+  },
+  {
+    "word": "your",
+    "level": "A1",
+    "definition_en": "",
+    "meanings_ja": [
+      "その人",
+      "自分の"
+    ],
+    "example": "This is my car. That's yours. / これは私の車だ。この車はあなたのものだ。/ 所有権"
+  },
+  {
+    "word": "yourself",
+    "level": "A1",
+    "definition_en": "(reflexive pronoun) Your own self (singular).",
+    "meanings_ja": [
+      "その人に対して"
+    ],
+    "example": "How are you doing? Take care of yourself. /"
+  },
+  {
+    "word": "absolutely",
+    "level": "A2",
+    "definition_en": "In an absolute or unconditional manner; utterly, positively, wholly.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください"
+    ],
+    "example": ""
+  },
+  {
+    "word": "according",
+    "level": "A2",
+    "definition_en": "To make to agree or correspond; to suit one thing to another; to adjust.",
+    "meanings_ja": [
+      "そのようなことや、そのようにすること。",
+      "そのようなものであることを示す。"
+    ],
+    "example": "I'll be there according to the schedule. / 私は予定通りそこにいる。"
+  },
+  {
+    "word": "actually",
+    "level": "A2",
+    "definition_en": "(modal) In act or in fact; really; in truth; positively.",
+    "meanings_ja": [
+      "実際には",
+      "実際に"
+    ],
+    "example": "I'm not a morning person, but I have to get up early for work. Actually, I usually sleep in until noon."
+  },
+  {
+    "word": "ad",
+    "level": "A2",
+    "definition_en": "Advertisement.",
+    "meanings_ja": [
+      "広告",
+      "付ける"
+    ],
+    "example": "I saw an ad for a new movie on TV. / テレビで新作映画の広告を見た。 /"
+  },
+  {
+    "word": "allows",
+    "level": "A2",
+    "definition_en": "To grant, give, admit, accord, afford, or yield; to let one have.",
+    "meanings_ja": [
+      "許す",
+      "容認する",
+      "可能にする"
+    ],
+    "example": "The new policy allows for a 5% increase in wages."
+  },
+  {
+    "word": "almost",
+    "level": "A2",
+    "definition_en": "Something or someone that doesn't quite make it.",
+    "meanings_ja": [
+      "ほとんど",
+      "大体 / だいたい"
+    ],
+    "example": "I'm almost there. / 私はもうすぐそこです。 / 私はもうすぐそこまで行きます。"
+  },
+  {
+    "word": "anyway",
+    "level": "A2",
+    "definition_en": "Regardless; anyhow.",
+    "meanings_ja": [
+      "どんなに…と言うことなく",
+      "そのうち、いつか"
+    ],
+    "example": "I'll be there anyway. / 私は行くから心配しないで。 / その日は雨が降ったが、彼女は歩いて行った。"
+  },
+  {
+    "word": "asking",
+    "level": "A2",
+    "definition_en": "To request (information, or an answer to a question).",
+    "meanings_ja": [
+      "問い合わせること。"
+    ],
+    "example": "I'm waiting for your answer, so please don't hesitate to ask. / どうか迷わないでおいてください。"
+  },
+  {
+    "word": "behave",
+    "level": "A2",
+    "definition_en": "To conduct (oneself) well, or in a given way.",
+    "meanings_ja": [
+      "行動する",
+      "ふるまう"
+    ],
+    "example": "The children will behave when they are in the classroom. / 子供たちは教室に入るときはよそよそしくなる。 / 教室に入ったら子供たちは静かにする。"
+  },
+  {
+    "word": "being",
+    "level": "A2",
+    "definition_en": "A living creature.",
+    "meanings_ja": [
+      "その状態であること。",
+      "その人であること。"
+    ],
+    "example": "He is being a good son. / 彼はいい息子である。 / 彼は親孝行"
+  },
+  {
+    "word": "blind",
+    "level": "A2",
+    "definition_en": "A covering for a window to keep out light. The covering may be made of cloth or of narrow slats that can block light or allow it to pass.",
+    "meanings_ja": [
+      "視覚障害者",
+      "目が見えないこと",
+      "意識がないこと"
+    ],
+    "example": "He was blind drunk when he got home. / 彼は帰宅したときには酩�"
+  },
+  {
+    "word": "blow",
+    "level": "A2",
+    "definition_en": "A strong wind.",
+    "meanings_ja": [
+      "風が強く吹くこと。",
+      "気を失うこと。",
+      "ふき消すこと。"
+    ],
+    "example": "The storm will blow over the city tonight. / この夜、この町は嵐によって覆われる。 / この夜、この町は嵐によって覆われます。 / この"
+  },
+  {
+    "word": "bookstores",
+    "level": "A2",
+    "definition_en": "A store where books are bought and sold.",
+    "meanings_ja": [
+      "書店",
+      "書籍"
+    ],
+    "example": "The bookstore is a great place to find books. / 書店は、書籍を見つけるのに素晴らしい場所です。"
+  },
+  {
+    "word": "bruce",
+    "level": "A2",
+    "definition_en": "",
+    "meanings_ja": [
+      "ブルース・リー",
+      "ブルース・ウィリス"
+    ],
+    "example": "Bruce Willis is a famous actor. / ブルース・ウィリスは有名な俳優です。"
+  },
+  {
+    "word": "buying",
+    "level": "A2",
+    "definition_en": "To obtain (something) in exchange for money or goods",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で"
+    ],
+    "example": ""
+  },
+  {
+    "word": "calls",
+    "level": "A2",
+    "definition_en": "A telephone conversation.",
+    "meanings_ja": [
+      "呼び出す",
+      "連絡する"
+    ],
+    "example": "She called her friend to ask for help. / 彼女は友達に助けてもらうために電話をかけた。"
+  },
+  {
+    "word": "cds",
+    "level": "A2",
+    "definition_en": "",
+    "meanings_ja": [
+      "CD",
+      "コンピュータディスク"
+    ],
+    "example": "I bought a CD player last week. / 私は昨週CDプレーヤーを買った。/ CDとはコンパクトディスクの略称です。"
+  },
+  {
+    "word": "changed",
+    "level": "A2",
+    "definition_en": "To become something different.",
+    "meanings_ja": [
+      "変化"
+    ],
+    "example": "There are many changes in the new policy. / 新しい政策には多"
+  },
+  {
+    "word": "chips",
+    "level": "A2",
+    "definition_en": "A small piece broken from a larger piece of solid material.",
+    "meanings_ja": [
+      "チップ",
+      "チップス"
+    ],
+    "example": "The potato chips were delicious. / ポテトチップスは美味しかった。"
+  },
+  {
+    "word": "com",
+    "level": "A2",
+    "definition_en": "",
+    "meanings_ja": [
+      "共通",
+      "伴う"
+    ],
+    "example": "common sense / 共通感覚 / 一般的な常識"
+  },
+  {
+    "word": "companies",
+    "level": "A2",
+    "definition_en": "A team; a group of people who work together professionally.",
+    "meanings_ja": [
+      "会社",
+      "社団"
+    ],
+    "example": "The company is going to hire more employees. / その会社はさらに従業員を雇う予定だ。"
+  },
+  {
+    "word": "continue",
+    "level": "A2",
+    "definition_en": "An option allowing a gamer to resume play after game over, when all lives have been lost.",
+    "meanings_ja": [
+      "続ける",
+      "その状態が続く",
+      "次のステップへ進む"
+    ],
+    "example": "I will continue to work hard. / 私は頑張って働きます。 / 彼女は仕事を続けている。 / 彼女は仕事を続けています。"
+  },
+  {
+    "word": "couple",
+    "level": "A2",
+    "definition_en": "Two partners in a romantic or sexual relationship.",
+    "meanings_ja": [
+      "2人組",
+      "2つ"
+    ],
+    "example": "The couple had two children. / 両親は2人の子供がいます。"
+  },
+  {
+    "word": "crazy",
+    "level": "A2",
+    "definition_en": "An insane or eccentric person; a crackpot.",
+    "meanings_ja": [
+      "すごく面白いことや、変なこと。",
+      "うつ病などによる精神状態が悪化したときのこと。"
+    ],
+    "example": "She's been acting crazy lately. / 彼女は最近、すごく変な行動をしている。 /"
+  },
+  {
+    "word": "created",
+    "level": "A2",
+    "definition_en": "To bring into existence; (sometimes in particular:)",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な"
+    ],
+    "example": ""
+  },
+  {
+    "word": "customer",
+    "level": "A2",
+    "definition_en": "A patron, a client; one who purchases or receives a product or service from a business or merchant, or intends to do so.",
+    "meanings_ja": [
+      "顧客",
+      "クライアント"
+    ],
+    "example": "The company's main customers are large corporations. / その会社の主な顧客は大企業である。 / 大企業が主な顧客である。"
+  },
+  {
+    "word": "customers",
+    "level": "A2",
+    "definition_en": "A patron, a client; one who purchases or receives a product or service from a business or merchant, or intends to do so.",
+    "meanings_ja": [
+      "顧客"
+    ],
+    "example": "The company's main customers are young people. / その会社の主な顧客は若い人たちだ。"
+  },
+  {
+    "word": "deal",
+    "level": "A2",
+    "definition_en": "A division, a portion, a share.",
+    "meanings_ja": [
+      "取引",
+      "こと",
+      "合意"
+    ],
+    "example": "I made a deal with my friend. / 私は友達と取引をした。"
+  },
+  {
+    "word": "death",
+    "level": "A2",
+    "definition_en": "The cessation of life and all associated processes; the end of an organism's existence as an entity independent from its environment and its return to an inert, nonliving state.",
+    "meanings_ja": [
+      "死",
+      "死んだこと",
+      "亡くなること"
+    ],
+    "example": "The death of my mother was a great shock to me. / 母親の死は私にとって大きな衝撃だった。"
+  },
+  {
+    "word": "decided",
+    "level": "A2",
+    "definition_en": "To resolve (a contest, problem, dispute, etc.); to choose, determine, or settle",
+    "meanings_ja": [
+      "決めたこと",
+      "ついていくこと"
+    ],
+    "example": "I've decided to go to the movies tonight. / 映画を見に行くことにしました。"
+  },
+  {
+    "word": "decision",
+    "level": "A2",
+    "definition_en": "The act of deciding.",
+    "meanings_ja": [
+      "決定",
+      "判決",
+      "結果"
+    ],
+    "example": "The outcome of"
+  },
+  {
+    "word": "destroy",
+    "level": "A2",
+    "definition_en": "To damage beyond use or repair.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な"
+    ],
+    "example": ""
+  },
+  {
+    "word": "develop",
+    "level": "A2",
+    "definition_en": "To change with a specific direction, progress.",
+    "meanings_ja": [
+      "発展すること。",
+      "人間が持つ能力や才能を育てること。"
+    ],
+    "example": "She has developed her English skills through practice. / 彼女は練習によって英語のスキルを身"
+  },
+  {
+    "word": "discovered",
+    "level": "A2",
+    "definition_en": "To find or learn something for the first time.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数"
+    ],
+    "example": ""
+  },
+  {
+    "word": "drop",
+    "level": "A2",
+    "definition_en": "A small quantity of liquid, just large enough to hold its own round shape via surface tension, especially one that falls from a source of liquid.",
+    "meanings_ja": [
+      "落とす",
+      "低下する",
+      "一時停止する"
+    ],
+    "example": "The stock market dropped by 10% yesterday. / 昨日株式市場は10％下落した。"
+  },
+  {
+    "word": "either",
+    "level": "A2",
+    "definition_en": "(after a negative) As well.",
+    "meanings_ja": [
+      "どちらか",
+      "もしくは",
+      "または"
+    ],
+    "example": "I'll go to the movies, either with you or by myself. / 私はあなたと一緒に行くか自分で行くかで映画に行きます。 / どちらでもいい"
+  },
+  {
+    "word": "even",
+    "level": "A2",
+    "definition_en": "(diminutive) An even number.",
+    "meanings_ja": [
+      "ちょうど、完全に",
+      "でも、しかし"
+    ],
+    "example": "I'm going to the store, but I'll be back soon. / 私は店に行くがすぐ戻る / 「I'm going to the store, but I'll be back soon」という文では、「but」は「"
+  },
+  {
+    "word": "ever",
+    "level": "A2",
+    "definition_en": "Occurring at any time, occurring even but once during a timespan.",
+    "meanings_ja": [
+      "常に / いつも",
+      "ずっと前 / 以来"
+    ],
+    "example": "I've never been to Paris. / 私はパリに行ったことがない。"
+  },
+  {
+    "word": "exactly",
+    "level": "A2",
+    "definition_en": "(manner) without approximation; precisely.",
+    "meanings_ja": [
+      "正確に",
+      "まったく"
+    ],
+    "example": "The concert will start"
+  },
+  {
+    "word": "exists",
+    "level": "A2",
+    "definition_en": "(stative) to be; have existence; have being or reality",
+    "meanings_ja": [
+      "ある",
+      "存在する"
+    ],
+    "example": "There are many people who exist in the world. / 世界には多くの人が存在している。"
+  },
+  {
+    "word": "experience",
+    "level": "A2",
+    "definition_en": "The effect upon the judgment or feelings produced by any event, whether witnessed or participated in; personal and direct impressions as contrasted with description or fancies; personal acquaintance; actual enjoyment or suffering.",
+    "meanings_ja": [
+      "実際に経験したこと",
+      "そのようなことが起こることの可能性"
+    ],
+    "example": "I have a lot of experience in this field. / この分野では多くの実績を持っています。"
+  },
+  {
+    "word": "fastest",
+    "level": "A2",
+    "definition_en": "Firmly or securely fixed in place; stable.",
+    "meanings_ja": [
+      "最速の",
+      "最も速い"
+    ],
+    "example": "The fastest runner in the world is Usain Bolt. / 世界一速いランナーはウサイン・ボルトです。 /"
+  },
+  {
+    "word": "fear",
+    "level": "A2",
+    "definition_en": "A strong, uncontrollable, unpleasant emotion or feeling caused by actual or perceived danger or threat.",
+    "meanings_ja": [
+      "恐怖感",
+      "怯むこと"
+    ],
+    "example": "I have a fear of heights. / 高さが高い所は恐怖させてしまう。"
+  },
+  {
+    "word": "final",
+    "level": "A2",
+    "definition_en": "A final examination; a test or examination given at the end of a term or class; the test that concludes a class.",
+    "meanings_ja": [
+      "最終的な\n\n出力形式:\n意味1: [日本語訳1]\n意味2: [日本語訳2] (複数"
+    ],
+    "example": ""
+  },
+  {
+    "word": "formal",
+    "level": "A2",
+    "definition_en": "Formalin.",
+    "meanings_ja": [
+      "正式な",
+      "仕組みが整っている"
+    ],
+    "example": "The hotel has a formal dining room. / ホテルには正式なダイニングルームがあります。"
+  },
+  {
+    "word": "giant",
+    "level": "A2",
+    "definition_en": "A mythical human of very great size.",
+    "meanings_ja": [
+      "巨人",
+      "巨大なもの"
+    ],
+    "example": "The giant of a man stood at the entrance. / 巨人のような男が入口に立っていた。"
+  },
+  {
+    "word": "greatest",
+    "level": "A2",
+    "definition_en": "Relatively large in scale, size, extent, number (i.e. having many parts or members) or duration (i.e. relatively long); very big.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な2-3個を列挙し、最後に簡単な例文も含めてください。\n\n出力形式:\n意味1: [日本語訳1]\n意味2: [日本語訳2] (複数ある場合)\n例文: [英語例文] / [日本語訳] \n\n出力形式:\n最も, 最高, 最大\n\n例文: The greatest challenge is to make a good first impression. / まず最初に良い印象を与えることだ。\n\n出力形式:\n最大の, 最高の, 最大級の\n\n例文: She was the greatest singer of all time. / 彼女は歴史上最高の歌"
+    ],
+    "example": "She was the greatest singer of all time. / 彼女は歴史上最高の歌"
+  },
+  {
+    "word": "growing",
+    "level": "A2",
+    "definition_en": "To become larger, to increase in magnitude.",
+    "meanings_ja": [
+      "育つ",
+      "増加する"
+    ],
+    "example": "The population of the city is growing. / その都市の人口は増えている。 / 都市の人口が増えている。"
+  },
+  {
+    "word": "honest",
+    "level": "A2",
+    "definition_en": "To adorn or grace; to honour; to make becoming, appropriate, or honourable.",
+    "meanings_ja": [
+      "正直",
+      "誠実"
+    ],
+    "example": "She is an honest person. / 彼女は正直な人です。 / その人たちは誠実な商売をする。 / その人たちは誠実な商売をする。 /"
+  },
+  {
+    "word": "hottest",
+    "level": "A2",
+    "definition_en": "(of an object) Having a high temperature.",
+    "meanings_ja": [
+      "最も暑い",
+      "最も人気のある"
+    ],
+    "example": "The new movie is the hottest film of the year. / この年の中で最も人気のある映画は新作だ。"
+  },
+  {
+    "word": "huge",
+    "level": "A2",
+    "definition_en": "Very large.",
+    "meanings_ja": [
+      "すごい",
+      "大きい"
+    ],
+    "example": "The new skyscraper is a huge building. / 新しい超高層ビルは巨大な建物です。"
+  },
+  {
+    "word": "invitation",
+    "level": "A2",
+    "definition_en": "The act of inviting; solicitation; the requesting of a person's company.",
+    "meanings_ja": [
+      "招待状",
+      "招待"
+    ],
+    "example": "I received an invitation to the party. / 私はパーティーへの招待を受けました。 / パーティーへ誘われた"
+  },
+  {
+    "word": "itself",
+    "level": "A2",
+    "definition_en": "(reflexive pronoun) it; A thing as the object of a verb or preposition that also appears as the subject",
+    "meanings_ja": [
+      "そのもの \n例文: The city is a beautiful thing itself. / 市はそのもの美しいものだ。 \n\n</s> 英単"
+    ],
+    "example": "The city is a beautiful thing itself. / 市はそのもの美しいものだ。"
+  },
+  {
+    "word": "known",
+    "level": "A2",
+    "definition_en": "To perceive the truth or factuality of; to be certain of or that.",
+    "meanings_ja": [
+      "知られていること",
+      "有名なこと"
+    ],
+    "example": "She is a well-known actress. / 彼女は有名な女優です。"
+  },
+  {
+    "word": "led",
+    "level": "A2",
+    "definition_en": "(heading) To guide or conduct.",
+    "meanings_ja": [
+      "指導すること",
+      "先頭にあること",
+      "光を出すもの"
+    ],
+    "example": "The LED light is very bright. / LEDライトは非常に明るい。"
+  },
+  {
+    "word": "local",
+    "level": "A2",
+    "definition_en": "A person who lives near a given place.",
+    "meanings_ja": [
+      "地域",
+      "近くの",
+      "地域",
+      "近くの"
+    ],
+    "example": "I"
+  },
+  {
+    "word": "major",
+    "level": "A2",
+    "definition_en": "A military rank between captain and lieutenant colonel.",
+    "meanings_ja": [
+      "大きいこと",
+      "重要なこと"
+    ],
+    "example": "The company's major shareholder is a Japanese investor. / この会社の主な株主は、日本人投資家です。 / この会社の最大の株主は日本人の投資家です。"
+  },
+  {
+    "word": "making",
+    "level": "A2",
+    "definition_en": "The act of forming, causing, or constituting; workmanship; construction.",
+    "meanings_ja": [
+      "作り出すこと",
+      "できるだけ多く作ること"
+    ],
+    "example": "She's been making a lot of money since she started her own business. / 彼女は自分の会社を始めてから多くの金を稼いでいる。"
+  },
+  {
+    "word": "mall",
+    "level": "A2",
+    "definition_en": "A pedestrianised street, especially a shopping precinct.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えて"
+    ],
+    "example": ""
+  },
+  {
+    "word": "matter",
+    "level": "A2",
+    "definition_en": "Substance, material.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味"
+    ],
+    "example": ""
+  },
+  {
+    "word": "might",
+    "level": "A2",
+    "definition_en": "Power, strength, force or influence held by a person or group.",
+    "meanings_ja": [
+      "力",
+      "できるかもしれない",
+      "能力"
+    ],
+    "example": "She has the"
+  },
+  {
+    "word": "millions",
+    "level": "A2",
+    "definition_en": "(long and short scales) The cardinal number 1,000,000: 106; a thousand thousand.",
+    "meanings_ja": [
+      "数百万",
+      "10^6"
+    ],
+    "example": "The company has made millions of dollars in profit. / 会社は数百万ドルの利益を上げた。"
+  },
+  {
+    "word": "moving",
+    "level": "A2",
+    "definition_en": "To change place or posture; to go, in any manner, from one place or position to another.",
+    "meanings_ja": [
+      "移動すること",
+      "作品や物品を展示すること"
+    ],
+    "example": "The museum is hosting a new exhibit on moving art. / 美術館は、移動芸術に関する新しい展覧会を開催しています。"
+  },
+  {
+    "word": "offer",
+    "level": "A2",
+    "definition_en": "A proposal that has been made.",
+    "meanings_ja": [
+      "提供すること",
+      "申し入れ",
+      "値段を下げること"
+    ],
+    "example": "The company will offer a discount on the new product. / 会社は新製品について割引を提供する。 /"
+  },
+  {
+    "word": "oldest",
+    "level": "A2",
+    "definition_en": "Of an object, concept, relationship, etc., having existed for a relatively long period of time.",
+    "meanings_ja": [
+      "最古の",
+      "最も長いこと"
+    ],
+    "example": "He is the oldest of three children. / 彼は三人の子供のうち最古の。"
+  },
+  {
+    "word": "online",
+    "level": "A2",
+    "definition_en": "To bring (a system, etc.) online; to promote to an active or running state.",
+    "meanings_ja": [
+      "インターネット上で行うこと",
+      "インターネット上で利用できる"
+    ],
+    "example": "You can access the information online. / その情報はインターネットで見る"
+  },
+  {
+    "word": "period",
+    "level": "A2",
+    "definition_en": "A length of time.",
+    "meanings_ja": [
+      "時間/期間/ことば\n例"
+    ],
+    "example": ""
+  },
+  {
+    "word": "phoned",
+    "level": "A2",
+    "definition_en": "To call (someone) using a telephone.",
+    "meanings_ja": [
+      "電話した",
+      "連絡した"
+    ],
+    "example": "I phoned my friend to ask him about the party. / 私は友達にパーティーのことを聞いた。"
+  },
+  {
+    "word": "powerful",
+    "level": "A2",
+    "definition_en": "Having, or capable of exerting power, potency or influence.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡�"
+    ],
+    "example": ""
+  },
+  {
+    "word": "products",
+    "level": "A2",
+    "definition_en": "A commodity offered for sale.",
+    "meanings_ja": [
+      "産物",
+      "製品",
+      "結果"
+    ],
+    "example": "The product of the experiment was a new medicine. / 試験の"
+  },
+  {
+    "word": "public",
+    "level": "A2",
+    "definition_en": "The people in general, regardless of membership of any particular group.",
+    "meanings_ja": [
+      "公共",
+      "一般人"
+    ],
+    "example": "The public is invited to attend the concert. / 公演は一般の人々が参加できるよう開催される。"
+  },
+  {
+    "word": "re",
+    "level": "A2",
+    "definition_en": "About, regarding, with reference to; especially in letters, documents and emails.",
+    "meanings_ja": [
+      "ふたたび",
+      "再生, 再現"
+    ],
+    "example": "The film was re-released in the US. / この映画はアメリカで再公開された。 / 再公開したことによる結果として、興行収入が増加した。"
+  },
+  {
+    "word": "readers",
+    "level": "A2",
+    "definition_en": "A person who reads",
+    "meanings_ja": [
+      "読者",
+      "書籍・雑誌などを読む人"
+    ],
+    "example": "The readers of this book are mostly students. / この本の読者はほとんど学生だ。 / この本を読んでいる人はほとんど学生だ。"
+  },
+  {
+    "word": "realize",
+    "level": "A2",
+    "definition_en": "To make real; to convert from the imaginary or fictitious into reality; to bring into real existence",
+    "meanings_ja": [
+      "実際に感じること",
+      "実現すること",
+      "認識"
+    ],
+    "example": "The company will realize its goal this year. / その会社は今年目標を達成する。"
+  },
+  {
+    "word": "remembered",
+    "level": "A2",
+    "definition_en": "To reconstitute or reassemble that which has been dismembered.",
+    "meanings_ja": [
+      "思い出す",
+      "記憶する"
+    ],
+    "example": "I will never forget the day she died. / 彼女が亡くなった日は忘れられない。"
+  },
+  {
+    "word": "rule",
+    "level": "A2",
+    "definition_en": "A regulation, law, guideline.",
+    "meanings_ja": [
+      "規則",
+      "方針、ルール"
+    ],
+    "example": "The rules of the game are simple. ゲームのルールは簡単だ。"
+  },
+  {
+    "word": "scary",
+    "level": "A2",
+    "definition_en": "Causing or able to cause fright.",
+    "meanings_ja": [
+      "恐ろしい",
+      "怖い"
+    ],
+    "example": "The movie was scary. / 映画は怖かった。"
+  },
+  {
+    "word": "screen",
+    "level": "A2",
+    "definition_en": "A physical divider intended to block an area from view, or provide shelter from something dangerous.",
+    "meanings_ja": [
+      "スクリーン",
+      "画面",
+      "フィルター",
+      "屏風"
+    ],
+    "example": "The movie was shown on the big screen. / 映画は大きなスクリーンで上映された。 / 映画が大きいスクリーンで上映されていた。"
+  },
+  {
+    "word": "seattle",
+    "level": "A2",
+    "definition_en": "",
+    "meanings_ja": [
+      "ワシントン州の都市",
+      "ポルノ映画"
+    ],
+    "example": "Seattle is the largest city in Washington state. / ワシントン州最大の都市はシアトルです。 / 2007年には、シアトルのポルノ映画関連ビジネスが「ポルノの"
+  },
+  {
+    "word": "secret",
+    "level": "A2",
+    "definition_en": "A piece of knowledge that is hidden and intended to be kept hidden.",
+    "meanings_ja": [
+      "秘密",
+      "秘密を守ること"
+    ],
+    "example": "The government kept the plan a secret. / 政府は計画を秘密にした。 / 会社の新製品については、まだ秘密です。"
+  },
+  {
+    "word": "sold",
+    "level": "A2",
+    "definition_en": "(ditransitive) To transfer goods or provide services in exchange for money.",
+    "meanings_ja": [
+      "売る",
+      "価格を下げる"
+    ],
+    "example": "The company has sold its shares to a rival. / 会社はライバル企業に株式を売った。"
+  },
+  {
+    "word": "somewhere",
+    "level": "A2",
+    "definition_en": "Unspecified or unknown (unlocated) place or location.",
+    "meanings_ja": [
+      "どこか\n例文: I'm going somewhere. / 私はどこかに行くよ。 \n</s> <s>"
+    ],
+    "example": "I'm going somewhere. / 私はどこかに行くよ。"
+  },
+  {
+    "word": "spent",
+    "level": "A2",
+    "definition_en": "To pay out (money).",
+    "meanings_ja": [
+      "過ぎ去った時間を費やしたこと。",
+      "使い果たしてしまったもの。"
+    ],
+    "example": "The battery is spent and needs to be replaced. / バ"
+  },
+  {
+    "word": "states",
+    "level": "A2",
+    "definition_en": "A condition; a set of circumstances applying at any given time.",
+    "meanings_ja": [
+      "州",
+      "位置",
+      "立法"
+    ],
+    "example": "The state of emergency has been declared. / 緊急事態宣言が出された。"
+  },
+  {
+    "word": "strangers",
+    "level": "A2",
+    "definition_en": "A person whom one does not know; a person who is neither a friend nor an acquaintance.",
+    "meanings_ja": [
+      "他人",
+      "不知者",
+      "外国人"
+    ],
+    "example": "I met some nice strangers on my trip. / 私は旅行で親切な外国人と出会いました。 / 旅行で親切な他人と出会った。"
+  },
+  {
+    "word": "success",
+    "level": "A2",
+    "definition_en": "The achievement of one's aim or goal.",
+    "meanings_ja": [
+      "成功",
+      "成果",
+      "成長"
+    ],
+    "example": "The company"
+  },
+  {
+    "word": "technology",
+    "level": "A2",
+    "definition_en": "The organization of knowledge for practical purposes.",
+    "meanings_ja": [
+      "技術",
+      "科学技術"
+    ],
+    "example": "The company is at the forefront of modern technology. / 会社は現代の技術の先駆けです。 / 会社は現代の科学技術の先駆けです。"
+  },
+  {
+    "word": "tiny",
+    "level": "A2",
+    "definition_en": "A small child; an infant.",
+    "meanings_ja": [
+      "小さくて軽い",
+      "ほんの少し"
+    ],
+    "example": "The tiny bird sang a beautiful song. / その小さな鳥は美しい歌を歌った。"
+  },
+  {
+    "word": "title",
+    "level": "A2",
+    "definition_en": "A prefix (honorific) or suffix (post-nominal) added to a person's name to signify either veneration, official position or a professional or academic qualification. See also",
+    "meanings_ja": [
+      "タイトル",
+      "名称, 題名"
+    ],
+    "example": "The title of the book is \"The Great Gatsby\". / 書籍のタイトルは「グレート・ギャツビー」です。 / この本のタイトルは「グレート・ギャツビー"
+  },
+  {
+    "word": "translate",
+    "level": "A2",
+    "definition_en": "In Euclidean spaces: a set of points obtained by adding a given fixed vector to each point of a given set.",
+    "meanings_ja": [
+      "英語から他言語への翻訳",
+      "意味や内容を変えること"
+    ],
+    "example": "The company will translate the software into several languages. / その会社はソフトウェアをいくつかの言語に翻訳する。"
+  },
+  {
+    "word": "uh",
+    "level": "A2",
+    "definition_en": "An occurrence of the interjection \"uh\".",
+    "meanings_ja": [
+      "不明瞭さを表す言葉",
+      "思い当たらないこと"
+    ],
+    "example": "I don't know what to say, uh... (私は何と言うか分からないので...)"
+  },
+  {
+    "word": "until",
+    "level": "A2",
+    "definition_en": "Up to the time of (something happening).",
+    "meanings_ja": [
+      "その時まで",
+      "そして",
+      "また"
+    ],
+    "example": "I"
+  },
+  {
+    "word": "upstairs",
+    "level": "A2",
+    "definition_en": "An upper storey.",
+    "meanings_ja": [
+      "上の階",
+      "上の部屋"
+    ],
+    "example": "I'm going upstairs to get a book. / 私は本を取りに行くので上の階へ行きます。"
+  },
+  {
+    "word": "uses",
+    "level": "A2",
+    "definition_en": "The act of using.",
+    "meanings_ja": [
+      "使用する",
+      "利用する",
+      "利用価値がある"
+    ],
+    "example": ""
+  },
+  {
+    "word": "value",
+    "level": "A2",
+    "definition_en": "The quality (positive or negative) that renders something desirable or valuable.",
+    "meanings_ja": [
+      "価値",
+      "価値観",
+      "意味"
+    ],
+    "example": "What is the value of life? / 人"
+  },
+  {
+    "word": "view",
+    "level": "A2",
+    "definition_en": "(physical) Visual perception.",
+    "meanings_ja": [
+      "望み"
+    ],
+    "example": "What is your view on this"
+  },
+  {
+    "word": "web",
+    "level": "A2",
+    "definition_en": "The World Wide Web.",
+    "meanings_ja": [
+      "網",
+      "ウェブ"
+    ],
+    "example": "The spider spun a web to catch flies. / 蜘蛛は網を作ってハエを捕まらせた。"
+  },
+  {
+    "word": "west",
+    "level": "A2",
+    "definition_en": "One of the four principal compass points, specifically 270°, conventionally directed to the left on maps; the direction of the setting sun at an equinox, abbreviated as W.",
+    "meanings_ja": [
+      "西方",
+      "西部",
+      "西洋"
+    ],
+    "example": "The sun sets in the west. / 日は西の方へ沈む。"
+  },
+  {
+    "word": "whatever",
+    "level": "A2",
+    "definition_en": "Unexceptional or unimportant; blah.",
+    "meanings_ja": [
+      "どんなものでも",
+      "どれだけでも"
+    ],
+    "example": "I'll do whatever you want. / 私はあなたが何だって言うならそれをします。 / どんなことを言われても"
+  },
+  {
+    "word": "while",
+    "level": "A2",
+    "definition_en": "An uncertain duration of time, a period of time.",
+    "meanings_ja": [
+      "その間",
+      "しかし"
+    ],
+    "example": "I'll be there while you're away. / 私はあなたがいない間にそこにいる。 / その間"
+  },
+  {
+    "word": "worth",
+    "level": "A2",
+    "definition_en": "Value.",
+    "meanings_ja": [
+      "値打ちがあること。",
+      "価値があること。"
+    ],
+    "example": "She is not worth the trouble. / 彼女は大変なことになるから、彼女は価値がない。"
+  },
+  {
+    "word": "yet",
+    "level": "A2",
+    "definition_en": "(usually with negative) Thus far; up to the present; up to some specified time; still",
+    "meanings_ja": [
+      "まだ、まだまだ",
+      "もう、もうもう"
+    ],
+    "example": "I've never been to Paris, yet."
+  },
+  {
+    "word": "york",
+    "level": "A2",
+    "definition_en": "To bowl a yorker at a batsman, especially to get a batsman out in this way.",
+    "meanings_ja": [
+      "ヨーク",
+      "ヨークシャー",
+      "ヨーク大学"
+    ],
+    "example": "I'm going to study at the University of York this year. / 私は今年"
+  },
+  {
+    "word": "achieved",
+    "level": "B1",
+    "definition_en": "To succeed in something, now especially in academic performance.",
+    "meanings_ja": [
+      "成功したこと。",
+      "得たこと。"
+    ],
+    "example": "She has achieved a lot in her life. / 彼女は人生で多くの成功を収めている。"
+  },
+  {
+    "word": "afford",
+    "level": "B1",
+    "definition_en": "To incur, stand, or bear without serious detriment, as an act which might under other circumstances be injurious;—with an auxiliary, as can, could, might, etc.; to be able or rich enough.",
+    "meanings_ja": [
+      "買うことができる価格であること。",
+      "支払える金額であること。"
+    ],
+    "example": "I don't have enough money to afford a new car. / 私には新しい車"
+  },
+  {
+    "word": "airlines",
+    "level": "B1",
+    "definition_en": "A company that flies airplanes to transport people and goods.",
+    "meanings_ja": [
+      "航空会社",
+      "航空便",
+      "航空会社",
+      "航空便"
+    ],
+    "example": "I'm flying with a major airline tomorrow. / �"
+  },
+  {
+    "word": "amazon",
+    "level": "B1",
+    "definition_en": "A tall, strong, athletic woman.",
+    "meanings_ja": [
+      "Amazon川",
+      "アマゾン"
+    ],
+    "example": "Amazon.com is a multinational e-commerce company based in Seattle, Washington. / アマゾンはワシント"
+  },
+  {
+    "word": "annual",
+    "level": "B1",
+    "definition_en": "An annual publication; a book, periodical, journal, report, comic book, yearbook, etc., which is published serially once a year, which may or may not be in addition to regular weekly or monthly publication.",
+    "meanings_ja": [
+      "年間の",
+      "1年ごとの"
+    ],
+    "example": "The company has an annual profit of $10 million. / その会社は毎年10百万ドルの利益を得ている。"
+  },
+  {
+    "word": "atomic",
+    "level": "B1",
+    "definition_en": "An atomic operation.",
+    "meanings_ja": [
+      "原子",
+      "最小限の"
+    ],
+    "example": "The atomic bomb was dropped on Hiroshima. / ヒロシマに原爆が投下された。 / その映画は最小限の予算で作られた。/その映画は最低限の予算で作られた。"
+  },
+  {
+    "word": "avenue",
+    "level": "B1",
+    "definition_en": "A broad street, especially one bordered by trees.",
+    "meanings_ja": [
+      "街路",
+      "道路"
+    ],
+    "example": "The park is located on a quiet avenue. / その公園は静かな通り沿いにある。"
+  },
+  {
+    "word": "awfully",
+    "level": "B1",
+    "definition_en": "Badly, terribly.",
+    "meanings_ja": [
+      "とても",
+      "非常に"
+    ],
+    "example": "I'm awfully sorry. / 私はとてもすまないです。"
+  },
+  {
+    "word": "billion",
+    "level": "B1",
+    "definition_en": "(modern British & Australian, short scale) a thousand million (logic: 1,000 × 1,000^2): 1 followed by nine zeros, 109; a milliard",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な2-3個を列挙し、最後に簡単な例文も含めてください。\n\n出力形式:\n意味1: [日本語訳1]\n意味2: [日本語訳2] (複数ある場合)\n例文: [英語例文] / [日本語訳] \n\n出力形式:\n1. 1000万\n2. 10^9\n3. 1,000,000,000\n例文: The population of the city is over a billion people. / 都市の人口は1億人以上です。\n\n出力形式:\n1. 10^12\n例文: The GDP of the country is about one trillion dollars"
+    ],
+    "example": "The GDP of the country is about one trillion dollars"
+  },
+  {
+    "word": "campaign",
+    "level": "B1",
+    "definition_en": "A series of operations undertaken to achieve a set goal.",
+    "meanings_ja": [
+      "活動",
+      "政治運動",
+      "広告戦略"
+    ],
+    "example": "The company is running a campaign to promote their new product. / その会社は新製品を宣伝するためのキャンペーンを実施している。"
+  },
+  {
+    "word": "carpets",
+    "level": "B1",
+    "definition_en": "A fabric used as a complete floor covering.",
+    "meanings_ja": [
+      "カーペット",
+      "地図"
+    ],
+    "example": "The carpet of the room was very soft. / 部屋のカーペットはとても柔らかかった。"
+  },
+  {
+    "word": "category",
+    "level": "B1",
+    "definition_en": "A group, often named or numbered, to which items are assigned based on similarity or defined criteria.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください。複数の"
+    ],
+    "example": ""
+  },
+  {
+    "word": "code",
+    "level": "B1",
+    "definition_en": "A short symbol, often with little relation to the item it represents.",
+    "meanings_ja": [
+      "記号、符号"
+    ],
+    "example": "The code on the"
+  },
+  {
+    "word": "combined",
+    "level": "B1",
+    "definition_en": "An event in alpine skiing which combines runs on a downhill skiing course and a slalom course, for individual skiers.",
+    "meanings_ja": [
+      "混合したもの",
+      "併用したもの"
+    ],
+    "example": "The combined effect of the two factors was devastating. / その2つの要因の組み合わせによる影響は壊滅的だった。"
+  },
+  {
+    "word": "comfort",
+    "level": "B1",
+    "definition_en": "Contentment, ease.",
+    "meanings_ja": [
+      "安心感",
+      "休憩所"
+    ],
+    "example": "The hotel has a comfortable lounge. / ホテルには広々と開けたリビングルームがあります。 /"
+  },
+  {
+    "word": "comparing",
+    "level": "B1",
+    "definition_en": "To assess the similarities and differences between two or more things [\"to compare X with Y\"]. Having made the comparison of X with Y, one might have found it similar to Y or different from Y.",
+    "meanings_ja": [
+      "比較すること",
+      "相当するもの"
+    ],
+    "example": "The two countries are comparable in terms of their economic power. / その二つの国は経済力において比較的同等である。"
+  },
+  {
+    "word": "concerned",
+    "level": "B1",
+    "definition_en": "To relate or belong to; to have reference to or connection with; to affect the interest of; to be of importance to.",
+    "meanings_ja": [
+      "心配すること",
+      "関心を持つこと"
+    ],
+    "example": "She is very concerned about her health. / 彼女は自分の健康について非常に心配している。 /"
+  },
+  {
+    "word": "creates",
+    "level": "B1",
+    "definition_en": "To bring into existence; (sometimes in particular:)",
+    "meanings_ja": [
+      "作り出す",
+      "生成する"
+    ],
+    "example": "The new company will create jobs. / 新しい会社は仕事を作る。 / 「新しい会社が作り出す」という表現は「新しい会社が仕事を生み出す」というニュアンスがあります。"
+  },
+  {
+    "word": "creek",
+    "level": "B1",
+    "definition_en": "A small inlet or bay, often saltwater, narrower and extending farther into the land than a cove; a recess in the shore of the sea, or of a river; the inner part of a port that is used as a dock for small boats.",
+    "meanings_ja": [
+      "小さな川",
+      "流れ"
+    ],
+    "example": "The creek runs through the town. / 町を流れる小さな川 / 町の中を流れる小さな川"
+  },
+  {
+    "word": "critical",
+    "level": "B1",
+    "definition_en": "A critical value, factor, etc.",
+    "meanings_ja": [
+      "批判的",
+      "危険な",
+      "最重要な"
+    ],
+    "example": "The critical point is that the company has to make a decision within two weeks. / 会社は2週間以内に決定しなければならないという点が大切だ。"
+  },
+  {
+    "word": "cutting",
+    "level": "B1",
+    "definition_en": "(heading) To incise, to cut into the surface of something.",
+    "meanings_ja": [
+      "切ること",
+      "別れること"
+    ],
+    "example": "She is cutting her ties with him. / 彼とつながりを断ち切っている。 /"
+  },
+  {
+    "word": "data",
+    "level": "B1",
+    "definition_en": "(plural: data) A measurement of something on a scale understood by both the recorder (a person or device) and the reader (another person or device). The scale is arbitrarily defined, such as from 1 to 10 by ones, 1 to 100 by 0.1, or simply true or false, on or off, yes, no, or maybe, etc.",
+    "meanings_ja": [
+      "データ",
+      "こと",
+      "情報"
+    ],
+    "example": "The data was collected from the survey. / 調査からデータが集められた。"
+  },
+  {
+    "word": "dates",
+    "level": "B1",
+    "definition_en": "The fruit of the date palm, Phoenix dactylifera, somewhat in the shape of an olive, containing a soft, sweet pulp and enclosing a hard kernel.",
+    "meanings_ja": [
+      "日付",
+      "甘い果物",
+      "記録"
+    ],
+    "example": "The date of the meeting"
+  },
+  {
+    "word": "decades",
+    "level": "B1",
+    "definition_en": "A group, set, or series of ten , particularly:",
+    "meanings_ja": [
+      "10年ごとに続く期間",
+      "数十年"
+    ],
+    "example": "The country has experienced many changes over the past decades. / 最近の数十年にわたるこの国は多くの変化を経験した。 / この文では「decades」という単語が「数"
+  },
+  {
+    "word": "described",
+    "level": "B1",
+    "definition_en": "To represent in words.",
+    "meanings_ja": [
+      "説明した",
+      "形容した"
+    ],
+    "example": "The movie was well described in the review. / 映画はレビューの中でよく説明された。"
+  },
+  {
+    "word": "describes",
+    "level": "B1",
+    "definition_en": "To represent in words.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味"
+    ],
+    "example": ""
+  },
+  {
+    "word": "discs",
+    "level": "B1",
+    "definition_en": "A thin, flat, circular plate or similar object.",
+    "meanings_ja": [
+      "円盤形のもの",
+      "円盤状の記録媒体"
+    ],
+    "example": "CDs are discs that store music and video. / CDは音楽やビデオを保存する円盤状のメディア"
+  },
+  {
+    "word": "dislikes",
+    "level": "B1",
+    "definition_en": "An attitude or a feeling of distaste or aversion.",
+    "meanings_ja": [
+      "嫌がる",
+      "嫌いにする"
+    ],
+    "example": "I dislike the cold weather. / 私は寒さが嫌いです。"
+  },
+  {
+    "word": "dive",
+    "level": "B1",
+    "definition_en": "A jump or plunge into water.",
+    "meanings_ja": [
+      "潜水すること",
+      "低い位置へ落ちること"
+    ],
+    "example": "The scuba diver descended into the depths of the ocean. / スカーバダイバーは海の底へと潜った。 / 海底に降りて行く"
+  },
+  {
+    "word": "dorm",
+    "level": "B1",
+    "definition_en": "To reside in a dorm.",
+    "meanings_ja": [
+      "寮",
+      "睡眠"
+    ],
+    "example": "The students live in a dorm. / 学生たちは寮生活を送っている。"
+  },
+  {
+    "word": "drives",
+    "level": "B1",
+    "definition_en": "Motivation to do or achieve something; ability coupled with ambition.",
+    "meanings_ja": [
+      "ドライブすること",
+      "車の運転手",
+      "ドライブ"
+    ],
+    "example": "The record player has a drive. / レコードプレーヤーにはドライ"
+  },
+  {
+    "word": "drown",
+    "level": "B1",
+    "definition_en": "To die from suffocation while immersed in water or other fluid.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本語で答えてください。"
+    ],
+    "example": ""
+  },
+  {
+    "word": "dust",
+    "level": "B1",
+    "definition_en": "Fine particles",
+    "meanings_ja": [
+      "粉じん",
+      "こぶし"
+    ],
+    "example": "The dust is settling. / 粉じんが落ち着いている。"
+  },
+  {
+    "word": "edge",
+    "level": "B1",
+    "definition_en": "The boundary line of a surface.",
+    "meanings_ja": [
+      "辺",
+      "最良の状態"
+    ],
+    "example": "She's at the edge of her career. / 彼女はその職業において最良の状態にある。"
+  },
+  {
+    "word": "electronic",
+    "level": "B1",
+    "definition_en": ": Of or pertaining to an electron or electrons.",
+    "meanings_ja": [
+      "電子",
+      "電気"
+    ],
+    "example": "The new electronic device is very useful. / 新しい電子機器はとても便利だ。"
+  },
+  {
+    "word": "emotional",
+    "level": "B1",
+    "definition_en": "Of or relating to the emotions.",
+    "meanings_ja": [
+      "心情的な",
+      "感情的な"
+    ],
+    "example": "She's very emotional about her family. / 彼女は家族について非常に心情的である。"
+  },
+  {
+    "word": "employees",
+    "level": "B1",
+    "definition_en": "An individual who provides labor to a company or another person.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください"
+    ],
+    "example": ""
+  },
+  {
+    "word": "enemies",
+    "level": "B1",
+    "definition_en": "Someone who is hostile to, feels hatred towards, opposes the interests of, or intends injury to someone else.",
+    "meanings_ja": [
+      "敵",
+      "相手"
+    ],
+    "example": "The two countries are sworn enemies. / その二つの国は決して友達にはならない。"
+  },
+  {
+    "word": "eventually",
+    "level": "B1",
+    "definition_en": "In the end; at some later time, especially after a long time, a series of problems, struggles, delays or setbacks.",
+    "meanings_ja": [
+      "いつのまにか",
+      "最後に",
+      "いつのまにか",
+      "最後に"
+    ],
+    "example": "She will eventually get the job. / 彼女はいつ"
+  },
+  {
+    "word": "exchange",
+    "level": "B1",
+    "definition_en": "An act of exchanging or trading.",
+    "meanings_ja": [
+      "交換すること",
+      "交流"
+    ],
+    "example": "The two countries have an exchange program to promote cultural understanding. / 2つの国は文化的理解を"
+  },
+  {
+    "word": "executives",
+    "level": "B1",
+    "definition_en": "A chief officer or administrator, especially one who can make significant decisions on their own authority.",
+    "meanings_ja": [
+      "企業や団体の幹部",
+      "実行役員"
+    ],
+    "example": "The company's executives were summoned to the boardroom. / 社長と上級管理職が会議室に呼ばれた。"
+  },
+  {
+    "word": "fellow",
+    "level": "B1",
+    "definition_en": "A colleague or partner.",
+    "meanings_ja": [
+      "同じ職業や立場の人",
+      "仲間のこと"
+    ],
+    "example": "He is a fellow of the Royal Society. / 王立協会のフェローです。"
+  },
+  {
+    "word": "flooding",
+    "level": "B1",
+    "definition_en": "To overflow, as by water from excessive rainfall.",
+    "meanings_ja": [
+      "大雨による洪水",
+      "多くの情報が大量に入ってくること"
+    ],
+    "example": "The city is experiencing a severe case of flooding after the heavy rain. / 大雨によりこの都市は大きな被害を受けています。"
+  },
+  {
+    "word": "flowing",
+    "level": "B1",
+    "definition_en": "To move as a fluid from one position to another.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は"
+    ],
+    "example": ""
+  },
+  {
+    "word": "focused",
+    "level": "B1",
+    "definition_en": "(followed by on or upon) To concentrate one's attention.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔"
+    ],
+    "example": ""
+  },
+  {
+    "word": "followed",
+    "level": "B1",
+    "definition_en": "To go after; to pursue; to move behind in the same path or direction.",
+    "meanings_ja": [
+      "追跡した\n例文: The police followed the suspect through the streets. / 警察官"
+    ],
+    "example": "The police followed the suspect through the streets. / 警察官"
+  },
+  {
+    "word": "formation",
+    "level": "B1",
+    "definition_en": "Something possessing structure or form.",
+    "meanings_ja": [
+      "形成",
+      "結成"
+    ],
+    "example": "The formation of the company was announced. / その会社の設立が発表された。 / その会社の結成が発表された。 / その会社の形成が発表された。"
+  },
+  {
+    "word": "franklin",
+    "level": "B1",
+    "definition_en": "A freeholder, especially as belonging to a class of landowners in the 14th and 15th century ranking below the gentry.",
+    "meanings_ja": [
+      "フランクリン",
+      "フランクリン"
+    ],
+    "example": "Franklin, Pennsylvania / フランクリン (ペンシルベニア州) など"
+  },
+  {
+    "word": "gambling",
+    "level": "B1",
+    "definition_en": "To take a risk, with the potential of a positive outcome.",
+    "meanings_ja": [
+      "遊び",
+      "賭け"
+    ],
+    "example": "He's a compulsive gambler. / 彼はギャンブル依存症です。"
+  },
+  {
+    "word": "generally",
+    "level": "B1",
+    "definition_en": "Popularly or widely.",
+    "meanings_ja": [
+      "ほとんどの場合",
+      "大体"
+    ],
+    "example": "I like to go to the beach, but generally I prefer mountains. / 海に行くのは好きだけど、山が大好きなんだ。/ 英語の原文は「I like to go to the beach, but generally I prefer mountains."
+  },
+  {
+    "word": "generation",
+    "level": "B1",
+    "definition_en": "The fact of creating something, or bringing something into being; production, creation.",
+    "meanings_ja": [
+      "世代",
+      "世代交代"
+    ],
+    "example": "The new generation of computers is faster than the old one. / 新しいコンピューターの世代は古いものより速い。"
+  },
+  {
+    "word": "generous",
+    "level": "B1",
+    "definition_en": "Noble in behaviour or actions; principled, not petty; kind, magnanimous.",
+    "meanings_ja": [
+      "大方かつ気前のよい人",
+      "余分なものを与えること"
+    ],
+    "example": "She is a very generous person. / 彼女はとても気前がよい人です。"
+  },
+  {
+    "word": "graduating",
+    "level": "B1",
+    "definition_en": "To be recognized by a school or university as having completed the requirements of a degree studied at the institution.",
+    "meanings_ja": [
+      "卒業すること。",
+      "学位を授与されること。"
+    ],
+    "example": "She will be graduating from college next year. / 彼女は来年大学を卒業する。 /  (Wikipedia)"
+  },
+  {
+    "word": "greeted",
+    "level": "B1",
+    "definition_en": "To welcome in a friendly manner, either in person or through another means e.g. writing or over the phone/internet",
+    "meanings_ja": [
+      "会うときに挨拶する",
+      "ほめる"
+    ],
+    "example": "She was warmly greeted by her friends. / 彼女は友達から温かく迎えられた。 / 彼女は友達から熱い言葉をかけられた。"
+  },
+  {
+    "word": "growth",
+    "level": "B1",
+    "definition_en": "An increase in size, number, value, or strength.",
+    "meanings_ja": [
+      "増加",
+      "育成"
+    ],
+    "example": "The growth of the child was slow but steady."
+  },
+  {
+    "word": "guessed",
+    "level": "B1",
+    "definition_en": "To reach a partly (or totally) unqualified conclusion.",
+    "meanings_ja": [
+      "予想する",
+      "猜る"
+    ],
+    "example": "I guessed the number was between 10 and 20. / 私はその数字が10から20の間であると予想した。"
+  },
+  {
+    "word": "headquarters",
+    "level": "B1",
+    "definition_en": "The military installation from which troops are commanded and orders are issued; the military unit consisting of a commander and his support staff.",
+    "meanings_ja": [
+      "本部",
+      "本社"
+    ],
+    "example": "The company's headquarters are in New York. / その会社の本部はニューヨークにある。 / その会社の本社はニューヨークにある。"
+  },
+  {
+    "word": "hilton",
+    "level": "B1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ホテルチェーン",
+      "英国の貴族"
+    ],
+    "example": "The Hilton hotel chain is famous for its luxury. / ヒルトンホテルチェーンは高級さで有名だ。 /  / Conrad Hilton was a British aristocrat who founded the Hilton Hotel chain. / コナード・ヒルトンは"
+  },
+  {
+    "word": "honda",
+    "level": "B1",
+    "definition_en": "",
+    "meanings_ja": [
+      "本田技研工業のブランド名",
+      "日本の自動車メーカー",
+      "本田宗一郎の名前"
+    ],
+    "example": "Soichiro Honda was the founder of Honda Motor Co"
+  },
+  {
+    "word": "impressive",
+    "level": "B1",
+    "definition_en": "Making, or tending to make, a positive impression; having power to impress",
+    "meanings_ja": [
+      "すばらしい",
+      "感動する"
+    ],
+    "example": "The fireworks display was truly impressive. / 炸け花はとてもすばらしかった。 /"
+  },
+  {
+    "word": "including",
+    "level": "B1",
+    "definition_en": "To bring into a group, class, set, or total as a (new) part or member.",
+    "meanings_ja": [
+      "その中には",
+      "また"
+    ],
+    "example": "The hotel room included a TV and a refrigerator. / ホテルの部屋にはテレビと冷蔵庫が付いていた。"
+  },
+  {
+    "word": "industrial",
+    "level": "B1",
+    "definition_en": "(19th-mid 20th century) An employee in industry.",
+    "meanings_ja": [
+      "工業",
+      "実用的な"
+    ],
+    "example": "industrial music / 工業音楽"
+  },
+  {
+    "word": "instant",
+    "level": "B1",
+    "definition_en": "A very short period of time; a moment.",
+    "meanings_ja": [
+      "意味"
+    ],
+    "example": ""
+  },
+  {
+    "word": "invest",
+    "level": "B1",
+    "definition_en": "To spend money, time, or energy on something, especially for some benefit or purpose; used with in.",
+    "meanings_ja": [
+      "金銭や時間を費やすこと。",
+      "株式や債券などの投資商品を購入すること。"
+    ],
+    "example": "She invested her money in the stock market. / 彼女は株式市場に資金を投じた。"
+  },
+  {
+    "word": "issue",
+    "level": "B1",
+    "definition_en": "The action or an instance of flowing or coming out, an outflow, particularly:",
+    "meanings_ja": [
+      "問題",
+      "発行物",
+      "事件"
+    ],
+    "example": "The magazine is on the market, and it's a major issue. / この雑誌は市場に出ているが、それは大きな問題だ。"
+  },
+  {
+    "word": "joint",
+    "level": "B1",
+    "definition_en": "The point where two components of a structure join, but are still able to rotate.",
+    "meanings_ja": [
+      "共同\n\n<s>英単語: joint"
+    ],
+    "example": ""
+  },
+  {
+    "word": "ll",
+    "level": "B1",
+    "definition_en": "Lines",
+    "meanings_ja": [
+      "低い音",
+      "小さい",
+      "少ない",
+      "低く"
+    ],
+    "example": "He walked low to"
+  },
+  {
+    "word": "logo",
+    "level": "B1",
+    "definition_en": "A visual symbol or emblem that acts as a trademark or a means of identification of a company or organization.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔"
+    ],
+    "example": ""
+  },
+  {
+    "word": "losing",
+    "level": "B1",
+    "definition_en": "To cause (something) to cease to be in one's possession or capability due to unfortunate or unknown circumstances, events or reasons.",
+    "meanings_ja": [
+      "失うこと",
+      "その状態になること"
+    ],
+    "example": "I'm losing my temper. / 私は怒りが収まらない。 /"
+  },
+  {
+    "word": "masks",
+    "level": "B1",
+    "definition_en": "A cover, or partial cover, for the face, used for disguise or protection.",
+    "meanings_ja": [
+      "仮面",
+      "マスク"
+    ],
+    "example": "The mask was worn to conceal the actor's face. / 仮面は俳優の顔を見せないようにした。 / 彼女はマスクをかぶって、病気の人の近くに行った。 / 彼女はマスク"
+  },
+  {
+    "word": "nasty",
+    "level": "B1",
+    "definition_en": "Something nasty.",
+    "meanings_ja": [
+      "ひどい",
+      "悪い",
+      "嫌い"
+    ],
+    "example": "The weather was nasty and cold. / 天気はひどく寒かった。"
+  },
+  {
+    "word": "needle",
+    "level": "B1",
+    "definition_en": "A fine, sharp implement usually for piercing such as sewing, or knitting, acupuncture, tattooing, body piercing, medical injections, etc.",
+    "meanings_ja": [
+      "針",
+      "つるはし",
+      "鋭いもの"
+    ],
+    "example": "The doctor used a needle to give me an injection."
+  },
+  {
+    "word": "negative",
+    "level": "B1",
+    "definition_en": "Refusal or withholding of assents; prohibition, veto",
+    "meanings_ja": [
+      "悪い/否定的な",
+      "数値が0より小さい"
+    ],
+    "example": "The news was negative. / そのニュースは悪かった。 / 彼女の血液検査結果は悪くて、病気にかかっている可能性がある。"
+  },
+  {
+    "word": "noble",
+    "level": "B1",
+    "definition_en": "An aristocrat; one of aristocratic blood.",
+    "meanings_ja": [
+      "高貴な人",
+      "高尚な性質を持つこと",
+      "名誉あること"
+    ],
+    "example": "He is a noble man. / 彼は高貴な人です。"
+  },
+  {
+    "word": "obviously",
+    "level": "B1",
+    "definition_en": "In an obvious or clearly apparent manner.",
+    "meanings_ja": [
+      "明らかだ。",
+      "はっきり言う。",
+      "とても。"
+    ],
+    "example": "It is obvious that he is not happy. / 彼は幸せそうではない。"
+  },
+  {
+    "word": "options",
+    "level": "B1",
+    "definition_en": "One of a set of choices that can be made.",
+    "meanings_ja": [
+      "選択肢",
+      "オプション"
+    ],
+    "example": "The company offers several options for its customers. / 会社はその顧客に対していくつかの選択肢を提供している。"
+  },
+  {
+    "word": "orders",
+    "level": "B1",
+    "definition_en": "Arrangement, disposition, or sequence.",
+    "meanings_ja": [
+      "指令",
+      "順序"
+    ],
+    "example": "She took an order for a sandwich. /  彼女はサンドイッチの注文を受けた。 /  その店では、注文は必ず先着順です。 /  その店では、注文は必ず先"
+  },
+  {
+    "word": "overnight",
+    "level": "B1",
+    "definition_en": "Items delivered or completed overnight.",
+    "meanings_ja": [
+      "1日間",
+      "その日の夜"
+    ],
+    "example": "I'll meet you at the hotel overnight."
+  },
+  {
+    "word": "packed",
+    "level": "B1",
+    "definition_en": "(physical) To put or bring things together in a limited or confined space, especially for storage or transport.",
+    "meanings_ja": [
+      "すき間なく満たされていること。",
+      "すき間なくいっぱいであること。"
+    ],
+    "example": "Her suitcase was packed to the brim. / 彼女の鞄はすき間なくい"
+  },
+  {
+    "word": "perfectly",
+    "level": "B1",
+    "definition_en": "With perfection.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある"
+    ],
+    "example": ""
+  },
+  {
+    "word": "pine",
+    "level": "B1",
+    "definition_en": "Any coniferous tree of the genus Pinus.",
+    "meanings_ja": [
+      "松",
+      "ピン"
+    ],
+    "example": "The tree is a pine. / その木は松です。"
+  },
+  {
+    "word": "planting",
+    "level": "B1",
+    "definition_en": "To place (a seed or plant) in soil or other substrate in order that it may live and grow.",
+    "meanings_ja": [
+      "種を植えること\n例文: The"
+    ],
+    "example": "The"
+  },
+  {
+    "word": "potential",
+    "level": "B1",
+    "definition_en": "Currently unrealized ability (with the most common adposition being to)",
+    "meanings_ja": [
+      "できること",
+      "潜在性",
+      "可能性"
+    ],
+    "example": "She has great potential as a singer. / 彼女は歌手として素晴らしい才能を持っている。 /"
+  },
+  {
+    "word": "predict",
+    "level": "B1",
+    "definition_en": "A prediction.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本"
+    ],
+    "example": ""
+  },
+  {
+    "word": "profit",
+    "level": "B1",
+    "definition_en": "Total income or cash flow minus expenditures. The money or other benefit a non-governmental organization or individual receives in exchange for products and services sold at an advertised price.",
+    "meanings_ja": [
+      "利益",
+      "利得",
+      "得意分野",
+      "利益率"
+    ],
+    "example": "The profit on this investment is"
+  },
+  {
+    "word": "refuses",
+    "level": "B1",
+    "definition_en": "To decline (a request or demand).",
+    "meanings_ja": [
+      "反対する/断る",
+      "拒否する"
+    ],
+    "example": "She refused to go with him. / 彼と一緒に行くことを拒否した。"
+  },
+  {
+    "word": "regret",
+    "level": "B1",
+    "definition_en": "Emotional pain on account of something done or experienced in the past, with a wish that it had been different; a looking back with dissatisfaction or with longing.",
+    "meanings_ja": [
+      "後悔すること",
+      "すまないことを思うこと"
+    ],
+    "example": "I regret not being able to attend the party. / 私はパーティーに行くことができなかったことに後悔している。 /"
+  },
+  {
+    "word": "regrets",
+    "level": "B1",
+    "definition_en": "Emotional pain on account of something done or experienced in the past, with a wish that it had been different; a looking back with dissatisfaction or with longing.",
+    "meanings_ja": [
+      "後悔",
+      "悲しみ"
+    ],
+    "example": "I have many regrets about my past. / 私は過去について多くの後悔している。 / 私は過去について多くの悲しみを持っている。"
+  },
+  {
+    "word": "relations",
+    "level": "B1",
+    "definition_en": "The manner in which two things may be associated.",
+    "meanings_ja": [
+      "関係",
+      "関係論",
+      "関係論"
+    ],
+    "example": "He has a close relation with his sister. / 彼は姉と仲が良くて一緒にいる"
+  },
+  {
+    "word": "reminding",
+    "level": "B1",
+    "definition_en": "To cause one to experience a memory (of someone or something); to bring to the notice or consideration (of a person).",
+    "meanings_ja": [
+      "思い出させる",
+      "記憶させる"
+    ],
+    "example": "The alarm clock is ringing to remind me of my appointment. / 予定の時間を思い出させるためにアラームが鳴っている。"
+  },
+  {
+    "word": "response",
+    "level": "B1",
+    "definition_en": "An answer or reply, or something in the nature of an answer or reply.",
+    "meanings_ja": [
+      "応答",
+      "反応"
+    ],
+    "example": "The company's response to the crisis was swift and decisive. / その会社は危機に対する対応が速く決断的だった。"
+  },
+  {
+    "word": "responsibility",
+    "level": "B1",
+    "definition_en": "The state of being responsible, accountable, or answerable.",
+    "meanings_ja": [
+      "責任感",
+      "責任",
+      "仕事"
+    ],
+    "example": "She took the responsibility of organizing the party. / 彼女はパーティーの準備を担当した。 /"
+  },
+  {
+    "word": "revolution",
+    "level": "B1",
+    "definition_en": "A political upheaval in a government or nation state characterized by great change.",
+    "meanings_ja": [
+      "革命",
+      "大変なこと"
+    ],
+    "example": "The revolution will be televised. / テレビで革命が放送される。 / これは「テレビで革命を見せる」という意味です。"
+  },
+  {
+    "word": "richest",
+    "level": "B1",
+    "definition_en": "Wealthy: having a lot of money and possessions.",
+    "meanings_ja": [
+      "最も裕福な",
+      "最も高価な"
+    ],
+    "example": "The richest man in the world is Bill Gates. / 世界一最も裕福な人はビル・ゲイツです。"
+  },
+  {
+    "word": "risks",
+    "level": "B1",
+    "definition_en": "A possible adverse event or outcome",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください"
+    ],
+    "example": ""
+  },
+  {
+    "word": "rob",
+    "level": "B1",
+    "definition_en": "To steal from, especially using force or violence.",
+    "meanings_ja": [
+      "盗む"
+    ],
+    "example": "The thief robbed the bank. / その泥棒は銀行を盗んだ。"
+  },
+  {
+    "word": "rocket",
+    "level": "B1",
+    "definition_en": "A rocket engine.",
+    "meanings_ja": [
+      "ロケット",
+      "宇宙飛行機"
+    ],
+    "example": "The rocket soared into the sky. / ロケットは空中へ飛び上がった。"
+  },
+  {
+    "word": "ross",
+    "level": "B1",
+    "definition_en": "",
+    "meanings_ja": [
+      "赤い色の毛皮のコート",
+      "ロッサ"
+    ],
+    "example": "She wore a red fox fur coat. / 彼女は赤いロッサのコートを着ていた。 / ここでは「fox」という動物の名前が使われているが、「ross」という単語"
+  },
+  {
+    "word": "selling",
+    "level": "B1",
+    "definition_en": "(ditransitive) To transfer goods or provide services in exchange for money.",
+    "meanings_ja": [
+      "売ること",
+      "広告",
+      "売り手"
+    ],
+    "example": "The seller of the house was very nice. / この家の売り手はとても親切だった"
+  },
+  {
+    "word": "shopper",
+    "level": "B1",
+    "definition_en": "A person who shops.",
+    "meanings_ja": [
+      "ショッピングをする人",
+      "店舗を回ること"
+    ],
+    "example": "The shopper was looking for a new pair of shoes. / ショッパーは新しい靴を見つけようとしていた。"
+  },
+  {
+    "word": "showing",
+    "level": "B1",
+    "definition_en": "To display, to have somebody see (something).",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語"
+    ],
+    "example": ""
+  },
+  {
+    "word": "socially",
+    "level": "B1",
+    "definition_en": "In a social manner; sociably.",
+    "meanings_ja": [
+      "社会的に",
+      "社会的"
+    ],
+    "example": "She is a socially conscious person. / 彼女は社会意識が高い人です。 / 彼女は社会問題について気をつけています。"
+  },
+  {
+    "word": "software",
+    "level": "B1",
+    "definition_en": "Encoded computer instructions, usually modifiable (unless stored in some form of unalterable memory such as ROM).",
+    "meanings_ja": [
+      "ソフトウェア",
+      "ソフトウェア開発",
+      "プログラム"
+    ],
+    "example": "This is a piece of software that helps you organize your files. / このソフトウェアは"
+  },
+  {
+    "word": "sort",
+    "level": "B1",
+    "definition_en": "A general type.",
+    "meanings_ja": [
+      "分類すること",
+      "順番にすること"
+    ],
+    "example": "The list was sorted alphabetically. / リストはアルファベット順に並べ替えられた。"
+  },
+  {
+    "word": "spending",
+    "level": "B1",
+    "definition_en": "Present participle of spend, expenditure.",
+    "meanings_ja": [
+      "時間や金銭などを費やすこと。",
+      "金銭を費やすこと。"
+    ],
+    "example": "The company is spending a lot on advertising. / 会社は広告に多く"
+  },
+  {
+    "word": "steel",
+    "level": "B1",
+    "definition_en": "An artificial metal produced from iron, harder and more elastic than elemental iron; used figuratively as a symbol of hardness.",
+    "meanings_ja": [
+      "鋼材",
+      "鉄製品",
+      "鉄筋コンクリート"
+    ],
+    "example": "The building is made of steel. / 鉄骨造りの建物です。"
+  },
+  {
+    "word": "sticky",
+    "level": "B1",
+    "definition_en": "A sticky note, such as a post-it note.",
+    "meanings_ja": [
+      "つるつるした",
+      "つかみどころがない"
+    ],
+    "example": "The glue is very sticky. / ゴムはとてもつるつるしている。 / つるつるした"
+  },
+  {
+    "word": "stock",
+    "level": "B1",
+    "definition_en": "A store or supply.",
+    "meanings_ja": [
+      "会社の株式",
+      "仕入れ品",
+      "供給量"
+    ],
+    "example": "The company has a large stock of goods. / その会社は大量の商品を持っている。"
+  },
+  {
+    "word": "stored",
+    "level": "B1",
+    "definition_en": "To keep (something) while not in use, generally in a place meant for that purpose.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数"
+    ],
+    "example": ""
+  },
+  {
+    "word": "surrounded",
+    "level": "B1",
+    "definition_en": "To encircle something or simultaneously extend in all directions.",
+    "meanings_ja": [
+      "周囲に取り囲まれていること。",
+      "そのような状況にあること。",
+      "そのような考え"
+    ],
+    "example": "She felt surrounded by her friends. / 彼女は友達たちに囲まれ感じた。"
+  },
+  {
+    "word": "symbol",
+    "level": "B1",
+    "definition_en": "A character or glyph representing an idea, concept or object.",
+    "meanings_ja": [
+      "記号",
+      "象徴",
+      "代表"
+    ],
+    "example": "He was a symbol of the new era. / 彼は新時代の代表者だった。"
+  },
+  {
+    "word": "talks",
+    "level": "B1",
+    "definition_en": "To communicate, usually by means of speech.",
+    "meanings_ja": [
+      "会話",
+      "交渉"
+    ],
+    "example": "The two sides are holding talks to resolve the dispute. / ２つの側は紛争を解決するために交渉中です。"
+  },
+  {
+    "word": "tech",
+    "level": "B1",
+    "definition_en": "Technology",
+    "meanings_ja": [
+      "技術",
+      "テクノロジー"
+    ],
+    "example": "The tech industry is booming. / その技術業界は隆盛を極めている。 / そのテクノロジー業界は隆盛を極めている。"
+  },
+  {
+    "word": "threatened",
+    "level": "B1",
+    "definition_en": "To make a threat against someone; to use threats.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡�"
+    ],
+    "example": ""
+  },
+  {
+    "word": "throwing",
+    "level": "B1",
+    "definition_en": "To change place.",
+    "meanings_ja": [
+      "投げる",
+      "うわさ",
+      "打ち込む"
+    ],
+    "example": "He threw the ball at the target. / 彼はターゲットに向かってボールを投げた。"
+  },
+  {
+    "word": "titles",
+    "level": "B1",
+    "definition_en": "A prefix (honorific) or suffix (post-nominal) added to a person's name to signify either veneration, official position or a professional or academic qualification. See also",
+    "meanings_ja": [
+      "タイトル",
+      "名称",
+      "頭字語"
+    ],
+    "example": "NATO is an acronym for North Atlantic Treaty Organization. / NATOは北大"
+  },
+  {
+    "word": "total",
+    "level": "B1",
+    "definition_en": "An amount obtained by the addition of smaller amounts.",
+    "meanings_ja": [
+      "全体",
+      "合計",
+      "統一した"
+    ],
+    "example": "The company has a total approach to quality control. / その会社は品質管理について統一"
+  },
+  {
+    "word": "towards",
+    "level": "B1",
+    "definition_en": "In the direction of.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な日本"
+    ],
+    "example": ""
+  },
+  {
+    "word": "towers",
+    "level": "B1",
+    "definition_en": "A very tall iron-framed structure, usually painted red and white, on which microwave, radio, satellite, or other communication antennas are installed; mast.",
+    "meanings_ja": [
+      "高さの高い建物",
+      "電話機器の高台"
+    ],
+    "example": "There are many cell phone towers around the city. / 都市周辺には多"
+  },
+  {
+    "word": "um",
+    "level": "B1",
+    "definition_en": "An expression used to show contentment for something",
+    "meanings_ja": [
+      "うまくいかないこと",
+      "ほとんど"
+    ],
+    "example": "I'm not sure if this will work, but let's try it. (これはうまくいかないかもしれないが、試してみよう。)"
+  },
+  {
+    "word": "uncommon",
+    "level": "B1",
+    "definition_en": "Rare; not readily found; unusual.",
+    "meanings_ja": [
+      "まれに発生すること。",
+      "一般的なものではないこと。"
+    ],
+    "example": "This is an uncommon occurrence. / これは珍しい出来事だ。 /"
+  },
+  {
+    "word": "united",
+    "level": "B1",
+    "definition_en": "To bring together as one.",
+    "meanings_ja": [
+      "一つになる; 統一する",
+      "同じ側に立つ"
+    ],
+    "example": "The two countries are united in their opposition to the proposal. / その提案に対して二つの国は同じ意見を持っている。 /"
+  },
+  {
+    "word": "valuable",
+    "level": "B1",
+    "definition_en": "A personal possession such as jewellery, of relatively great monetary value; — usually used in plural form.",
+    "meanings_ja": [
+      "値打ちの高い",
+      "有益な"
+    ],
+    "example": "She is a very valuable member of the team. / 彼女はチームの中でとても有用なメンバーだ。"
+  },
+  {
+    "word": "walmart",
+    "level": "B1",
+    "definition_en": "",
+    "meanings_ja": [
+      "ワルマート",
+      "ウォルマート",
+      "ドラッグストア"
+    ],
+    "example": "I went to Walmart for a cold medicine. / ドラッグストアに行って風邪薬"
+  },
+  {
+    "word": "yahoo",
+    "level": "B1",
+    "definition_en": "A rough, coarse, loud or uncouth person; yokel; lout.",
+    "meanings_ja": [
+      "インターネット上の検索エンジン",
+      "会社名（YAHOO!）"
+    ],
+    "example": "Yahoo is a well-known company that provides internet services. / YAHOO"
+  },
+  {
+    "word": "analyst",
+    "level": "B2",
+    "definition_en": "Someone who analyzes.",
+    "meanings_ja": [
+      "分析者",
+      "統計学者"
+    ],
+    "example": "The company hired an analyst to review the financial reports. / 会社は、財務報告書を分析するために専門家を雇用した。"
+  },
+  {
+    "word": "awkward",
+    "level": "B2",
+    "definition_en": "Someone or something that is awkward.",
+    "meanings_ja": [
+      "不自然な",
+      "不器用な"
+    ],
+    "example": "She felt awkward in the new shoes. / 彼女は新しい靴が不自然に感じた。"
+  },
+  {
+    "word": "barnes",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "バーンズ",
+      "バーナーズ"
+    ],
+    "example": "Barnes & Noble, a large American bookstore chain. / バーンズ・アンド・ノーブル、米国の大手書店チェーン。 / これはアメリカの書籍販売会社です。"
+  },
+  {
+    "word": "bestselling",
+    "level": "B2",
+    "definition_en": "Highly popular with consumers purchasing goods within a specific class.",
+    "meanings_ja": [
+      "最も売れたもの",
+      "作品が大きな成功したこと"
+    ],
+    "example": "The book is a bestseller. / 本はベストセラーです。 / これは本が最も売れたことを示しています。"
+  },
+  {
+    "word": "bezo",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "膀胱炎",
+      "膀胱の腫れ"
+    ],
+    "example": "A urinary tract infection, also known as a UTI or bladder infection, is an infection of the lower urinary tract. The most common type of UTI is a bladder infection, also called cystitis, which occurs when bacteria enter the ure"
+  },
+  {
+    "word": "bezos",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "ビズウォン社の創業者",
+      "Amazon.comのCEO"
+    ],
+    "example": "Jeff Bezos, the founder of Bezos and CEO of Amazon.com, is one of the richest people in the world.  /  ビズウォンの創業者であるベゾスは、Amazon.comの最高経"
+  },
+  {
+    "word": "billionaire",
+    "level": "B2",
+    "definition_en": "Somebody whose wealth is greater than one billion (109) dollars, or other currency.",
+    "meanings_ja": [
+      "10億ドル以上の富を持つ人",
+      "1000万ドル以上の富を持つ人"
+    ],
+    "example": "Warren Buffett is a billionaire. / バフェットは億万長者です。"
+  },
+  {
+    "word": "binding",
+    "level": "B2",
+    "definition_en": "To tie; to confine by any ligature.",
+    "meanings_ja": [
+      "結びつき",
+      "紐",
+      "限定"
+    ],
+    "example": "This book is binding on all members of the club. / この本はクラブの全員に適用される規則です。"
+  },
+  {
+    "word": "bonds",
+    "level": "B2",
+    "definition_en": "Evidence of a long-term debt, by which the bond issuer (the borrower) is obliged to pay interest when due, and repay the principal at maturity, as specified on the face of the bond certificate. The rights of the holder are specified in the bond indenture, which contains the legal terms and conditions under which the bond was issued. Bonds are available in two forms: registered bonds, and bearer bonds.",
+    "meanings_ja": [
+      "つながり",
+      "値下げ品"
+    ],
+    "example": "The company's bonds with its customers are strong. / その会社は顧客とのつながりが強い。"
+  },
+  {
+    "word": "broko",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "破壊すること",
+      "ぶつかること"
+    ],
+    "example": "The car broke into a tree. / 車は木に衝突した。"
+  },
+  {
+    "word": "calculated",
+    "level": "B2",
+    "definition_en": "To determine the value of something or the solution to something by a mathematical process.",
+    "meanings_ja": [
+      "計算したことによる",
+      "予想された結果"
+    ],
+    "example": "The calculated risk was worth taking. / 計算したリスクはとる価値があった。"
+  },
+  {
+    "word": "calculations",
+    "level": "B2",
+    "definition_en": "The act or process of calculating.",
+    "meanings_ja": [
+      "計算",
+      "計画",
+      "数値"
+    ],
+    "example": "The company will make new calculations to reduce costs. / 会社はコストを削減するために新しい計算を行う。/ 会社がコストを削減するための計画を立てること。"
+  },
+  {
+    "word": "capitalization",
+    "level": "B2",
+    "definition_en": "The act or process of capitalising.",
+    "meanings_ja": [
+      "大文字",
+      "資本化"
+    ],
+    "example": "Capitalization is the use of a capital letter at the beginning of a sentence. / 句頭の大文字の使用です。"
+  },
+  {
+    "word": "columbia",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "コロンビア",
+      "カレッジ"
+    ],
+    "example": "Columbia University / コロンビア大学"
+  },
+  {
+    "word": "communist",
+    "level": "B2",
+    "definition_en": "An advocate of a society based on the common ownership of property; a proponent of communism.",
+    "meanings_ja": [
+      "共産主義者",
+      "共同経営者"
+    ],
+    "example": "The Communist Party of China is the ruling party in China. / 中国共産党は中国の統治政党です。"
+  },
+  {
+    "word": "comparable",
+    "level": "B2",
+    "definition_en": "Something suitable for comparison.",
+    "meanings_ja": [
+      "類似点が見られること。",
+      "比較できるもの。"
+    ],
+    "example": "A and B are comparable. / AとBは比較できる。 /"
+  },
+  {
+    "word": "corporate",
+    "level": "B2",
+    "definition_en": "A bond issued by a corporation.",
+    "meanings_ja": [
+      "企業",
+      "大企業"
+    ],
+    "example": "The company is a major corporate sponsor of the arts. / その会社は芸術に対する大きな支援者である。"
+  },
+  {
+    "word": "cuz",
+    "level": "B2",
+    "definition_en": "Because",
+    "meanings_ja": [
+      "なぜなら、だから、そして",
+      "そのため"
+    ],
+    "example": "I'm going to the store cuz I need some milk. / 私は牛乳が必要だから、店に行く。"
+  },
+  {
+    "word": "declaration",
+    "level": "B2",
+    "definition_en": "A written or oral indication of a fact, opinion, or belief.",
+    "meanings_ja": [
+      "宣言",
+      "公告"
+    ],
+    "example": "The Declaration of Independence was signed in 1776. /独立宣言は1776年に署名された。"
+  },
+  {
+    "word": "decline",
+    "level": "B2",
+    "definition_en": "Downward movement, fall.",
+    "meanings_ja": [
+      "低下すること",
+      "反対意見を述べること"
+    ],
+    "example": "I declined his proposal because it was too expensive"
+  },
+  {
+    "word": "delta",
+    "level": "B2",
+    "definition_en": "The fourth letter of the modern Greek alphabet Δ, δ.",
+    "meanings_ja": [
+      "河口の三角州",
+      "デルタ",
+      "三角形"
+    ],
+    "example": "The Nile River Delta is the northernmost part of Egypt. / エジプト北部のナイル川デルタ"
+  },
+  {
+    "word": "entrepreneurs",
+    "level": "B2",
+    "definition_en": "A person who organizes and operates a business venture and assumes much of the associated risk.",
+    "meanings_ja": [
+      "起業家",
+      "起業者"
+    ],
+    "example": "He is an entrepreneur who has started several businesses. / 彼はいくつかの企業を起業した起業家です。"
+  },
+  {
+    "word": "establishment",
+    "level": "B2",
+    "definition_en": "The act of establishing; a ratifying or ordaining; settlement; confirmation.",
+    "meanings_ja": [
+      "組織",
+      "設立"
+    ],
+    "example": "The establishment of the new company was announced yesterday. / 新しい会社の設立が昨日発表された。"
+  },
+  {
+    "word": "framework",
+    "level": "B2",
+    "definition_en": "A support structure comprising joined parts or conglomerated particles and intervening open spaces of similar or larger size.",
+    "meanings_ja": [
+      "基本構造",
+      "基本的な枠組み",
+      "フレームワーク"
+    ],
+    "example": "The new government is still in its framework. / 新しい政府はまだ基本的な枠組みにある。 / その会社のフレームワークは、経営者が決定"
+  },
+  {
+    "word": "geeks",
+    "level": "B2",
+    "definition_en": "A carnival performer specializing in bizarre and unappetizing behavior.",
+    "meanings_ja": [
+      "ギーク",
+      "うるさい人"
+    ],
+    "example": "The geek in the back of the room is wearing a \"I'm with stupid\" t-shirt. / 会議室の奥にあるギークは「私と馬鹿者」というTシャツを着ている。 / 会議室の奥"
+  },
+  {
+    "word": "geeky",
+    "level": "B2",
+    "definition_en": "Resembling or characteristic of a geek.",
+    "meanings_ja": [
+      "ゲーマー的な",
+      "こだわりの人"
+    ],
+    "example": "He's a bit of a geeky guy, but he's really nice. / 彼は少しゲーマー的なところがあるが、実際にはいい人です。 / 彼はこのゲームにかなり興味があり"
+  },
+  {
+    "word": "gifted",
+    "level": "B2",
+    "definition_en": "To give as a gift or donation.",
+    "meanings_ja": [
+      "天才的な",
+      "資格のある"
+    ],
+    "example": "She is a gifted musician. / 彼女は才能のある音楽家です。 / その曲は彼女が歌うと特別なものになる。 / その曲は彼女が歌うと特別なものになる。"
+  },
+  {
+    "word": "gigabyte",
+    "level": "B2",
+    "definition_en": "(SI) 109, one billion (1,000,000,000) bytes. SI symbol: GB",
+    "meanings_ja": [
+      "ビットの集まり",
+      "1,073,741,824バイト"
+    ],
+    "example": "The new computer has a hard drive of 500 gigabytes. / 新しいコンピューターには500ギガバイトのハードドライブがあります。  |  This computer has 4 gigabytes of RAM."
+  },
+  {
+    "word": "guarded",
+    "level": "B2",
+    "definition_en": "To protect from danger; to secure against surprise, attack, or injury; to keep in safety; to defend.",
+    "meanings_ja": [
+      "侵入を防ぐこと",
+      "仮定や予想などに対して、疑問を持つこと"
+    ],
+    "example": "The door was guarded by a large dog. / ドアは大きな犬によって守られていた。"
+  },
+  {
+    "word": "haven",
+    "level": "B2",
+    "definition_en": "A harbour or anchorage protected from the sea.",
+    "meanings_ja": [
+      "安全な場所",
+      "避難所"
+    ],
+    "example": "The island is a haven for sailors. / 島は船乗りたちの避難所です。"
+  },
+  {
+    "word": "heroin",
+    "level": "B2",
+    "definition_en": "A powerful and addictive drug derived from opium producing intense euphoria classed as an illegal narcotic in most of the world.",
+    "meanings_ja": [
+      "ヘロイン",
+      "ヘロイン"
+    ],
+    "example": "The addict was hooked on heroin. / その依存症者はヘロインに酔っていた。/ ヘロインは、オピウムから作られる麻薬の一種である。"
+  },
+  {
+    "word": "hiring",
+    "level": "B2",
+    "definition_en": "To obtain the services of in return for fixed payment.",
+    "meanings_ja": [
+      "人を雇うこと。",
+      "人材を選ぶこと。"
+    ],
+    "example": "The company is hiring the best candidate for the job. / その会社はその仕事の最適な"
+  },
+  {
+    "word": "huh",
+    "level": "B2",
+    "definition_en": "(with falling pitch) used to express amusement or subtle surprise.",
+    "meanings_ja": [
+      "まるで何とも思わないようにする",
+      "まるで知らないようにする"
+    ],
+    "example": "\"Huh?\" I said, looking at her in confusion. / 「？？」と言った。彼女を見て混乱した。 / 「？？」と言うのは、相手が何を言っているのか"
+  },
+  {
+    "word": "indication",
+    "level": "B2",
+    "definition_en": "Act of pointing out or indicating.",
+    "meanings_ja": [
+      "予兆",
+      "指示"
+    ],
+    "example": "There was an indication that the company would be sold. / その会社が売却されることの予兆があった。 / その会社が売却されることの指示があった。"
+  },
+  {
+    "word": "intensity",
+    "level": "B2",
+    "definition_en": "The quality of being intense.",
+    "meanings_ja": [
+      "この英単語の副次的な意味を簡潔な"
+    ],
+    "example": ""
+  },
+  {
+    "word": "investing",
+    "level": "B2",
+    "definition_en": "To spend money, time, or energy on something, especially for some benefit or purpose; used with in.",
+    "meanings_ja": [
+      "金銭を投資すること。",
+      "金銭を投じて資産を増やそうとすること。"
+    ],
+    "example": "She is investing in the stock market. / 彼女は株式市場に投資している。"
+  },
+  {
+    "word": "investors",
+    "level": "B2",
+    "definition_en": "A person who invests money in order to make a profit.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の"
+    ],
+    "example": ""
+  },
+  {
+    "word": "justify",
+    "level": "B2",
+    "definition_en": "To provide an acceptable explanation for.",
+    "meanings_ja": [
+      "正当化すること。",
+      "右寄せにすること。"
+    ],
+    "example": "The judge had to justify the verdict. / 判決を正当化しなければならなかった。"
+  },
+  {
+    "word": "kmart",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "ドイツ系アメリカ人の小売業者",
+      "低価格の品物を扱う大型スーパー"
+    ],
+    "example": "Kmart is a retail corporation that operates discount stores."
+  },
+  {
+    "word": "lining",
+    "level": "B2",
+    "definition_en": "To place (objects) into a line (usually used with \"up\"); to form into a line; to align.",
+    "meanings_ja": [
+      "内側の部分",
+      "仕上げ"
+    ],
+    "example": "The walls are lined with mirrors. / 壁は鏡で内装されている。"
+  },
+  {
+    "word": "logged",
+    "level": "B2",
+    "definition_en": "To cut trees into logs.",
+    "meanings_ja": [
+      "ログを記録すること。",
+      "ログを読むこと。",
+      "記入"
+    ],
+    "example": "I have to log in every morning. / 私は毎朝ログインしなければならない。"
+  },
+  {
+    "word": "merchandise",
+    "level": "B2",
+    "definition_en": "Commodities offered for sale.",
+    "meanings_ja": [
+      "商品",
+      "販売物品"
+    ],
+    "example": "The store sells a variety of merchandise. / 店では様々な商品が販売されている。"
+  },
+  {
+    "word": "microprocessor",
+    "level": "B2",
+    "definition_en": "The entire CPU of a computer on a single integrated circuit (chip).",
+    "meanings_ja": [
+      "マイクロプロセッサ",
+      "マイコン"
+    ],
+    "example": "The microprocessor is the brain of the computer. / コンピューターの脳はマイクロプロセッサです。/ https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3"
+  },
+  {
+    "word": "millionaires",
+    "level": "B2",
+    "definition_en": "(strictly) A person whose net worth is at or greater than one million units of the local currency, but less than two million.",
+    "meanings_ja": [
+      "富豪",
+      "百万人",
+      "百万ドル"
+    ],
+    "example": "He's a millionaire now, thanks to his successful business. / 彼は成功したビジネ"
+  },
+  {
+    "word": "minimized",
+    "level": "B2",
+    "definition_en": "To make (something) as small or as insignificant as possible.",
+    "meanings_ja": [
+      "最小化した",
+      "できるだけ少なくした"
+    ],
+    "example": "The company has minimized its losses by cutting costs. / 会社はコストを削減して損失を最小化した。"
+  },
+  {
+    "word": "modest",
+    "level": "B2",
+    "definition_en": "Not bragging or boasting about oneself or one's achievements; unpretentious, humble.",
+    "meanings_ja": [
+      "ささやかな",
+      "自分の能力や実績を誇りに思わないこと",
+      "ささやかな",
+      "意味2"
+    ],
+    "example": "She is a very modest person. / 彼女はとても控えめな人です。"
+  },
+  {
+    "word": "movers",
+    "level": "B2",
+    "definition_en": "Someone who or something that moves.",
+    "meanings_ja": [
+      "人々が家や物を引っ越すこと。",
+      "仕事上の移動者。"
+    ],
+    "example": "Many people are movers and shakers in the business world."
+  },
+  {
+    "word": "murdoch",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "メディア帝国",
+      "英国の新聞社"
+    ],
+    "example": "Rupert Murdoch, the owner of News Corp, is a media mogul. / ニュースコーポレーションのオーナーのルパート・ムーディはメディア大王です。"
+  },
+  {
+    "word": "nerd",
+    "level": "B2",
+    "definition_en": "(sometimes derogatory) A person who is intellectual but generally introverted",
+    "meanings_ja": [
+      "この英単語の主要な意味"
+    ],
+    "example": ""
+  },
+  {
+    "word": "nerds",
+    "level": "B2",
+    "definition_en": "(sometimes derogatory) A person who is intellectual but generally introverted",
+    "meanings_ja": [
+      "知的で、気弱な少年少女",
+      "ごく普通の人"
+    ],
+    "example": "He's a total nerd. / 彼は完全な知性派だ。 / 彼は勉強が得意で、運動能力はあまりない。"
+  },
+  {
+    "word": "nerdy",
+    "level": "B2",
+    "definition_en": "(of a person) Being or like a nerd.",
+    "meanings_ja": [
+      "うるさい・馬鹿な",
+      "わくわくすること"
+    ],
+    "example": "He's a bit of a nerd when it comes to video games. / 彼はビデオゲームについて少しうるさい"
+  },
+  {
+    "word": "parlor",
+    "level": "B2",
+    "definition_en": "The living room of a house, or a room for entertaining guests; a room for talking; a sitting-room or drawing room",
+    "meanings_ja": [
+      "庭付きの家",
+      "亭"
+    ],
+    "example": "The house has a parlor with a garden. / 家には庭付きの部屋があります。 /"
+  },
+  {
+    "word": "perau",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "パラオ共和国",
+      "パラオ"
+    ],
+    "example": "The Republic of Palau, officially known as the Republic of Belau, is an island nation located in the western Pacific Ocean. It comprises more than 300 islands, and covers a total area of approximately 459 square kilometers. The capital is Ngerulmud, which"
+  },
+  {
+    "word": "phenomenon",
+    "level": "B2",
+    "definition_en": "A thing or being, event or process, perceptible through senses; or a fact or occurrence thereof.",
+    "meanings_ja": [
+      "現象",
+      "こと",
+      "事件"
+    ],
+    "example": "The phenomenon of the accident was widely reported in the media. / その事故はメディアで広"
+  },
+  {
+    "word": "pluto",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "冥王星\n例文"
+    ],
+    "example": "例文"
+  },
+  {
+    "word": "porno",
+    "level": "B2",
+    "definition_en": "Pornography.",
+    "meanings_ja": [
+      "ポルノグラフィー",
+      "ポルノ映画"
+    ],
+    "example": "The film was classified as a pornographic movie. / この映画はポルノ映画として分類された。"
+  },
+  {
+    "word": "princeton",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "プリンストン大学",
+      "プリンストン市"
+    ],
+    "example": "Princeton University, a prestigious Ivy League university in the United States. / アメリカ合衆国におけるイェール大学と並ぶ有名なイブリーグ大学の一つであるプリンストン大学。"
+  },
+  {
+    "word": "profile",
+    "level": "B2",
+    "definition_en": "The outermost shape, view, or edge of an object.",
+    "meanings_ja": [
+      "人物像",
+      "プロファイル",
+      "プロファイル"
+    ],
+    "example": "The profile of the new employee was created by HR. / 新入社員のプロフィールは"
+  },
+  {
+    "word": "ranch",
+    "level": "B2",
+    "definition_en": "A large plot of land used for raising cattle, sheep or other livestock.",
+    "meanings_ja": [
+      "牧場",
+      "育児施設"
+    ],
+    "example": "The ranch is a large farm that raises cattle. / 牧場は牛を育てる大きな農場です。"
+  },
+  {
+    "word": "rational",
+    "level": "B2",
+    "definition_en": "A rational number: a number that can be expressed as the quotient of two integers.",
+    "meanings_ja": [
+      "合理的",
+      "有効な"
+    ],
+    "example": "This is a rational decision. / これは合理的な決定だ。"
+  },
+  {
+    "word": "rert",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "ふり返すこと",
+      "ひっくり返すこと"
+    ],
+    "example": "turn back / ひっくり返す / ひっくり返した"
+  },
+  {
+    "word": "revenge",
+    "level": "B2",
+    "definition_en": "Any form of personal retaliatory action against an individual, institution, or group for some alleged or perceived harm or injustice.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本"
+    ],
+    "example": ""
+  },
+  {
+    "word": "revolutions",
+    "level": "B2",
+    "definition_en": "A political upheaval in a government or nation state characterized by great change.",
+    "meanings_ja": [
+      "革命",
+      "回転"
+    ],
+    "example": "The earth rotates on its axis once every"
+  },
+  {
+    "word": "rewind",
+    "level": "B2",
+    "definition_en": "The act of rewinding.",
+    "meanings_ja": [
+      "再生すること",
+      "巻き戻すこと"
+    ],
+    "example": "I rewound the tape and listened to it again. / テープを巻き戻してもう一度聞いた。 /"
+  },
+  {
+    "word": "rockefeller",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "ロックフェラー",
+      "石頭"
+    ],
+    "example": "The Rockefeller Center is a complex of buildings in Midtown Manhattan. / マンハッタン中部にある複合施設であるロックフェラー・センター。"
+  },
+  {
+    "word": "sears",
+    "level": "B2",
+    "definition_en": "To char, scorch, or burn the surface of (something) with a hot instrument.",
+    "meanings_ja": [
+      "せーず",
+      "セアーズ"
+    ],
+    "example": "Sears, Roebuck and Co. is an American multinational corporation that sells general merchandise through a chain of retail stores."
+  },
+  {
+    "word": "sexual",
+    "level": "B2",
+    "definition_en": "A species which reproduces by sexual rather than asexual reproduction, or a member of such a species.",
+    "meanings_ja": [
+      "性的な",
+      "男女の関係"
+    ],
+    "example": "The movie was rated X for its explicit sexual content. / この映画は、性的な内容が明確であるためX指定された。 /"
+  },
+  {
+    "word": "skeptics",
+    "level": "B2",
+    "definition_en": "Someone who habitually doubts beliefs and claims presented as accepted by others, requiring strong evidence before accepting any belief or claim.",
+    "meanings_ja": [
+      "怪我を疑う人",
+      "仮定や推測を疑う人"
+    ],
+    "example": "The skeptics say that the new technology is not reliable. / 新しい技術は信頼できないと言う人たちはいる。"
+  },
+  {
+    "word": "sketched",
+    "level": "B2",
+    "definition_en": "To make a brief, basic drawing.",
+    "meanings_ja": [
+      "素描した",
+      "思い描いた"
+    ],
+    "example": "She sketched a picture of the house. / 彼女はその家の絵を描いた。"
+  },
+  {
+    "word": "soulmate",
+    "level": "B2",
+    "definition_en": "Someone, especially a romantic partner, with whom one is exceptionally or uniquely compatible or has a special, almost spiritual connection.",
+    "meanings_ja": [
+      "相性が合った相手",
+      "人生における最も重要な存在"
+    ],
+    "example": "She thought he was her soulmate. / 彼は彼女にとっては相性が合った相手だった。"
+  },
+  {
+    "word": "startling",
+    "level": "B2",
+    "definition_en": "To move suddenly, or be excited, on feeling alarm; to start.",
+    "meanings_ja": [
+      "驚くことになる",
+      "びっくりすること"
+    ],
+    "example": "The news was startling. / そのニュースは驚いた。"
+  },
+  {
+    "word": "stocks",
+    "level": "B2",
+    "definition_en": "A store or supply.",
+    "meanings_ja": [
+      "株式",
+      "供給量"
+    ],
+    "example": "The company's stock of goods is running low. / その会社は品物が不足している。"
+  },
+  {
+    "word": "suing",
+    "level": "B2",
+    "definition_en": "To file a legal action against someone, generally a non-criminal action.",
+    "meanings_ja": [
+      "訴訟を起こすこと。",
+      "訴訟を起こされること。"
+    ],
+    "example": "The company is being sued for copyright infringement. / この会社は著作権侵害で訴えられている。 です。"
+  },
+  {
+    "word": "teriyaki",
+    "level": "B2",
+    "definition_en": "A cooking technique used in Japanese cuisine in which foods are broiled or grilled in a sweet soy sauce marinade.",
+    "meanings_ja": [
+      "焼き鳥の味付け法の一つ。",
+      "その味付け法で作られた焼き鳥。",
+      "その味付け法で作られた焼き魚。"
+    ],
+    "example": "The"
+  },
+  {
+    "word": "texico",
+    "level": "B2",
+    "definition_en": "",
+    "meanings_ja": [
+      "テキサス州とメキシコ国境付近"
+    ],
+    "example": "El Paso is a city in west Texas on the Rio Grande, which forms part of the border between the United States and Mexico. The city is situated on both sides of the river; Ciudad Juárez in the state of Chihuahua, Mexico is located"
+  },
+  {
+    "word": "ultra",
+    "level": "B2",
+    "definition_en": "An ultraroyalist in France.",
+    "meanings_ja": [
+      "超過したことや超過すること",
+      "すばらしくて、他のものよりもよい"
+    ],
+    "example": "The new car is an ultra-performance model. / 新しい車は超高性能モデルです。"
+  },
+  {
+    "word": "untouchable",
+    "level": "B2",
+    "definition_en": "A criminal who is so adept that they cannot be arrested or convicted.",
+    "meanings_ja": [
+      "どんなことにも触れられないもの",
+      "人間の社会から完全に排除された人"
+    ],
+    "example": "He is an untouchable in the eyes of the law. / 彼は法律の前では誰とも触れられない存在だ。"
+  },
+  {
+    "word": "updates",
+    "level": "B2",
+    "definition_en": "An advisement providing more up-to-date information than currently known.",
+    "meanings_ja": [
+      "最新情報",
+      "仕様変更"
+    ],
+    "example": "The software will be updated every month. / ソフトウェアは毎月最新情報が追加されます。 / また、ソフトウェアの仕様変更も行われます。"
+  },
+  {
+    "word": "vaguely",
+    "level": "B2",
+    "definition_en": "In a vague manner.",
+    "meanings_ja": [
+      "不明確に",
+      "よくわからず"
+    ],
+    "example": "I'm not sure what he meant, but it seemed vaguely threatening. / 彼は何を言いたかったのか分からないが、危険そうだったように思えた。 など"
+  },
+  {
+    "word": "ve",
+    "level": "B2",
+    "definition_en": "(epicene) Gender-neutral third-person singular subject pronoun, equivalent to singular they.",
+    "meanings_ja": [
+      "ぶつかっ",
+      "ぶつけ"
+    ],
+    "example": "The car crashed into the wall. / 車は壁にぶつかった。"
+  },
+  {
+    "word": "warehouse",
+    "level": "B2",
+    "definition_en": "A place for storing large amounts of products. In logistics, a place where products go to from the manufacturer before going to the retailer.",
+    "meanings_ja": [
+      "倉庫",
+      "仓库"
+    ],
+    "example": "The company has a large warehouse in the city. / その会社はこの街にある大きな倉庫を持っている。"
+  },
+  {
+    "word": "warehouses",
+    "level": "B2",
+    "definition_en": "A place for storing large amounts of products. In logistics, a place where products go to from the manufacturer before going to the retailer.",
+    "meanings_ja": [
+      "倉庫",
+      "仕事をする場所",
+      "保存するための場所"
+    ],
+    "example": "The museum has a large warehouse for storing artifacts. / 博物館には、遺物を保存"
+  },
+  {
+    "word": "welcoming",
+    "level": "B2",
+    "definition_en": "Hospitable, accessible and cordial.",
+    "meanings_ja": [
+      "ほめる",
+      "受け入れる"
+    ],
+    "example": "She is a very welcoming person. / 彼女はとても親切な人です。"
+  },
+  {
+    "word": "wig",
+    "level": "B2",
+    "definition_en": "A head of real or synthetic hair worn on the head to disguise baldness, for cultural or religious reasons, for fashion, or by actors to help them better resemble the character they are portraying.",
+    "meanings_ja": [
+      "髪の毛を模した人工製品",
+      "髪の毛を模したもの"
+    ],
+    "example": "She wore a wig to the party. / 彼女はパーティーでウイッグを着ていた。 / 彼女はパーティーで髪の毛を模した人"
+  },
+  {
+    "word": "carpedm",
+    "level": "C2",
+    "definition_en": "",
+    "meanings_ja": [
+      "肩書き",
+      "職業"
+    ],
+    "example": "He has a Ph.D. in chemistry and is a professor at the university. / 彼は化学の博士号を持っており、大学の教授です。"
+  },
+  {
+    "word": "edict",
+    "level": "C2",
+    "definition_en": "A proclamation of law or other authoritative command.",
+    "meanings_ja": [
+      "法律や規則を決めること。"
+    ],
+    "example": "The new law was passed"
+  },
+  {
+    "word": "humbling",
+    "level": "C2",
+    "definition_en": "To defeat or reduce the power, independence, or pride of",
+    "meanings_ja": [
+      "自分の能力や実力を認識することなく、他人の評価や成功を尊重すること。",
+      "自分の能力や実力を認識することなく、他人の評価や成功を尊重すること。"
+    ],
+    "example": "It was a humbling experience to see how much work went into creating the"
+  },
+  {
+    "word": "masquerade",
+    "level": "C2",
+    "definition_en": "An assembly or party of people wearing (usually elaborate or fanciful) masks and costumes, and amusing themselves with dancing, conversation, or other diversions.",
+    "meanings_ja": [
+      "仮面舞踏会",
+      "偽り",
+      "仮面劇"
+    ],
+    "example": "The masquerade was performed"
+  },
+  {
+    "word": "mccarthyism",
+    "level": "C2",
+    "definition_en": "",
+    "meanings_ja": [
+      "マッカーサイズム",
+      "マッカーシズム"
+    ],
+    "example": "McCarthyism was a period of intense anti-communist sentiment in the United States during the early years of the Cold War. / マッカーサイズムは、冷戦初期のアメリカにおける強い反共産主義"
+  },
+  {
+    "word": "minimization",
+    "level": "C2",
+    "definition_en": "The act of lowering something to its smallest value or extent.",
+    "meanings_ja": [
+      "最小化",
+      "最小化問題"
+    ],
+    "example": "The minimization of the risk is a key goal. / リスクの最小化は主な目標です。/ 低減"
+  },
+  {
+    "word": "montauri",
+    "level": "C2",
+    "definition_en": "",
+    "meanings_ja": [
+      "モンタウリ",
+      "Montauri"
+    ],
+    "example": "Montauri, a surname of Italian origin, is found in many countries. / モンタウリはイタリア起源の姓であり、多くの国々で見られる。"
+  },
+  {
+    "word": "snagged",
+    "level": "C2",
+    "definition_en": "To catch or tear (e.g. fabric) upon a rough surface or projection.",
+    "meanings_ja": [
+      "魚釣りで魚が釣れたり、物が引っかかったりすること。",
+      "思い通りにいかないこと。"
+    ],
+    "example": "The project is snagging due to lack of"
+  },
+  {
+    "word": "supp",
+    "level": "C2",
+    "definition_en": "",
+    "meanings_ja": [
+      "支援する",
+      "供給する",
+      "食べる"
+    ],
+    "example": "I'll have a sandwich for lunch and supper. / 昼食と夕食はサンドイッチを食べます。"
+  },
+  {
+    "word": "tributaries",
+    "level": "C2",
+    "definition_en": "A natural water stream that flows into a larger river or other body of water.",
+    "meanings_ja": [
+      "川の支流",
+      "支払い"
+    ],
+    "example": "The river has many tributaries. / その川には多くの支流があります。"
+  },
+  {
+    "word": "valedictorian",
+    "level": "C2",
+    "definition_en": "(properly) The individual in a graduating class who delivers the farewell or valedictory address, often the person who graduates with the highest grades.",
+    "meanings_ja": [
+      "最優秀学生",
+      "卒業式の挨拶者"
+    ],
+    "example": "She was the valedictorian of her class. / 彼女はクラスの最優秀学生だった。"
+  },
+  {
+    "word": "wangled",
+    "level": "C2",
+    "definition_en": "To obtain through manipulative or deceitful methods.",
+    "meanings_ja": [
+      "この英単語の主要な意味を簡潔な日本語で答えてください。複数の意味がある場合は、主要な2-3個を列挙し、最後に簡単な例文も含めてください。\n\n出力形式:\n意味1: [日本語訳1]\n意味2: [日本語訳2] (複数ある場合)\n例文: [英語例文] / [日本語訳] など\n\n答え:\n意味1: (意図的に)作りこまないようにすること。\n意味2: (意図的に)作りこまないようにしたもの。\n例文: The company wangled the deal by offering a lower price. / 会社は価格を下げて取引を成立させた。  // They wangled their way into the"
+    ],
+    "example": "The company wangled the deal by offering a lower price. / 会社は価格を下げて取引を成立させた。  // They wangled their way into the"
+  },
+  {
+    "word": "credibility",
+    "level": "C1",
+    "definition_en": "Reputation impacting one's ability to be believed.",
+    "meanings_ja": [
+      "信頼性",
+      "認知度"
+    ],
+    "example": "The company's credibility was damaged by the scandal. / その会社はスキャンダルによって信頼性が損なわれた。 / スキャンダルにより、その会社の評判が悪くなった。"
+  },
+  {
+    "word": "dorky",
+    "level": "C1",
+    "definition_en": "Like a dork.",
+    "meanings_ja": [
+      "ふざけた",
+      "愚かな"
+    ],
+    "example": "He's a bit of a dorky guy. / 彼はちょっとおかしい人だ。"
+  },
+  {
+    "word": "earpiercing",
+    "level": "C1",
+    "definition_en": "",
+    "meanings_ja": [
+      "耳にピアスをすること。",
+      "ピアスの穴が大きいこと。"
+    ],
+    "example": "The earrings were too large for the piercing. /"
+  },
+  {
+    "word": "floppy",
+    "level": "C1",
+    "definition_en": "A floppy disk.",
+    "meanings_ja": [
+      "フロッピーディスク",
+      "ふらつき"
+    ],
+    "example": "The computer crashed and the hard drive became floppy. / コンピューターがクラッシュしてハードディスクはふらついた。"
+  },
+  {
+    "word": "frenzy",
+    "level": "C1",
+    "definition_en": "A state of wild activity or panic.",
+    "meanings_ja": [
+      "大勢が激しく動いたり、興奮したりすること。",
+      "急いで、乱暴に動いたり、行動したり"
+    ],
+    "example": "The crowd was in a frenzy when the concert started. / コンサートが始まった時、多くの人が大きな盛り上がりを見せた。"
+  },
+  {
+    "word": "jitters",
+    "level": "C1",
+    "definition_en": "A nervous action; a tic.",
+    "meanings_ja": [
+      "不安感",
+      "ショック"
+    ],
+    "example": "The news gave her the jitters. / そのニュースは彼女に不安感を与えた。"
+  },
+  {
+    "word": "pawn",
+    "level": "C1",
+    "definition_en": "The most common chess piece, or a similar piece in a similar game. In chess each side has eight; moves are only forward, and attacks are only forward diagonally or en passant.",
+    "meanings_ja": [
+      "小さな金属製品",
+      "人間の駒"
+    ],
+    "example": "The pawn shop sold old jewelry and broken appliances. / パーンショップは古いジュエリーと壊れた家電製品を売っていた。 / ここでは「pawn」が小さな金属製品を指"
+  },
+  {
+    "word": "petrified",
+    "level": "C1",
+    "definition_en": "Extremely afraid.",
+    "meanings_ja": [
+      "石化した; びっくりした",
+      "感動された; 震撼された"
+    ],
+    "example": "She was petrified when she saw the snake. / 彼女は蛇を見てびっくりした。 / 彼女はその蛇を見て石のように固まった。 / �"
+  },
+  {
+    "word": "pike",
+    "level": "C1",
+    "definition_en": "A very long spear used two-handed by infantry soldiers for thrusting (not throwing), both for attacks on enemy foot soldiers and as a countermeasure against cavalry assaults.",
+    "meanings_ja": [
+      "鉾",
+      "うさぎ狩りの道具"
+    ],
+    "example": "Pike's Peak / ピークスピーク / ピークス・ピーク"
+  },
+  {
+    "word": "surged",
+    "level": "C1",
+    "definition_en": "To rush, flood, or increase suddenly.",
+    "meanings_ja": [
+      "急激に増加した",
+      "急いで進んだ"
+    ],
+    "example": "The price of oil surged to $100 a barrel. / 石油の価格は 1 バレルあたり 100 ドルまで急騰した。 / 石油価格が急上昇した。"
+  },
+  {
+    "word": "titan",
+    "level": "C1",
+    "definition_en": "Something or someone of very large stature, greatness, or godliness.",
+    "meanings_ja": [
+      "巨人",
+      "巨大なもの",
+      "巨人",
+      "巨大なもの"
+    ],
+    "example": "The new skyscraper is a"
+  },
+  {
+    "word": "tors",
+    "level": "C1",
+    "definition_en": "A craggy outcrop of rock on the summit of a hill, created by the erosion and weathering of rock.",
+    "meanings_ja": [
+      "ひずみ",
+      "トルース"
+    ],
+    "example": "The material has a high degree of tors. / 材料には高いひずみが存在する。"
+  },
+  {
+    "word": "vicinity",
+    "level": "C1",
+    "definition_en": "Proximity; the state of being near.",
+    "meanings_ja": [
+      "その場所から近い範囲",
+      "そのような状況"
+    ],
+    "example": "There was a lot of noise in the vicinity of the construction site. / 建設現場"
+  }
+]
